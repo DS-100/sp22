@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Data 100
 description: Principles and Techniques of Data Science
-author: Joseph Gonzalez and Andrew Bray
-baseurl: '/sp21' # the subpath of your site, e.g. /blog
+author: Raguvir Kunani and Isaac Schmidt
+baseurl: '/su21' # the subpath of your site, e.g. /blog
 url: 'https://ds100.org' # the base hostname & protocol for your site, e.g. http://example.com
 
 # Theme settings
@@ -26,8 +26,6 @@ search_enabled: true
 permalink: pretty
 nav_links:
   Links:
-    Textbook:
-      - 'http://textbook.ds100.org'
     Datahub:
       - 'https://data100.datahub.berkeley.edu'
     Gradescope:
