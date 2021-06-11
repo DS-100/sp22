@@ -1,0 +1,101 @@
+.module {
+  @extend .card;
+
+  .module-days {
+    grid-template-columns: 1fr 4fr;
+
+    @include mq(lg) {
+      grid-template-columns: 1fr 7fr;
+    }
+  }
+}
+
+.module-date {
+  @extend .card-header;
+}
+
+.module-header {
+  @extend .card-header;
+}
+
+.module-body {
+  @extend .card-body;
+}
+
+.module-days {
+  border-bottom: $border $border-color;
+  border-top: $border $border-color;
+  margin-bottom: 0;
+
+  &:first-child {
+    border-top: none;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .module-day,
+  .module-event {
+    margin: 0;
+    padding: $sp-2;
+
+    @include mq(sm) {
+      padding: $sp-2 $sp-4;
+    }
+
+    &.main {
+      border-top: $border $border-color;
+
+      &:first-of-type {
+        border-top: none;
+      }
+    }
+
+    p {
+      display: inline-block;
+      margin: 0;
+      width: 100%;
+
+      @include mq(sm) {
+        width: 75%;
+      }
+
+      +p {
+        width: auto;
+      }
+    }
+  }
+
+  .module-day {
+    grid-column-start: 1;
+  }
+
+  .module-event {
+    grid-column-start: 2;
+
+    +.module-event {
+      padding-top: 0;
+    }
+
+    .label-lecture { background-color: #779ECC }
+
+    .label-lab { background-color: #F2C76E }
+
+    .label-vit { background-color: #c1443c }
+
+    .label-disc { background-color: #7A77B9 }
+
+    .label-hw { background-color: #E94C4B }
+
+    .label-crit { background-color: #FF8144 }
+
+    .label-exam { background-color: #000000 }
+
+    .label-live { background-color: #63c082 }
+
+    .label-survey { background-color: #aaaaaa }
+
+  }
+
+}

@@ -1,0 +1,282 @@
+---
+title: "Decomposing Model Risk "
+subtitle: "Linking to notation to concepts"
+author: "Data 100 Spring 2021"
+output:
+  xaringan::moon_reader:
+    css: ["default", "assets/css/my-theme.css", "assets/css/my-fonts.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"]
+    seal: false 
+    lib_dir: libs
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      fig.height = 7,
+                      fig.width = 7,
+                      fig.retina = 2,
+                      fig.align = "center",
+                      eval = TRUE)
+library(tidyverse)
+library(reticulate)
+library(xaringanthemer)
+library(gganimate)
+library(pBrackets)
+library(patchwork)
+theme_update(text = element_text(size = rel(4)))
+theme_set(theme_bw())
+set.seed(40)
+```
+
+## Simulating from the truth
+
+True mean function:
+
+$$
+\begin{array}
+\textrm{g}(x) &= \theta_0 + \theta_1 x + \theta_2 x^2 \\
+&= 23 + 4 x - 3.2 x^2
+\end{array}
+$$
+
+--
+
+True data generating function:
+
+$$
+Y = g(x) + \epsilon; \quad \epsilon \sim N(0, 11) \\
+$$
+
+```{r echo = FALSE}
+n <- 20
+x <- runif(n, min = 5, max = 35)
+g <- function(x) {
+  23 + 11 * x - .4 * x^2
+}
+y <- rnorm(length(x), mean = g(x), sd = 11)
+```
+
+
+---
+
+$$
+g(x) = \theta_0 + \theta_1 x + \theta_2 x^2
+$$
+
+```{r echo = FALSE}
+df <- data.frame(x = x, y = y)
+p1 <- ggplot(df, aes(x = x, y = y)) + 
+  ylim(c(-110, 130)) +
+  ylab("y")
+p1 + stat_function(fun = g, color = "darkseagreen3", lwd = 2) +
+  xlim(5, 35)
+```
+
+
+---
+
+$$
+y = \theta_0 + \theta_1 x + \theta_2 x^2 + \epsilon; \, n = 20
+$$
+
+```{r echo = FALSE}
+p1 + stat_function(fun = g, color = "darkseagreen3", lwd = 2) +
+  geom_point() +
+  xlim(5, 35)
+```
+
+
+---
+
+$$
+y = \theta_0 + \theta_1 x + \theta_2 x^2 + \epsilon; \, n = 20000
+$$
+
+```{r echo = FALSE, warning = FALSE}
+x <- runif(20000, 5, 35)
+df_pt <- data.frame(x = x, y = rnorm(length(x), mean = g(x), sd = 11))
+p1 + geom_point(data = df_pt, aes(x = x, y = y), alpha = .1) +
+  stat_function(fun = g, color = "darkseagreen3", lwd = 2) +
+  xlim(5, 35)
+```
+
+
+---
+
+## Visualizing Bias and Variance
+
+### Procedure
+
+1. Assume true generative model
+
+--
+
+2. Generate data set of size $n$
+
+--
+
+3. Estimate $\hat{y}(x)$
+
+--
+
+4. Repeat 2 and 3 many times to get a sense of the variation in $\hat{y}(x)$
+
+
+### Estimating $\hat{y}(x)$
+
+Let's naively assume a *linear form*, work with data sets of size 20, and fit 
+$\hat{y}(x)$ by least squares.
+
+$$
+g(x) = \theta_0 + \theta_1 x
+$$
+
+---
+
+```{r echo = FALSE, eval = FALSE, fig.width=6, fig.height = 6}
+set.seed(500)
+n <- 20
+it <- 20
+x <- runif(n, 5, 35)
+x <- rep(x, it)
+f <- function(x) {
+  23 + 11 * x - .4 * x^2
+}
+y <- g(x) + rnorm(length(x), mean = 0, sd = 11)
+df <- tibble(x = x, y = y, sim = rep(1:it, each = n))
+
+p <- ggplot(df, aes(x = x, y = y)) +
+  stat_function(fun = g, color = "darkseagreen3", lwd = 2) +
+  geom_point(size = 2.5) + 
+  stat_smooth(method = "lm", 
+              se = FALSE, 
+              color = "steelblue") +
+  ylim(-110, 130) +
+  transition_states(sim,
+                      transition_length = 2,
+                      state_length = 1) +
+  ease_aes('cubic-in-out') +
+  shadow_mark(alpha = .3, color = "lightgrey")
+
+#anim <- animate(p, nframes = 500)
+anim2 <- animate(p,
+        nframes = 500,
+        fps = 20,
+        height = 7,
+        width = 7, 
+        unit = "in", 
+        res = 150)
+anim_save("many-draws-2.gif", anim2)
+```
+
+```{r out.width=620, echo = FALSE, fig.align='center'}
+knitr::include_graphics("many-draws-2.gif")
+```
+
+
+---
+
+```{r echo = FALSE, eval = FALSE, fig.width=6, fig.height = 6}
+set.seed(500)
+n <- 20
+it <- 20
+x <- runif(n, 5, 35)
+x <- rep(x, it)
+f <- function(x) {
+  23 + 11 * x - .4 * x^2
+}
+y <- g(x) + rnorm(length(x), mean = 0, sd = 11)
+df <- tibble(x = x, y = y, sim = rep(1:it, each = n))
+
+p <- ggplot(df, aes(x = x, y = y)) +
+  stat_function(fun = g, color = "darkseagreen3", lwd = 2) +
+  geom_point(size = 2.5) + 
+  stat_smooth(method = "lm", 
+              se = FALSE, 
+              formula = y ~ poly(x, 2),
+              color = "steelblue") +
+  ylim(-110, 130) +
+  transition_states(sim,
+                      transition_length = 2,
+                      state_length = 1) +
+  ease_aes('cubic-in-out') +
+  shadow_mark(alpha = .3, color = "lightgrey")
+
+anim3 <- animate(p,
+        nframes = 500,
+        fps = 20,
+        height = 7,
+        width = 7, 
+        unit = "in", 
+        res = 150)
+anim_save("many-draws-3.gif", anim3)
+```
+
+## Estimating $g(x)$, take two
+
+Next, let's presciently assume a quadratic form...
+
+---
+
+```{r out.width=620, echo = FALSE, fig.align='center'}
+knitr::include_graphics("many-draws-3.gif")
+```
+
+---
+## Estimating $g(x)$, take three (or seven?)
+
+Finally, let's get ridiculous and assume a septic form...
+
+---
+
+```{r echo = FALSE, eval = FALSE, fig.width=6, fig.height = 6}
+set.seed(500)
+n <- 20
+it <- 20
+x <- runif(n, 5, 35)
+x <- rep(x, it)
+f <- function(x) {
+  23 + 11 * x - .4 * x^2
+}
+y <- g(x) + rnorm(length(x), mean = 0, sd = 11)
+df <- tibble(x = x, y = y, sim = rep(1:it, each = n))
+
+p <- ggplot(df, aes(x = x, y = y)) +
+  stat_function(fun = g, color = "darkseagreen3", lwd = 2) +
+  geom_point(size = 2.5) + 
+  stat_smooth(method = "lm", 
+              se = FALSE, 
+              formula = y ~ poly(x, 7),
+              color = "steelblue") +
+  ylim(-110, 130) +
+  transition_states(sim,
+                      transition_length = 2,
+                      state_length = 1) +
+  ease_aes('cubic-in-out') +
+  shadow_mark(alpha = .3, color = "lightgrey")
+
+anim4 <- animate(p,
+        nframes = 500,
+        fps = 20,
+        height = 7,
+        width = 7, 
+        unit = "in", 
+        res = 150)
+anim_save("many-draws-4.gif", anim4)
+```
+
+```{r out.width=620, echo = FALSE, fig.align='center'}
+knitr::include_graphics("many-draws-4.gif")
+```

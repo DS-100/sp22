@@ -1,0 +1,102 @@
+---
+title: "Decomposing Model Risk "
+subtitle: "Linking to notation to concepts"
+author: "Data 100 Spring 2021"
+output:
+  xaringan::moon_reader:
+    css: ["default", "assets/css/my-theme.css", "assets/css/my-fonts.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"]
+    seal: false 
+    lib_dir: libs
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      fig.height = 7,
+                      fig.width = 7,
+                      fig.retina = 2,
+                      eval = TRUE)
+library(tidyverse)
+library(reticulate)
+library(xaringanthemer)
+library(gganimate)
+library(pBrackets)
+library(patchwork)
+theme_update(text = element_text(size = rel(4)))
+theme_set(theme_bw())
+```
+
+```{r echo = FALSE, eval = FALSE, fig.width=6, fig.height = 6}
+set.seed(500)
+n <- 20
+it <- 20
+x <- runif(n, 5, 35)
+x <- rep(x, it)
+f <- function(x) {
+  23 + 11 * x - .4 * x^2
+}
+y <- f(x) + rnorm(length(x), mean = 0, sd = 11)
+df <- tibble(x = x, y = y, sim = rep(1:it, each = n))
+
+#options(gganimate.dev_args = list(width = 600, height = 600))
+p <- ggplot(df, aes(x = x, y = y)) +
+  geom_point(size = 2.5) + 
+  stat_smooth(method = "lm", 
+              se = FALSE, 
+              color = "steelblue") +
+  ylim(-110, 130) +
+  transition_states(sim,
+                      transition_length = 2,
+                      state_length = 1) +
+  ease_aes('cubic-in-out') +
+  shadow_mark(alpha = .3, color = "lightgrey")
+
+anim1 <- animate(p,
+        nframes = 500,
+        fps = 20,
+        height = 7,
+        width = 7, 
+        unit = "in", 
+        res = 150)
+anim_save("many-draws.gif", anim1)
+```
+
+class: title-slide, center
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+### `r rmarkdown::metadata$author`
+
+---
+
+.left-column[
+## Where is the bias?
+
+## Where is the variance?
+
+## Where is the irreducible error?
+
+]
+
+--
+
+.right-column[
+```{r out.width=620, echo = FALSE, fig.align='center'}
+knitr::include_graphics("many-draws.gif")
+```
+]
