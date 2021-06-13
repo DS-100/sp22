@@ -2,27 +2,31 @@
 title: Week 7
 weekNumber: 7
 days:
-- date: 2021-03-01
+- date: 2021-08-02
   events:
-    ? '**Discussion 2**{: .label .label-disc } [Modeling and Regex](https://drive.google.com/file/d/1toI1kNNwBvqMxnoDR8LwI_5RoB3cTvTK/view?usp=sharing) ([Solutions](https://drive.google.com/file/d/1cF0xmK5eJfXyOk2-KWFJQJa18wiR-PeE/view?usp=sharing))'
+    ? '**Lecture 23**{: .label .label-lecture } Principal Component Analysis'
+    ? '**Homework 11**{: .label .label-hw } Spam/Ham II (due Aug 5)'
+    ? '**Lab 12**{: .label .label-lab } Inference for Modeling (due Aug 7)'
+    ? '**Lab 13**{: .label .label-lab } Principal Component Analysis (due Aug 7)'
+    ? '**Discussion 12**{: .label .label-disc } Decision Trees, Inference'
     : ''
-- date: 2021-03-02
+- date: 2021-08-03
   events:
-    ? '**Fireside Chat 6**{: .label .label-live } [code](https://github.com/DS-100/sp21/tree/main/lec/lec13/Fireside.ipynb) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec13/&branch=main), [Interactive HTML](resources/assets/lectures/lec13/Fireside.html))'
+    ? '**Lecture 24**{: .label .label-lecture } Clustering'
     : ''
-    ? '**Lecture 13**{: .label .label-lecture } [Ordinary Least Squares](lecture/lec13)'
-    : '[Ch. 14.4](https://www.textbook.ds100.org/ch/14/linear_projection.html)'
-- date: 2021-03-03
+- date: 2021-08-04
   events:
-    ? 'N/A'
-    : ''
-- date: 2021-03-04
+    ? '**Lecture 25**{: .label .label-lecture } Big Data'
+    ? '**Discussion 13**{: .label .label-disc } Principal Component Analysis, Clustering'
+    : ""
+- date: 2021-08-05
   events:
-    ? '**Review Sessions**{: .label .label-lecture } Midterm Review'
-    : ''
-- date: 2021-03-05
+    ? '**Lecture 26**{: .label .label-live } Conclusion'
+    ? '**Homework 12**{: .label .label-hw } Principal Component Analysis (due Aug 9)'
+    : ""
+- date: 2021-08-06
   events:
-    ? '**Lab 7**{: .label .label-lab } [Simple Linear Regression](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp21&urlpath=tree%2Fsp21%2Flab%2Flab07&branch=main) (due Mar 11)'
-    : ''
+    ? '**Live Lecture 8**{: .label .label-live }'
+    : ""
 
 ---

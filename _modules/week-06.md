@@ -2,29 +2,31 @@
 title: Week 6
 weekNumber: 6
 days:
-- date: 2021-02-22
+- date: 2021-07-26
   events:
-    ? '**Mini-Discussion 3**{: .label .label-crit }'
+    ? '**Lecture 19**{: .label .label-lecture } Logistic Regression I'
+    ? '**Homework 9**{: .label .label-hw } Gradient Descent (due Jul 29)'
+    ? '**Lab 10**{: .label .label-lab } Logistic Regression (due Jul 31)'
+    ? '**Lab 11**{: .label .label-lab } Decision Trees (due Jul 31)'
+    ? '**Discussion 10**{: .label .label-disc } Regularization, Cross-Validation, Gradient Descent'
     : ''
-- date: 2021-02-23
+- date: 2021-07-27
   events:
-    ? '**Fireside Chat 5**{: .label .label-lecture} ([Recording](https://youtu.be/nTS4-2NbHw8))'
+    ? '**Lecture 20**{: .label .label-lecture } Logistic Regression II and Classification'
     : ''
-    ? '**Lecture 11**{: .label .label-lecture } [Modeling](lecture/lec11)'
-    : '[Ch. 3](https://www.textbook.ds100.org/ch/3/modeling_intro.html)'
-- date: 2021-02-24
+- date: 2021-07-28
   events:
-    ? 'N/A'
-    : ''
-- date: 2021-02-25
+    ? '**Lecture 21**{: .label .label-lecture } Decision Trees'
+    ? '**Discussion 11**{: .label .label-disc } Logistic Regression, Classification'
+    : ""
+- date: 2021-07-29
   events:
-    ? '**Lecture 12**{: .label .label-lecture } [Simple Linear Regression](lecture/lec12)'
-    : '[Ch. 14.1-14.3](https://www.textbook.ds100.org/ch/14/linear_tips.html)'
-- date: 2021-02-26
+    ? '**Lecture 22**{: .label .label-lecture } Inference for Modeling'
+    ? '**Homework 10**{: .label .label-hw } Spam/Ham I (due Aug 2)'
+    : ""
+- date: 2021-07-30
   events:
-    ? '**Lab 6**{: .label .label-lab } [Modeling, Summary Statistics, and Loss Functions](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp21&urlpath=tree%2Fsp21%2Flab%2Flab06&branch=main) (due Mar 4)'
-    : ''
-    ? '**Homework 6**{: .label .label-hw } [Regression](resources/assets/hw/hw6.pdf) ([notebook](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp21&urlpath=tree%2Fsp21%2Fhw%2Fhw6&branch=main)) (due Mar 11)'
-    : ''
+    ? '**Live Lecture 6**{: .label .label-live }'
+    : ""
 
 ---

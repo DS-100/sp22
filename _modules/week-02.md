@@ -2,27 +2,30 @@
 title: Week 2
 weekNumber: 2
 days:
-- date: 2021-01-25
+- date: 2021-06-28
   events:
-    ? '**Mini-Discussion 1**{: .label .label-crit } [Introduction](https://docs.google.com/presentation/d/1C8nVzpgHpyaCTjqXlm4RhH5QLnYvol6EF9h0CHvp1_0/edit)'
+    ? '**Lecture 5**{: .label .label-lecture } Pandas II'
+    ? '**Homework 3**{: .label .label-hw } Food Safety (due Jul 5)'
+    ? '**Lab 3**{: .label .label-lab } Data Cleaning and EDA (due Jul 3)'
+    ? '**Lab 4**{: .label .label-lab } SQL (due Jul 3)'
+    ? '**Discussion 2**{: .label .label-disc } Probability, Pandas'
     : ''
-- date: 2021-01-26
+- date: 2021-06-29
   events:
-    ? '**Lecture 3**{: .label .label-live } [Estimation and Bias](https://youtu.be/7sPBOke4b5A) ([Slides](resources/assets/lectures/lec03/lec03.pdf))'
-    : '[Ch. 15.1-15.2](https://www.textbook.ds100.org/ch/15/prob_random_vars.html)'
-- date: 2021-01-27
-  events:
-    ? 'N/A'
+    ? '**Lecture 6**{: .label .label-lecture } Data Cleaning and EDA'
     : ''
-- date: 2021-01-28
+- date: 2021-06-30
   events:
-    ? '**Lecture 4**{: .label .label-lecture } [SQL](lecture/lec04)'
-    : '[Ch. 5](https://www.textbook.ds100.org/ch/05/sql_intro.html)'
-- date: 2021-01-29
+    ? '**Lecture 7**{: .label .label-lecture } Regex'
+    ? '**Discussion 3**{: .label .label-disc } Pandas'
+    : ""
+- date: 2021-07-01
   events:
-    ? '**Lab 2**{: .label .label-lab } [SQL](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp21&urlpath=tree%2Fsp21%2Flab%2Flab02&branch=main) (due Feb 4)'
-    : ''
-    ? '**Homework 2**{: .label .label-hw } [Trump Sampling](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp21&urlpath=tree%2Fsp21%2Fhw%2Fhw2&branch=main) (due Feb 4)'
-    : ''
+    ? '**Lecture 8**{: .label .label-lecture } SQL'
+    : ""
+- date: 2021-07-02
+  events:
+    ? '**Live Lecture 2**{: .label .label-live }'
+    : ""
 
 ---

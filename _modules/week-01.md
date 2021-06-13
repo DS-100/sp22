@@ -4,7 +4,7 @@ weekNumber: 1
 days:
 - date: 2021-06-21
   events:
-    ? '**Lecture 1**{: .label .label-lecture } Introduction, Course Overview'
+    ? '**Lecture 1**{: .label .label-live } Introduction, Course Overview'
     ? '**Homework 1**{: .label .label-hw } Prerequisites (due Jun 24)'
     ? '**Lab 1**{: .label .label-lab } Prerequisite Coding (due Jun 26)'
     ? '**Lab 2**{: .label .label-lab } Pandas (due Jun 26)'
