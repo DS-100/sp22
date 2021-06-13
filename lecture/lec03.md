@@ -1,21 +1,23 @@
 ---
 layout: page
-title: Lecture 3 – Random Variables
+title: Lecture 3 – Estimators and Bias
 nav_exclude: true
 ---
 
-# Lecture 3 – Random Variables
+# Lecture 3 – Estimators and Bias
 
-Presented by Anthony D. Joseph and Suraj Rampure
+Presented by Andrew Bray
 
 Content by Anthony D. Joseph, Suraj Rampure, Ani Adhikari
 
-- [slides](https://docs.google.com/presentation/d/1J5MLHC4TsUb90-X71_SHF1ABVz4EkIuOzYvou9VWhxE/edit#slide=id.p)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqDdf4LE2pzibpXBUXeuSAJ)
+- [slides](https://docs.google.com/presentation/d/1m5ixdPsRM2vvSXLTHj3bUFwqPgSoXhZNXOdn24R-NS4/edit?usp=sharing)
+- [video playlist]()
+
 - (supplemental) [Stat 88 chapter on distributions](http://stat88.org/textbook/notebooks/Chapter_03/03_The_Binomial_Distribution.html)
 
-A random one of the following six Google Forms will give you an alphanumeric code once you submit; you should take this code and enter it into the "Lecture 3" question in the "Quick Check Codes" assignment on Gradescope to get credit for submitting this Quick Check. You must submit this by **Tuesday, September 8th at 11:59PM** to get credit for it.
+A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
+<!--
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -60,3 +62,4 @@ A random one of the following six Google Forms will give you an alphanumeric cod
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/wXOBc6qO3YU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td>N/A</td>
 </tr>
+-->

@@ -10,7 +10,7 @@ Presented by Andrew Bray, Fernando Perez, Suraj Rampure
 
 Content by Fernando Perez, Suraj Rampure, Ani Adhikari, and Joseph Gonzalez
 
-- [slides](https://docs.google.com/presentation/d/1pI4shcpHeNU9vjOaG9l7cYfPe4GWy6hXICpQR8zTH1A/edit#slide=id.p)
+- [slides](https://docs.google.com/presentation/d/1b8V53ddjN9GCCSDB2e-EKtPQpl3N_xCkMOj_cgvJGPI/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqS6KWu1bborXNSvQGGVNmp)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.

@@ -1,20 +1,19 @@
 ---
 layout: page
-title: Lecture 7 – Data Cleaning and EDA
+title: Lecture 8 – Regular Expressions
 nav_exclude: true
 ---
 
-# Lecture 7 – Data Cleaning and EDA
+# Lecture 8 - Regular Expressions
 
 Presented by Anthony D. Joseph
 
-Content by Anthony D. Joseph, Joseph Gonzalez, Deborah Nolan, Joseph Hellerstein
+Content by Anthony D. Joseph, Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1_bjyzr7Wd4-jJurzSKoYKuNk0JJi_XI8o-xkMKN3qf4/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfr0cSQwchFj1HM8HtNv3jdg)
-- [code](https://github.com/DS-100/sp21/tree/main/lec/lec07) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec07/&branch=main))
-- [code HTML](../../resources/assets/lectures/lec07/lec07.html)
-- [(bonus) Joe Hellerstein's primer on data models](https://drive.google.com/file/d/1nLftW2PaJNot-J9zIgES4HchXTTrB_63/view?usp=sharing)
+- [slides](https://docs.google.com/presentation/d/1gXWJkPvIGwaBJ5iC6Iu6rtrQHPIYLpXOUhQsCkAVo_A/edit?usp=sharing)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqMRKKXK24Nbui6LRyT4CTC)
+- [code](https://github.com/DS-100/sp21/tree/main/lec/lec08) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec08/&branch=main))
+- [code HTML](../../resources/assets/lectures/lec08/lec08.html)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
@@ -33,47 +32,37 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
-<td><strong>7.0</strong> <br>Announcements.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/YQJqBWqPHRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td></td>
+<td><strong>8.1</strong> <br> Motivation and canonicalizing strings.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/_KeJFK92pTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSceitf_EITjWs6tGls_b1UjhlQopmbDNvaY2fgJ4g4du1anzg/viewform" target="\_blank">8.1</a></td>
 </tr>
 <tr>
-<td><strong>7.1</strong> <br>Exploratory data analysis and its position in the data science lifecycle. The relationship between data cleaning and EDA.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/aT4rAFtgTQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhM3ZZO9BR50VqX1iqhSyKIW6cLag51W36Pd5kmMQKBgkRCA/viewform" target="\_blank">7.1</a></td>
+<td><strong>8.2</strong> <br> Using the split method to extract from textual data.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/R9YlR7-zIQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdeXKQfplZ3zObNl9zIKH4A5yPuluNhCnR0k57nI9cyvfwGmw/viewform" target="\_blank">8.2</a></td>
 </tr>
 <tr>
-<td><strong>7.2</strong> <br>Exploring various different data storage formats and their tradeoffs.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/XoeWbniS_K0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSf8FKACS4oa39ENYLHTVDWi35veaUqOd95AaU70NiFvIQyyxQ/viewform" target="\_blank">7.2</a></td>
+<td><strong>8.3</strong> <br> Basic regular expression syntax (i.e. closures). Order of operations in regular expressions.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/YFvQZDAebks" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdPtl-Bw-NZDgwYQofvyGdzi-xaIpfzpN_CZ50dWm0JuMsfNg/viewform" target="\_blank">8.3</a></td>
 </tr>
 <tr>
-<td><strong>7.3</strong> <br>Primary keys and foreign keys. Eliminating redundancy in tables.</td>
-<td><iframe width="300" height="500" height src="https://youtube.com/embed/uhb7WXxau80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSf3gWujjkLunnVgvYeO5ICXPZw3h4gdVIwSbMkhOwM_7w5VJw/viewform" target="\_blank">7.3</a></td>
+<td><strong>8.4</strong> <br> Expanded regular expression syntax (i.e. character classes). A couple of regular expression exercises.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/dzeHq2UjXzg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdqzY_0pF9TjVKf7SGZ2kQKtXn4bKPVa5LOBCvp48FYNY3Wcw/viewform" target="\_blank">8.4</a></td>
 </tr>
 <tr>
-<td><strong>7.4</strong> <br>Defining and discussing the terms quantitative discrete, quantitative continuous, qualitative ordinal, qualitative nominal.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/qj8KtCBTkpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeYe4HhdLEVddHZdgLo-va3MYJUc8EqMHUL9zp1bL2FwXkwXA/viewform" target="\_blank">7.4</a></td>
+<td><strong>8.5</strong> <br> Limitations of regular expressions. Other regular expression syntax (i.e. lazy closures).</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/nB4Uryx8iTQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe5Yj1r1MW2ujWBAbySmZUE-iPlwMw8ls65ityFJlRSEfBeqw/viewform" target="\_blank">8.5</a></td>
 </tr>
 <tr>
-<td><strong>7.5</strong> <br>Discussing the granularity and scope of our data to ensure that it's appropriate for analysis. Discussing various methods of encoding time, and flaws to be aware of.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/WCpMSFi_VnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdLSiF303lHiqydSiyJPTYAuA91f8BdzzgPkyr8uH3UfPrctA/viewform" target="\_blank">7.5</a></td>
+<td><strong>8.6</strong> <br> Using regular expressions in Python. Regular expression groups.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/GIGw6FvxL90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdE_3BexYvETAn5F2bCylNL8vF7RzrRbEhE5IKtWedyO3TRlA/viewform" target="\_blank">8.6</a></td>
 </tr>
 <tr>
-<td><strong>7.6</strong> <br>Ways in which our data can be incorrect or corrupt. Different methods for addressing missing values, and their tradeoffs.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/EaicN4nauGY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfiFwPE7wsuvTkT1BxcQFsEb9_govzRT3a7L3XucyVGyLk9Mw/viewform" target="\_blank">7.6</a></td>
-</tr>
-<tr>
-<td><strong>7.7</strong> <br>Summarizing the process of EDA.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/2SLRHQNcta4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScPFnU-x3IuHY4G9mas5f9crJhJQdsxAk5X8q7paG4Ogr9I2g/viewform" target="\_blank">7.7</a></td>
-</tr>
-<tr>
-<td><strong>(Optional) 7.8</strong> <br>A demo of EDA on real data.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/Ta2MysR0_G0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td>N/A</td>
+<td><strong>8.7</strong> <br> Regular expression case studies on police data and restaurant data.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/_pka1Yu8h2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSenb5kLXZ9UWIvzaE5mqBCVhb5McM9nV-EeqnNJ8IJuqZaPLw/viewform" target="\_blank">8.7</a></td>
 </tr>

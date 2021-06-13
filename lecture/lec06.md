@@ -1,19 +1,20 @@
 ---
 layout: page
-title: Lecture 6 – Pandas, Part 2
+title: Lecture 7 – Data Cleaning and EDA
 nav_exclude: true
 ---
 
-# Lecture 6 - Pandas, Part 2
+# Lecture 7 – Data Cleaning and EDA
 
-Presented by Fernando Perez
+Presented by Anthony D. Joseph
 
-Content by Fernando Perez, Josh Hug
+Content by Anthony D. Joseph, Joseph Gonzalez, Deborah Nolan, Joseph Hellerstein
 
-- [slides](https://docs.google.com/presentation/d/1m_ZbB9dbJkj492TOqYxZBf1XOOfxOA-rLULWKgm8r9I/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoIMkkMT2IECqomayb-X4MV)
-- [code](https://github.com/DS-100/sp21/tree/main/lec/lec06) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec06/&branch=main))
-- [code HTML](../../resources/assets/lectures/lec06/lec06.html), [joins code HTML](../../resources/assets/lectures/lec06/lec06_joins.html)
+- [slides](https://docs.google.com/presentation/d/1_bjyzr7Wd4-jJurzSKoYKuNk0JJi_XI8o-xkMKN3qf4/edit?usp=sharing)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfr0cSQwchFj1HM8HtNv3jdg)
+- [code](https://github.com/DS-100/sp21/tree/main/lec/lec07) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec07/&branch=main))
+- [code HTML](../../resources/assets/lectures/lec07/lec07.html)
+- [(bonus) Joe Hellerstein's primer on data models](https://drive.google.com/file/d/1nLftW2PaJNot-J9zIgES4HchXTTrB_63/view?usp=sharing)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
@@ -32,37 +33,47 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
-<td><strong>6.1</strong> <br> Pandas string methods.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/lybOZSG--YM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSf-ZSumv5WsDb36Ci-VLPXeibznhLNP7sNo7A6ct57OXJydkw/viewform" target="\_blank">6.1</a></td>
+<td><strong>7.0</strong> <br>Announcements.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/YQJqBWqPHRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td></td>
 </tr>
 <tr>
-<td><strong>6.2</strong> <br> Adding, modifying, and removing columns in Pandas.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/r6q56MEek2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfphZogJkeaMjtepfF5ahC1zhB2TyJhlyyGgQTvqZ-K2xdxOA/viewform" target="\_blank">6.2</a></td>
+<td><strong>7.1</strong> <br>Exploratory data analysis and its position in the data science lifecycle. The relationship between data cleaning and EDA.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/aT4rAFtgTQM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdhM3ZZO9BR50VqX1iqhSyKIW6cLag51W36Pd5kmMQKBgkRCA/viewform" target="\_blank">7.1</a></td>
 </tr>
 <tr>
-<td><strong>6.3</strong> <br> Using the Pandas groupby function for aggregation.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/GyuNUyqLKEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdZEXbUQfVr2BYr1TFvqsHToII2V5u_8TrK2Y5vF1vS5Opl4Q/viewform" target="\_blank">6.3</a></td>
+<td><strong>7.2</strong> <br>Exploring various different data storage formats and their tradeoffs.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/XoeWbniS_K0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSf8FKACS4oa39ENYLHTVDWi35veaUqOd95AaU70NiFvIQyyxQ/viewform" target="\_blank">7.2</a></td>
 </tr>
 <tr>
-<td><strong>6.4</strong> <br> Puzzles using the Pandas groupby function.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/s-mqbVeC5R8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScmgi7aqqLqGLOr5ijHgfAK_FPfYxxV3IabKkdIRGOSFFWiOA/viewform" target="\_blank">6.4</a></td>
+<td><strong>7.3</strong> <br>Primary keys and foreign keys. Eliminating redundancy in tables.</td>
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/uhb7WXxau80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSf3gWujjkLunnVgvYeO5ICXPZw3h4gdVIwSbMkhOwM_7w5VJw/viewform" target="\_blank">7.3</a></td>
 </tr>
 <tr>
-<td><strong>6.5</strong> <br> Other features of the Pandas groupby function including size and filter.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/23TsCQ_gv_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfyTh-5iB5HLdu9tRo2hUF1qbnoEKczo7TrRc_via9sCZ6l0Q/viewform" target="\_blank">6.5</a></td>
+<td><strong>7.4</strong> <br>Defining and discussing the terms quantitative discrete, quantitative continuous, qualitative ordinal, qualitative nominal.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/qj8KtCBTkpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeYe4HhdLEVddHZdgLo-va3MYJUc8EqMHUL9zp1bL2FwXkwXA/viewform" target="\_blank">7.4</a></td>
 </tr>
 <tr>
-<td><strong>6.6</strong> <br> Grouping by multiple columns and pivot tables in Pandas.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/WYeqD_Bk9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfEaVSG7lY5A7Pzs3rs_BnVJAJwFzGvgTCxYeKde6D4Sw793g/viewform" target="\_blank">6.6</a></td>
+<td><strong>7.5</strong> <br>Discussing the granularity and scope of our data to ensure that it's appropriate for analysis. Discussing various methods of encoding time, and flaws to be aware of.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/WCpMSFi_VnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdLSiF303lHiqydSiyJPTYAuA91f8BdzzgPkyr8uH3UfPrctA/viewform" target="\_blank">7.5</a></td>
 </tr>
 <tr>
-<td><strong>6.7</strong> <br> Joining two tables in Pandas.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/lXPogGKR-AU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4JRPI8Ubl7VYyOMITXodqRxiRhpMftVmvfhBHvs1l1pcSdA/viewform" target="\_blank">6.7</a></td>
+<td><strong>7.6</strong> <br>Ways in which our data can be incorrect or corrupt. Different methods for addressing missing values, and their tradeoffs.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/EaicN4nauGY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfiFwPE7wsuvTkT1BxcQFsEb9_govzRT3a7L3XucyVGyLk9Mw/viewform" target="\_blank">7.6</a></td>
+</tr>
+<tr>
+<td><strong>7.7</strong> <br>Summarizing the process of EDA.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/2SLRHQNcta4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScPFnU-x3IuHY4G9mas5f9crJhJQdsxAk5X8q7paG4Ogr9I2g/viewform" target="\_blank">7.7</a></td>
+</tr>
+<tr>
+<td><strong>(Optional) 7.8</strong> <br>A demo of EDA on real data.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/Ta2MysR0_G0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td>N/A</td>
 </tr>

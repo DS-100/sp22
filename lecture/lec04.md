@@ -1,21 +1,20 @@
 ---
 layout: page
-title: Lecture 4 – SQL
+title: Lecture 5 – Pandas, Part 1
 nav_exclude: true
 ---
 
-# Lecture 4 - SQL
+# Lecture 5 - Pandas, Part 1
 
-Presented by Anthony D. Joseph
+Presented by Fernando Perez
 
-Content by Anthony D. Joseph, Allen Shen, Josh Hug, John DeNero, Joseph Gonzalez
+Content by Fernando Perez, Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1iM8dv-LFEghSMQr4-sh6JnaAUGHV-3j4FLu-718YCzU/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqNOs2WA_9ZXw5wE4-KVbkA)
-- [code](https://github.com/DS-100/sp21/tree/main/lec/lec04) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec04/&branch=main))
-- [code HTML](../../resources/assets/lectures/lec04/lec04.html)
-- [code walkthrough by Josh Hug](https://youtu.be/QCrHZnLM0H4)
-- [code walkthrough by Allen Shen](https://youtu.be/zetdBg61eaE)
+- [slides](https://docs.google.com/presentation/d/1afDZnCeBrzdOlL3osFNb3hdb21Hrt0pJG02USEqIGPw/edit#slide=id.g8ae4121a16_0_1022)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfrlNxXQA6EHN_WYIstpeoq6)
+- [code](https://github.com/DS-100/sp21/tree/main/lec/lec05) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec05/&branch=main))
+- [code HTML](../../resources/assets/lectures/lec05/lec05.html)
+- [Intro to Pandas if you’ve taken Data 8 (zip)](https://github.com/DS-100/sp21/raw/main/lec/lec05/pandas_for_data8_students.zip)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
@@ -34,47 +33,48 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
-<td><strong>4.1</strong> <br> Databases and database management systems.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/SRoTXarDDk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdy8xeb-E5FEfrlIz4LJopIddUoFrJAAKY1Mg_GIqFymZuFZA/viewform" target="\_blank">4.1</a></td>
+<td><strong>5.0</strong> <br> Announcements, SQL Review.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/PQJ_TD-tP7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td></td>
 </tr>
 <tr>
-<td><strong>4.2</strong> <br> Relational database schemas.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/SJtoYIqGvEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGCwtpFhXBq4RTg7ZebI8jdOM4yut3gwyF-tz-xNe44vMngg/viewform" target="\_blank">4.2</a></td>
+<td><strong>5.1.1</strong> <br> Pandas data frames, series, and indices.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/VWa5J1GDHgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfjSg127wS2MMUXoTx2pLeYeh0Nm2kGXpolBq_TsITdbpsKNg/viewform" target="\_blank">5.1.1</a></td>
 </tr>
 <tr>
-<td><strong>4.3</strong> <br> SQL overview and the DISTINCT keyword.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/_WyqfDM1mN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLuZWerXoDKqHIobG6B1vH0p35pZCz1qQc5ff5rT91cV-AKg/viewform" target="\_blank">4.3</a></td>
+<td><strong>5.1.2</strong> <br> Pandas indices demo.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/ZhK5CRbJ9co" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe7Z9itKw0lJu14tBf7mBJohyN5HV1iuvRdz3oHyBtjfPmT1g/viewform" target="\_blank">5.1.2</a></td>
 </tr>
 <tr>
-<td><strong>4.4</strong> <br> Types of joins in SQL.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/E5XPBV54MiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwvjklDzvLRroL26Gpe5_kcD9XEY59TfxAhYBeO2ROCOy0Vw/viewform" target="\_blank">4.4</a></td>
+<td><strong>5.2</strong> <br> Pandas indexing with the bracket operator.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/J5pN8YFacfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSf8X6Cbi-UJQ-CmP0hNJ6ZBgAr76YAVsQXv_j2h2jucBHkOhg/viewform" target="\_blank">5.2</a></td>
 </tr>
 <tr>
-<td><strong>4.5</strong> <br> NULL values in SQL.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/K89kIINyjTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwKtSQFSA4yyp9JJ86VTr9sSHPp3SEI0t6VTOrh2GW05Xt6Q/viewform" target="\_blank">4.5</a></td>
+<td><strong>5.3</strong> <br> Pandas boolean array selection, the isin function, and the query command.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/DaL2ekf-sls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe911sH56reSznqFbszYtZqjj1lMr794WDD4GI7Mqr1nvrkuw/viewform" target="\_blank">5.3</a></td>
 </tr>
 <tr>
-<td><strong>4.6</strong> <br> SQL predicates and casting.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/af3vjZsz1BQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfdb-_737z6rUbC4WzQN_QUfgw54voslfzMHlvsO5Dx6lWu9A/viewform" target="\_blank">4.6</a></td>
+<td><strong>5.4.1</strong> <br> Pandas indexing with .loc.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/_nvnW7I2N2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfM38F5u5pEZAcgY19HZT6RAhg0eumUei0pf7Pd7YOb_oFy5g/viewform" target="\_blank">5.4.1</a></td>
 </tr>
 <tr>
-<td><strong>4.7</strong> <br> SQL sampling, subqueries, and common table expressions.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/3TgY0zNbjoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLL2wU0Nk9h_Abk3zojYa3d96YEMpCOsQ-SoRF2tBAe-s2Rw/viewform" target="\_blank">4.7</a></td>
+<td><strong>5.4.2</strong> <br> Pandas indexing with .iloc and Pandas sampling.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/SIl1oq_KXxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeYrZpPD3FLxp67-unm9qv7CZjA89gMBTvA4HaJo7l02zrDkQ/viewform" target="\_blank">5.4.2</a></td>
 </tr>
 <tr>
-<td><strong>4.8</strong> <br> SQL CASE expressions and the SUBSTR function.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/MIE9NbCOyyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfk0Dw-dgH_jx6OTg2KXUxTBtH7Napj-yBbZI1O04Bf6PauZA/viewform" target="\_blank">4.8</a></td>
+<td><strong>5.5.1</strong> <br> Pandas utility functions, properties, and the sort_values method.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/N1BTxLsYE30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeklaAVF4eFr8tdXTqFuKeQwSysW0bJxAQCCTyjC4lPmnH4BQ/viewform" target="\_blank">5.5.1</a></td>
 </tr>
 <tr>
-<td><strong>4.9</strong> <br> SQL summary and conclusion.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/ch0LW6R1VrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfJK4hk4Ue9jicRYEro0goTEyqz7EgbcaQ3WTDnWdnU9ehY8Q/viewform" target="\_blank">4.9</a></td>
+<td><strong>5.5.2</strong> <br> The value_counts and unique methods in Pandas. An exploration of the baby names data set.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/TaUFFW3jB40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScK0axm1VZ2hu1gsdh74jfiAjufkFrnge-MNsU8h_rFdaJsRQ/viewform" target="\_blank">5.5.2</a></td>
 </tr>
+<tr>
