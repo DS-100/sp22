@@ -48,14 +48,14 @@ While we are working to make this class widely accessible, we currently require 
 
 This summer, Data 100 will be run entirely online. This section details exactly how each component of the course will operate. But here's a nice high-level "typical week in the course":
 
-| Su | Mo | Tu | We | Th | Fr | Sa |
-| --- | --- | --- | --- | --- | --- | --- |
-| | Office Hours | Office Hours | Office Hours | Office Hours | Office Hours | |
-| | <span style="color:Green">Lecture released</span> | <span style="color:Green">Lecture released</span> | <span style="color:Green">Lecture released</span> | <span style="color:Green">Lecture released</span> | <span style="color:Orange">Live Lecture</span> | |
-| | <span style="color:Red">Homework A released</span> | | | <span style="color:Red">Homework B released</span> | | |
-| | <span style="color:Red">**Homework B due**</span> | | | <span style="color:Red">**Homework A due**</span> | | |
-| <span style="color:Purple">Labs A, B released</span> | | | | | | <span style="color:Purple">**Labs A, B due**</span> |
-| | <span style="color:Blue">Discussion Section</span> | | <span style="color:Blue">Discussion Section</span> | | | |
+|  Mo | Tu | We | Th | Fr |
+| --- | --- | --- | --- | --- |
+| Office Hours | Office Hours | Office Hours | Office Hours | Office Hours |
+| <span style="color:Green">Lecture released</span> | <span style="color:Green">Lecture released</span> | <span style="color:Green">Lecture released</span> | <span style="color:Green">Lecture released</span> | <span style="color:Orange">Live Lecture</span> |
+| <span style="color:Red">Homework A released</span> | | | <span style="color:Red">Homework B released</span> | |
+| <span style="color:Red">**Homework B due**</span> | | | <span style="color:Red">**Homework A due**</span> | |
+| <span style="color:Purple">[SUNDAY] Labs A, B released</span> | | | | <span style="color:Purple">[SATURDAY] **Labs A, B due**</span> |
+| <span style="color:Blue">Discussion Section</span> | | <span style="color:Blue">Discussion Section</span> | | |
 
 Note that these deadlines are subject to change.
 
