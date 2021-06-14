@@ -13,7 +13,7 @@ UC Berkeley, Summer 2021
 
 <div>
 
- {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
+{% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 <div class="role">
   {% for staffer in instructors %}
   {{ staffer }}
