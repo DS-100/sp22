@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lecture 6 – Pandas, Part 2
+title: Lecture 5 – Pandas, Part 2
 nav_exclude: true
 ---
 
@@ -10,7 +10,7 @@ Presented by Fernando Perez
 
 Content by Fernando Perez, Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1m_ZbB9dbJkj492TOqYxZBf1XOOfxOA-rLULWKgm8r9I/edit?usp=sharing)
+- [slides](https://docs.google.com/presentation/d/1d75B4Co8jHeSam8Mt5nZNfyIAVu_f1WFNIqdz19D7To/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoIMkkMT2IECqomayb-X4MV)
 - [code](https://github.com/DS-100/sp21/tree/main/lec/lec06) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec06/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec06/lec06.html), [joins code HTML](../../resources/assets/lectures/lec06/lec06_joins.html)

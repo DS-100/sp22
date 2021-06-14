@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Lecture 4 – SQL
+title: Lecture 8 – SQL
 nav_exclude: true
 ---
 
-# Lecture 4 - SQL
+# Lecture 8 - SQL
 
 Presented by Anthony D. Joseph
 
 Content by Anthony D. Joseph, Allen Shen, Josh Hug, John DeNero, Joseph Gonzalez
 
-- [slides](https://docs.google.com/presentation/d/1iM8dv-LFEghSMQr4-sh6JnaAUGHV-3j4FLu-718YCzU/edit?usp=sharing)
+- [slides](https://docs.google.com/presentation/d/1USrVCVucK7MDwsx7lXJgIkrd_WJLYSUlcuZdFzwD5wg/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqNOs2WA_9ZXw5wE4-KVbkA)
 - [code](https://github.com/DS-100/sp21/tree/main/lec/lec04) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec04/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec04/lec04.html)

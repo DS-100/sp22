@@ -10,7 +10,7 @@ Presented by Fernando Perez
 
 Content by Fernando Perez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu, Deborah Nolan
 
-- [slides](https://docs.google.com/presentation/d/12sQF_kCUQnQzZgphE9jnWb8uQydh3ZZa9H2moflcf-U/edit?usp=sharing)
+- [slides](https://docs.google.com/presentation/d/16l3XLseFMJIhoPZXuQSXogCpob9htZ9TEEEgAXlHDtw/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqg1Or0146dak_SSMprFVwz)
 - [code](https://github.com/DS-100/sp21/tree/main/lec/lec10) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec10/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec10/lec10.html)

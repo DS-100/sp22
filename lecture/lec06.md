@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Lecture 7 – Data Cleaning and EDA
+title: Lecture 6 – Data Cleaning and EDA
 nav_exclude: true
 ---
 
-# Lecture 7 – Data Cleaning and EDA
+# Lecture 6 – Data Cleaning and EDA
 
 Presented by Anthony D. Joseph
 
 Content by Anthony D. Joseph, Joseph Gonzalez, Deborah Nolan, Joseph Hellerstein
 
-- [slides](https://docs.google.com/presentation/d/1_bjyzr7Wd4-jJurzSKoYKuNk0JJi_XI8o-xkMKN3qf4/edit?usp=sharing)
+- [slides](https://docs.google.com/presentation/d/1d75B4Co8jHeSam8Mt5nZNfyIAVu_f1WFNIqdz19D7To/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfr0cSQwchFj1HM8HtNv3jdg)
 - [code](https://github.com/DS-100/sp21/tree/main/lec/lec07) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec07/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec07/lec07.html)

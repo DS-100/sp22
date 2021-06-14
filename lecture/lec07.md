@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Lecture 8 – Regular Expressions
+title: Lecture 7 – Regular Expressions
 nav_exclude: true
 ---
 
-# Lecture 8 - Regular Expressions
+# Lecture 7 - Regular Expressions
 
 Presented by Anthony D. Joseph
 
 Content by Anthony D. Joseph, Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1gXWJkPvIGwaBJ5iC6Iu6rtrQHPIYLpXOUhQsCkAVo_A/edit?usp=sharing)
+- [slides](https://docs.google.com/presentation/d/1uqUoV8Q4J4WpdCDj90SYq3oSk3rQh3bMwMttW7iJZ_w/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqMRKKXK24Nbui6LRyT4CTC)
 - [code](https://github.com/DS-100/sp21/tree/main/lec/lec08) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec08/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec08/lec08.html)
