@@ -1,10 +1,10 @@
 ---
 name: Kanu Grover
-role: Tutor
+role: Teaching Assistant
 email: grover.kanu@berkeley.edu
 photo: ../resources/assets/staff_pics/Kanu_Grover.jpg
 pronouns: he/him/his
 oh: N/A
 ---
 
-Hey! Im Kanu, a sophomore studying (tbd). I love meeting new people, doing spontaneous things with friends, and watching the Lakers dominate the NBA. Looking forward to getting to know everyone :) 
+Hi there! I'm Kanu, a rising junior majoring in Computer + Data Science. This is my first time as a TA for Data 100, and I'm excited to meet you all this semester!
