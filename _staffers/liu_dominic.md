@@ -3,7 +3,6 @@ name: Dominic Liu
 role: Teaching Assistant
 email: hangxingliu@berkeley.edu
 photo: ../resources/assets/staff_pics/Dominic_Liu.jpg
-pronouns: he/him/his
 oh: N/A
 ---
 

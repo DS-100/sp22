@@ -2,6 +2,7 @@
 name: Srinidhi Sankar
 role: Tutor
 email: srinidhi.sankar@berkeley.edu
+website: https://www.linkedin.com/in/srinidhi-sankar/
 photo: ../resources/assets/staff_pics/Srinidhi_Sankar.jpg
 pronouns: she/her/hers
 oh: N/A

@@ -2,6 +2,7 @@
 name: Artem Tkachuk
 role: Tutor
 email: atkachuk@berkeley.edu
+website: https://www.linkedin.com/in/artemtkachuk/
 photo: ../resources/assets/staff_pics/Artem_Tkachuk.jpg
 pronouns: he/him/his
 oh: N/A
