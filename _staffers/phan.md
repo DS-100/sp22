@@ -1,7 +1,7 @@
 ---
 name: Minh Phan
 role: Teaching Assistant
-email: parthbaokar@berkeley.edu
+email: phanminh6139@berkeley.edu
 photo: ../resources/assets/staff_pics/Minh_Phan.png
 pronouns: he/him/his
 oh: N/A
