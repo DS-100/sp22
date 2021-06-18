@@ -66,7 +66,7 @@ Note that these deadlines are subject to change.
 
 ### Discussions
 
-This course has discussion sections on Mondays and Wednesdays. The goal of these sessions is to work through problems, hone your skills, and flesh out your understanding as part of a team. The problems that you solve and present as part of discussion are important in understanding this material.
+This course has discussion sections on Mondays and Wednesdays, lasting for one hour each. There will also be some sections on Tuesdays and Thursdays. The goal of these sessions is to work through problems, hone your skills, and flesh out your understanding as part of a team. The problems that you solve and present as part of discussion are important in understanding this material.
 
 To encourage attendance and participation in live discussion, we will offer the option of having discussion contribute to your grade. Specifically, points you earn from attending/participating in discussion can reduce the weighting of exams on your overall course grade. See the grading breakdown below for details.
 
