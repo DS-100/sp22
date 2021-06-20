@@ -35,6 +35,6 @@ The mode for GSI and office hours has yet to be determined. We will update you b
 
 <!-- To access GSI and tutor office hours, go to our [Office Hours Queue](http://oh.ds100.org). When it’s your turn, you will be given the Zoom link to join. -->
 
-Instructor office hours with Raguvir and Isaac appear in <span style="color:orange">**orange**</span>. You should come to these with questions about concepts. To access instructor office hours, use the Zoom links posted on Piazza.
+Instructor office hours with Raguvir and Isaac appear in <span style="color:orange">**orange**</span>. You should come to these with questions about concepts. To access instructor office hours, use the Zoom links posted on Piazza. If you would like to meet with the instructors and none of these times work for you, please reach out to us privately.
 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Y182cjRsN2g2cjVrYm11cGJwNWJmYW9mbmZlc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y19xajlsczMzNThsYWg1NGpkbjEwbjVkcWhwY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23F09300&amp;color=%23795548&amp;mode=WEEK&amp;showTitle=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
