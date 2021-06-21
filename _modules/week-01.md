@@ -5,7 +5,7 @@ days:
 - date: 2021-06-21
   events:
     ? '**Lecture 1**{: .label .label-live } [Introduction, Course Overview](lecture/lec01)'
-    ? '**Homework 1**{: .label .label-hw } Prerequisites (due Jun 24)'
+    ? '**Homework 1**{: .label .label-hw } [Prerequisites](resources/assets/hw/hw1.pdf) (due Jun 24)'
     ? '**Lab 1**{: .label .label-lab } [Prerequisite Coding](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab01&branch=main) (due Jun 26)'
     ? '**Lab 2**{: .label .label-lab } [Pandas](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab02&branch=main) (due Jun 26)'
     : ''
