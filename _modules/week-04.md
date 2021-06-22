@@ -24,7 +24,7 @@ days:
     : ""
 - date: 2021-07-16
   events:
-    ? '**Live Lecture 4**{: .label .label-live }'
+    ? '**Live Session 4**{: .label .label-live }'
     : ""
 
 ---

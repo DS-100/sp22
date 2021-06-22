@@ -25,7 +25,7 @@ days:
     : ""
 - date: 2021-06-25
   events:
-    ? '**Live Lecture 1**{: .label .label-live }'
+    ? '**Live Session 1**{: .label .label-live }'
     : ""
 
 ---

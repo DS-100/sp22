@@ -26,7 +26,7 @@ days:
     : ""
 - date: 2021-08-06
   events:
-    ? '**Live Lecture 8**{: .label .label-live }'
+    ? '**Live Session 8**{: .label .label-live }'
     : ""
 
 ---

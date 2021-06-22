@@ -26,7 +26,7 @@ days:
     : ""
 - date: 2021-07-09
   events:
-    ? '**Live Lecture 3**{: .label .label-live }'
+    ? '**Live Session 3**{: .label .label-live }'
     : ""
 
 ---
