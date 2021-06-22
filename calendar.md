@@ -17,11 +17,11 @@ description: Calendars with times for all course events.
 This calendar contains times for
 
 - live lectures and other live sessions (in <span style="color:#9e69af">**purple**</span>)
-- live discussion sections (to be scheduled)
+- live discussion sections (in <span style="color:green">**green**</span>)
 
 To access these events, use the Zoom links posted in <b><a href="">@6 on Piazza</a></b>.
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Y190dDcxYmdyajU1a25vaW1zNzB2Ym9kYzdrc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%239E69AF&amp;mode=WEEK&amp;showTitle=0&amp;showCalendars=0" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Y19mN3E4bWRrMWloOG1jNmtvMmhiZXRuY3RpOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y190dDcxYmdyajU1a25vaW1zNzB2Ym9kYzdrc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%230B8043&amp;color=%239E69AF&amp;showTitle=0&amp;mode=WEEK" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 <br>
 
