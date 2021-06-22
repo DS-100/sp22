@@ -11,7 +11,7 @@ days:
     : ''
 - date: 2021-06-22
   events:
-    ? '**Lecture 2**{: .label .label-lecture } Data Sampling and Probability'
+    ? '**Lecture 2**{: .label .label-lecture } [Data Sampling and Probability](lecture/lec02)'
     : ''
 - date: 2021-06-23
   events:
