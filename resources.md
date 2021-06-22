@@ -103,7 +103,7 @@ Because data science is a relatively new and rapidly evolving discipline there i
 Instead we plan to use reading from a collection of books all of which are free.
 However, we have listed a few optional books that will provide additional context for those who are interested.
 
-- **[Principles and Techniques of Data Science](https://www.textbook.ds100.org/)** This is the accompanying textbook written for DS100 course.
+- **[Principles and Techniques of Data Science](https://www.textbook.ds100.org/)** 
 
 - **[Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)** (Free online PDF) This book is a great reference for the machine learning and some of the statistics material in the class
 
