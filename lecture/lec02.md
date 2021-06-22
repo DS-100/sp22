@@ -6,12 +6,12 @@ nav_exclude: true
 
 # Lecture 2 – Data Sampling and Probability
 
-Presented by Andrew Bray, Fernando Perez, Suraj Rampure
+Presented by Isaac Schmidt, Suraj Rampure
 
 Content by Fernando Perez, Suraj Rampure, Ani Adhikari, and Joseph Gonzalez
 
 - [slides](https://docs.google.com/presentation/d/1b8V53ddjN9GCCSDB2e-EKtPQpl3N_xCkMOj_cgvJGPI/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqS6KWu1bborXNSvQGGVNmp)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfowFBLAZZsukvgtXljxwD5l)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
@@ -30,14 +30,19 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
-<td><strong>2.0</strong> <br> Weekly course schedule. Introduction to the data science life cycle.</td>
-<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/ZoUOm57rdSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><strong>2.0</strong> <br> Introduction to lecture format.</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/L5hZE3_ECpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td></td>
 </tr>
 <tr>
-<td><strong>2.1</strong> <br> Censuses and surveys. Issues with the US Census.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/1Ljtrhh_LBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><strong>2.1a</strong> <br> Data science lifecycle, case study on squirrels.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/fyhu-Xg2Dfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdicnNq5DDOtqGePTGbF7i8Hi34ZmvOp9cLfcJDWNctC12YMA/viewform" target="\_blank">2.1</a></td>
+</tr>
+<tr>
+<td><strong>2.1b</strong> <br> Censuses and surveys. Issues with the US Census.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/iczkTOgVHN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td>NA</td>
 </tr>
 <tr>
 <td><strong>2.2</strong> <br> Samples. Drawbacks to convenience and quota samples.</td>
