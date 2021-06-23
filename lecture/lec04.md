@@ -11,10 +11,10 @@ Presented by Fernando Perez
 Content by Fernando Perez, Josh Hug
 
 - [slides](https://docs.google.com/presentation/d/16ZeSryn94sL5u3PHQXveTGFvcVpu0qZcF73nbFFX59c/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfrlNxXQA6EHN_WYIstpeoq6)
-- [code](https://github.com/DS-100/sp21/tree/main/lec/lec05) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec05/&branch=main))
-- [code HTML](../../resources/assets/lectures/lec05/lec05.html)
-- [Intro to Pandas if you’ve taken Data 8 (zip)](https://github.com/DS-100/sp21/raw/main/lec/lec05/pandas_for_data8_students.zip)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoD7vMjUf5r-VsDv5FyXqTj)
+- [code](https://github.com/DS-100/su21/tree/main/lec/lec04) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec04/&branch=main))
+- [code HTML](../../resources/assets/lectures/lec04/lec04.html)
+- [Intro to Pandas if you’ve taken Data 8 (zip)](https://github.com/DS-100/su21/raw/main/lec/lec05/pandas_for_data8_students.zip)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
@@ -33,48 +33,48 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
-<td><strong>5.0</strong> <br> Announcements, SQL Review.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/PQJ_TD-tP7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><strong>4.0</strong> <br>Introduction</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/P14Pv_S4Bb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td></td>
 </tr>
 <tr>
-<td><strong>5.1.1</strong> <br> Pandas data frames, series, and indices.</td>
+<td><strong>4.1.1</strong> <br> Pandas data frames, series, and indices.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/VWa5J1GDHgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfjSg127wS2MMUXoTx2pLeYeh0Nm2kGXpolBq_TsITdbpsKNg/viewform" target="\_blank">5.1.1</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfjSg127wS2MMUXoTx2pLeYeh0Nm2kGXpolBq_TsITdbpsKNg/viewform" target="\_blank">4.1.1</a></td>
 </tr>
 <tr>
-<td><strong>5.1.2</strong> <br> Pandas indices demo.</td>
+<td><strong>4.1.2</strong> <br> Pandas indices demo.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/ZhK5CRbJ9co" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe7Z9itKw0lJu14tBf7mBJohyN5HV1iuvRdz3oHyBtjfPmT1g/viewform" target="\_blank">5.1.2</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe7Z9itKw0lJu14tBf7mBJohyN5HV1iuvRdz3oHyBtjfPmT1g/viewform" target="\_blank">4.1.2</a></td>
 </tr>
 <tr>
-<td><strong>5.2</strong> <br> Pandas indexing with the bracket operator.</td>
+<td><strong>4.2</strong> <br> Pandas indexing with the bracket operator.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/J5pN8YFacfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSf8X6Cbi-UJQ-CmP0hNJ6ZBgAr76YAVsQXv_j2h2jucBHkOhg/viewform" target="\_blank">5.2</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSf8X6Cbi-UJQ-CmP0hNJ6ZBgAr76YAVsQXv_j2h2jucBHkOhg/viewform" target="\_blank">4.2</a></td>
 </tr>
 <tr>
-<td><strong>5.3</strong> <br> Pandas boolean array selection, the isin function, and the query command.</td>
+<td><strong>4.3</strong> <br> Pandas boolean array selection, the isin function, and the query command.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/DaL2ekf-sls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe911sH56reSznqFbszYtZqjj1lMr794WDD4GI7Mqr1nvrkuw/viewform" target="\_blank">5.3</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe911sH56reSznqFbszYtZqjj1lMr794WDD4GI7Mqr1nvrkuw/viewform" target="\_blank">4.3</a></td>
 </tr>
 <tr>
-<td><strong>5.4.1</strong> <br> Pandas indexing with .loc.</td>
+<td><strong>4.4.1</strong> <br> Pandas indexing with .loc.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/_nvnW7I2N2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfM38F5u5pEZAcgY19HZT6RAhg0eumUei0pf7Pd7YOb_oFy5g/viewform" target="\_blank">5.4.1</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfM38F5u5pEZAcgY19HZT6RAhg0eumUei0pf7Pd7YOb_oFy5g/viewform" target="\_blank">4.4.1</a></td>
 </tr>
 <tr>
-<td><strong>5.4.2</strong> <br> Pandas indexing with .iloc and Pandas sampling.</td>
+<td><strong>4.4.2</strong> <br> Pandas indexing with .iloc and Pandas sampling.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/SIl1oq_KXxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeYrZpPD3FLxp67-unm9qv7CZjA89gMBTvA4HaJo7l02zrDkQ/viewform" target="\_blank">5.4.2</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeYrZpPD3FLxp67-unm9qv7CZjA89gMBTvA4HaJo7l02zrDkQ/viewform" target="\_blank">4.4.2</a></td>
 </tr>
 <tr>
 <td><strong>5.5.1</strong> <br> Pandas utility functions, properties, and the sort_values method.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/N1BTxLsYE30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeklaAVF4eFr8tdXTqFuKeQwSysW0bJxAQCCTyjC4lPmnH4BQ/viewform" target="\_blank">5.5.1</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeklaAVF4eFr8tdXTqFuKeQwSysW0bJxAQCCTyjC4lPmnH4BQ/viewform" target="\_blank">4.5.1</a></td>
 </tr>
 <tr>
-<td><strong>5.5.2</strong> <br> The value_counts and unique methods in Pandas. An exploration of the baby names data set.</td>
+<td><strong>4.5.2</strong> <br> The value_counts and unique methods in Pandas. An exploration of the baby names data set.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/TaUFFW3jB40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScK0axm1VZ2hu1gsdh74jfiAjufkFrnge-MNsU8h_rFdaJsRQ/viewform" target="\_blank">5.5.2</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScK0axm1VZ2hu1gsdh74jfiAjufkFrnge-MNsU8h_rFdaJsRQ/viewform" target="\_blank">4.5.2</a></td>
 </tr>
 <tr>
