@@ -16,7 +16,7 @@ days:
 - date: 2021-06-23
   events:
     ? '**Lecture 3**{: .label .label-lecture } Estimators and Bias'
-    ? '**Discussion 1**{: .label .label-disc } Prerequisites, Probability'
+    ? '**Discussion 1**{: .label .label-disc } [Prerequisites, Probability](https://drive.google.com/file/d/1-mV5d574mpqXfUjrXjnC8DtulrWeTAPv/view?usp=sharing)'
     : ""
 - date: 2021-06-24
   events:
