@@ -11,7 +11,8 @@ Presented by Andrew Bray
 Content by Andrew Bray, Anthony D. Joseph, Suraj Rampure, Ani Adhikari
 
 - [slides](https://docs.google.com/presentation/d/1m5ixdPsRM2vvSXLTHj3bUFwqPgSoXhZNXOdn24R-NS4/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/watch?v=ZwjUFEY3Jz4&list=PLQCcNQgUcDfoA5tNQjJed7ElqHdvSO-Bu)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoA5tNQjJed7ElqHdvSO-Bu)
+
 
 - (supplemental) [Stat 88 chapter on distributions](http://stat88.org/textbook/notebooks/Chapter_03/03_The_Binomial_Distribution.html)
 
@@ -31,6 +32,11 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><strong>3.0</strong> <brIntroduction.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/1HL7kVNo-9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td></td>
+</tr>
 <tr>
 <td><strong>3.1</strong> <br>Recap of populations and sampling frames.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/ZwjUFEY3Jz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
