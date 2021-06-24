@@ -21,7 +21,7 @@ days:
 - date: 2021-06-24
   events:
     ? '**Lecture 4**{: .label .label-lecture } Pandas I'
-    ? '**Homework 2**{: .label .label-hw } [Trump Sampling] (http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw2&branch=main) (due Jun 28)'
+    ? '**Homework 2**{: .label .label-hw } [Trump Sampling](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw2&branch=main) (due Jun 28)'
     : ""
 - date: 2021-06-25
   events:
