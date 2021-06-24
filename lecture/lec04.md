@@ -14,7 +14,7 @@ Content by Fernando Perez, Josh Hug
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoD7vMjUf5r-VsDv5FyXqTj)
 - [code](https://github.com/DS-100/su21/tree/main/lec/lec04) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec04/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec04/lec04.html)
-- [Intro to Pandas if you’ve taken Data 8 (zip)](https://github.com/DS-100/su21/raw/main/lec/lec05/pandas_for_data8_students.zip)
+- [Intro to Pandas if you’ve taken Data 8 (zip)](https://github.com/DS-100/su21/raw/main/lec/lec04/pandas_for_data8_students.zip)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
