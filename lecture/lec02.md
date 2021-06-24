@@ -35,52 +35,52 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td></td>
 </tr>
 <tr>
-<td><strong>2.1a</strong> <br> Data science lifecycle, case study on squirrels.</td>
+<td><strong>2.1.1</strong> <br> Data science lifecycle, case study on squirrels.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/fyhu-Xg2Dfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdicnNq5DDOtqGePTGbF7i8Hi34ZmvOp9cLfcJDWNctC12YMA/viewform" target="\_blank">2.1</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdqjPdzdUn8CKHwkP_QU50DfiopWyCR9BEWl5M_7SvKps6Epw/viewform?usp=sf_link" target="\_blank">2.1.1</a></td>
 </tr>
 <tr>
-<td><strong>2.1b</strong> <br> Censuses and surveys. Issues with the US Census.</td>
+<td><strong>2.1.2</strong> <br> Censuses and surveys. Issues with the US Census.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/iczkTOgVHN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td>NA</td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSc-jwwC26eOy66nj36aNOToOGha33j8mz1suTbE9HGsXfWsdQ/viewform?usp=sf_link" target="\_blank">2.1.2</a></td>
 </tr>
 <tr>
 <td><strong>2.2</strong> <br> Samples. Drawbacks to convenience and quota samples.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/00ZzxbY_1ZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe_miHYK6YY64kWfTqzk26Q1s8eo5DlxsEMZDBL0hpgz52h2g/viewform" target="\_blank">2.2</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfdF3_KkZQP_xKo9erB3Ko7r0Ll0FryurN1eVBAQkkQeRSbTA/viewform?usp=sf_link" target="\_blank">2.2</a></td>
 </tr>
 <tr>
 <td><strong>2.3</strong> <br> A case study in sampling bias (1936 election).</td>
 <td><iframe width="300" height="500" height src="https://youtube.com/embed/67C-VvqSkos" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4w_L6vZULi97gry58x8kKgn_gxis4FpJt8T9rEl4Rnk_Phw/viewform" target="\_blank">2.3</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeD1PRPTKw6Pkjwbf66Llw9J5gw2BUN0v3zyhv5ymVFjLhKMQ/viewform?usp=sf_link" target="\_blank">2.3</a></td>
 </tr>
 <tr>
 <td><strong>2.4</strong> <br> Sources of bias, and a formal definition of sampling frames.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/HCN_D5-PqPw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfkSPouR3K05zc_ASiRT_y7Zi3ZtEkqr-4BQDw61fENES6X8w/viewform" target="\_blank">2.4</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSc-L-dMN3RTt-tENlIw2riS0s40GGR_N-yzGnvKLRObrmSdVA/viewform?usp=sf_link" target="\_blank">2.4</a></td>
 </tr>
 <tr>
 <td><strong>2.5</strong> <br> Probability samples, and why we need them.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/DF5UNpjpfXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe3wfbnIkPhf52M5oaJ-mfl6zo8EbGjAA9JUG5wQeKxYhF3JA/viewform" target="\_blank">2.5</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSd3czmIafpLmtbjQTDYtxtSy4suM7hb1E_ZwxJ69dDGnLr1DQ/viewform?usp=sf_link" target="\_blank">2.5</a></td>
 </tr>
 <tr>
 <td><strong>2.6</strong> <br> Introducing binomial and multinomial probability calculations.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/ptormkLsXBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdg12Iqi8QBcoJ8VR3W7GIFNNGp1gThE6dzVqwzLEcZCgK7EA/viewform" target="\_blank">2.6</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfCQhGjBbqZz_y0PQovNyjh5nq2wcShDBAuLMgrN0IRwwwr_w/viewform?usp=sf_link" target="\_blank">2.6</a></td>
 </tr>
 <tr>
 <td><strong>2.7</strong> <br> Generalizing binomial and trinomial probability calculations.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/OV4q_ZAq3JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9hNve3nO0s9AGU8L9lT6UEDWNP6CMapcku9dN2jSnrpvcyg/viewform" target="\_blank">2.7</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe3nM3zQCc6s4s35cn9V1RWfpFRpX1aZPQpSaBJ0mfoZFRHsg/viewform?usp=sf_link" target="\_blank">2.7</a></td>
 </tr>
 <tr>
 <td><strong>2.8 (Extra)</strong> <br> Using permutations and combinations to derive the binomial coefficient.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/4j2mFGkvwWE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScT0hkAtv60WsNeI8Lp4xBgbZAm5BKysdSdEFjA2mKaHDbdUQ/viewform" target="\_blank">2.8</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdTtaGsd50GGpCuKdEh7bmg3qn3P9Hz0ripkF7QIz79wFUGUw/viewform?usp=sf_link" target="\_blank">2.8</a></td>
 </tr>
 <tr>
 <td><strong>2.9 (Extra)</strong> <br> Example usages of the binomial coefficient. </td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/lR6FeO5Pgss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfWgaBrElxt2rOeM_t3ZWqQvKvKFSrUWU2RQBmn7r3enf4E_A/viewform" target="\_blank">2.9</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScTs7fzCAzWPossvq_VnhnoOliqcz2F03Wb2UUP4YSMm-0BZA/viewform?usp=sf_link" target="\_blank">2.9</a></td>
 </tr>
