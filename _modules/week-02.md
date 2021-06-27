@@ -6,8 +6,8 @@ days:
   events:
     ? '**Lecture 5**{: .label .label-lecture } Pandas II'
     ? '**Homework 3**{: .label .label-hw } Food Safety (due Jul 5)'
-    ? '**Lab 3**{: .label .label-lab } Data Cleaning and EDA (due Jul 3)'
-    ? '**Lab 4**{: .label .label-lab } SQL (due Jul 3)'
+    ? '**Lab 3**{: .label .label-lab } [Data Cleaning and EDA](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab03&branch=main) (due Jul 3)'
+    ? '**Lab 4**{: .label .label-lab } [SQL](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab04&branch=main) (due Jul 3)'
     ? '**Discussion 2**{: .label .label-disc } Probability, Pandas'
     : ''
 - date: 2021-06-29
