@@ -32,6 +32,11 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
+<td><strong>7.0</strong> <br> Introduction.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/e3vnbnENSP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td></td>
+</tr>
+<tr>
 <td><strong>7.1</strong> <br> Motivation and canonicalizing strings.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/_KeJFK92pTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdjNmlMm6gvwF4GbXMePYLp16_jEGBJFf5eaSidchAEWb2bPA/viewform?usp=sf_link" target="\_blank">7.1</a></td>
