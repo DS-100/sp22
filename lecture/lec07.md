@@ -10,10 +10,10 @@ Presented by Anthony D. Joseph
 
 Content by Anthony D. Joseph, Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1uqUoV8Q4J4WpdCDj90SYq3oSk3rQh3bMwMttW7iJZ_w/edit?usp=sharing)
+- [slides](https://docs.google.com/presentation/d/1uqUoV8Q4J4WpdCDj90SYq3oSk3rQh3bMwMttW7iJZ_w/edit)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqMRKKXK24Nbui6LRyT4CTC)
-- [code](https://github.com/DS-100/sp21/tree/main/lec/lec08) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec08/&branch=main))
-- [code HTML](../../resources/assets/lectures/lec08/lec08.html)
+- [code](https://github.com/DS-100/su21/tree/main/lec/lec07) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec07/&branch=main))
+- [code HTML](../../resources/assets/lectures/lec07/lec07.html)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
