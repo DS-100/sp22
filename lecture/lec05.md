@@ -14,7 +14,7 @@ Content by Josh Hug
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfrFDOJNtON1sBlUxwio_anQ)
 - [code](https://github.com/DS-100/su21/tree/main/lec/lec05) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec05/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec05/05-pandas-ii.html), [joins code HTML](../../resources/assets/lectures/lec05/join_demo.html)
-- [Prof. Perez's Pandas 2 Lecture Materials](http://ds100.org/sp21/lecture/lec06/)
+- [Prof. Perez's Pandas 2 Lecture Materials](https://ds100.org/sp21/lecture/lec06/)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
