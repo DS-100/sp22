@@ -4,7 +4,7 @@ weekNumber: 2
 days:
 - date: 2021-06-28
   events:
-    ? '**Lecture 5**{: .label .label-lecture } Pandas II'
+    ? '**Lecture 5**{: .label .label-lecture } [Pandas II](lecture/lec05)'
     ? '**Homework 3**{: .label .label-hw } Food Safety (due Jul 5)'
     ? '**Lab 3**{: .label .label-lab } [Data Cleaning and EDA](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab03&branch=main) (due Jul 3)'
     ? '**Lab 4**{: .label .label-lab } [SQL](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab04&branch=main) (due Jul 3)'
