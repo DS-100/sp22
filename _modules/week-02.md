@@ -8,7 +8,7 @@ days:
     ? '**Homework 3**{: .label .label-hw } Food Safety (due Jul 5)'
     ? '**Lab 3**{: .label .label-lab } [Data Cleaning and EDA](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab03&branch=main) (due Jul 3)'
     ? '**Lab 4**{: .label .label-lab } [SQL](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab04&branch=main) (due Jul 3)'
-    ? '**Discussion 2**{: .label .label-disc } [Probability, Pandas](https://drive.google.com/file/d/1yybpSG1tdaemOQVwLqdPGkXWazcV2KPD/view?usp=sharing)[(videos)](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpZlyxR_Ln_mYQp7hRp0XOR)[(solutions)](https://drive.google.com/file/d/1x4XL47Bb_goEY3Ir69U36EFj9M6mbCR9/view?usp=sharing)'
+    ? '**Discussion 2**{: .label .label-disc } [Probability, Pandas](https://drive.google.com/file/d/1yybpSG1tdaemOQVwLqdPGkXWazcV2KPD/view?usp=sharing) [(videos)](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpZlyxR_Ln_mYQp7hRp0XOR) [(solutions)](https://drive.google.com/file/d/1x4XL47Bb_goEY3Ir69U36EFj9M6mbCR9/view?usp=sharing)'
     : ''
 - date: 2021-06-29
   events:
