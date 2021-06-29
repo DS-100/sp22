@@ -12,7 +12,7 @@ days:
     : ''
 - date: 2021-06-29
   events:
-    ? '**Lecture 6**{: .label .label-lecture } Data Cleaning and EDA'
+    ? '**Lecture 6**{: .label .label-lecture } [Data Cleaning and EDA](lecture/lec06)'
     : ''
 - date: 2021-06-30
   events:
