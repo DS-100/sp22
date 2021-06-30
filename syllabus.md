@@ -185,7 +185,11 @@ Your discussion score is the average of your scores for each individual discussi
 
 ### Late Policy
 
-All assignments are due at 11:59 pm on the due date specified on the syllabus. **Gradescope is where all assignments are submitted.** Extensions are only provided to students with DSP accommodations, or in the case of exceptional circumstances. If these conditions apply, please make a private Piazza post to request an extension. When posting, please put [EXTENSION REQUEST] in the title, and select the “extension” folder. **Homeworks and labs will not be accepted late.** Gradescope may allow you to make late submissions, but you will later be given a 0.
+All assignments are due at 11:59 pm on the due date specified on the syllabus. **Gradescope is where all assignments are submitted. Homeworks and labs will not be accepted late.** Gradescope may allow you to make late submissions, but you will later be given a 0.
+
+Extensions are only provided to students with DSP accommodations, or in the case of exceptional circumstances. If these conditions apply, please ***make a private Piazza post*** to request an extension. When posting, please put [EXTENSION REQUEST] in the title, and select the “extension” folder. **Do not email the instructors with extension requests.** If you make a request close to the deadline, we can not guarantee that you will receive a response before the deadline. Additionally, simply submitting a request does not guarantee you will receive an extension. Even if your work is incomplete, please submit before the deadline so you can receive credit for the work you did complete.
+
+Note that extension requests will not be granted in cases where a student’s local (DataHub) tests are not passing. It is the student’s responsibility to solve such problems in advance of the deadline.
 
 <!-- - Projects are marked down by 10% per day, **up to two days**. After two days, project submissions will not be accepted.
   - Submission times are rounded up to the next day. That is, 2 minutes late = 1 day late. -->
