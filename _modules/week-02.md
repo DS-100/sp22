@@ -17,7 +17,7 @@ days:
 - date: 2021-06-30
   events:
     ? '**Lecture 7**{: .label .label-lecture } [Regular Expressions](lecture/lec07)'
-    ? '**Discussion 3**{: .label .label-disc } Pandas'
+    ? '**Discussion 3**{: .label .label-disc } [Pandas](https://drive.google.com/file/d/1xh8lsieZmAG-th1X81dX8oqAeYjqaM9s/view?usp=sharing) [(code)](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/disc/disc03/disc03-pandas-student-blank.ipynb&branch=main)'
     : ""
 - date: 2021-07-01
   events:
