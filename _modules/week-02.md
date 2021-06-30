@@ -16,7 +16,7 @@ days:
     : ''
 - date: 2021-06-30
   events:
-    ? '**Lecture 7**{: .label .label-lecture } Regex'
+    ? '**Lecture 7**{: .label .label-lecture } [Regular Expressions](lecture/lec07)'
     ? '**Discussion 3**{: .label .label-disc } Pandas'
     : ""
 - date: 2021-07-01
