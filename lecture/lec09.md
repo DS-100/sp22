@@ -11,7 +11,7 @@ Presented by Fernando Perez
 Content by Fernando Perez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu
 
 - [slides](https://docs.google.com/presentation/d/1r1zyItUSM7mmoF26-sPrVIg_m21BCx0TMVetdaSLtdQ/edit)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoO8fNlehX61bY3nZevBNgf)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpopjZVuLlvwriC_mABCfYi)
 - [code](https://github.com/DS-100/su21/tree/main/lec/lec09) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec09/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec09/lec09.html)
 
