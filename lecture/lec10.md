@@ -12,7 +12,7 @@ Content by Fernando Perez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu, Debor
 
 - [slides](https://docs.google.com/presentation/d/16l3XLseFMJIhoPZXuQSXogCpob9htZ9TEEEgAXlHDtw/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqg1Or0146dak_SSMprFVwz)
-- [code](https://github.com/DS-100/sp21/tree/main/lec/lec10) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec10/&branch=main))
+- [code](https://github.com/DS-100/su21/tree/main/lec/lec10) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec10/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec10/lec10.html)
 
 Extra reading on colormaps:
