@@ -6,18 +6,18 @@ nav_exclude: true
 
 # Lecture 8 - SQL
 
-Presented by Anthony D. Joseph
+Presented by Raguvir Kunani
 
-Content by Anthony D. Joseph, Allen Shen, Josh Hug, John DeNero, Joseph Gonzalez
+Content by Raguvir Kunani, Anthony D. Joseph, Allen Shen, Josh Hug, John DeNero, Joseph Gonzalez
 
-- [slides](https://docs.google.com/presentation/d/1USrVCVucK7MDwsx7lXJgIkrd_WJLYSUlcuZdFzwD5wg/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqNOs2WA_9ZXw5wE4-KVbkA)
-- [code](https://github.com/DS-100/sp21/tree/main/lec/lec04) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec04/&branch=main))
-- [code HTML](../../resources/assets/lectures/lec04/lec04.html)
+- [slides](https://docs.google.com/presentation/d/1WjNluRCSzcOKP9aY0lCLIAkNXp_CFd3TWSogaBmJiRk/edit?usp=sharing)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpFYo2ZHpULqSDGINGbLzeo)
+- [code](https://github.com/DS-100/su21/tree/main/lec/lec08) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec08/&branch=main))
+- [code HTML](../../resources/assets/lectures/lec08/lec08.html)
 - [code walkthrough by Josh Hug](https://youtu.be/QCrHZnLM0H4)
 - [code walkthrough by Allen Shen](https://youtu.be/zetdBg61eaE)
 
-A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
+**The Quick Checks for this lecture are not yet ready to be released; please check back later.** A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
 <colgroup>
@@ -34,47 +34,67 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
-<td><strong>4.1</strong> <br> Databases and database management systems.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/SRoTXarDDk4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdy8xeb-E5FEfrlIz4LJopIddUoFrJAAKY1Mg_GIqFymZuFZA/viewform" target="\_blank">4.1</a></td>
+<td><strong>8.0</strong> <br>Introduction</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/ODmXqduT7wA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td></td>
 </tr>
 <tr>
-<td><strong>4.2</strong> <br> Relational database schemas.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/SJtoYIqGvEI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGCwtpFhXBq4RTg7ZebI8jdOM4yut3gwyF-tz-xNe44vMngg/viewform" target="\_blank">4.2</a></td>
+<td><strong>8.1</strong> <br>Databases</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/5ugcnX9Ys7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.1</a></td>
 </tr>
 <tr>
-<td><strong>4.3</strong> <br> SQL overview and the DISTINCT keyword.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/_WyqfDM1mN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLuZWerXoDKqHIobG6B1vH0p35pZCz1qQc5ff5rT91cV-AKg/viewform" target="\_blank">4.3</a></td>
+<td><strong>8.2</strong> <br>SQL Basics</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/ZNELlOlLH2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.2</a></td>
 </tr>
 <tr>
-<td><strong>4.4</strong> <br> Types of joins in SQL.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/E5XPBV54MiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwvjklDzvLRroL26Gpe5_kcD9XEY59TfxAhYBeO2ROCOy0Vw/viewform" target="\_blank">4.4</a></td>
+<td><strong>8.3</strong> <br>Column Aggregation Functions and Arithmetic</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/V--1RcWQRCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.3</a></td>
 </tr>
 <tr>
-<td><strong>4.5</strong> <br> NULL values in SQL.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/K89kIINyjTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwKtSQFSA4yyp9JJ86VTr9sSHPp3SEI0t6VTOrh2GW05Xt6Q/viewform" target="\_blank">4.5</a></td>
+<td><strong>8.4</strong> <br>Types of Joins in SQL</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/iyDwhktsBIs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.4</a></td>
 </tr>
 <tr>
-<td><strong>4.6</strong> <br> SQL predicates and casting.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/af3vjZsz1BQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfdb-_737z6rUbC4WzQN_QUfgw54voslfzMHlvsO5Dx6lWu9A/viewform" target="\_blank">4.6</a></td>
+<td><strong>8.5</strong> <br> NULL values in SQL</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/fa7kxxFONGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.5</a></td>
 </tr>
 <tr>
-<td><strong>4.7</strong> <br> SQL sampling, subqueries, and common table expressions.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/3TgY0zNbjoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfLL2wU0Nk9h_Abk3zojYa3d96YEMpCOsQ-SoRF2tBAe-s2Rw/viewform" target="\_blank">4.7</a></td>
+<td><strong>8.6</strong> <br>Grouping</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/Ozgek3G1i38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.6</a></td>
 </tr>
 <tr>
-<td><strong>4.8</strong> <br> SQL CASE expressions and the SUBSTR function.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/MIE9NbCOyyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfk0Dw-dgH_jx6OTg2KXUxTBtH7Napj-yBbZI1O04Bf6PauZA/viewform" target="\_blank">4.8</a></td>
+<td><strong>8.7</strong> <br>Relational Databases</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/8ycxmidVO3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.7</a></td>
 </tr>
 <tr>
-<td><strong>4.9</strong> <br> SQL summary and conclusion.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/ch0LW6R1VrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfJK4hk4Ue9jicRYEro0goTEyqz7EgbcaQ3WTDnWdnU9ehY8Q/viewform" target="\_blank">4.9</a></td>
+<td><strong>8.8</strong> <br>DISTINCT and SQL CASE expressions</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/UPd0tFLgyKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.8</a></td>
+</tr>
+<tr>
+<td><strong>8.9</strong> <br>Conclusion</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/QHKObHv5o7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.9</a></td>
+</tr>
+<tr>
+<td><strong>8.10</strong> <br>(EXTRA) Predicates in SQL</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/af3vjZsz1BQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.10</a></td>
+</tr>
+<tr>
+<td><strong>8.11</strong> <br>(EXTRA) SQL Sampling, subqueries, and common table expressions</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/3TgY0zNbjoo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.11</a></td>
+</tr>
+<tr>
+<td><strong>8.12</strong> <br>(EXTRA) SQL CASE expressions and SUBSTR</td>
+<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/MIE9NbCOyyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">8.12</a></td>
 </tr>
