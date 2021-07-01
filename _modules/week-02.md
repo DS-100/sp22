@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-07-01
   events:
-    ? '**Lecture 8**{: .label .label-lecture } SQL'
+    ? '**Lecture 8**{: .label .label-lecture } [SQL](lecture/lec08)'
     : ""
 - date: 2021-07-02
   events:
