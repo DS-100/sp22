@@ -39,6 +39,12 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
+<td><strong>10.0</strong> <br>Introduction.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/lPjgccaoG7I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td></td>
+</tr>
+<tr>
+<tr>
 <td><strong>10.1</strong> <br>Ensuring that the axes in our visualizations aren't misleading.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/WKcm52yif6s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeby6pIjBbTvpep8Ix9IA7qKrZtkS392_i0gNJqzinbnedQzw/viewform?usp=sf_link" target="\_blank">10.1</a></td>
