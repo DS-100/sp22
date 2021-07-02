@@ -25,7 +25,7 @@ days:
     : ""
 - date: 2021-07-02
   events:
-    ? '**Live Session 2**{: .label .label-live }'
+    ? '**Live Session 2**{: .label .label-live } [(recording)](https://www.youtube.com/watch?v=fFMdQi6pfSI)'
     : ""
 
 ---
