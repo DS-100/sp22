@@ -6,7 +6,7 @@ days:
   events:
     ? 'Independence Day'
     ? '**Homework 4**{: .label .label-hw } Tweets (due Jul 8)'
-    ? '**Lab 5**{: .label .label-lab } Transformations and KDEs TEST(due Jul 10)'
+    ? '**Lab 5**{: .label .label-lab } Transformations and KDEs(due Jul 10)'
     ? '**Lab 6**{: .label .label-lab } Modeling, Summary Statistics, and Loss Functions(due Jul 10)'
     ? '**Discussion 4**{: .label .label-disc } SQL, Regex'
     : ''
