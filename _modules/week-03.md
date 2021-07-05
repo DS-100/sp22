@@ -8,7 +8,7 @@ days:
     ? '**Homework 4**{: .label .label-hw } Tweets (due Jul 8)'
     ? '**Lab 5**{: .label .label-lab } [Transformations and KDEs](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab05&branch=main) (due Jul 10)'
     ? '**Lab 6**{: .label .label-lab } [Modeling, Summary Statistics, and Loss Functions](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab06&branch=main) (due Jul 10)'
-    ? '**Discussion 4**{: .label .label-disc } SQL, Regex'
+    ? '**Discussion 4**{: .label .label-disc } [SQL, Regex](https://drive.google.com/file/d/1QKuTU7B_6FuORprQDJ0SwmpHwhBejiNS/view?usp=sharing) [(videos)](https://www.youtube.com/playlist?list=PLQCcNQgUcDfrO2v5PoiZL8uBPupjiRfBb)'
     : ''
 - date: 2021-07-06
   events:
