@@ -12,7 +12,7 @@ days:
     : ''
 - date: 2021-07-06
   events:
-    ? '**Lecture 9**{: .label .label-lecture } Visualization I'
+    ? '**Lecture 9**{: .label .label-lecture } [Visualization I](lecture/lec09)'
     : ''
 - date: 2021-07-07
   events:
