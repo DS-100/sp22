@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-07-08
   events:
-    ? '**Lecture 11**{: .label .label-lecture } Modeling'
+    ? '**Lecture 11**{: .label .label-lecture } [Modeling](lecture/lec11)'
     ? '**Homework 5**{: .label .label-hw } Bike Sharing (due Jul 12)'
     : ""
 - date: 2021-07-09
