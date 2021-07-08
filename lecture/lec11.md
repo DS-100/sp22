@@ -32,11 +32,6 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
-<td><strong>11.0</strong> <br>Announcements.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/vAEsdkfKDcw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td></td>
-</tr>
-<tr>
 <td><strong>11.1</strong> <br>Defining a model.</td>
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/2a9XMbcg-uA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSc6OZc5hT8bhD15H2hCJ7VWhp5Mp8uckmvNEnL5zFo7iB6aww/viewform" target="\_blank">11.1</a></td>
