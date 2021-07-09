@@ -26,7 +26,7 @@ days:
     : ""
 - date: 2021-07-09
   events:
-    ? '**Live Session 3**{: .label .label-live }'
+    ? '**Live Session 3**{: .label .label-live } [(recording)](https://www.youtube.com/watch?v=VEHf9eEfB2c) [(code)](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lec/live03&branch=main)'
     : ""
 
 ---
