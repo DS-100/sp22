@@ -17,7 +17,7 @@ days:
 - date: 2021-07-07
   events:
     ? '**Lecture 10**{: .label .label-lecture } [Visualization II](lecture/lec10)'
-    ? '**Discussion 5**{: .label .label-disc } [Visualization](https://drive.google.com/file/d/1eqthKbzH06QCdZtF4Elw2j-PIudnv3JO/view?usp=sharing)'
+    ? '**Discussion 5**{: .label .label-disc } [Visualization](https://drive.google.com/file/d/1eqthKbzH06QCdZtF4Elw2j-PIudnv3JO/view?usp=sharing) [(solutions)](https://drive.google.com/file/d/13PN-4Pf3CRHMwRv44xrs4YpjEu4eW5DF/view?usp=sharing)'
     : ""
 - date: 2021-07-08
   events:
