@@ -122,7 +122,8 @@ Labs are shorter programming assignments designed to give students familiarity w
 
 - We plan on hosting roughly 10 hours of office hours each weekday. These hours are listed on the [Calendar](../calendar).
 - OH will serve as a one-stop shop for students to get help with assignments.
-- Office Hours can be accessed via [oh.ds100.org](https://oh.ds100.org), where students add themselves to the "queue" and specify the assignment they need help on. Once it's their turn, they will be provided with a Zoom link to join, in order to get help from staff.
+- Office Hours can be accessed via [Gather](https://gather.town/app/08JrjeqAUXtva4uL/data-100-su21-oh) where students can collaborate with other students while waiting to receive help from course staff. More details in [@257](https://piazza.com/class/kpcl6edmxuk3fg?cid=257) on Piazza.
+<!-- where students add themselves to the "queue" and specify the assignment they need help on. Once it's their turn, they will be provided with a Zoom link to join, in order to get help from staff. -->
 - The instructors will also be hosting conceptual office hours. These will be reflected on the [Calendar](../calendar).
 <!-- - We are also holding "lost office hours" once a week. These are designed to accommodate students who are behind on material and would like help catching up. These are meant for conceptual questions only, not for assignment help. These will also be reflected on the [Calendar](../calendar). -->
 
