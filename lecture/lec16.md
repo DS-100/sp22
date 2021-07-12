@@ -1,38 +1,21 @@
 ---
 layout: page
-title: Lecture 16 – Cross-Validation and Regularization
+title: Lecture 15 – Bias and Variance
 nav_exclude: true
 ---
 
-# Lecture 16 – Cross-Validation and Regularization
+# Lecture 15 – Bias and Variance
 
-Presented by Anthony D. Joseph, Joseph Gonzalez, Suraj Rampure, Paul Shao
-
-Content by Joseph Gonzalez, Suraj Rampure, Paul Shao
-
-- [slides](https://docs.google.com/presentation/d/1MaQJxLvnb7oQZAWaEbBL_1ebNNvPiZHgHPB_QnWtVz8/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfov87Pclq27yt7qrgzJigz3)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec16/&branch=main)
-- code HTML: [Part 1](../../resources/assets/lectures/lec16/lec16-part1-cv.html), [Part 2](../../resources/assets/lectures/lec16/lec16-part2-regularization.html)
-
-**Important:** Read this before proceeding with the lectures, as it details what materials you should focus on. (This is also largely recapped in Video 16.1.).
-
-Sections 16.1 through 16.4 discuss train-test splits and cross-validation.
-- 16.1, in addition to giving an overview of the lecture, walks through why we need to split our data into train and test in the first place, and how cross-validation works. It primarily consists of slides.
-- 16.2 and 16.3 walk through the process of creating a basic train-test split, and evaluating models that we've fit on our training data using our testing data. Code is in "Part 1".
-- 16.4 walks through the process of implementing cross-validation. In this video there references to a `Pipeline` object in `scikit-learn`. This is **not** in scope for us, so do not worry about its details. Code is in "Part 1".
-
-Sections 16.5 and 16.6 discuss regularization.
-- 16.5 discusses why we need to regularize, and how penalties on the norm of our parameter vector accomplish this goal.
-- 16.6 explicitly lists the optimal model parameter when using the L2 penalty on our linear model (called "ridge regression").
+Presented by Joey Gonzalez, Andrew Bray, Fernando Perez, and Ani Adhikari
 
 
-There are also three **supplementary** videos accompanying this lecture. They don't introduce any new material, but may still be helpful for your understanding. They are listed as supplementary and not required since the runtime of this lecture is already quite long. They do not have accompanying Quick Checks for this reason.
-- 16.7 and 16.8 walk through implementing ridge and LASSO regression in a notebook. These videos are helpful in explaining how regularization and cross-validation are used in practice. These videos again use `Pipeline`, which is not in scope. Code is in "Part 2".
+- [slides](https://docs.google.com/presentation/d/15LDeDKNxpIa9j0_dHZr1F5AzrbVEUoM5OWOxgqYUKM0/edit?usp=sharing)
+- 15.5 slides ([1](../../resources/assets/lectures/lec15/decomposing-mse-wide.html), [2](../../resources/assets/lectures/lec15/decomposing-mse-square.html))
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpsM-s0xEnuVScBP3i_9bMs)
+- [Introduction to Overfitting](../../resources/assets/lectures/lec15/IntroductionToOverfitting.html)
+- [Bias-Variance decomposition derivation](../../resources/assets/lectures/lec15/lec15-bias-variance-derivation.html) ([raw](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lecture/lec15/))
 
-
-- 16.9 is another **supplementary** video, created by Paul Shao. It gives a great high-level overview of both the bias-variance tradeoff and regularization.  **The instructors highly recommend this video.**
-
+**Important:** The algebra behind the decomposition of model risk into observational variance, model variance, and bias, is not in the slides or video but is in the link above. You should read it **after** watching this lecture. Also, you may want to review [Lecture 3](http://ds100.org/fa20/lecture/lec03) for a refresher on random variables.
 
 
 <table>
@@ -50,47 +33,70 @@ There are also three **supplementary** videos accompanying this lecture. They do
 </thead>
 <tbody>
 <tr>
-<td><strong>16.1</strong> <br>Lecture overview. Training error vs. testing error. Why we need to split our data into train and test. How cross-validation works, and why it is useful.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/y6ZW4nZtlhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeyzg8cTdWXADSk5Ki7EVaOm1h5R_V2iqTfg5Ozv481YRdt4Q/viewform" target="\_blank">16.1</a></td>
+<td><strong>15.0</strong> <br> Weekly Overview. </td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/YYKP33-fcNo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td></td>
 </tr>
 <tr>
-<td><strong>16.2</strong> <br>Using scikit-learn to construct a train-test split.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/_Bzfy7BTjz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeRph43oLp3hAmD5uH42BMquAoeGAQeey6XCaLsEbUsEZItzg/viewform" target="\_blank">16.2</a></td>
+<td><strong>15.1</strong> <br> A quick Introduction to Overfitting and Generalization. </td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/14YGCOq37yg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td>Coming soon</td>
 </tr>
 <tr>
-<td><strong>16.3</strong> <br>Building a linear model and determining its training and test error.</td>
-<td><iframe width="300" height="500" height src="https://youtube.com/embed/2i7yj4JhIkw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdRetxoBG08ztF3RUrodibq7N1DzOVkT9AHIkKVNflnkStFNA/viewform" target="\_blank">16.3</a></td>
+<td><strong>15.2</strong> <br> Variance of random variables. Walking through an alternate calculation of variance. Variance of a linear transformation. </td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/3W_TtAHxlXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeU8a1bVqVtvu82Opw4n3dNlvLpP5JPx6gy6JH1tPFHCAFCJg/viewform" target="\_blank">15.2</a></td>
+</tr>
+
+
+<!-- <tr>
+<td><strong>15.2</strong> <br> Deriving the variance of a sum. Understanding covariance, correlation, and independence. </td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/8ovh_lGuMdQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSewRWkZ5vOLbO7zoQbPkiSlkcHJk9s3BW-aBJUpMPyPH9v2Xg/viewform" target="\_blank">15.2</a></td>
+</tr>
+
+
+<tr>
+<td><strong>15.3</strong> <br> Variance of an i.i.d. sum. Variance of the Bernoulli and binomial distributions. </td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/t4gPC6LDS1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfvnzx2LeTC4EKK72KEf9LHVhQkuSKsUJuUyCrMbWl9WZ7bRg/viewform" target="\_blank">15.3</a></td>
 </tr>
 <tr>
-<td><strong>16.4</strong> <br>Implementing cross-validation, and using it to help select a model.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/m8580Et4pjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfi_PiJCgRsdzrI9vwyRKHUV5B37WZfaEh0u6HA-che0Ii3-w/viewform" target="\_blank">16.4</a></td>
+<td><strong>15.4</strong> <br> Variability of the sample mean. Reviewing inferential concepts from Data 8, but with the framework of random variables. </td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/CwXhjoBt25I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSce8iejVjmHjlJGUjbw7mbskFVvqDzS6XFe9VZ_c6_DsL_BRw/viewform" target="\_blank">15.4</a></td>
 </tr>
+ -->
+
 <tr>
-<td><strong>16.5</strong> <br>An overview of regularization.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/NqKtsZpHmRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfEckJSRCSCkVz_JxGhrf2MtcctLWcT9NBMQFtF3GGcRIRvVw/viewform" target="\_blank">16.5</a></td>
+<td><strong>15.3</strong> <br>Introducing the data generating process and prediction error. Model risk.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/mPz-jIl9H7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSewQ5vHKA30nkeESdbiCKISmafTtOCurxw1fmpNvd0a3jCi5A/viewform" target="\_blank">15.3</a></td>
 </tr>
+
+<!-- <tr>
+<td><strong>15.6</strong> <br>Looking at different sources of error in our model – observation variance, model variance, and bias – and discussing how to mitigate them.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/mmjYEOeOEM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSegBG0lw56mX_iiJBLGe7VfT5Hz3b0aVppPuSgcWzDsXliMCQ/viewform" target="\_blank">15.6</a></td>
+</tr>
+ -->
 <tr>
-<td><strong>16.6</strong> <br>Ridge regression and LASSO regression.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/B-labBbXj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfz0-SU11o_wgeIUmIoV7VKtCNgwm4WZVrXU-WWsBwPxekIlg/viewform" target="\_blank">16.6</a></td>
+<td><strong>15.4</strong> <br>Components of the Prediction Error.</td>
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/sktUKDB4Zfc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSesORFx-WhNSODExsb5k_32E0AOYEVqxiOcrarQjyKE75Xyrg/viewform" target="\_blank">15.4</a></td>
 </tr>
+
 <tr>
-<td><strong>16.7</strong> <br>*Supplemental.* Using ridge regression and cross-validation in scikit-learn.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/frdGPG10dOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a>N/A</a></td>
+<td><strong>15.5</strong> <br>Visualizing Bias and Variance.</td>
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/lKMjFxdMhTQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td>Coming Soon</td>
 </tr>
+
+
 <tr>
-<td><strong>16.8</strong> <br>*Supplemental.* Using LASSO regression and cross-validation in scikit-learn.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/hqZNVrZ3flw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a>N/A</a></td>
+<td><strong>15.6</strong> <br>Model Complexity and the Bias Variance Tradeoff.</td>
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/a1zMueoMVpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td>Coming Soon</td>
 </tr>
-<tr>
-<td><strong>16.9</strong> <br>*Supplemental.* An overview of the bias-variance tradeoff, and how it interfaces with regularization.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/U2J75Iq2nrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a>N/A</a></td>
-</tr>
+
+
