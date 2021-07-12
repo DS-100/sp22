@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 15 – Bias and Variance
+title: Lecture 16 – Bias and Variance
 nav_exclude: true
 ---
 
-# Lecture 15 – Bias and Variance
+# Lecture 16 – Bias and Variance
 
 Presented by Joey Gonzalez, Andrew Bray, Fernando Perez, and Ani Adhikari
 
@@ -98,5 +98,3 @@ Presented by Joey Gonzalez, Andrew Bray, Fernando Perez, and Ani Adhikari
 <td><iframe width="300" height="500" height src="https://youtube.com/embed/a1zMueoMVpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td>Coming Soon</td>
 </tr>
-
-

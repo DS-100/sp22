@@ -1,17 +1,15 @@
 ---
 layout: page
-title: 'Lecture 17 – Modeling in Context: Fairness in Housing Appraisal'
+title: 'Lecture 15 – Modeling in Context: Fairness in Housing Appraisal'
 nav_exclude: true
 ---
 
-# Lecture 17 – Modeling in Context: Fairness in Housing Appraisal
+# Lecture 15 – Modeling in Context: Fairness in Housing Appraisal
 
 Presented by Ari Edmundson and Margarita Boenig-Liptsin
 
-
 - [slides](https://docs.google.com/presentation/d/16mbugsceDZyrLHNX4KaD35mHjHGpbzEbA3G17KVn37Y/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/watch?v=8iHMk-2QJUI&list=PLQCcNQgUcDfq56vf8H2onzCBfZKHHZjTm)
-
 
 <table>
 <colgroup>
@@ -47,4 +45,3 @@ Presented by Ari Edmundson and Margarita Boenig-Liptsin
 <td><iframe width="300" height="500" height src="https://www.youtube.com/embed/PABk8IXQucs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td></td>
 </tr>
-
