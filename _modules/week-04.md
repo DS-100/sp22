@@ -11,7 +11,7 @@ days:
     : ''
 - date: 2021-07-13
   events:
-    ? '**Lecture 13**{: .label .label-lecture } Ordinary Least Squares + Geometric Interpretation'
+    ? '**Lecture 13**{: .label .label-lecture } [Ordinary Least Squares + Geometric Interpretation](lecture/lec13)'
     : ''
 - date: 2021-07-14
   events:
