@@ -15,7 +15,7 @@ days:
     : ''
 - date: 2021-07-14
   events:
-    ? '**Lecture 14**{: .label .label-lecture } Feature Engineering'
+    ? '**Lecture 14**{: .label .label-lecture } [Feature Engineering](lecture/lec14)'
     ? '**Discussion 7**{: .label .label-disc } Midterm Review'
     : ""
 - date: 2021-07-15
