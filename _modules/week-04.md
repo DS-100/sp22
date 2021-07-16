@@ -24,7 +24,7 @@ days:
     : ""
 - date: 2021-07-16
   events:
-    ? '**Live Session 4**{: .label .label-live }'
+    ? '**Live Session 4**{: .label .label-live } [(recording)](https://www.youtube.com/watch?v=ANxe901VdTo)
     : ""
 
 ---
