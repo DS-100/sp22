@@ -36,7 +36,7 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td></td>
 </tr>
 <tr>
-<td><strong>14.1</strong> <br>Motivating Feature Engineering <br><strong>This version of Video 14.1 has an error. The model should be a linear combination of the parameters, not the features. I am recording a new video to fix this mistake.</strong></td>
+<td><strong>14.1</strong> <br>Motivating Feature Engineering</td>
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/v_etkwPZwX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScyux_DsA0qAzr0yvjE5vorFPoJfoHOoe_t4thMbE8vLPfB_g/viewform" target="\_blank">14.1</a></td>
 </tr>
