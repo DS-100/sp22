@@ -37,32 +37,32 @@ Presented by Isaac Schmidt
 <tr>
 <td><strong>16.1</strong> <br> The data generation process, and the assumptions we make when choosing a model. </td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/WsuJEiH66_Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td>Coming soon</td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdaYElNSnmIfL9ZoVNb7ySQP4PaIqXu_f2cfmnlqE3ebE1UcA/viewform?usp=sf_link" target="\_blank">16.1</a></td>
 </tr>
 <tr>
 <td><strong>16.2</strong> <br> Continuous random variables. Expectation of a function of a random variable. Bias, revisited. </td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/uQ1qNu7eTyg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeU8a1bVqVtvu82Opw4n3dNlvLpP5JPx6gy6JH1tPFHCAFCJg/viewform" target="\_blank">15.2</a></td>
+<td></td>
 </tr>
 <tr>
 <td><strong>16.3</strong> <br>Variance of a random variable. Linear transformations of variance. Covariance and correlation.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/vw1i7D2oXpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSewQ5vHKA30nkeESdbiCKISmafTtOCurxw1fmpNvd0a3jCi5A/viewform" target="\_blank">15.3</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdwgBM-DiTgQ-i1UG1Z32k8sybEHRxGPS-6ZnqLnqeVXSq4FA/viewform?usp=sf_link" target="\_blank">16.3</a></td>
 </tr>
 <tr>
 <td><strong>16.4</strong> <br>Bias and variance in modeling. Simulation of different models with different samples. Components of prediction error.</td>
 <td><iframe width="300" height="500" height src="https://youtube.com/embed/E7vYtvVv6YQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSesORFx-WhNSODExsb5k_32E0AOYEVqxiOcrarQjyKE75Xyrg/viewform" target="\_blank">15.4</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfjQRlV1Mgd-MpyWZBrFuuunLPWeRTJZJjEHmfXdG0Q9OPgPA/viewform?usp=sf_link" target="\_blank">16.4</a></td>
 </tr>
 <tr>
 <td><strong>16.5</strong> <br>Risk. Decomposition of model risk into the components of prediction error.</td>
 <td><iframe width="300" height="500" height src="https://youtube.com/embed/5FqjaTahR8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td>Coming Soon</td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScknAhumg1uCuRIFB3lUlAU9q8spYFxUNE5hTRd4GDkY4sm6w/viewform?usp=sf_link" target="\_blank">16.5</a></td>
 </tr>
 <tr>
 <td><strong>16.6</strong> <br>The Bias-Variance decomposition. Reasons and remedies for the different components of error.</td>
 <td><iframe width="300" height="500" height src="https://youtube.com/embed/oJ2rRX77hMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td>Coming Soon</td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSesORFx-WhNSODExsb5k_32E0AOYEVqxiOcrarQjyKE75Xyrg/viewform" target="\_blank">16.6</a></td>
 </tr>
 <tr>
 <td><strong>16.7</strong> <br>Overfitting and underfitting. Complexity, and the bias-variance tradeoff.</td>
