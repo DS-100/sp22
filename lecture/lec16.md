@@ -8,6 +8,8 @@ nav_exclude: true
 
 Presented by Isaac Schmidt
 
+Content by Isaac Schmidt, Andrew Bray, Suraj Rampure, An Adhikari
+
 - [slides](https://docs.google.com/presentation/d/1dfaN_KUse81tk7TrUs0rfaNYaqAarAu7Vc_GoEblECc/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfp7DQjQ8t6OwKEGOoa4SD3L)
 - [code](https://github.com/DS-100/su21/blob/main/lec/lec16/lec16.ipynb) [(launch)](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec16/)
