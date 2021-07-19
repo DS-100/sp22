@@ -42,7 +42,7 @@ Presented by Isaac Schmidt
 <tr>
 <td><strong>16.2</strong> <br> Continuous random variables. Expectation of a function of a random variable. Bias, revisited. </td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/uQ1qNu7eTyg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSd7rRVOPeviFSn4xCwZwYQ6GaUROgCWc3ScHUAkEJwi6Sr7lA/viewform?usp=sf_link" target="\_blank">16.2</a></td>
 </tr>
 <tr>
 <td><strong>16.3</strong> <br>Variance of a random variable. Linear transformations of variance. Covariance and correlation.</td>
@@ -67,5 +67,5 @@ Presented by Isaac Schmidt
 <tr>
 <td><strong>16.7</strong> <br>Overfitting and underfitting. Complexity, and the bias-variance tradeoff.</td>
 <td><iframe width="300" height="500" height src="https://youtube.com/embed/BplXyWCzEmI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td>Coming Soon</td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfU2lUw6adQkbZA3ztS1hqQx3WAiECQbJ6AQbuzQKQvwTHIag/viewform?usp=sf_link" target="\_blank">16.7</a></td>
 </tr>
