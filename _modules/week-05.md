@@ -12,7 +12,7 @@ days:
     : ''
 - date: 2021-07-20
   events:
-    ? '**Lecture 16**{: .label .label-lecture } Bias-Variance Tradeoff'
+    ? '**Lecture 16**{: .label .label-lecture } [Bias and Variance](lecture/lec16)'
     : ''
 - date: 2021-07-21
   events:
