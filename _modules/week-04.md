@@ -20,7 +20,7 @@ days:
     : ""
 - date: 2021-07-15
   events:
-    ? '**Midterm**{: .label .label-exam } Midterm Exam - 9:30 AM'
+    ? '**Midterm**{: .label .label-exam } Midterm Exam - 9:30 AM ([blank](resources/assets/exams/su21/su21mt.pdf)) ([solutions](resources/assets/exams/su21/su21mt_sol.pdf)) ([video](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoYEIK8ZhIDCEE2Td6Ih_2V))'
     : ""
 - date: 2021-07-16
   events:
