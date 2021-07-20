@@ -12,6 +12,7 @@ description: Past exams and other relevant material to aid you in the course.
 
 | Semester | Midterm (1) | Midterm 2  | Final |
 | -- | -- | -- | -- |
+| Summer 2021 | [Exam](assets/exams/su21/su21mt.pdf) [(Solutions)](assets/exams/su21/su21mt_sol.pdf) [[Video]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoYEIK8ZhIDCEE2Td6Ih_2V) |  |  |
 | Spring 2021 | [Exam](assets/exams/sp21/sp21mt.pdf) [(Solutions)](assets/exams/sp21/sp21mtsol.pdf) |  | [Exam](assets/exams/sp21/sp21final.pdf) [(Solutions)](assets/exams/sp21/sp21finalsol.pdf) |
 | Fall 2020 | [Exam](assets/exams/fa20/fa20mt.pdf) [(Solutions)](assets/exams/fa20/fa20mtsol.pdf) |  | [Exam](assets/exams/fa20/fa20final.pdf) [(Solutions)](assets/exams/fa20/fa20finalsol.pdf)  |
 | Summer 2020 | [Exam](assets/exams/su20/su20mt1.pdf) [(Solutions)](assets/exams/su20/su20mt1sol.pdf) | [Exam](assets/exams/su20/su20mt2.pdf) [(Solutions)](assets/exams/su20/su20mt2sol.pdf) | [Exam](assets/exams/su20/su20final.pdf) [(Solutions)](assets/exams/su20/su20finalsol.pdf) |
@@ -103,7 +104,7 @@ Because data science is a relatively new and rapidly evolving discipline there i
 Instead we plan to use reading from a collection of books all of which are free.
 However, we have listed a few optional books that will provide additional context for those who are interested.
 
-- **[Principles and Techniques of Data Science](https://www.textbook.ds100.org/)** 
+- **[Principles and Techniques of Data Science](https://www.textbook.ds100.org/)**
 
 - **[Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)** (Free online PDF) This book is a great reference for the machine learning and some of the statistics material in the class
 
