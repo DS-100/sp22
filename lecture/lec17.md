@@ -1,39 +1,24 @@
 ---
 layout: page
-title: Lecture 16 – Cross-Validation and Regularization
+title: Lecture 17 – Cross-Validation and Regularization
 nav_exclude: true
 ---
 
-# Lecture 16 – Cross-Validation and Regularization
+# Lecture 17 – Cross-Validation and Regularization
 
-Presented by Anthony D. Joseph, Joseph Gonzalez, Suraj Rampure, Paul Shao
+Presented by Isaac Schmidt, Paul Shao
 
-Content by Joseph Gonzalez, Suraj Rampure, Paul Shao
+Content by Isaac Schmidt, Joseph Gonzalez, Suraj Rampure, Paul Shao
 
-- [slides](https://docs.google.com/presentation/d/1MaQJxLvnb7oQZAWaEbBL_1ebNNvPiZHgHPB_QnWtVz8/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfov87Pclq27yt7qrgzJigz3)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp21&subPath=lec/lec16/&branch=main)
-- code HTML: [Part 1](../../resources/assets/lectures/lec16/lec16-part1-cv.html), [Part 2](../../resources/assets/lectures/lec16/lec16-part2-regularization.html)
+- [slides](https://docs.google.com/presentation/d/1i4XmSfcBALeeJ3LaQjCGYOUt_mYHRBdpMHQFsxUCskM/edit?usp=sharing)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfrIBZQ24xuw2741XBoUX58J)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec17/&branch=main)
+- [code HTML](../../resources/assets/lectures/lec17/lec17.html)
 
-**Important:** Read this before proceeding with the lectures, as it details what materials you should focus on. (This is also largely recapped in Video 16.1.).
+17.8 is a **supplementary** video, created by Paul Shao. It gives a great high-level overview of both the bias-variance tradeoff and regularization. **The instructors highly recommend this video.**
 
-Sections 16.1 through 16.4 discuss train-test splits and cross-validation.
-- 16.1, in addition to giving an overview of the lecture, walks through why we need to split our data into train and test in the first place, and how cross-validation works. It primarily consists of slides.
-- 16.2 and 16.3 walk through the process of creating a basic train-test split, and evaluating models that we've fit on our training data using our testing data. Code is in "Part 1".
-- 16.4 walks through the process of implementing cross-validation. In this video there references to a `Pipeline` object in `scikit-learn`. This is **not** in scope for us, so do not worry about its details. Code is in "Part 1".
-
-Sections 16.5 and 16.6 discuss regularization.
-- 16.5 discusses why we need to regularize, and how penalties on the norm of our parameter vector accomplish this goal.
-- 16.6 explicitly lists the optimal model parameter when using the L2 penalty on our linear model (called "ridge regression").
-
-
-There are also three **supplementary** videos accompanying this lecture. They don't introduce any new material, but may still be helpful for your understanding. They are listed as supplementary and not required since the runtime of this lecture is already quite long. They do not have accompanying Quick Checks for this reason.
-- 16.7 and 16.8 walk through implementing ridge and LASSO regression in a notebook. These videos are helpful in explaining how regularization and cross-validation are used in practice. These videos again use `Pipeline`, which is not in scope. Code is in "Part 2".
-
-
-- 16.9 is another **supplementary** video, created by Paul Shao. It gives a great high-level overview of both the bias-variance tradeoff and regularization.  **The instructors highly recommend this video.**
-
-
+**Note:** The demos in this lecture were adapted from demos that Prof. Joeys Gonzalez recorded in Spring 2020. We decided to redo them as the originals significantly rely on sklearn's `Pipeline` object, which is not in scope this semester. However, these notebooks are still available to you, in case you wish to use this style of code for your own projects.
+- code HTML: ([Part 1](../../resources/assets/lectures/lec17/lec17-alt-1.html), [Part 2](../../resources/assets/lectures/lec17/lec17-alt-2.html))
 
 <table>
 <colgroup>
