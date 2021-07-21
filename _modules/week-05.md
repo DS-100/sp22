@@ -17,7 +17,7 @@ days:
 - date: 2021-07-21
   events:
     ? '**Lecture 17**{: .label .label-lecture } [Cross-Validation + Regularization](lecture/lec17)'
-    ? '**Discussion 9**{: .label .label-disc } Bias-Variance, HCE'
+    ? '**Discussion 9**{: .label .label-disc } [Bias-Variance, HCE](https://drive.google.com/file/d/1MAnVLKQV32OhDJ8djv4rC7735u1lmg-V/view?usp=sharing)'
     : ""
 - date: 2021-07-22
   events:
