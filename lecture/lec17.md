@@ -41,40 +41,40 @@ Content by Isaac Schmidt, Joseph Gonzalez, Suraj Rampure, Paul Shao
 <tr>
 <td><strong>17.1</strong> <br>Training error vs. testing error. Why we need to split our data into train and test. How cross-validation works, and why it is useful.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/CxCkwdnfumY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeyzg8cTdWXADSk5Ki7EVaOm1h5R_V2iqTfg5Ozv481YRdt4Q/viewform" target="\_blank">17.1</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfFjpL6klnB-Ffo8ioiU-J4sZlbiSk5TYcpzU6s6paL77SCoQ/viewform?usp=sf_link" target="\_blank">17.1</a></td>
 </tr>
 <tr>
 <td><strong>17.2</strong> <br>Using scikit-learn to construct a train-test split. Building a linear model and determining its training and test error.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/WpbXyB58HC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeRph43oLp3hAmD5uH42BMquAoeGAQeey6XCaLsEbUsEZItzg/viewform" target="\_blank">17.2</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe-jjZHAMVaz7s6e435shYIziFOh5qEFlsYM0MkEdyaWkYhpw/viewform?usp=sf_link" target="\_blank">17.2</a></td>
 </tr>
 <tr>
 <td><strong>17.3</strong> <br>Implementing cross-validation, and using it to help select a model.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/QJ26VK9-_Sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfi_PiJCgRsdzrI9vwyRKHUV5B37WZfaEh0u6HA-che0Ii3-w/viewform" target="\_blank">17.3</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSc56m4kRDk8sCPf4DWgNigFLjjQorthevUiH2lxF3JSSlt1jg/viewform?usp=sf_link" target="\_blank">17.3</a></td>
 </tr>
 <tr>
 <td><strong>17.4</strong> <br>An introduction to regularization.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/yXkO_J9hkXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfEckJSRCSCkVz_JxGhrf2MtcctLWcT9NBMQFtF3GGcRIRvVw/viewform" target="\_blank">16.4</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeOiR0On-JDZO9gLmbs-pIsO0zHHzJV50hQRHO91MrUTPSHRw/viewform?usp=sf_link" target="\_blank">17.4</a></td>
 </tr>
 <tr>
 <td><strong>17.5</strong> <br>Reformulating the regularization optimization problem. Relationship between the hyperparameter and error. Standardizing features.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/W19a_mEr4gk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfEckJSRCSCkVz_JxGhrf2MtcctLWcT9NBMQFtF3GGcRIRvVw/viewform" target="\_blank">17.5</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdv0Yeoa_7AJdPbb-xGGtv-iUIgxe1AFxG_HDLMNr2FqEOLtw/viewform?usp=sf_link" target="\_blank">17.5</a></td>
 </tr>
 <tr>
 <td><strong>17.6</strong> <br>Ridge regression and LASSO regression. Distinction between parameters and hyperparameters.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/U3DOU7QbX8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfz0-SU11o_wgeIUmIoV7VKtCNgwm4WZVrXU-WWsBwPxekIlg/viewform" target="\_blank">16.6</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScsFllWrBZG8CyoCU63K6CGX2ktrfl-jsQS0364992bDZ_5qg/viewform?usp=sf_link" target="\_blank">17.6</a></td>
 </tr>
 <tr>
 <td><strong>17.7</strong> <br>Using cross-validation with ridge regression and LASSO regression in scikit-learn.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/pHsG90Dp9t8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a>N/A</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQdno-_L4I8yweaVY8PtEXD6zF1m3B2ipwkm9_AgP9OsVywA/viewform?usp=sf_link" target="\_blank">17.7</a></td>
 </tr>
 <tr>
 <td><strong>17.8</strong> <br>**Supplemental.** An overview of the bias-variance tradeoff, and how it interfaces with regularization.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/U2J75Iq2nrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a>N/A</a></td>
+<td>N/A</td>
 </tr>
