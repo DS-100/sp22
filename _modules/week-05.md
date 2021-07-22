@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-07-22
   events:
-    ? '**Lecture 18**{: .label .label-lecture } Gradient Descent'
+    ? '**Lecture 18**{: .label .label-lecture } [Gradient Descent](lecture/lec18)'
     ? '**Homework 8**{: .label .label-hw } Housing II (due Jul 26)'
     : ""
 - date: 2021-07-23
