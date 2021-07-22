@@ -14,6 +14,8 @@ Content by Raguvir Kunani, Joseph Gonzalez, John DeNero, Josh Hug
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpsFgBxMjkFrTjBU0BlU8RO)
 - [code](https://github.com/DS-100/su21/blob/main/lec/lec14/lec14.ipynb) [(launch)](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec14/)
 
+**Note:** In this lecture you see the `sklearn` package being used to fit models. This [video](https://www.youtube.com/watch?v=FOHU9R3PCQU) gives a quick guide on how the `sklearn` package works.
+
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
