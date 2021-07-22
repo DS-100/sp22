@@ -22,7 +22,7 @@ days:
 - date: 2021-07-22
   events:
     ? '**Lecture 18**{: .label .label-lecture } [Gradient Descent](lecture/lec18)'
-    ? '**Homework 8**{: .label .label-hw } Housing II (due Jul 26)'
+    ? '**Homework 8**{: .label .label-hw } [Housing II](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw8&branch=main) (due Jul 26)'
     : ""
 - date: 2021-07-23
   events:
