@@ -26,7 +26,7 @@ days:
     : ""
 - date: 2021-07-23
   events:
-    ? '**Live Session 5**{: .label .label-live } [(code)](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lec/live05&branch=main)'
+    ? '**Live Session 5**{: .label .label-live } [(video pt. 1)](https://www.youtube.com/watch?v=-Kltdt1sqK4) [(code)](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lec/live05&branch=main)'
     : ""
 
 ---
