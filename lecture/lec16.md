@@ -65,7 +65,7 @@ Content by Isaac Schmidt, Andrew Bray, Suraj Rampure, Ani Adhikari
 <tr>
 <td><strong>16.6</strong> <br>The Bias-Variance decomposition. Reasons and remedies for the different components of error.</td>
 <td><iframe width="300" height="500" height src="https://youtube.com/embed/oJ2rRX77hMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSesORFx-WhNSODExsb5k_32E0AOYEVqxiOcrarQjyKE75Xyrg/viewform" target="\_blank">16.6</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeFDYwOKwba2UvatwOnsL0kXfkJ2D8KxeJRO_GixjHwT2ZXEQ/viewform?usp=sf_link" target="\_blank">16.6</a></td>
 </tr>
 <tr>
 <td><strong>16.7</strong> <br>Overfitting and underfitting. Complexity, and the bias-variance tradeoff.</td>
