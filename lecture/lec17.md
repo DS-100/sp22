@@ -17,7 +17,7 @@ Content by Isaac Schmidt, Joseph Gonzalez, Suraj Rampure, Paul Shao
 
 17.8 is a **supplementary** video, created by Paul Shao. It gives a great high-level overview of both the bias-variance tradeoff and regularization. **The instructors highly recommend this video.**
 
-**Note:** The demos in this lecture were adapted from demos that Prof. Joeys Gonzalez recorded in Spring 2020. We decided to redo them as the originals significantly rely on sklearn's `Pipeline` object, which is not in scope this semester. However, these notebooks are still available to you, in case you wish to use this style of code for your own projects. They are in the lecture folder on DataHub named `lec17-alt-1.html` and `lec17-alt-2.html`, and you can see the HTML for [Part 1](../../resources/assets/lectures/lec17/lec17-alt-1.html) and [Part 2](../../resources/assets/lectures/lec17/lec17-alt-2.html).
+**Note:** The demos in this lecture were adapted from demos that Prof. Joey Gonzalez recorded in Spring 2020. We decided to redo them as the originals significantly rely on sklearn's `Pipeline` object, which is not in scope this semester. However, these notebooks are still available to you, in case you wish to use this style of code for your own projects. They are in the lecture folder on DataHub named `lec17-alt-1.ipynb` and `lec17-alt-2.ipynb`, and you can see the HTML for [Part 1](../../resources/assets/lectures/lec17/lec17-alt-1.html) and [Part 2](../../resources/assets/lectures/lec17/lec17-alt-2.html).
 
 <table>
 <colgroup>
