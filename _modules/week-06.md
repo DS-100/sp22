@@ -6,7 +6,7 @@ days:
   events:
     ? '**Lecture 19**{: .label .label-lecture } Logistic Regression I'
     ? '**Homework 9**{: .label .label-hw } Gradient Descent (due Jul 29)'
-    ? '**Lab 10**{: .label .label-lab } Logistic Regression (due Jul 31)'
+    ? '**Lab 10**{: .label .label-lab } [Logistic Regression](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab10&branch=main) (due Jul 31)'
     ? '**Lab 11**{: .label .label-lab } [Decision Trees](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab11&branch=main) (due Jul 31)'
     ? '**Discussion 10**{: .label .label-disc } Regularization, Cross-Validation, Gradient Descent'
     : ''
