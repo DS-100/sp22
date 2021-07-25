@@ -32,6 +32,11 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
+<td><strong>20.0</strong> <br>Introduction.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/RfGNBwCyUms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td></td>
+</tr>
+<tr>
 <td><strong>20.1</strong> <br>Using thresholds to convert from predicted probabilities to classifications.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/IDTMTgrGSQ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScHvaTMxWgLMcN4R0bWfUEDmjOYCFY6r00yTqPx44c9Ano99Q/viewform?usp=sf_link" target="\_blank">20.1</a></td>
