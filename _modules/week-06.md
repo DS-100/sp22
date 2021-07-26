@@ -4,7 +4,7 @@ weekNumber: 6
 days:
 - date: 2021-07-26
   events:
-    ? '**Lecture 19**{: .label .label-lecture } Logistic Regression I'
+    ? '**Lecture 19**{: .label .label-lecture } [Logistic Regression I](lecture/lec19)'
     ? '**Homework 9**{: .label .label-hw } [Gradient Descent](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw9&branch=main) (due Jul 29)'
     ? '**Lab 10**{: .label .label-lab } [Logistic Regression](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab10&branch=main) (due Jul 31)'
     ? '**Lab 11**{: .label .label-lab } [Decision Trees](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab11&branch=main) (due Jul 31)'
