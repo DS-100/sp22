@@ -12,7 +12,7 @@ days:
     : ''
 - date: 2021-07-27
   events:
-    ? '**Lecture 20**{: .label .label-lecture } Logistic Regression II and Classification'
+    ? '**Lecture 20**{: .label .label-lecture } [Logistic Regression II and Classification](lecture/lec20)'
     : ''
 - date: 2021-07-28
   events:
