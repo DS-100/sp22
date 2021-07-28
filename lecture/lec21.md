@@ -15,6 +15,8 @@ Content by Josh Hug
 - [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa20&subPath=lecture/lec20/)
 - [code HTML](../../resources/assets/lectures/lec20/lec20.html)
 
+**[Raguvir's Decision Tree Guide](https://hackmd.io/@rkunani/decision-tree)**
+
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
