@@ -34,6 +34,11 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
+<td><strong>22.0</strong> <br>Introduction.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/8I8w8W1IS_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td></td>
+</tr>
+<tr>
 <td><strong>22.1</strong> <br>A big picture overview of inference. Parameters and estimators. Bias and variance of estimators. The sample mean estimator.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/e6obRzXgTjM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfRlQSQnDFRIvbsoyNBEwGi7Lj2w2GM_WD0daRTzUT79P-I2A/viewform?usp=sf_link" target="\_blank">22.1</a></td>
