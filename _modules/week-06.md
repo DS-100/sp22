@@ -17,7 +17,7 @@ days:
 - date: 2021-07-28
   events:
     ? '**Lecture 21**{: .label .label-lecture } Decision Trees'
-    ? '**Discussion 11**{: .label .label-disc } Logistic Regression, Classification'
+    ? '**Discussion 11**{: .label .label-disc } [Logistic Regression, Classification](https://drive.google.com/file/d/1hopecnt-83a6WQe-isWYsKfTSkBXC8zy/view?usp=sharing)'
     : ""
 - date: 2021-07-29
   events:
