@@ -8,7 +8,7 @@ days:
     ? '**Homework 9**{: .label .label-hw } [Gradient Descent](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw9&branch=main) (due Jul 29)'
     ? '**Lab 10**{: .label .label-lab } [Logistic Regression](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab10&branch=main) (due Jul 31)'
     ? '**Lab 11**{: .label .label-lab } [Decision Trees](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab11&branch=main) (due Jul 31)'
-    ? '**Discussion 10**{: .label .label-disc } [Regularization, Cross-Validation, Gradient Descent](https://drive.google.com/file/d/1y-b6BCOPtROQ6YF11YKfrbYgYqqkhewu/view?usp=sharing)'
+    ? '**Discussion 10**{: .label .label-disc } [Regularization, Cross-Validation, Gradient Descent](https://drive.google.com/file/d/1y-b6BCOPtROQ6YF11YKfrbYgYqqkhewu/view?usp=sharing) [(solutions)](https://drive.google.com/file/d/1sXqQVNgqz9JssD-WaykfcYqoSeGs68uw/view?usp=sharing)'
     : ''
 - date: 2021-07-27
   events:
