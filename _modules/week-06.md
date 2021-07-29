@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-07-29
   events:
-    ? '**Lecture 22**{: .label .label-lecture } Inference for Modeling'
+    ? '**Lecture 22**{: .label .label-lecture } [Inference for Modeling](lecture/lec22)'
     ? '**Homework 10**{: .label .label-hw } Spam/Ham I (due Aug 2)'
     : ""
 - date: 2021-07-30
