@@ -22,7 +22,7 @@ days:
 - date: 2021-07-29
   events:
     ? '**Lecture 22**{: .label .label-lecture } [Inference for Modeling](lecture/lec22)'
-    ? '**Homework 10**{: .label .label-hw } Spam/Ham I (due Aug 2)'
+    ? '**Homework 10**{: .label .label-hw } [Spam/Ham I](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw10&branch=main)(due Aug 2)'
     : ""
 - date: 2021-07-30
   events:
