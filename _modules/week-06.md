@@ -26,7 +26,7 @@ days:
     : ""
 - date: 2021-07-30
   events:
-    ? '**Live Session 6**{: .label .label-live }'
-    : ""
+  ? '**Live Session 6**{: .label .label-live } [(video)](https://www.youtube.com/watch?v=scOaew3ey6A) [(code)](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lec/live06&branch=main)'
+  : ""
 
 ---
