@@ -6,8 +6,8 @@ days:
   events:
     ? '**Lecture 23**{: .label .label-lecture } Principal Component Analysis'
     ? '**Homework 11**{: .label .label-hw } Spam/Ham II (due Aug 5)'
-    ? '**Lab 12**{: .label .label-lab } [Inference for Modeling](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab12&branch=main) (due Aug 7)'
-    ? '**Lab 13**{: .label .label-lab } [Principal Component Analysis](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab13&branch=main) (due Aug 7)'
+    ? '**Lab 12**{: .label .label-lab } [Principal Component Analysis](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab12&branch=main) (due Aug 7)'
+    ? '**Lab 13**{: .label .label-lab } [Clustering](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab13&branch=main) (due Aug 7)'
     ? '**Discussion 12**{: .label .label-disc } Decision Trees, Inference'
     : ''
 - date: 2021-08-03
