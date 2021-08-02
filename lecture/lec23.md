@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 23 – Principal Components Analysis
+title: Lecture 23 – Principal Component Analysis
 nav_exclude: true
 ---
 
-# Lecture 23 – Principal Components Analysis
+# Lecture 23 – Principal Component Analysis
 
 Presented by Raguvir Kunani
 
