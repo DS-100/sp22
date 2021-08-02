@@ -17,16 +17,16 @@ days:
 - date: 2021-07-28
   events:
     ? '**Lecture 21**{: .label .label-lecture } [Decision Trees](lecture/lec21)'
-    ? '**Discussion 11**{: .label .label-disc } Logistic Regression, Classification'
+    ? '**Discussion 11**{: .label .label-disc } [Logistic Regression, Classification](https://drive.google.com/file/d/1hopecnt-83a6WQe-isWYsKfTSkBXC8zy/view?usp=sharing) [(solutions)](https://drive.google.com/file/d/1bielZWVDVu645IfpFToio099HZXqlayD/view?usp=sharing)'
     : ""
 - date: 2021-07-29
   events:
-    ? '**Lecture 22**{: .label .label-lecture } Inference for Modeling'
-    ? '**Homework 10**{: .label .label-hw } Spam/Ham I (due Aug 2)'
+    ? '**Lecture 22**{: .label .label-lecture } [Inference for Modeling](lecture/lec22)'
+    ? '**Homework 10**{: .label .label-hw } [Spam/Ham I](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw10&branch=main)(due Aug 2)'
     : ""
 - date: 2021-07-30
   events:
-    ? '**Live Session 6**{: .label .label-live }'
+    ? '**Live Session 6**{: .label .label-live } [(video)](https://www.youtube.com/watch?v=scOaew3ey6A) [(code)](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lec/live06&branch=main)'
     : ""
 
 ---
