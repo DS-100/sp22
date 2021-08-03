@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 24 – Clustering
+title: Lecture 24 – Clustering, Part 1
 nav_exclude: true
 ---
 
-# Lecture 24 – Clustering
+# Lecture 24 – Clustering, Part 1
 
 Presented by Isaac Schmidt
 
