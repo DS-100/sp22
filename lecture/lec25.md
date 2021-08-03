@@ -1,17 +1,19 @@
 ---
 layout: page
-title: Lecture 25 – Big Data
+title: Lecture 25 – Clustering, Part 2
 nav_exclude: true
 ---
 
-# Lecture 25 – Big Data
+# Lecture 25 – Clustering, Part 2
 
-Presented by Anthony D. Joseph
+Presented by Isaac Schmidt
 
-Content by Anthony D. Joseph, Joseph Gonzalez, Josh Hug
+Content by Isaac Schmidt
 
-- [slides](https://docs.google.com/presentation/d/1VcV1rAAdyo1vzJfSvAw7pC8md2GB0JY-vPiDM9P5_gY/edit?usp=sharing)
+- [slides](https://docs.google.com/presentation/d/1B6JPdxNXgF8U3rnGKIWN9GWiM1Aa1Ghi5eaaTVRlcxc/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoiQqSPgs2d_7g4J2w3rucq)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec25/)
+- [code HTML](../../resources/assets/lectures/lec25/lec25.html)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
