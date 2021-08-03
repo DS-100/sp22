@@ -12,11 +12,11 @@ days:
     : ''
 - date: 2021-08-03
   events:
-    ? '**Lecture 24**{: .label .label-lecture } Clustering'
+    ? '**Lecture 24**{: .label .label-lecture } [Clustering I](lecture/lec24)'
     : ''
 - date: 2021-08-04
   events:
-    ? '**Lecture 25**{: .label .label-lecture } Big Data'
+    ? '**Lecture 25**{: .label .label-lecture } Clustering II'
     ? '**Discussion 13**{: .label .label-disc } Principal Component Analysis, Clustering'
     : ""
 - date: 2021-08-05
