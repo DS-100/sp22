@@ -39,30 +39,30 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <tr>
 <td><strong>25.1</strong> <br>Graphs. Vertices and edges. Types of data that are well-represented by graphs. Differences between graphs and tabular data.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/X02ZE7asnY0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScrsLQ1s_NL2yAB22FVmQ-YGnDDXiesASfVKyTsOZkl8WEIOw/viewform" target="\_blank">25.1</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeYPs_EfWdRXwqHptJscFPwN5UBEbCLCupgSOeV5WZPitGu5g/viewform?usp=sf_link" target="\_blank">25.1</a></td>
 </tr>
 <tr>
 <td><strong>25.2</strong> <br>The adjacency matrix, a mathematical representation of graphs. Properties of adjacency matrix.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/oPlkO1u8SVw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSczW13SYHDJeHybCk3Jk02glVBEXPn2Q6gBohWvqIdR8hbHWA/viewform" target="\_blank">25.2</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfop8nn7wflPDzDDe4Fb-PEm5ZhibN8RG9otTeYd1OvBsO_PA/viewform?usp=sf_link" target="\_blank">25.2</a></td>
 </tr>
 <tr>
 <td><strong>25.3</strong> <br>The Laplacian matrix. Eigenvalues and eigenvectors of the Laplacian matrix.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/9EYU9VJ6ZMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSf37BtIaT38_ibn-AAUGvmVWXxgZD5NbYjM9ssuJQDAT6AUqA/viewform" target="\_blank">25.3</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeR5MDz8ckWpNaBeua9pT0c0xjQ2Hl3rhCnUwCkl1Yo812P4A/viewform?usp=sf_link" target="\_blank">25.3</a></td>
 </tr>
 <tr>
 <td><strong>25.4</strong> <br>A spectral clustering algorithm. Eigenvectors as features. Example of algorithm on toy graph.</td>
 <td><iframe width="300" height="500" height src="https://youtube.com/embed/arjPWAbPFyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSc_67oRI15DWgOTFSBvAxW3VQjkjChtrA-Rz1uhyoMkGxVycQ/viewform" target="\_blank">25.4</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSegj9Bg2OAEr0FJBtoowncZZp2OAXWaju1CoeTkjWNzJJGBXg/viewform?usp=sf_link" target="\_blank">25.4</a></td>
 </tr>
 <tr>
 <td><strong>25.5</strong> <br>Constructing a graph from point data. The distance matrix and nearest neighbors. Affinity Matrices.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/ZKxDd8Pw3g0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdSQrer2Vqmxmjoz1MheEPrnxbONjdwrSl-DspzQWE5B5qytQ/viewform" target="\_blank">25.5</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfKa64MWZ6bEHGdXC3VS3FZF3HTjZIm4KMJFzxMWMPxelf6GQ/viewform?usp=sf_link" target="\_blank">25.5</a></td>
 </tr>
 <tr>
 <td><strong>25.6</strong> <br>Case study of spectral clustering on college basketball data.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/Nc4mxx8788U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe7cSJ8S0-aEHqJm6iTe47vt8I6-7-c1mgOIHlyvAwDnkrkMg/viewform" target="\_blank">25.6</a></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSd1ARTv3uS4BqTivdOg7W5aMHlRXKXYl8z1bO7BM0_h5H8jVg/viewform?usp=sf_link" target="\_blank">25.6</a></td>
 </tr>
