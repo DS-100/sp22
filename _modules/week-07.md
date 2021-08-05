@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-08-05
   events:
-    ? '**Lecture 26**{: .label .label-live } Conclusion'
+    ? '**Lecture 26**{: .label .label-live } Conclusion ([slides](https://docs.google.com/presentation/d/170OwYpd1yyTa78Tvnk5h5GOHthSKILDb-KNFpzvz-zA/edit?usp=sharing))'
     ? '**Homework 12**{: .label .label-hw } Principal Component Analysis (due Aug 9)'
     : ""
 - date: 2021-08-06
