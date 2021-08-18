@@ -7,6 +7,8 @@ description: A week-to-week description of the content covered in the course.
 
 # Principles and Techniques of Data Science
 
+## Note: This page is under construction. Everything on this website is subject to change.
+
 {: .mb-2 }
 UC Berkeley, Summer 2021
 {: .mb-0 .fs-6 .text-grey-dk-000 }

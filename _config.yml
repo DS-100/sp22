@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Data 100
 description: Principles and Techniques of Data Science
-author: Raguvir Kunani and Isaac Schmidt
-baseurl: '/su21' # the subpath of your site, e.g. /blog
+author: Kunal Agarwal
+baseurl: '/fa21' # the subpath of your site, e.g. /blog
 url: 'https://ds100.org' # the base hostname & protocol for your site, e.g. http://example.com
 
 # Theme settings
@@ -33,7 +33,7 @@ nav_links:
     Piazza:
       - 'https://piazza.com/berkeley/summer2021/data100'
     Office Hours (Gather):
-      - 'https://gather.town/app/08JrjeqAUXtva4uL/data-100-su21-oh'
+      - 'https://gather.town/app/08JrjeqAUXtva4uL/data-100-fa21-oh'
     
 aux_links:
   # 'Kevin Lin':
