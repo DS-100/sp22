@@ -24,16 +24,16 @@ UC Berkeley, Summer 2021
 </div>
 
 <ul>
-<!-- <li><b>THIS PAGE IS UNDER CONSTRUCTION. Please don’t interpret anything on this website as truth until this warning is removed. </b></li> -->
+<!-- <li><b>THIS PAGE IS UNDER CONSTRUCTION. Please don’t interpret anything on this website as truth until this warning is removed. </b></li>
 <li>Please read our <a href="http://www.ds100.org/su21faq">course FAQ</a> before contacting staff with questions that might be answered there.</li>
 <li>The <a href="{{ site.baseurl }}/syllabus">Syllabus</a> contains a detailed explanation of how each course component will work this summer, given that the course is being taught entirely online.</li>
 <li>The scheduling of all weekly events is in the <a href="{{ site.baseurl }}/calendar">Calendar</a>.</li>
 <li>The Zoom links for all live events are in <a href="https://piazza.com/class/kpcl6edmxuk3fg?cid=6">@6 on Piazza</a>.</li>
 <li><strong>Note:</strong>The schedule of lectures and assignments is subject to change.</li>
-</ul>
+</ul> -->
 
 <br><br>
 
-{% for module in site.modules %}
+<!--{% for module in site.modules %}
 {{ module }}
-{% endfor %}
+{% endfor %} -->
