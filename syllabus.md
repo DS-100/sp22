@@ -8,6 +8,8 @@ description: >-
 
 # Syllabus
 
+## Note: This page is under construction. Everything on this website is subject to change.
+
 Jump to:
 
 - [About Data 100](#about)
