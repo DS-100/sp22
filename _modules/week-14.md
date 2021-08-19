@@ -8,8 +8,8 @@ days:
     : ''
 - date: 2021-11-23
   events:
-    ? '**Lecture 26**{: .label .label-lecture } [Guest Lecture: The Social Cost of Carbon](lecture/lec26)'
-    ? '**Lab 13**{: .label .label-lab } [Prerequisite Coding](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab01&branch=main) (due Nov 23)'
+    ? '**Lecture 26**{: .label .label-lecture } Guest Lecture: The Social Cost of Carbon'
+    ? '**Lab 13**{: .label .label-lab } TBD (due Nov 23)'
     : ''
 - date: 2021-11-24
   events:
@@ -22,7 +22,7 @@ days:
 - date: 2021-11-26
   events:
     ? '(Thanksgiving)'
-    ? '**Homework 9**{: .label .label-hw } [Taxis](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw2&branch=main) (due Dec 2)'
+    ? '**Homework 9**{: .label .label-hw } Taxis (due Dec 2)'
     : ""
 
 ---
