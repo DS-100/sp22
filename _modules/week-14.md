@@ -21,7 +21,8 @@ days:
     : ""
 - date: 2021-11-26
   events:
-    ? 'N/A (Thanksgiving)'
+    ? '(Thanksgiving)'
+    ? '**Homework 9**{: .label .label-hw } [Taxis](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw2&branch=main) (due Dec 2)'
     : ""
 
 ---

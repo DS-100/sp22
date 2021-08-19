@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-10-12
   events:
-    ? '**Lecture 14**{: .label .label-live } [Human Contexts and Ethics](lecture/lec14)'
+    ? '**Lecture 14**{: .label .label-lecture } [Human Contexts and Ethics](lecture/lec14)'
     ? '**Lab 7**{: .label .label-lab } [Principal Component Analysis](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab12&branch=main) (due Oct 12)'
     : ''
 - date: 2021-10-13
@@ -17,7 +17,7 @@ days:
     : ''
 - date: 2021-10-14
   events:
-    ? '**Lecture 15**{: .label .label-live } [Feature Engineering](lecture/lec15)'
+    ? '**Lecture 15**{: .label .label-lecture } [Feature Engineering](lecture/lec15)'
     : ''
 - date: 2021-10-15
   events:

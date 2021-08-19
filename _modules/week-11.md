@@ -22,7 +22,7 @@ days:
 - date: 2021-11-05
   events:
     ? '**Discussion 10**{: .label .label-disc } [Prerequisites, Probability](https://drive.google.com/file/d/1-mV5d574mpqXfUjrXjnC8DtulrWeTAPv/view?usp=sharing) [(solutions)](https://drive.google.com/file/d/1l5vcPVjKqlqCZqXMjvKpcl8usmUwdwVJ/view?usp=sharing)'
-    ? '**Homework 7**{: .label .label-hw } [Gradient Descent and Logistic Regression](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw2&branch=main) (due Nov 11)'
+    ? '**Homework 8**{: .label .label-hw } [Gradient Descent and Logistic Regression](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw2&branch=main) (due Nov 11)'
     : ""
 
 ---
