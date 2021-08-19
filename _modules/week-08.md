@@ -2,22 +2,27 @@
 title: Week 8
 weekNumber: 8
 days:
-- date: 2021-08-09
+- date: 2021-10-11
   events:
-    ? 'Review'
+    ? 'N/A'
     : ''
-- date: 2021-08-10
+- date: 2021-10-12
   events:
-    ? 'Review'
+    ? '**Lecture 14**{: .label .label-live } [Human Contexts and Ethics](lecture/lec14)'
+    ? '**Lab 7**{: .label .label-lab } [Principal Component Analysis](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/lab/lab12&branch=main) (due Oct 12)'
     : ''
-- date: 2021-08-11
+- date: 2021-10-13
   events:
-    ? 'Review'
+    ? 'N/A'
     : ''
-- date: 2021-08-12
+- date: 2021-10-14
   events:
-    ? '**Final**{: .label .label-exam } Final Exam (9:30 AM - 12:30 PM) ([blank](resources/assets/exams/su21/su21final.pdf)) ([solutions](resources/assets/exams/su21/su21final_sol.pdf))'
+    ? '**Lecture 15**{: .label .label-live } [Feature Engineering](lecture/lec15)'
     : ''
-
+- date: 2021-10-15
+  events:
+    ? '**Discussion 7**{: .label .label-disc } [Decision Trees, Inference](https://drive.google.com/file/d/1zLS2XxMjj6_7Hy806g_ArZzBiIbmMmc6/view?usp=sharing) [(solutions)](https://drive.google.com/file/d/19P0RgjUslelK9N6aTlAHeYBmEl0yybDn/view?usp=sharing)'
+    ? '**Homework 6**{: .label .label-hw } [Housing I](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&urlpath=tree/su21/hw/hw11&branch=main) (due Oct 14)'
+    : ''    
 
 ---
