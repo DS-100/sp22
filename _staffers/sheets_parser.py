@@ -63,7 +63,7 @@ def main():
             + 'name: ' + attributes['name'] + '\n'
             + 'role: ' + attributes['role'] + '\n'
             + 'email: ' + attributes['email'] + '\n'
-            + 'photo: ../resources/assets/staff_pics/' + get_photo_location(photos, attributes) + '\n'
+            + 'photo: http://ds100.org/fa21/resources/assets/staff_pics/' + get_photo_location(photos, attributes) + '\n'
             + 'oh: N/A \n'
             + '---\n'
             + attributes['bio'] + '\n')
