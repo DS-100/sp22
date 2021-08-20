@@ -21,7 +21,7 @@ Note: I followed this tutorial https://www.makeuseof.com/tag/read-write-google-s
 15. Open the `.json` file and copy the `client_email` field.
 16. Share the google sheet with this email.
 
-**Note:** Do NOT add `sheets_parser.json` to GitHub. This file contains a private key, which should be kept private for maximum security. I recommend using `git stash sheets_parser.json` to stash the file.
+**Note:** Do NOT add `sheets_parser.json` to GitHub. This file contains a private key, which should be kept private for maximum security. I recommend using `git stash push -m "sheets_parser.json should only be local" sheets_parser.json` to stash the file.
 
 ### Python Setup
 
