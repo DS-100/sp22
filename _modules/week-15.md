@@ -22,7 +22,7 @@ days:
 - date: 2021-12-03
   events:
     ? '**Discussion 14**{: .label .label-disc } TBD'
-    ? '**Homework 10**{: .label .label-hw } Taxis (due Dec 9)'
+    ? '**Homework 15**{: .label .label-hw } Taxis (due Dec 9)'
     : ""
 
 ---

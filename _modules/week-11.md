@@ -21,8 +21,8 @@ days:
     : ""
 - date: 2021-11-05
   events:
-    ? '**Discussion 10**{: .label .label-disc } TBD'
-    ? '**Homework 8**{: .label .label-hw } Gradient Descent and Logistic Regression (due Nov 11)'
+    ? '**Discussion 11**{: .label .label-disc } TBD'
+    ? '**Homework 11**{: .label .label-hw } Gradient Descent and Logistic Regression (due Nov 11)'
     : ""
 
 ---

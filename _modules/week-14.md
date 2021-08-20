@@ -22,7 +22,7 @@ days:
 - date: 2021-11-26
   events:
     ? '(Thanksgiving)'
-    ? '**Homework 9**{: .label .label-hw } Taxis (due Dec 2)'
+    ? '**Homework 14**{: .label .label-hw } PCA (due Dec 2)'
     : ""
 
 ---

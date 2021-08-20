@@ -22,8 +22,8 @@ days:
     : ""
 - date: 2021-11-12
   events:
-    ? '**Discussion 11**{: .label .label-disc } TBD'
-    ? '**Project 2**{: .label .label-hw } Spam & Ham (due Nov 28 (?))'
+    ? '**Discussion 12**{: .label .label-disc } TBD'
+    ? '**Homework 12**{: .label .label-hw } Spam & Ham I (due Nov 18)'
     : ""
 
 ---

@@ -21,8 +21,8 @@ days:
     : ""
 - date: 2021-10-29
   events:
-    ? '**Discussion 9**{: .label .label-disc } TBD'
-    ? '**No Homework**{: .label .label-hw } Study for the Midterm'
+    ? '**Discussion 10**{: .label .label-disc } TBD'
+    ? '**Homework 10**{: .label .label-hw } TBD (due Nov 4)'
     : ""
 
 ---

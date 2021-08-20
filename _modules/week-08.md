@@ -21,8 +21,8 @@ days:
     : ''
 - date: 2021-10-15
   events:
-    ? '**Discussion 7**{: .label .label-disc } TBD'
-    ? '**Homework 6**{: .label .label-hw } Housing I (due Oct 14)'
+    ? '**Discussion 8**{: .label .label-disc } TBD'
+    ? '**Homework 8**{: .label .label-hw } Housing I (due Oct 21)'
     : ''    
 
 ---

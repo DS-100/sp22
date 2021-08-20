@@ -21,8 +21,8 @@ days:
     : ""
 - date: 2021-09-24
   events:
-    ? '**Discussion 4**{: .label .label-disc } TBD'
-    ? '**Homework 3**{: .label .label-hw } Bike Sharing (due Sept 30)'
+    ? '**Discussion 5**{: .label .label-disc } TBD'
+    ? '**Homework 5**{: .label .label-hw } Bike Sharing (due Sept 30)'
     : ""
 
 ---

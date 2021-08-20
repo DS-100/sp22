@@ -21,7 +21,8 @@ days:
     : ""
 - date: 2021-09-17
   events:
-    ? '**Discussion 3**{: .label .label-disc } TBD'
+    ? '**Discussion 4**{: .label .label-disc } TBD'
+    ? '**Homework 4**{: .label .label-hw } Food Safety II (due Sept 23))'
     : ""
 
 ---

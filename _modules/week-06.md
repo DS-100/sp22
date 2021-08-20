@@ -21,8 +21,8 @@ days:
     : ""
 - date: 2021-10-01
   events:
-    ? '**Discussion 5**{: .label .label-disc } TBD'
-    ? '**Homework 4**{: .label .label-hw } Trump Tweets (due Oct 7)'
+    ? '**Discussion 6**{: .label .label-disc } TBD'
+    ? '**Homework 6**{: .label .label-hw } Trump Tweets (due Oct 7)'
     : ""
 
 ---

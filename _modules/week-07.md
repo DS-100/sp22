@@ -21,8 +21,8 @@ days:
     : ""
 - date: 2021-10-08
   events:
-    ? '**Discussion 6**{: .label .label-disc } TBD'
-    ? '**Homework 5**{: .label .label-hw } Regression (due Oct 14)'
+    ? '**Discussion 7**{: .label .label-disc } TBD'
+    ? '**Homework 7**{: .label .label-hw } Regression (due Oct 14)'
     : ""
 
 ---

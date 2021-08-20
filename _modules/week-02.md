@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-09-03
   events:
-    ? '**Discussion 1**{: .label .label-disc } TBD'
+    ? '**Discussion 2**{: .label .label-disc } TBD'
     ? '**Homework 2**{: .label .label-hw } Trump Sampling (due Sept 9)'
     : ""
 
