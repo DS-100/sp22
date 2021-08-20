@@ -1,0 +1,10 @@
+---  
+name: Kanu Grover  
+role: Teaching Assistant  
+email: grover.kanu@berkeley.edu  
+photo: ../resources/assets/staff_pics/Kanu_Grover.jpg  
+pronouns:   
+oh: N/A  
+---  
+  
+super hyped for in-person discussion come by and say hi!  

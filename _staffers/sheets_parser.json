@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "staff-parser-ds100-fa21",
+  "private_key_id": "4b0fe09a7ab2f67b102dc63e71c9ecdb0701f20c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCTPedJJ3wFXUOB\n/sCD04GkdQiRRtZ6kSgG8SebHA3Ej2gF+JU2IkAUTsV64fLt7sjfrNcQydNcG1Ty\nval0BEm5Kat7TJiW/yzGQwQn7i0/G+L4XIQz1f8oB8kVjISKPAKRVflW2hieHfJC\n8ptvqYvyyBpnRCdvjUyBjq7D2d4SpK0348+8/EhbYkl4BBewZljFfYkzC2697Yf6\nPOBmCnWSX7KTGMe4aTfEZK8BgPziEafMX4ls5qTC5G3QHItMH21eyoz5y9szBoaI\n2jJ9gwd7GqieR0LrzHR7WJrpxPTq+z06tKYHKo1ejOBzxF1gVXeAadDpJR30bmTG\niHAfH+rrAgMBAAECggEANsZEkBY8MNKtFmLqwx+fjspq0YCEsTvmpA56KV2aUZD3\npaEAAQ9kvyk+laQQdyrpVyw5JWmvUwhn5ZVgwGQH+PXjcQ7hhOqQgYDUvvX/pwZ8\nvN/N3mqxbPbYe0e21qXUXrSY+RJRLiD9yqHt6PAtu7ds+xWDhiAOYfPuV7Vow44m\nt9CBU0MVPCU5vkcj8XLpfngWeJjKZu0vdvFw9LtdzmwTyKalArKaD4q6K8jL8+9W\nDeI+2THCTFdE4zGcQ7Xj6+j9TV/sIWAA4UO68E/LoEFc/hBGoDj1mCWWpvJEtQQ5\noC7G+X0gT0Rr0APHClXS8iTM6P/SIRjb0MXPNKtnoQKBgQDLRokAlsirlbkRuvve\nHL4Y+F5vi9319CT5Ul96Dqgz08B4Bnhw/78moK1B00NTsoJuzu+qTmyt10MdlBpw\n440Nk67ng9udUcnibZiSMRFcqVlMbE3tesVz4MVwGatMi9U/fg28iIYKNayY1cFP\n1OoFmFLPo+wK6a+NvRrvEtCwXwKBgQC5brze/H1cr4rUqWh4Jy3TVqkGErWm0zI1\nUR83p5qDKhWbsQQoweikNO3M9cJuSrMyd4hZz80MkjvzV8l9mjyx2H84MInzsPnA\nMTeAaz6YC0mEL9GNC+RKOJf30Tl/ozkofYTxDVz29D2IdpOh6gpS3iNdBmw91P52\nf/s3xWzg9QKBgFNdOQBp1iAwRfbUhUig5wEckrYSWVPt7V/mfUt0SVz/4XYXyTsm\nV0FDMerF9l2T3tQMv9NLWFyu5FJ0E6fqWkWQJHHD7MQG79GRermxr9odhYbG/+p9\nqA6OxsnjbRH2Yt0oGAASyU3Ul1USjLXtro/e2U9YfYw4LAvn2uzi/XznAoGBALIM\nOT/msjxftW8SpuPPwrmNGUhiiJcBbNEy7kWTIdJVg1/17SdxYP7ib38AbstV4JBR\no9OQqrMqanPyU97NTP/6/9SlDqC1ymkXGNKupvB4zgMloxDKXU5C3vAtrgb3Y7eU\nJiUKjrv0smyoZoLuZTFCaDQ3KZGJRTflFQNtBmlNAoGADcTUh/4OS6nX4FS4qMMZ\nEC7BUKt5FlPNTTugpK2vPt1xxdC1kL+CjTufWlPhxtiACNMNOz6SwEhCijvq6k+n\n3tZfjXADzf0KOVfzAd+q61QMAiq/9DqLrYwQZ4PtocSpu8+MzuWKc32C+UfpSbWM\nNULKA+/gAusmad7uHh6Z3R4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pythonsheetsreader@staff-parser-ds100-fa21.iam.gserviceaccount.com",
+  "client_id": "103121824381355132140",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pythonsheetsreader%40staff-parser-ds100-fa21.iam.gserviceaccount.com"
+}
