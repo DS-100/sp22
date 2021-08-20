@@ -31,6 +31,7 @@ def attribute_parser(row):
     attributes["photo_name"] = attributes['name'].replace(' ', '_')
     attributes["bio"] = row[13].replace('\n', '').replace('’', "'")
     attributes["website"] = row[14]
+    attributes['oh'] = 'TBD'
     return attributes
 
 def assign_role(job):
@@ -59,14 +60,23 @@ def main():
         # print(attributes)
         filename = attributes['sid'] + '.md'
         file = open(filename, 'w')
-        file.write('---\n'
-            + 'name: ' + attributes['name'] + '\n'
-            + 'role: ' + attributes['role'] + '\n'
-            + 'email: ' + attributes['email'] + '\n'
-            + 'photo: http://ds100.org/fa21/resources/assets/staff_pics/' + get_photo_location(photos, attributes) + '\n'
-            + 'oh: N/A \n'
-            + '---\n'
-            + attributes['bio'] + '\n')
+        if attributes['role'] == "Instructor":
+            file.write('---\n'
+                + 'name: ' + attributes['name'] + '\n'
+                + 'role: ' + attributes['role'] + '\n'
+                + 'email: ' + attributes['email'] + '\n'
+                + 'photo: http://ds100.org/fa21/resources/assets/staff_pics/' + get_photo_location(photos, attributes) + '\n'
+                + 'oh: ' + attributes['oh'] + '\n'
+                + '---\n'
+                + attributes['bio'] + '\n')
+        else:
+            file.write('---\n'
+                + 'name: ' + attributes['name'] + '\n'
+                + 'role: ' + attributes['role'] + '\n'
+                + 'email: ' + attributes['email'] + '\n'
+                + 'photo: http://ds100.org/fa21/resources/assets/staff_pics/' + get_photo_location(photos, attributes) + '\n'
+                + '---\n'
+                + attributes['bio'] + '\n')
         file.close()
 
 if __name__ == "__main__":
