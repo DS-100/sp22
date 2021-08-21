@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-10-12
   events:
-    ? '**Lecture 14**{: .label .label-lecture } Human Contexts and Ethics'
+    ? '**Lecture 14**{: .label .label-lecture } Linear Regression + Geometric Interpretation'
     ? '**Lab 7**{: .label .label-lab } TBD (due Oct 12)'
     : ''
 - date: 2021-10-13
@@ -17,7 +17,7 @@ days:
     : ''
 - date: 2021-10-14
   events:
-    ? '**Lecture 15**{: .label .label-lecture } Feature Engineering'
+    ? '**Lecture 15**{: .label .label-lecture } Human Contexts and Ethics'
     : ''
 - date: 2021-10-15
   events:

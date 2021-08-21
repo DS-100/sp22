@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-10-19
   events:
-    ? '**Lecture 16**{: .label .label-lecture } RVs & Bias-Variance Tradeoff'
+    ? '**Lecture 16**{: .label .label-lecture } Feature Engineering'
     ? '**Lab 8**{: .label .label-lab } TBD (due Oct 19)'
     : ''
 - date: 2021-10-20
@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-10-21
   events:
-    ? '**Lecture 17**{: .label .label-lecture } Regularization + Cross-Validation'
+    ? '**Lecture 17**{: .label .label-lecture } RVs & Bias-Variance Tradeoff'
     : ""
 - date: 2021-10-22
   events:

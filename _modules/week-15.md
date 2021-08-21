@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-11-30
   events:
-    ? '**Lecture 27**{: .label .label-lecture } Big Data'
+    ? '**Lecture 26**{: .label .label-lecture } Clustering'
     ? '**Lab 14**{: .label .label-lab } TBD (due Nov 30)'
     : ''
 - date: 2021-12-01
@@ -17,12 +17,12 @@ days:
     : ""
 - date: 2021-12-02
   events:
-    ? '**Lecture 28**{: .label .label-lecture } Conclusion'
+    ? '**Lecture 27**{: .label .label-lecture } Guest Lecture: The Social Cost of Carbon'
     : ""
 - date: 2021-12-03
   events:
     ? '**Discussion 14**{: .label .label-disc } TBD'
-    ? '**Homework 15**{: .label .label-hw } Taxis (due Dec 9)'
+    ? '**Homework 14**{: .label .label-hw } (optional) Taxis (due Dec 9)'
     : ""
 
 ---

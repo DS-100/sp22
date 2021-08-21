@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-10-05
   events:
-    ? '**Lecture 12**{: .label .label-lecture } Simple Linear Regression'
+    ? '**Lecture 12**{: .label .label-lecture } Modeling'
     ? '**Lab 6**{: .label .label-lab } TBD (due Oct 5)'
     : ''
 - date: 2021-10-06
@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-10-07
   events:
-    ? '**Lecture 13**{: .label .label-lecture } Linear Regression + Geometric Interpretation'
+    ? '**Lecture 13**{: .label .label-lecture } Simple Linear Regression'
     : ""
 - date: 2021-10-08
   events:

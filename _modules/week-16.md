@@ -1,6 +1,6 @@
 ---
-title: Week 8
-weekNumber: 8
+title: Week 16
+weekNumber: 16
 days:
 - date: 2021-12-07
   events:
@@ -8,8 +8,7 @@ days:
     : ''
 - date: 2021-12-09
   events:
-    ? 'Review'
-    ? '**Final Project**{: .label .label-proj } Final Project due'
+    ? '**Final Project**{: .label .label-proj } Final Project due (?)'
     : ''
 
 ---

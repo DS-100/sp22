@@ -17,12 +17,12 @@ days:
     : ""
 - date: 2021-09-30
   events:
-    ? '**Lecture 11**{: .label .label-lecture } Modeling'
+    ? '**Lecture 11**{: .label .label-lecture } SQL II'
     : ""
 - date: 2021-10-01
   events:
     ? '**Discussion 6**{: .label .label-disc } TBD'
-    ? '**Homework 6**{: .label .label-hw } Trump Tweets (due Oct 7)'
+    ? '**Homework 6**{: .label .label-hw } SQL (?) (due Oct 7)'
     : ""
 
 ---

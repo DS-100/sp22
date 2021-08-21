@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-11-23
   events:
-    ? '**Lecture 26**{: .label .label-lecture } Guest Lecture: The Social Cost of Carbon'
+    ? '**Lecture 25**{: .label .label-lecture } Dimensionality Reduction & PCA'
     ? '**Lab 13**{: .label .label-lab } TBD (due Nov 23)'
     : ''
 - date: 2021-11-24

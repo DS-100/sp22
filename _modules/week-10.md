@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-10-26
   events:
-    ? '**Lecture 18**{: .label .label-lecture } Gradient Descent'
+    ? '**Lecture 18**{: .label .label-lecture } Regularization + Cross-Validation'
     ? '**Lab 9**{: .label .label-lab } TBD (due Oct 26)'
     : ''
 - date: 2021-10-27
@@ -22,7 +22,7 @@ days:
 - date: 2021-10-29
   events:
     ? '**Discussion 10**{: .label .label-disc } TBD'
-    ? '**Homework 10**{: .label .label-hw } TBD (due Nov 4)'
+    ? '**No Homework**{: .label .label-hw } (Midterm on 11/1)'
     : ""
 
 ---

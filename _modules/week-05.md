@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-09-21
   events:
-    ? '**Lecture 8**{: .label .label-lecture } Regex'
+    ? '**Lecture 8**{: .label .label-lecture } SQL I'
     ? '**Lab 4**{: .label .label-lab } TBD (due Sept 21)'
     : ''
 - date: 2021-09-22
