@@ -25,12 +25,16 @@ Note: I followed this tutorial https://www.makeuseof.com/tag/read-write-google-s
 
 ### Python Setup
 
+**Note:** Prior to running the script, download all the staff photos, and make sure they are titled First_Last.[extension]. Staff photos will not be visible on the server unless they are already on GitHub.
+
 1. Run the following lines in your terminal.
-'''python
+
+```
 pip install oauth2client
 pip install PyOpenSSL
 pip install gspread
-'''
+```
+
 2. In line 56 of `sheets_parser.py`, change the second value in `range()` to the last line number in the Sheets file that contains a staff member.
 3. Verify that the columns (used to index into `row` in `attribute_parser`) are correct. If they are not, update them and/or add other desired fields.
 4. Run `python sheets_parser.py` in the terminal.
