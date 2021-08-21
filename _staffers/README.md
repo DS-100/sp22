@@ -25,6 +25,8 @@ Note: I followed this tutorial https://www.makeuseof.com/tag/read-write-google-s
 
 ### Python Setup
 
+**Note:** Prior to running the script, download all the staff photos, and make sure they are titled First_Last.[extension].
+
 1. Run the following lines in your terminal.
 '''python
 pip install oauth2client
