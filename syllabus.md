@@ -66,7 +66,7 @@ Note that these deadlines are subject to change.
 
 <br>
 
-**In-person meetings are fully dependent on public health guidelines. We are prepared to hold all course activities online should circumstances demand.**
+**Note: In-person meetings are fully dependent on public health guidelines. We are prepared to hold all course activities online should circumstances demand.**
 
 <br>
 
@@ -150,6 +150,7 @@ There will be one midterm exam, on **November 1st** (7-9PM PDT). This exam will 
 We will have both an in-person and a virtual midterm, held at the same time. If you request a virtual midterm, you may not switch into an in-person midterm. However, if you request the in-person exam, you will have the option to switch to the virtual exam if you so choose.
 
 Alternate exams will only be given to students with a documented conflict or to those who have extenuating circumstances.
+
 <br>
 
 ### Final Project
@@ -157,6 +158,8 @@ Alternate exams will only be given to students with a documented conflict or to 
 In lieu of a final exam, we will have a final project. The details of this project will be released on **TBD**, and it will be due **TBD**.
 
 You will have the option to work in a group for this project. Details will be provided closer to the release of the project.
+
+<br>
 
 ### Regrade Requests
 
