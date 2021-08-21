@@ -25,7 +25,7 @@ Note: I followed this tutorial https://www.makeuseof.com/tag/read-write-google-s
 
 ### Python Setup
 
-**Note:** Prior to running the script, download all the staff photos, and make sure they are titled First_Last.[extension].
+**Note:** Prior to running the script, download all the staff photos, and make sure they are titled First_Last.[extension]. Staff photos will not be visible on the server unless they are already on GitHub.
 
 1. Run the following lines in your terminal.
 
