@@ -54,8 +54,8 @@ This fall, Data 100 will be run in a hybrid format. This section details exactly
 | --- | --- | --- | --- | --- |
 | Office Hours | Office Hours | Office Hours | Office Hours | Office Hours |
 | | <span style="color:Green">Lecture released</span> | | <span style="color:Green">Lecture released</span> | |
-| | <span style="color:Yellow">Lab Section</span> | | | <span style="color:Blue">Discussion Section</span> |
-| | | | <span style="color:Red">**Homework due**</span> | <span style="color:Red">Homework released</span> |
+| | <span style="color:Purple">Lab Section</span> | | | <span style="color:Blue">Discussion Section</span> |
+| | | | <span style="color:Red">**Homework due**</span> | <span style="color:Red">**Homework released**</span> |
 | | <span style="color:Purple">**Lab due**</span> | | | <span style="color:Purple"> **Lab released**</span> |
 
 
