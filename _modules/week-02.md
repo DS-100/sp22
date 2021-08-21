@@ -9,7 +9,7 @@ days:
 - date: 2021-08-31
   events:
     ? '**Lecture 2**{: .label .label-lecture } Data Sampling and Probability I'
-    ? '**Lab 1**{: .label .label-lab } TBD (due Aug 31)'
+    ? '**Lab 1**{: .label .label-lab } Prerequisite Coding (due Aug 31)'
     : ''
 - date: 2021-09-01
   events:
@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-09-03
   events:
-    ? '**Discussion 2**{: .label .label-disc } TBD'
+    ? '**Discussion 2**{: .label .label-disc } Linear Algebra and Probability'
     ? '**Homework 2**{: .label .label-hw } Sampling Error and Bias in Elections (2016) (due Sept 9)'
     : ""
 

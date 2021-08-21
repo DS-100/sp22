@@ -8,8 +8,8 @@ days:
     : ''
 - date: 2021-10-26
   events:
-    ? '**Lecture 18**{: .label .label-lecture } Regularization + Cross-Validation'
-    ? '**Lab 9**{: .label .label-lab } TBD (due Oct 26)'
+    ? '**Lecture 18**{: .label .label-lecture } Regularization and Cross-Validation'
+    ? '**Lab 9**{: .label .label-lab } Feature Engineering and Cross-Validation (due Oct 26)'
     : ''
 - date: 2021-10-27
   events:
@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-10-29
   events:
-    ? '**Discussion 10**{: .label .label-disc } TBD'
+    ? '**Discussion 10**{: .label .label-disc } Regularization and Cross-Validation'
     ? '**No Homework**{: .label .label-hw } (Midterm on 11/1)'
     : ""
 

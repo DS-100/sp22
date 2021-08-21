@@ -9,7 +9,7 @@ days:
 - date: 2021-09-28
   events:
     ? '**Lecture 10**{: .label .label-lecture } Visualization II'
-    ? '**Lab 5**{: .label .label-lab } TBD (due Sept 28)'
+    ? '**Lab 5**{: .label .label-lab } SQL (due Sept 28)'
     : ''
 - date: 2021-09-29
   events:
@@ -21,8 +21,8 @@ days:
     : ""
 - date: 2021-10-01
   events:
-    ? '**Discussion 6**{: .label .label-disc } TBD'
-    ? '**Homework 6**{: .label .label-hw } SQL (?) (due Oct 7)'
+    ? '**Discussion 6**{: .label .label-disc } SQL and Visualization II'
+    ? '**Homework 6**{: .label .label-hw } SQL (due Oct 7)'
     : ""
 
 ---

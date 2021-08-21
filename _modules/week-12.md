@@ -9,7 +9,7 @@ days:
 - date: 2021-11-09
   events:
     ? '**Lecture 22**{: .label .label-lecture } Logistic Regression II and Classification'
-    ? '**Lab 11**{: .label .label-lab } TBD (due Nov 9)'
+    ? '**Lab 11**{: .label .label-lab } Logistic Regression (due Nov 9)'
     : ''
 - date: 2021-11-10
   events:
@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-11-12
   events:
-    ? '**Discussion 12**{: .label .label-disc } TBD'
+    ? '**Discussion 12**{: .label .label-disc } Logistic Regression'
     ? '**Homework 12**{: .label .label-hw } Spam & Ham I (due Nov 18)'
     : ""
 

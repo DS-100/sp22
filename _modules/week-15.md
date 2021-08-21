@@ -9,7 +9,7 @@ days:
 - date: 2021-11-30
   events:
     ? '**Lecture 26**{: .label .label-lecture } Clustering'
-    ? '**Lab 14**{: .label .label-lab } TBD (due Nov 30)'
+    ? '**Lab 14**{: .label .label-lab } Estimation (due Nov 30)'
     : ''
 - date: 2021-12-01
   events:
@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-12-03
   events:
-    ? '**Discussion 14**{: .label .label-disc } TBD'
+    ? '**Discussion 14**{: .label .label-disc } PCA & Clustering'
     ? '**Homework 14**{: .label .label-hw } (optional) Taxis (due Dec 9)'
     : ""
 

@@ -9,7 +9,7 @@ days:
 - date: 2021-11-16
   events:
     ? '**Lecture 23**{: .label .label-lecture } Decision Trees'
-    ? '**Lab 12**{: .label .label-lab } TBD (due Nov 16)'
+    ? '**Lab 12**{: .label .label-lab } Decision Trees and Random Forests (due Nov 16)'
     : ''
 - date: 2021-11-17
   events:
@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-11-19
   events:
-    ? '**Discussion 13**{: .label .label-disc } TBD'
+    ? '**Discussion 13**{: .label .label-disc } Decision Trees and Inference'
     ? '**Homework 13**{: .label .label-hw } Spam & Ham II (due Nov 25)'
     : ""
 

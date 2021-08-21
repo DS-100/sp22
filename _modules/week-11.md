@@ -4,12 +4,12 @@ weekNumber: 11
 days:
 - date: 2021-11-01
   events:
-    ? '**Midterm**{: .label .label-hw } [Midterm]'
+    ? '**Midterm**{: .label .label-hw } Midterm (7-9 pm)'
     : ''
 - date: 2021-11-02
   events:
     ? '**Lecture 20**{: .label .label-lecture } Gradient Descent'
-    ? '**Lab 10**{: .label .label-lab } TBD (due Nov 2)'
+    ? '**Lab 10**{: .label .label-lab } Gradient Descent (due Nov 2)'
     : ''
 - date: 2021-11-03
   events:
@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-11-05
   events:
-    ? '**Discussion 11**{: .label .label-disc } TBD'
+    ? '**Discussion 11**{: .label .label-disc } Gradient Descent'
     ? '**Homework 11**{: .label .label-hw } Gradient Descent and Logistic Regression (due Nov 11)'
     : ""
 
