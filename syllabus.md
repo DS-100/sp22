@@ -36,11 +36,11 @@ Combining data, computation, and inferential thinking, data science is redefinin
 
 ### Prerequisites
 
-While we are working to make this class widely accessible, we currently require the following (or equivalent) prerequisites. **We are not enforcing prerequisites during enrollment. However, all of the prerequisties will be used starting very early on in the class. It is your responsibility to know the material in the prerequisites.**
+While we are working to make this class widely accessible, we currently require the following (or equivalent) prerequisites. **Unlike past semesters, prerequisites will be enforced in this class. It is your responsibility to know the material in the prerequisites.**
 
-- **Foundations of Data Science**: [Data8](http://data8.org) covers much of the material in Data 100 but at an introductory level. Data8 provides basic exposure to python programming and working with tabular data as well as visualization, statistics, and machine learning.
+- **Foundations of Data Science**: [Data 8](http://data8.org) covers much of the material in Data 100 but at an introductory level. Data8 provides basic exposure to python programming and working with tabular data as well as visualization, statistics, and machine learning.
 - **Computing**: _The Structure and Interpretation of Computer Programs_ ([CS 61A](http://cs61a.org)) or _Computational Structures in Data Science_ ([CS 88](https://cs88-website.github.io)). These courses provide additional background in python programming (e.g., for loops, lambdas, debugging, and complexity) that will enable Data 100 to focus more on the concepts in Data Science and less on the details of programming in python.
-- **Math**: _Linear Algebra_ (Math 54, [EE 16a](http://ee16a.org), or Stat89a): We will need some basic concepts like linear operators, eigenvectors, derivatives, and integrals to enable statistical inference and derive new prediction algorithms. This may be satisfied concurrently to Data 100.
+- **Math**: _Linear Algebra_ (Math 54, [EE 16A](http://ee16a.org), or Stat 89A): We will need some basic concepts like linear operators, eigenvectors, derivatives, and integrals to enable statistical inference and derive new prediction algorithms. This may be satisfied concurrently to Data 100.
 
 <br>
 
@@ -48,16 +48,16 @@ While we are working to make this class widely accessible, we currently require 
 
 ## Online Format
 
-This summer, Data 100 will be run entirely online. This section details exactly how each component of the course will operate. But here's a nice high-level "typical week in the course":
+This fall, Data 100 will be run in a hybrid format. This section details exactly how each component of the course will operate. But here’s a nice high-level “typical week in the course”:
 
 |  Mo | Tu | We | Th | Fr |
 | --- | --- | --- | --- | --- |
 | Office Hours | Office Hours | Office Hours | Office Hours | Office Hours |
-| <span style="color:Green">Lecture released</span> | <span style="color:Green">Lecture released</span> | <span style="color:Green">Lecture released</span> | <span style="color:Green">Lecture released</span> | <span style="color:Orange">Live Lecture</span> |
-| <span style="color:Red">Homework A released</span> | | | <span style="color:Red">Homework B released</span> | |
-| <span style="color:Red">**Homework B due**</span> | | | <span style="color:Red">**Homework A due**</span> | |
-| <span style="color:Purple">[SUNDAY] Labs A, B released</span> | | | | <span style="color:Purple">[SATURDAY] **Labs A, B due**</span> |
-| <span style="color:Blue">Discussion Section</span> | | <span style="color:Blue">Discussion Section</span> | | |
+| | <span style="color:Green">Lecture released</span> | | <span style="color:Green">Lecture released</span> | |
+| | <span style="color:Yellow">Lab Section</span> | | | <span style="color:Blue">Discussion Section</span> |
+| | | | <span style="color:Red">**Homework due**</span> | <span style="color:Red">Homework released</span> |
+| | <span style="color:Purple">**Lab due**</span> | | | <span style="color:Purple"> **Lab released**</span> |
+
 
 Note that these deadlines are subject to change.
 
@@ -66,24 +66,35 @@ Note that these deadlines are subject to change.
 
 <br>
 
-### Discussions
-
-This course has discussion sections on Mondays and Wednesdays, lasting for one hour each. There will also be some sections on Tuesdays and Thursdays. The goal of these sessions is to work through problems, hone your skills, and flesh out your understanding as part of a team. The problems that you solve and present as part of discussion are important in understanding this material.
-
-To encourage attendance and participation in live discussion, we will offer the option of having discussion contribute to your grade. Specifically, points you earn from attending/participating in discussion can reduce the weighting of exams on your overall course grade. See the grading breakdown below for details.
+**In-person meetings are fully dependent on public health guidelines. We are prepared to hold all course activities online should circumstances demand.**
 
 <br>
 
 ### Lecture
 
-- There are 4 lectures per week.
-- **Lectures will be entirely pre-recorded**, in a format that is optimized for online learning (short 5-10 minute videos with optional conceptual problems in between). Lecture videos will be released on the mornings of Monday, Tuesday, Wednesday and Thursday at 9:40 AM PT.
-  - Many of these will be from previous semesters, but some will be recorded this summer by the instructors.
+- There are 2 lectures per week.
+- **Most lectures will be pre-recorded**, in a format that is optimized for online learning (short 5-10 minute videos with optional conceptual problems in between). Lecture videos will be released on the mornings of Tuesday and Thursday.
+  - Many of these will be from previous semesters, but some will be recorded this fall by the instructors.
   - Lecture videos will be posted on YouTube. Each “lecture” will be an html page linked on the course website, containing videos and links to slides and code.
   <!-- - There are "Quick Check" conceptual questions in between each lecture video, linked on the lecture webpage. See below for more details. -->
   - Each lecture will also have a Piazza thread for students to ask questions.
 
 <!-- Note: Alongside each lecture are textbook readings. Textbook readings are purely supplementary, and may contain material that is not in scope (and may also not be comprehensive). -->
+
+<br>
+
+### Discussions
+
+This course has discussion sections on Fridays, lasting for one hour. The goal of these sessions is to work through problems, hone your skills, and flesh out your understanding as part of a team. The problems that you solve and present as part of discussion are important in understanding this material.
+
+<!-- To encourage attendance and participation in live discussion, we will offer the option of having discussion contribute to your grade. Specifically, points you earn from attending/participating in discussion can reduce the weighting of exams on your overall course grade. See the grading breakdown below for details. -->
+
+- In a typical week, we will release the discussion worksheet on Friday morning.
+- We will be holding live discussion sections on Fridays. You will sign up for a section, but attendance will not be required.
+  - **Unlike past semesters, live discussions will not provide physical handouts.**
+- We will release discussion recordings or walkthroughs the week after the discussion.
+  - These will be videos from past semesters, so they may not be up-to-date with the current content. Unfortunately, we do not have the capacity to record walkthroughs this semester.
+
 
 <br>
 
@@ -97,11 +108,11 @@ Quick Checks, as mentioned above, are short conceptual questions embedded into e
 
 ### Homeworks
 
-Homeworks are assignments that are designed to help students develop an in-depth understanding of both the theoretical and practical aspects of ideas presented in lecture.
+Homeworks are week-long assignments that are designed to help students develop an in-depth understanding of both the theoretical and practical aspects of ideas presented in lecture.
 
-- In a typical week, there will be two homeworks. The first will be released Monday morning, by 9:40 AM PT, and will be due Thursday at 11:59 PM PT. The second homework will be released Thursday morning at 9:40 AM PT, and will be due the following Monday at 11:59 PM PT. There may be some deviation in this schedule to account for holidays, exams, etc.
+- In a typical week, the homework is released on Friday and is due the following Thursday at 11:59PM.
 <!-- - Near the midterm, or during weeks in which a project is assigned, you will have more than one week to work on the current assignment. -->
-- Most homeworks will be Jupyter notebooks; one or two homeworks will be on-paper written assignments.
+- One or two homeworks will be on-paper written assignments; the rest will be Jupyter notebooks.
 - Homeworks have both visible and hidden autograder tests. The visible tests are mainly sanity checks, e.g. a probability is <= 1, and are visible to students while they do the assignment. The hidden tests generally check for correctness, and are invisible to students while they are doing the assignment.
 - The primary form of support students will have for homeworks and projects are the **office hours** we’ll host, and **Piazza**.
 - Homeworks must be completed individually.
@@ -112,32 +123,40 @@ Homeworks are assignments that are designed to help students develop an in-depth
 
 Labs are shorter programming assignments designed to give students familiarity with new ideas.
 
-- In a typical week, there will be two labs, often covering content taught in lecture the same week. Both labs will be released simultaneously on Sunday morning by 9:40 AM PT, and they will both be due on Saturday at 11:59 PM PT.
+- In a typical week, the lab is released on Friday and is due the following Tuesday.
 - All lab autograder tests are visible.
 <!-- - To help with lab, we will host **live lab sections** on Monday at various times, in which GSIs will walk through the assignment via Zoom. See the [Calendar](../calendar) for when these are scheduled. -->
-- In previous semesters, we held live lab sections; this semester, we will _not_ be holding live sections for labs. Instead, the labs have been condensed and simplified, and will include a video walk-through to assist students in completing the assignment.
+- To help with lab, we will host live lab sections on Tuesday, in which GSIs will walk through the assignment. You will sign up for a section, but attendance will not be required.
 - Students can get help with labs at **office hours** and on **Piazza**.
 
 <br>
 
 ### Office Hours
 
-- We plan on hosting roughly 10 hours of office hours each weekday. These hours are listed on the [Calendar](../calendar).
-- OH will serve as a one-stop shop for students to get help with assignments.
-- Office Hours can be accessed via [Gather](https://gather.town/app/08JrjeqAUXtva4uL/data-100-su21-oh) where students can collaborate with other students while waiting to receive help from course staff. More details in [@257](https://piazza.com/class/kpcl6edmxuk3fg?cid=257) on Piazza.
+- We plan on hosting roughly 25 hours of office hours each week. These hours are listed on the [Calendar](../calendar).
+- Students can come to office hours for any questions on course assignments or material.
+- In person office hours will be held in **[location TBD]**. **To adhere to public health guidelines, we ask that students leave the OH room after their questions have been answered**.
+- Virtual OH can be accessed via [oh.ds100.org](https://oh.ds100.org/), where students add themselves to the “queue” and specify the assignment they need help on.
 <!-- where students add themselves to the "queue" and specify the assignment they need help on. Once it's their turn, they will be provided with a Zoom link to join, in order to get help from staff. -->
 - The instructors will also be hosting conceptual office hours. These will be reflected on the [Calendar](../calendar).
 <!-- - We are also holding "lost office hours" once a week. These are designed to accommodate students who are behind on material and would like help catching up. These are meant for conceptual questions only, not for assignment help. These will also be reflected on the [Calendar](../calendar). -->
 
 <br>
 
-### Exams
+### Midterm
 
-There will be one midterm exam, on **July 15th** (9:30 AM - 11:00 AM PT), and a final exam on **August 12th** (9:30 AM - 12:30 PM PT).
+There will be one midterm exam, on **November 1st** (7-9PM PDT). This exam will be proctored, with details to come closer to the exam date.
 
-Alternate exam times will be offered for the midterm and final, and the form to request the alternate will be posted on Piazza soon after the start of class. The alternate midterm is July 15th from 8:00 PM - 9:30 PM PT and the alternate final is August 12th from 8:00 PM - 11:00 PM PT. The primary purpose of the alternate exam is to accommodate students in different timezones, but students with documented conflicts and unique personal circumstances may also be approved to take the alternate exam.
+We will have both an in-person and a virtual midterm, held at the same time. If you request a virtual midterm, you may not switch into an in-person midterm. However, if you request the in-person exam, you will have the option to switch to the virtual exam if you so choose.
 
+Alternate exams will only be given to students with a documented conflict or to those who have extenuating circumstances.
 <br>
+
+### Final Project
+
+In lieu of a final exam, we will have a final project. The details of this project will be released on **TBD**, and it will be due **TBD**.
+
+You will have the option to work in a group for this project. Details will be provided closer to the release of the project.
 
 ### Regrade Requests
 
@@ -194,12 +213,14 @@ Extensions are only provided to students with DSP accommodations, or in the case
 
 Note that extension requests will not be granted in cases where a student’s local (DataHub) tests are not passing. It is the student’s responsibility to solve such problems in advance of the deadline.
 
-<!-- - Projects are marked down by 10% per day, **up to two days**. After two days, project submissions will not be accepted.
-  - Submission times are rounded up to the next day. That is, 2 minutes late = 1 day late. -->
+- Projects are marked down by 10% per day, **up to two days**. After two days, project submissions will not be accepted.
+  - Submission times are rounded up to the next day. That is, 2 minutes late = 1 day late.
 
 <br>
 
 ### Collaboration Policy and Academic Dishonesty
+
+We will be following the [EECS departmental policy on Academic Honesty](https://eecs.berkeley.edu/resources/students/academic-dishonesty), which states that using work or resources that are not your own or not permitted by the course may lead to disciplinary actions, up to and including a failing grade in the course.
 
 #### Assignments
 
@@ -213,7 +234,7 @@ We also ask that you **do not post your assignment solutions publicly**.
 
 #### Exams
 
-Cheating on exams is a serious offense. We have methods of detecting cheating on exams – so don't do it! Students caught cheating on any exam will fail this course.  We will be following the [EECS departmental policy on Academic Honesty](https://eecs.berkeley.edu/resources/students/academic-dishonesty), so be sure you are familiar with it.
+Cheating on exams is a serious offense. We have methods of detecting cheating on exams – so don't do it! Students caught cheating on any exam will fail this course.
 
 <br>
 
