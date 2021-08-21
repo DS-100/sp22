@@ -54,7 +54,7 @@ def get_photo_location(photos, attributes):
 
 def main():
     photos = os.listdir('../resources/assets/staff_pics')
-    for i in range(2, 28): #modify the second number depending on the number of rows in the sheet.
+    for i in range(2, 30): #modify the second number depending on the number of rows in the sheet.
         row = sheet.row_values(i)
         attributes = attribute_parser(row)
         # print(attributes)
@@ -65,7 +65,9 @@ def main():
                 + 'name: ' + attributes['name'] + '\n'
                 + 'role: ' + attributes['role'] + '\n'
                 + 'email: ' + attributes['email'] + '\n'
+                + 'website: ' + attributes['website'] + '\n'
                 + 'photo: http://ds100.org/fa21/resources/assets/staff_pics/' + get_photo_location(photos, attributes) + '\n'
+                + 'pronouns: ' + attributes['pronouns'] + '\n'
                 + 'oh: ' + attributes['oh'] + '\n'
                 + '---\n'
                 + attributes['bio'] + '\n')
@@ -74,7 +76,9 @@ def main():
                 + 'name: ' + attributes['name'] + '\n'
                 + 'role: ' + attributes['role'] + '\n'
                 + 'email: ' + attributes['email'] + '\n'
+                + 'website: ' + attributes['website'] + '\n'
                 + 'photo: http://ds100.org/fa21/resources/assets/staff_pics/' + get_photo_location(photos, attributes) + '\n'
+                + 'pronouns: ' + attributes['pronouns'] + '\n'
                 + '---\n'
                 + attributes['bio'] + '\n')
         file.close()
