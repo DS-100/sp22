@@ -9,7 +9,7 @@ days:
 - date: 2021-10-12
   events:
     ? '**Lecture 14**{: .label .label-lecture } Linear Regression + Geometric Interpretation'
-    ? '**Lab 7**{: .label .label-lab } Simple Linear Regression (due Oct 12)'
+    ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-10-13
   events:
@@ -23,6 +23,7 @@ days:
   events:
     ? '**Discussion 8**{: .label .label-disc } Least Squares and HCE'
     ? '**Homework 8**{: .label .label-hw } Housing I (due Oct 21)'
+    ? '**Lab 8**{: .label .label-lab } Multiple Linear Regression and Feature Engineering (due Oct 19)'
     : ''    
 
 ---

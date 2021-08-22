@@ -9,7 +9,7 @@ days:
 - date: 2021-10-19
   events:
     ? '**Lecture 16**{: .label .label-lecture } Feature Engineering'
-    ? '**Lab 8**{: .label .label-lab } Multiple Linear Regression and Feature Engineering (due Oct 19)'
+    ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-10-20
   events:
@@ -23,6 +23,7 @@ days:
   events:
     ? '**Discussion 9**{: .label .label-disc } Feature Engineering and RVs'
     ? '**Homework 9**{: .label .label-hw } Housing II (due Oct 28)'
+    ? '**Lab 9**{: .label .label-lab} Feature Engineering and Cross-Validation (due Oct 26)'
     : ""
 
 ---

@@ -9,7 +9,7 @@ days:
 - date: 2021-09-14
   events:
     ? '**Lecture 6**{: .label .label-lecture } Data Cleaning and EDA'
-    ? '**Lab 3**{: .label .label-lab } Data Cleaning and EDA (due Sept 14)'
+    ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-09-15
   events:
@@ -23,6 +23,7 @@ days:
   events:
     ? '**Discussion 4**{: .label .label-disc } Regex'
     ? '**Homework 4**{: .label .label-hw } Celebrity Tweets (due Sept 23))'
+    ? '**Lab 4**{: .label .label-lab } Transformations and KDEs (due Sept 21)'
     : ""
 
 ---

@@ -10,6 +10,7 @@ days:
   events:
     ? '**Discussion 1**{: .label .label-disc } Intro'
     ? '**Homework 1**{: .label .label-hw } Math Prerequisites (due Sept 2)'
+    ? '**Lab 1**{: .label .label-lab } Prerequisite Coding (due Aug 31)'
     : ''
 
 ---

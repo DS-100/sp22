@@ -9,7 +9,7 @@ days:
 - date: 2021-10-05
   events:
     ? '**Lecture 12**{: .label .label-lecture } Modeling'
-    ? '**Lab 6**{: .label .label-lab } Modeling, Summary Statistics, and Loss Functions (due Oct 5)'
+    ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-10-06
   events:
@@ -23,6 +23,7 @@ days:
   events:
     ? '**Discussion 7**{: .label .label-disc } Modeling and Linear Regression'
     ? '**Homework 7**{: .label .label-hw } Regression (due Oct 14)'
+    ? '**Lab 7**{: .label .label-lab } Simple Linear Regression (due Oct 12)'
     : ""
 
 ---

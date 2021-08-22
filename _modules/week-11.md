@@ -9,7 +9,7 @@ days:
 - date: 2021-11-02
   events:
     ? '**Lecture 20**{: .label .label-lecture } Gradient Descent'
-    ? '**Lab 10**{: .label .label-lab } Gradient Descent (due Nov 2)'
+    ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-11-03
   events:
@@ -23,6 +23,7 @@ days:
   events:
     ? '**Discussion 11**{: .label .label-disc } Gradient Descent'
     ? '**Homework 11**{: .label .label-hw } Gradient Descent and Logistic Regression (due Nov 11)'
+    ? '**Lab 11**{: .label .label-lab } Gradient Descent (due Nov 9)'
     : ""
 
 ---

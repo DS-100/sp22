@@ -9,7 +9,7 @@ days:
 - date: 2021-09-21
   events:
     ? '**Lecture 8**{: .label .label-lecture } SQL I'
-    ? '**Lab 4**{: .label .label-lab } Transformations and KDEs (due Sept 21)'
+    ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-09-22
   events:
@@ -23,6 +23,7 @@ days:
   events:
     ? '**Discussion 5**{: .label .label-disc } SQL and Visualization I'
     ? '**Homework 5**{: .label .label-hw } Bike Sharing (due Sept 30)'
+    ? '**Lab 5**{: .label .label-lab } SQL (due Sept 28)'
     : ""
 
 ---

@@ -9,7 +9,7 @@ days:
 - date: 2021-09-28
   events:
     ? '**Lecture 10**{: .label .label-lecture } Visualization II'
-    ? '**Lab 5**{: .label .label-lab } SQL (due Sept 28)'
+    ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-09-29
   events:
@@ -23,6 +23,7 @@ days:
   events:
     ? '**Discussion 6**{: .label .label-disc } SQL and Visualization II'
     ? '**Homework 6**{: .label .label-hw } SQL (due Oct 7)'
+    ? '**Lab 6**{: .label .label-lab } Modeling, Summary Statistics, and Loss Functions (due Oct 5)'
     : ""
 
 ---

@@ -9,7 +9,7 @@ days:
 - date: 2021-11-23
   events:
     ? '**Lecture 25**{: .label .label-lecture } Dimensionality Reduction & PCA'
-    ? '**Lab 13**{: .label .label-lab } Principal Component Analysis (due Nov 23)'
+    ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-11-24
   events:
@@ -23,6 +23,7 @@ days:
   events:
     ? '(Thanksgiving)'
     ? '**Homework 14**{: .label .label-hw } PCA (due Dec 2)'
+    ? '**Lab 14**{: .label .label-lab } Principal Component Analysis (due Nov 30)'
     : ""
 
 ---
