@@ -31,7 +31,8 @@ def attribute_parser(row):
     attributes["photo_name"] = attributes['name'].replace(' ', '_')
     attributes["bio"] = row[13].replace('\n', '').replace('’', "'")
     attributes["website"] = row[14]
-    attributes['oh'] = 'TBD'
+    if attributes["role"] == "Instructor":
+        attributes["oh"] = row[40]
     return attributes
 
 def assign_role(job):
