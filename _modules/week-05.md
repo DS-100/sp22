@@ -17,12 +17,12 @@ days:
     : ""
 - date: 2021-09-23
   events:
-    ? '**Lecture 9**{: .label .label-lecture } Visualization I'
+    ? '**Lecture 9**{: .label .label-lecture } SQL II'
     : ""
 - date: 2021-09-24
   events:
-    ? '**Discussion 5**{: .label .label-disc } SQL and Visualization I'
-    ? '**Homework 5**{: .label .label-hw } Bike Sharing (due Sept 30)'
+    ? '**Discussion 5**{: .label .label-disc } SQL'
+    ? '**Homework 5**{: .label .label-hw } SQL (due Sept 30)'
     ? '**Lab 5**{: .label .label-lab } SQL (due Sept 28)'
     : ""
 
