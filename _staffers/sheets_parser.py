@@ -25,7 +25,7 @@ def attribute_parser(row):
     attributes["email"] = row[1]
     last_name = re.search(r'\s([^\s]+)$', row[2])
     attributes["name"] = row[2].strip() if last_name == None else row[3].strip() + ' ' + re.search(r'\s([^\s]+)$', row[2]).group(0).strip()
-    attributes["pronouns"] = row[4]
+    attributes["pronouns"] = row[4].lower()
     attributes["role"] = assign_role(row[7])
     attributes["sid"] = row[8]
     attributes["photo_name"] = attributes['name'].replace(' ', '_')
@@ -55,7 +55,7 @@ def get_photo_location(photos, attributes):
 
 def main():
     photos = os.listdir('../resources/assets/staff_pics')
-    for i in range(2, 43): #modify the second number depending on the number of rows in the sheet.
+    for i in range(2, 45): #modify the second number depending on the number of rows in the sheet.
         row = sheet.row_values(i)
         attributes = attribute_parser(row)
         # print(attributes)
