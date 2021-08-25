@@ -8,7 +8,7 @@ description: >-
 
 # Syllabus
 
-## Note: This page is under construction. Everything on this website is subject to change.
+<!-- ## Note: This page is under construction. Everything on this website is subject to change. -->
 
 Jump to:
 
