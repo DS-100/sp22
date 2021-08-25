@@ -21,9 +21,9 @@ days:
     : ""
 - date: 2021-11-26
   events:
-    ? '(Thanksgiving)'
-    ? '**Homework 14**{: .label .label-hw } PCA (due Dec 2)'
-    ? '**Lab 14**{: .label .label-lab } Principal Component Analysis (due Nov 30)'
+    ? '**No Discussion 14**{: .label .label-hw } (Thanksgiving)'
+    ? '**Homework 13**{: .label .label-hw } PCA (due Dec 2)'
+    ? '**Lab 13**{: .label .label-lab } Principal Component Analysis (due Nov 30)'
     : ""
 
 ---

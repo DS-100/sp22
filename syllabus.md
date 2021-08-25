@@ -189,8 +189,8 @@ Regrade requests will **not** be considered in cases in which:
 
 | Category | Weight | Details |
 | --- | --- | --- |
-| Homeworks | 35% | 14 + 1 optional, with 2 drops |
-| Labs | 10% | 15, with 3 drops |
+| Homeworks | 35% | 13 + 1 optional, with 2 drops |
+| Labs | 10% | 14, with 3 drops |
 | Midterm Exam | 25% | |
 | Final Exam | 30% | |
 
@@ -198,7 +198,7 @@ Regrade requests will **not** be considered in cases in which:
 
 | Category | Weight | Details |
 | --- | --- | --- |
-| Homeworks | 35% | 14 + 1 optional, with 2 drops |
+| Homeworks | 35% | 13 + 1 optional, with 2 drops |
 | Midterm Exam | 25% | |
 | Final Exam | 40% | |
 

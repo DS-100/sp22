@@ -21,9 +21,9 @@ days:
     : ""
 - date: 2021-11-05
   events:
-    ? '**Discussion 11**{: .label .label-disc } Gradient Descent'
-    ? '**Homework 11**{: .label .label-hw } Gradient Descent and Logistic Regression (due Nov 11)'
-    ? '**Lab 11**{: .label .label-lab } Gradient Descent (due Nov 9)'
+    ? '**Discussion 11**{: .label .label-disc } Gradient Descent and Logistic Regression'
+    ? '**Homework 10**{: .label .label-hw } Gradient Descent and Logistic Regression (due Nov 11)'
+    ? '**Lab 10**{: .label .label-lab } Cross-Validation and Regularization (due Nov 9)'
     : ""
 
 ---

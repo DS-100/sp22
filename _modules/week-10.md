@@ -22,8 +22,7 @@ days:
 - date: 2021-10-29
   events:
     ? '**Discussion 10**{: .label .label-disc } Regularization and Cross-Validation'
-    ? '**No Homework**{: .label .label-hw } (Midterm on 11/1)'
-    ? '**Lab 9**{: .label .label-lab } Climate Data Lab (due Nov 2)'
+    ? '**No Homework 10**{: .label .label-hw } Midterm on 11/1'
     : ""
 
 ---

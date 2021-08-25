@@ -23,7 +23,7 @@ days:
   events:
     ? '**Discussion 5**{: .label .label-disc } SQL'
     ? '**Homework 5**{: .label .label-hw } SQL (due Sept 30)'
-    ? '**Lab 5**{: .label .label-lab } SQL (due Sept 28)'
+    ? '**Lab 5**{: .label .label-lab } Transformations and KDEs (due Sept 28)'
     : ""
 
 ---

@@ -17,13 +17,13 @@ days:
     : ""
 - date: 2021-10-21
   events:
-    ? '**Lecture 17**{: .label .label-lecture } RVs & Bias-Variance Tradeoff'
+    ? '**Lecture 17**{: .label .label-lecture } RVs and Bias-Variance Tradeoff'
     : ""
 - date: 2021-10-22
   events:
-    ? '**Discussion 9**{: .label .label-disc } Feature Engineering and RVs'
+    ? '**Discussion 9**{: .label .label-disc } Feature Engineering and Bias-Variance Tradeoff'
     ? '**Homework 9**{: .label .label-hw } Housing II (due Oct 28)'
-    ? '**Lab 9**{: .label .label-lab} Feature Engineering and Cross-Validation (due Oct 26)'
+    ? '**Lab 9**{: .label .label-lab} Feature Engineering (due Oct 26)'
     : ""
 
 ---

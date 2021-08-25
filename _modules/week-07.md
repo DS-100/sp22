@@ -22,7 +22,7 @@ days:
 - date: 2021-10-08
   events:
     ? '**Discussion 7**{: .label .label-disc } Modeling and Linear Regression'
-    ? '**Homework 7**{: .label .label-hw } Regression (due Oct 14)'
+    ? '**Homework 7**{: .label .label-hw } Regression (on paper) (due Oct 14)'
     ? '**Lab 7**{: .label .label-lab } Simple Linear Regression (due Oct 12)'
     : ""
 

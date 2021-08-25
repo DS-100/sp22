@@ -21,9 +21,9 @@ days:
     : ''
 - date: 2021-10-15
   events:
-    ? '**Discussion 8**{: .label .label-disc } Least Squares and HCE'
+    ? '**Discussion 8**{: .label .label-disc } Multiple Linear Regression and HCE'
     ? '**Homework 8**{: .label .label-hw } Housing I (due Oct 21)'
-    ? '**Lab 8**{: .label .label-lab } Multiple Linear Regression and Feature Engineering (due Oct 19)'
+    ? '**Lab 8**{: .label .label-lab } Multiple Linear Regression (due Oct 19)'
     : ''    
 
 ---

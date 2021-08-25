@@ -21,8 +21,8 @@ days:
     : ""
 - date: 2021-09-03
   events:
-    ? '**Discussion 2**{: .label .label-disc } Linear Algebra and Probability'
-    ? '**Homework 2**{: .label .label-hw } Sampling Error and Bias in Elections (2016) (due Sept 9)'
+    ? '**Discussion 2**{: .label .label-disc } Probability'
+    ? '**Homework 2**{: .label .label-hw } Elections Sampling (due Sept 9)'
     ? '**Lab 2**{: .label .label-lab } Pandas (due Sept 7)'
     : ""
 

@@ -23,7 +23,7 @@ days:
   events:
     ? '**Discussion 14**{: .label .label-disc } PCA & Clustering'
     ? '**Homework 15**{: .label .label-hw } (optional) Taxis (due Dec 9)'
-    ? '**Lab 15**{: .label .label-lab } Estimation (due Dec 7)'
+    ? '**Lab 15**{: .label .label-lab } Clustering (due Dec 7)'
     : ""
 
 ---

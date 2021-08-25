@@ -21,9 +21,9 @@ days:
     : ""
 - date: 2021-09-17
   events:
-    ? '**Discussion 4**{: .label .label-disc } Regex'
-    ? '**Homework 4**{: .label .label-hw } Celebrity Tweets (due Sept 23))'
-    ? '**Lab 4**{: .label .label-lab } Transformations and KDEs (due Sept 21)'
+    ? '**Discussion 4**{: .label .label-disc } Data Cleaning and Regex'
+    ? '**Homework 4**{: .label .label-hw } Tweets (due Sept 23))'
+    ? '**Lab 4**{: .label .label-lab } SQL (due Sept 21)'
     : ""
 
 ---

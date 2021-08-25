@@ -23,7 +23,7 @@ days:
   events:
     ? '**Discussion 3**{: .label .label-disc } Pandas'
     ? '**Homework 3**{: .label .label-hw } Food Safety (due Sept 16))'
-    ? '**Lab 3**{: .label .label-lab } Data Cleaning and EDA (due Sept 14)'
+    ? '**Lab 3**{: .label .label-lab } Data Cleaning, EDA, and Regex (due Sept 14)'
     : ""
 
 ---
