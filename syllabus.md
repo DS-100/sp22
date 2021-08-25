@@ -94,6 +94,7 @@ To encourage attendance and participation in live discussion, we will offer the 
 - In a typical week, we will release the discussion worksheet on Friday morning.
 - We will be holding live discussion sections on Fridays. You will sign up for a section, but attendance will not be required.
   - **Unlike past semesters, live discussions will not provide physical handouts.**
+  - Attendance points will only be given for the section you are assigned to, but you may attend any of the online sections. However, due to room restrictions, you may not attend an in-person section that you were not assigned to.
 - We will release discussion recordings or walkthroughs the week after the discussion.
   - These will be videos from past semesters, so they may not be up-to-date with the current content. Unfortunately, we do not have the capacity to record walkthroughs this semester.
 
