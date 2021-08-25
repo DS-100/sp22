@@ -202,7 +202,7 @@ Regrade requests will **not** be considered in cases in which:
 | Midterm Exam | 25% | |
 | Final Project | 40% | |
 
-**For C100/C200 optional:** You may shift 5% of your HW grade to discussion attendance via [this Google form](https://forms.gle/YfT3KunoRm2U9oA39).
+**For C100/C200 optional:** You may shift 5% of your HW grade to discussion attendance via [this Google form](https://forms.gle/YfT3KunoRm2U9oA39). There will be 3 drops.
 
 <br>
 
