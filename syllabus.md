@@ -192,7 +192,7 @@ Regrade requests will **not** be considered in cases in which:
 | Homeworks | 35% | 13 + 1 optional, with 2 drops |
 | Labs | 10% | 14, with 3 drops |
 | Midterm Exam | 25% | |
-| Final Exam | 30% | |
+| Final Project | 30% | |
 
  **Data C200 Grading Scheme**
 
@@ -200,7 +200,7 @@ Regrade requests will **not** be considered in cases in which:
 | --- | --- | --- |
 | Homeworks | 35% | 13 + 1 optional, with 2 drops |
 | Midterm Exam | 25% | |
-| Final Exam | 40% | |
+| Final Project | 40% | |
 
 **For C100/C200 optional:** You may shift 5% of your HW grade to discussion attendance via [this Google form](https://forms.gle/YfT3KunoRm2U9oA39).
 
