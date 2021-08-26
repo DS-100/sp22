@@ -4,7 +4,7 @@ weekNumber: 1
 days:
 - date: 2021-08-26
   events:
-    ? '**Lecture 1**{: .label .label-lecture } Intro'
+    ? '**Lecture 1**{: .label .label-lecture } [Intro](lecture/lec01)'
     : ''
 - date: 2021-08-27
   events:
