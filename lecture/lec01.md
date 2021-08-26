@@ -11,7 +11,7 @@ Presented by Fernando Pérez, Alvin Wan, and Anthony Joseph
 Content by Fernando Pérez, Alvin Wan, Suraj Rampure, Allen Shen, Joseph Gonzalez, Andrew Bray, Josh Hug, and Sam Lau
 
 - [slides](https://docs.google.com/presentation/d/1DwsSNJclar4KCJRlzSDux_ISCotf9VMI89iTqSOBh6o/edit?usp=sharing)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flec%2Flec01%2Flec01.ipynb&branch=main)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flec%2Flec01%2Flec01.ipynb&branch=main)
 <!-- ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec01/&branch=main)) -->
 - [code HTML](../../resources/assets/lectures/lec01/lec01.html)
 
