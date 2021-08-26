@@ -10,7 +10,7 @@ nav_exclude: true
 
 Presented by Fernando Pérez, Alvin Wan, and Anthony Joseph
 
-Content by Suraj Rampure, Allen Shen, Joseph Gonzalez, Andrew Bray, Josh Hug, and Sam Lau
+Content by Fernando Pérez, Alvin Wan, Suraj Rampure, Allen Shen, Joseph Gonzalez, Andrew Bray, Josh Hug, and Sam Lau
 
 - [slides](https://docs.google.com/presentation/d/1TNc5NDNzBEKsuQCFy2DPjPPkUBgH2ZiJ38fNvBCT4Xk/edit?usp=sharing)
 - [video](https://berkeley.zoom.us/rec/share/5rDX_KObBC8FNLs9ktoE3LrSiR3IzhISttDYHQlvZhNswgkqF3h_jwAX5Lt8TsF1.-ykS2a-eqA3LaYdv?startTime=1624293615000) (passcode found on Piazza)
@@ -31,34 +31,28 @@ Content by Suraj Rampure, Allen Shen, Joseph Gonzalez, Andrew Bray, Josh Hug, an
 <tbody>
 <tr>
 <td><strong>1.1.1</strong> <br> Fernando's Intro.</td>
-<td><a href="https://drive.google.com/file/d/1SOEXKEVgq9NlhKdgJNTrgGFj7kgldv0C/view?usp=sharing">1.1.1</a>
-<!-- <td><iframe width="300" height="300" height src="https://drive.google.com/file/d/1SOEXKEVgq9NlhKdgJNTrgGFj7kgldv0C/view?usp=sharing" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td> -->
-<!-- </tr> -->
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/xIiGrhdYuxk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+</tr>
 <tr>
 <td><strong>1.1.2</strong> <br> Alvin's Intro.</td>
-<td><a href="https://drive.google.com/file/d/1UWTNcAt6f0v457nYJrHyovIaX-02mFIp/view?usp=sharing">1.1.2</a>
-<!-- <td><iframe width="300" height="300" height src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td> -->
-<!-- </tr> -->
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/i4pAZjOeiSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+</tr>
 <tr>
 <td><strong>1.2</strong> <br> What is data science? An overview of the field, and issues to be aware of.</td>
-<td><a href="https://drive.google.com/file/d/1vrwnrp7WBkEEyJVoZqNwM6q59jnp0apr/view?usp=sharing">1.2</a>
-<!-- <td><iframe width="300" height="300" height src="https://drive.google.com/file/d/1vrwnrp7WBkEEyJVoZqNwM6q59jnp0apr/view?usp=sharing" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-</tr> -->
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/XZKQxaX5Slc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+</tr>
 <tr>
 <td><strong>1.3</strong> <br> An overview of the topics covered in this course.</td>
-<td><a href="https://drive.google.com/file/d/1p8m7D1q-5JbYsszC8B-UKSN31eqAW9Bd/view?usp=sharing">1.3</a>
-<!-- <td><iframe width="300" height="500" height src="https://drive.google.com/file/d/1p8m7D1q-5JbYsszC8B-UKSN31eqAW9Bd/view?usp=sharing" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td> -->
-<!-- </tr> -->
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/95WnbG4SVvg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+</tr>
 <tr>
-<td><strong>1.4.1</strong> <br> Online tools, JupyterHub, JupyterLab.</td>
-<td><a href="https://drive.google.com/file/d/18xcxx5LUNTd6qfB5A4Kl-JJ7GTGavvhg/view?usp=sharing">1.4.1</a>
-<!-- <td><iframe width="300" height="300" height src="https://drive.google.com/file/d/18xcxx5LUNTd6qfB5A4Kl-JJ7GTGavvhg/view?usp=sharing" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td> -->
-<!-- </tr> -->
+<td><strong>1.4.1</strong> <br> Course Logistics: Team and Online Resources.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/jngV_mIMU-U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+</tr>
 <tr>
-<td><strong>1.4.2</strong> <br> Course format and policies.</td>
-<td><a href="https://drive.google.com/file/d/14qnFz6F-5esIw2qmJytJITL5qCJqBQsO/view?usp=sharing">1.4.2</a>
-<!-- <td><iframe width="300" height="300" height src="https://drive.google.com/file/d/14qnFz6F-5esIw2qmJytJITL5qCJqBQsO/view?usp=sharing" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td> -->
-<!-- </tr> -->
+<td><strong>1.4.2</strong> <br> Course Logistics: Content and Workflow.</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/X1kzJvL7l7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+</tr>
 <tr>
 <td><strong>1.5</strong> <br> An overview of the data science lifecycle and its four steps.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/tic25yzL3VU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
