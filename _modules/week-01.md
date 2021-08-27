@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-08-27
   events:
-    ? '**Discussion 1**{: .label .label-disc } [Intro](https://ds100.org/fa21/resources/assets/disc/disc01.pdf)'
+    ? '**Discussion 1**{: .label .label-disc } [Intro](https://ds100.org/fa21/resources/assets/disc/disc01/disc01.pdf)'
     ? '**Homework 1**{: .label .label-hw } Intro + Prerequisites (due Sept 2)'
     ? '**Lab 1**{: .label .label-lab } Prerequisite Coding (due Aug 31)'
     : ''
