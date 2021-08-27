@@ -6,9 +6,9 @@ nav_exclude: true
 
 # Lecture 4 - Pandas, Part 1
 
-Presented by Fernando Perez
+Presented by Fernando Pérez
 
-Content by Fernando Perez, Josh Hug
+Content by Fernando Pérez, Josh Hug
 
 - [slides](https://docs.google.com/presentation/d/16ZeSryn94sL5u3PHQXveTGFvcVpu0qZcF73nbFFX59c/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoD7vMjUf5r-VsDv5FyXqTj)

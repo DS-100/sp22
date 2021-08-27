@@ -8,7 +8,7 @@ nav_exclude: true
 
 Presented by Isaac Schmidt, Suraj Rampure
 
-Content by Fernando Perez, Suraj Rampure, Ani Adhikari, and Joseph Gonzalez
+Content by Fernando Pérez, Suraj Rampure, Ani Adhikari, and Joseph Gonzalez
 
 - [slides](https://docs.google.com/presentation/d/1b8V53ddjN9GCCSDB2e-EKtPQpl3N_xCkMOj_cgvJGPI/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfowFBLAZZsukvgtXljxwD5l)

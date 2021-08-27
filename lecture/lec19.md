@@ -6,7 +6,7 @@ nav_exclude: true
 
 # Lecture 19 – Logistic Regression, Part 1
 
-Presented by Fernando Perez, Suraj Rampure
+Presented by Fernando Pérez, Suraj Rampure
 
 Content by Suraj Rampure, Josh Hug, Joseph Gonzalez, Ani Adhikari
 

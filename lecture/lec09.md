@@ -6,9 +6,9 @@ nav_exclude: true
 
 # Lecture 9 – Visualization, Part 1
 
-Presented by Fernando Perez
+Presented by Fernando Pérez
 
-Content by Fernando Perez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu
+Content by Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu
 
 - [slides](https://docs.google.com/presentation/d/1r1zyItUSM7mmoF26-sPrVIg_m21BCx0TMVetdaSLtdQ/edit)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpopjZVuLlvwriC_mABCfYi)

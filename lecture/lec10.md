@@ -6,9 +6,9 @@ nav_exclude: true
 
 # Lecture 10 – Visualization, Part 2
 
-Presented by Fernando Perez
+Presented by Fernando Pérez
 
-Content by Fernando Perez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu, Deborah Nolan
+Content by Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu, Deborah Nolan
 
 - [slides](https://docs.google.com/presentation/d/16l3XLseFMJIhoPZXuQSXogCpob9htZ9TEEEgAXlHDtw/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfrmwSHwEnaHuDC88OzQ3s0g)
