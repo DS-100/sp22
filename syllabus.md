@@ -76,7 +76,7 @@ Note that these deadlines are subject to change.
 - **Regular lectures will be pre-recorded**, in a format that is optimized for online learning (short 5-10 minute videos with optional conceptual problems in between). Lecture videos will be released on the mornings of Tuesday and Thursday.
   - Many of these will be from previous semesters, but some will be recorded this fall by the instructors.
   - Lecture videos will be posted on YouTube. Each “lecture” will be an html page linked on the course website, containing videos and links to slides and code.
-  <!-- - There are "Quick Check" conceptual questions in between each lecture video, linked on the lecture webpage. See below for more details. -->
+  - There are "Quick Check" conceptual questions in between each lecture video, linked on the lecture webpage. See below for more details.
   - Each lecture will also have a Piazza thread for students to ask questions.
 
 We will have some guest speakers this term, on topics including Human Context and Ethics of Data Science and applications to Climate Change. **These lectures will be held live on Zoom**, and we strongly encourage you to attend them!
@@ -101,13 +101,13 @@ To encourage attendance and participation in live discussion, we will offer the 
 
 <br>
 
-<!-- ### Quick Checks
+### Quick Checks
 
-Quick Checks, as mentioned above, are short conceptual questions embedded into each lecture, in the form of Google Forms. These are meant for you to check your understanding of the concepts that were just introduced. Since there are roughly 26 lectures, there are roughly 26 Quick Checks, each of which consists of 4-7 Google Forms.
+Quick Checks, as mentioned above, are short conceptual questions embedded into each lecture, in the form of Google Forms. **Quick Checks are not graded.** These are meant for you to check your understanding of the concepts that were just introduced. <!-- Since there are roughly 26 lectures, there are roughly 26 Quick Checks, each of which consists of 4-7 Google Forms. -->
 
-**Quick Checks are graded on completion.** That is, your score on them does not matter, you just need to do them. For each lecture, you will be required to submit a code to Gradescope that you will receive after completing one of the Google Forms for that lecture. These are due the Monday after the lecture is released. (Though we will assign grades using Gradescope, we will also collect emails on the Google Forms themselves.)
+<!-- That is, your score on them does not matter, you just need to do them. For each lecture, you will be required to submit a code to Gradescope that you will receive after completing one of the Google Forms for that lecture. These are due the Monday after the lecture is released. (Though we will assign grades using Gradescope, we will also collect emails on the Google Forms themselves.) -->
 
-<br> -->
+<br>
 
 ### Homeworks
 
@@ -140,7 +140,7 @@ Labs are shorter programming assignments designed to give students familiarity w
 - Students can come to office hours for any questions on course assignments or material.
 - In-person office hours will be held in various locations specified in the [Calendar](../calendar). **To adhere to public health guidelines, we ask that students leave the OH room after their questions have been answered**.
 - Virtual OH can be accessed via [oh.ds100.org](https://oh.ds100.org/), where students add themselves to the “queue” and specify the assignment they need help on.
-<!-- where students add themselves to the "queue" and specify the assignment they need help on. Once it's their turn, they will be provided with a Z at oom link to join, in order to get help from staff. -->
+<!-- where students add themselves to the "queue" and specify the assignment they need help on. Once it's their turn, they will be provided with a Zoom link to join, in order to get help from staff. -->
 - The instructors will also be hosting office hours. These will be reflected on the [Calendar](../calendar).
 <!-- - We are also holding "lost office hours" once a week. These are designed to accommodate students who are behind on material and would like help catching up. These are meant for conceptual questions only, not for assignment help. These will also be reflected on the [Calendar](../calendar). -->
 
