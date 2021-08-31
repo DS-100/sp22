@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-08-31
   events:
-    ? '**Lecture 2**{: .label .label-lecture } Data Sampling and Probability I'
+    ? '**Lecture 2**{: .label .label-lecture } [Data Sampling and Probability I](lecture/lec02)'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-09-01
