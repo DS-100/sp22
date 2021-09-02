@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lecture 2 – Data Sampling and Probability
+title: Lecture 2 – Data Sampling and Probability I
 nav_exclude: true
 ---
 
