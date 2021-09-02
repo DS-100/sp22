@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-09-02
   events:
-    ? '**Lecture 3**{: .label .label-lecture } Data Sampling and Probability II'
+    ? '**Lecture 3**{: .label .label-lecture } [Data Sampling and Probability II](lecture/lec03)'
     : ""
 - date: 2021-09-03
   events:
