@@ -204,8 +204,8 @@ The exam will be primarily virtual and zoom proctored, following campus guidelin
 
 In lieu of a final exam, we will have a final project. The details of this project will be released on **TBD**, and it will be due **TBD** (during RRR or finals week).
 
-- 3-person groups, assigned by us around project release time.
-- Details being worked on, will offer a few (2-3) dataset options.
+- You will create 3-person groups, where all the group members are in your discussion section.
+- We will offer a few (2-3) dataset options, as well as suggestions for the project.
 
 <br>
 
