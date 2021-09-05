@@ -39,48 +39,43 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td></td>
 </tr>
 <tr>
-<td><strong>4.1</strong> <br> Pandas data frames, series, and indices.</td>
+<td><strong>4.1.1</strong> <br> Pandas data frames, series, and indices.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/VWa5J1GDHgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="https://forms.gle/TPKUP9zp4wUqwe1m9" target="\_blank">4.1.1</a></td>
 </tr>
 <tr>
+<td><strong>4.1.2</strong> <br /> Pandas indices demo.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/ZhK5CRbJ9co" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://forms.gle/Dw4ojyNPEpEAT1yv9" target="\_blank">4.1.2</a></td>
+</tr>
+<tr>
 <td><strong>4.2</strong> <br> Pandas indexing with the bracket operator.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/J5pN8YFacfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://forms.gle/Bh4Db3kj6cBPp1C66" target="\_blank">4.2</a></td>
+<td><a href="https://forms.gle/SsBuhQhWjMUkkZMm9" target="\_blank">4.2</a></td>
 </tr>
 <tr>
 <td><strong>4.3</strong> <br> Pandas boolean array selection, the isin function, and the query command.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/DaL2ekf-sls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://forms.gle/o3dQcr2TP27SXRDJ9" target="\_blank">4.3</a></td>
+<td><a href="https://forms.gle/BRR7K1pS3haCWzVc7" target="\_blank">4.3</a></td>
 </tr>
 <tr>
-<td><strong>4.4</strong> <br> Pandas indexing with .loc.</td>
+<td><strong>4.4.1</strong> <br> Pandas indexing with .loc.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/_nvnW7I2N2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://forms.gle/wwY4Nwjh2GXqRdbT8" target="\_blank">4.4.1</a></td>
+<td><a href="https://forms.gle/kNngATJaXcfhgBs2A" target="\_blank">4.4</a></td>
 </tr>
 <tr>
-<td><strong>4.5</strong> <br> Pandas indexing with .iloc and Pandas sampling.</td>
+<td><strong>4.4.2</strong> <br> Pandas indexing with .iloc and Pandas sampling.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/SIl1oq_KXxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://forms.gle/kSfLMZseJmdZSV2c9" target="\_blank">4.4.2</a></td>
+<td><a href="https://forms.gle/wNVQg7zku3hVdMKp9" target="\_blank">4.4.2</a></td>
 </tr>
 <tr>
-<td><strong>4.6</strong> <br> Pandas utility functions, properties, and the sort_values method.</td>
+<td><strong>4.5.1</strong> <br> Pandas utility functions, properties, and the sort_values method.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/N1BTxLsYE30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://forms.gle/S4bsdy1UvNgBLdZGA" target="\_blank">4.5.1</a></td>
+<td><a href="https://forms.gle/dKHa5xvy4fDo1Qs57" target="\_blank">4.5.1/a></td>
 </tr>
 <tr>
-<td><strong>4.7</strong> <br> The value_counts and unique methods in Pandas. An exploration of the baby names data set.</td>
+<td><strong>4.5.2</strong> <br> The value_counts and unique methods in Pandas. An exploration of the baby names data set.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/TaUFFW3jB40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://forms.gle/45oUVd4JAo2mfwhL9" target="\_blank">4.5.2</a></td>
-</tr>
-<tr>
-<td><strong>4.8</strong> <br> The value_counts and unique methods in Pandas. An exploration of the baby names data set.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/TaUFFW3jB40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://forms.gle/XUi4JvZKzPxAwddz8" target="\_blank">4.5.2</a></td>
-</tr>
-<tr>
-<td><strong>4.9</strong> <br> The value_counts and unique methods in Pandas. An exploration of the baby names data set.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/TaUFFW3jB40" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://forms.gle/qEyPe8n2KpWVfMuc9" target="\_blank">4.5.2</a></td>
+<td><a href="https://forms.gle/oXFNJT3cf6jeAzeS8" target="\_blank">4.5.2</a></td>
 </tr>
 <tr>
