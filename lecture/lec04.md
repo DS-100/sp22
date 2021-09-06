@@ -11,7 +11,7 @@ Presented by Fernando Pérez
 Content by Fernando Pérez, Josh Hug
 
 - [slides](https://docs.google.com/presentation/d/1s0hoeSwst3o3FnwzdiUnlwfvzn0Q71Na1_gK6G9yh10/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoD7vMjUf5r-VsDv5FyXqTj)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqr9gXn5ZzH30aKY7S9cMSy)
 - [code](https://github.com/DS-100/fa21/tree/main/lec/lec04) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec04/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec04/lec04.html)
 - [Intro to Pandas if you’ve taken Data 8 (zip)](https://github.com/DS-100/fa21/raw/main/lec/lec04/pandas_for_data8_students.zip)
