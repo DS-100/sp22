@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-09-07
   events:
-    ? '**Lecture 4**{: .label .label-lecture } Pandas I'
+    ? '**Lecture 4**{: .label .label-lecture } [Pandas I](lecture/lec04)'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-09-08
