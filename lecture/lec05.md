@@ -10,11 +10,10 @@ Presented by Fernando Perez
 
 Content by Fernando Perez, Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1HRzZzYUbUQefyRlW7PdUhxdjqlLzNaCxKwfWZmzws7c/edit?usp=sharing)
+- [slides](https://docs.google.com/presentation/d/1qTVh0KAatUIlLIpCCaIXRBK2tiGCMTdeU5qldCgSC1o/edit?usp=sharing)
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfrkA7ZWeJ2hRgdYahoNCXe3)
-- [code](https://github.com/DS-100/su21/tree/main/lec/lec05) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec05/&branch=main))
+- [code](https://github.com/DS-100/fa21/tree/main/lec/lec05) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec05/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec05/05-pandas-ii.html), [joins code HTML](../../resources/assets/lectures/lec05/join_demo.html)
-- [Prof. Perez's Pandas 2 Lecture Materials](https://ds100.org/sp21/lecture/lec06/)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
