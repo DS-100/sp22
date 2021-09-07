@@ -23,7 +23,7 @@ days:
   events:
     ? '**Discussion 2**{: .label .label-disc } [Probability](https://drive.google.com/file/d/1HF04-c4XuwL_Zmq1AbdGBSlI1DMHI5Oh/view?usp=sharing) ([solutions](https://drive.google.com/file/d/1FrdlJp-Tjv4nkdF45CTjMXl1-6QEyfqC/view?usp=sharing))'
     ? '**Homework 2**{: .label .label-hw } [Sampling Error and Bias](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Fhw%2Fhw2%2Fhw2.ipynb&branch=main) (due Sept 9)'
-    ? '**Lab 2**{: .label .label-lab } [Pandas](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flab%2Flab02&branch=main) (due Sept 7)'
+    ? '**Lab 2**{: .label .label-lab } [Pandas](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flab%2Flab02&branch=main) (due Sept 8)'
     : ""
 
 ---
