@@ -11,7 +11,7 @@ Presented by Fernando Perez
 Content by Fernando Perez, Josh Hug
 
 - [slides](https://docs.google.com/presentation/d/1HRzZzYUbUQefyRlW7PdUhxdjqlLzNaCxKwfWZmzws7c/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfrFDOJNtON1sBlUxwio_anQ)
+- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfrkA7ZWeJ2hRgdYahoNCXe3)
 - [code](https://github.com/DS-100/su21/tree/main/lec/lec05) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec05/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec05/05-pandas-ii.html), [joins code HTML](../../resources/assets/lectures/lec05/join_demo.html)
 - [Prof. Perez's Pandas 2 Lecture Materials](https://ds100.org/sp21/lecture/lec06/)
