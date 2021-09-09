@@ -34,35 +34,35 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <tr>
 <td><strong>5.1</strong> <br /> Pandas string methods.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/lybOZSG--YM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://forms.gle/Xr4xbFgVns9dsBYC6" target="\_blank">5.1</a></td>
+<td><a href="https://forms.gle/XzkvHTQCNxUDJM7s5" target="\_blank">5.1</a></td>
 </tr>
 <tr>
 <td><strong>5.2</strong> <br /> Adding, modifying, and removing columns in Pandas.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/r6q56MEek2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://forms.gle/SsBuhQhWjMUkkZMm9" target="\_blank">5.2</a></td>
+<td><a href="https://forms.gle/d5tkR9Q6bywyqwHD9" target="\_blank">5.2</a></td>
 </tr>
 <tr>
 <td><strong>5.3</strong> <br /> Using the Pandas groupby function for aggregation.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/GyuNUyqLKEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://forms.gle/BRR7K1pS3haCWzVc7" target="\_blank">5.3</a></td>
+<td><a href="https://forms.gle/t6764HBQvhARykMP8" target="\_blank">5.3</a></td>
 </tr>
 <tr>
 <td><strong>5.4</strong> <br /> Puzzles using the Pandas groupby function.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/s-mqbVeC5R8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScmgi7aqqLqGLOr5ijHgfAK_FPfYxxV3IabKkdIRGOSFFWiOA/viewform" target="\_blank">5.4</a></td>
+<td><a href="https://forms.gle/nsaVs3Jw6CL2rMcq7" target="\_blank">5.4</a></td>
 </tr>
 <tr>
 <td><strong>5.5</strong> <br /> Other features of the Pandas groupby function including size and filter.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/23TsCQ_gv_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfyTh-5iB5HLdu9tRo2hUF1qbnoEKczo7TrRc_via9sCZ6l0Q/viewform" target="\_blank">5.5</a></td>
+<td><a href="https://forms.gle/8vPLJjoxThcAmKbB8" target="\_blank">5.5</a></td>
 </tr>
 <tr>
 <td><strong>5.6</strong> <br /> Grouping by multiple columns and pivot tables in Pandas.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/WYeqD_Bk9yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfEaVSG7lY5A7Pzs3rs_BnVJAJwFzGvgTCxYeKde6D4Sw793g/viewform" target="\_blank">5.6</a></td>
+<td><a href="https://forms.gle/uddopVup8QBrZqme9" target="\_blank">5.6</a></td>
 </tr>
 <tr>
 <td><strong>5.7</strong> <br /> Joining two tables in Pandas.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/lXPogGKR-AU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4JRPI8Ubl7VYyOMITXodqRxiRhpMftVmvfhBHvs1l1pcSdA/viewform" target="\_blank">5.7</a></td>
+<td><a href="https://forms.gle/2QowNrh1VX4v6VsB6" target="\_blank">5.7</a></td>
 </tr>
