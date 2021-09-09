@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-09-09
   events:
-    ? '**Lecture 5**{: .label .label-lecture } Pandas II'
+    ? '**Lecture 5**{: .label .label-lecture } [Pandas II](lecture/lec05)'
     : ""
 - date: 2021-09-10
   events:
