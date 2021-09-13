@@ -69,5 +69,5 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <tr>
 <td><strong>(Optional) 6.8</strong> <br />A demo of EDA on real data.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/Ta2MysR0_G0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td>https://forms.gle/dR1zC9Z1H7icKSuq5</td>
+<td>N/A</td>
 </tr>
