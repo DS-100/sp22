@@ -13,7 +13,6 @@ Content by Anthony D. Joseph, Joseph Gonzalez, Deborah Nolan, Joseph Hellerstein
 - [slides](https://docs.google.com/presentation/d/1vx3V52wAwuM2_mJNUlhIAqJpD_-TTviZKak6ra-In2o/edit?usp=sharing)
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfoJppOTck3vL3r_947Vh3uM)
 - [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa20&amp;subPath=lecture/lec06/)
-- [code HTML](../../resources/assets/lectures/lec06/lec06.html)
 - [(bonus) Joe Hellerstein’s primer on data models](https://drive.google.com/file/d/1nLftW2PaJNot-J9zIgES4HchXTTrB_63/view?usp=sharing)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.

@@ -13,7 +13,6 @@ Content by Anthony D. Joseph, Josh Hug
 - [slides](https://docs.google.com/presentation/d/1r4AT3zpJa0TE_B3zPn9WAimPMiWp77YcvKvdTLaMSII/edit?usp=sharing)
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfp_ralYHWOfZQNDa5og0Ptw)
 - [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa20&amp;subPath=lecture/lec07/)
-- [code HTML](../../resources/assets/lectures/lec07/lec07.html)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
