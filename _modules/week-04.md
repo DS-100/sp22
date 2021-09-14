@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-09-14
   events:
-    ? '**Lecture 6**{: .label .label-lecture } Data Cleaning and EDA'
+    ? '**Lecture 6**{: .label .label-lecture } [Data Cleaning and EDA](lecture/lec06)'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-09-15
