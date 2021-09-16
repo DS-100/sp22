@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-09-16
   events:
-    ? '**Lecture 7**{: .label .label-lecture } Regex'
+    ? '**Lecture 7**{: .label .label-lecture } [Regex](lecture/lec07)'
     : ""
 - date: 2021-09-17
   events:
