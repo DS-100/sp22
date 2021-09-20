@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-09-21
   events:
-    ? '**Lecture 8**{: .label .label-lecture } SQL I'
+    ? '**Lecture 8**{: .label .label-lecture } [SQL I](lecture/lec08)'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-09-22
