@@ -31,42 +31,42 @@ Content by Anthony D. Joseph, Allen Shen, Josh Hug, John DeNero, Joseph Gonzalez
 </thead>
 <tbody>
 <tr>
-<td><strong>8.0</strong> <br>Introduction</td>
+<td><strong>8.1</strong> <br>Introduction</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/XR9NzKF-I_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td></td>
 </tr>
 <tr>
-<td><strong>8.1</strong> <br>Motivation</td>
+<td><strong>8.2</strong> <br>Motivation</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/EQSvbsTuuUs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">8.1</a></td>
 </tr>
 <tr>
-<td><strong>8.2</strong> <br>Terminology</td>
+<td><strong>8.3</strong> <br>Terminology</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/5H17R49cdxQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">8.2</a></td>
 </tr>
 <tr>
-<td><strong>8.3</strong> <br>Creating Tables</td>
+<td><strong>8.4</strong> <br>Creating Tables</td>
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/QAABu0CoO38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">8.3</a></td>
 </tr>
 <tr>
-<td><strong>8.4</strong> <br>Querying Rows</td>
+<td><strong>8.5</strong> <br>Querying Rows</td>
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/Aw69PRyFUto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">8.4</a></td>
 </tr>
 <tr>
-<td><strong>8.5</strong> <br>Querying Groups</td>
+<td><strong>8.6</strong> <br>Querying Groups</td>
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/WsyA75ppEAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">8.5</a></td>
 </tr>
 <tr>
-<td><strong>8.6</strong> <br>Practice</td>
-<td><iframe width="300" height="300" height src="https://youtu.be/LKyJWkGo8d0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><strong>8.7</strong> <br>Practice</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/LKyJWkGo8d0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">8.6</a></td>
 </tr>
 <tr>
-<td><strong>8.7</strong> <br>Conclusion</td>
+<td><strong>8.8</strong> <br>Conclusion</td>
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/CE8QcsBkwFs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">8.7</a></td>
 </tr>
