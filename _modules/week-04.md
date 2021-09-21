@@ -23,7 +23,7 @@ days:
   events:
     ? '**Discussion 4**{: .label .label-disc } Data Cleaning and Regex ([pdf](https://drive.google.com/file/d/1OCccLMaDI7kx6xasGpc_vBU3r627m20i/view)) ([notebook](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Fdisc%2Fdisc04&branch=main)) ([solutions](https://drive.google.com/file/d/1OnKszYAJbEgMX6-yOL_RryDc2ZQZEbOR/view?usp=sharing))'
     ? '**Homework 4**{: .label .label-hw } [Tweets](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Fhw%2Fhw4&branch=main) (due Sept 23)'
-    ? '**Lab 4**{: .label .label-lab } [SQL](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flab%2Flab04&branch=main) (due Sept 21)'
+    ? '**Lab 4**{: .label .label-lab } [SQL](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flab%2Flab04&branch=main) (due Sept 23)'
     : ""
 
 ---
