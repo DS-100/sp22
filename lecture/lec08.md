@@ -13,6 +13,7 @@ Content by Anthony D. Joseph, Allen Shen, Josh Hug, John DeNero, Joseph Gonzalez
 - [slides](https://docs.google.com/presentation/d/1dluAsb2QMQQvooBJC88-mSFu9g6S9zqk6g9XarYbP-E/edit?usp=sharing)
 - [demo slides](https://docs.google.com/presentation/d/1OZA9ayI3i6-rYGwZHhyPoOlb5pj2EH-haHuWVw9disg/edit?usp=sharing)
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfocPLvQRFt4JwyebH5PNuy4)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flec%2Flec08&branch=main)
 
 **The Quick Checks for this lecture are not yet ready to be released; please check back later.** A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
