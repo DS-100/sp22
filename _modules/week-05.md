@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-09-23
   events:
-    ? '**Lecture 9**{: .label .label-lecture } SQL II'
+    ? '**Lecture 9**{: .label .label-lecture } [SQL II](lecture/lec09)'
     : ""
 - date: 2021-09-24
   events:
