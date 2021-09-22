@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 8 – SQL
+title: Lecture 8 – SQL I
 nav_exclude: true
 ---
 
-# Lecture 8 - SQL
+# Lecture 8 - SQL I
 
 Presented by Alvin Wan
 
