@@ -33,37 +33,37 @@ Content by Alvin Wan, Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yif
 <tbody>
 <tr>
 <tr>
-<td><strong>9.1</strong> <br>Formal definition of visualization. The purpose of visualization in the data science lifecycle.</td>
+<td><strong>9.1</strong> <br>Introductiontd>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/ICupEbT0VHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td></td>
 </tr>
 <tr>
-<td><strong>9.2</strong> <br>Different ways we can map from data to properties of a visualization.</td>
+<td><strong>9.2</strong> <br>Types of Relationships</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/ryrha1Qz1UY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.2</a></td>
 </tr>
 <tr>
-<td><strong>9.3</strong> <br>Defining distributions, and determining whether or not given visualizations contain a distribution.</td>
+<td><strong>9.3</strong> <br>Join Tables</td>
 <td><iframe width="300" height="500" height src="https://youtube.com/embed/FAYKJT1TFUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.3</a></td>
 </tr>
 <tr>
-<td><strong>9.4</strong> <br>Bar plots as a means of displaying the distribution of a qualitative variable, as well as for plotting a quantitative variable across several different categories.</td>
+<td><strong>9.4</strong> <br>Handling Null</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/LEMkOxv599U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.4</a></td>
 </tr>
 <tr>
-<td><strong>9.5</strong> <br>Rug plots. Histograms, where areas are proportions. Reviewing histogram calculations from Data 8. Density curves as smoothed versions of histograms.</td>
+<td><strong>9.5</strong> <br>Subsampling</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/iq-n9cUBxeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.5</a></td>
 </tr>
 <tr>
-<td><strong>9.6</strong> <br>Describing distributions of quantitative variables using terms such as modes, skew, tails, and outliers.</td>
+<td><strong>9.6</strong> <br>Practice</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/6vkZUwkoAwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.6</a></td>
 </tr>
 <tr>
-<td><strong>9.7</strong> <br>Using box plots and violin plots to visualize quantitative distributions. Using overlaid histograms and density curves, and side by side box plots and violin plots, to compare multiple quantitative distributions.</td>
+<td><strong>9.7</strong> <br>Conclusion</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/8Q9cIg4s8v8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.7</a></td>
 </tr>
