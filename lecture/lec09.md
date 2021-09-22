@@ -35,7 +35,7 @@ Content by Alvin Wan, Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yif
 <tr>
 <td><strong>9.1</strong> <br>Formal definition of visualization. The purpose of visualization in the data science lifecycle.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/ICupEbT0VHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="" target="\_blank">9.1</a></td>
+<td></td>
 </tr>
 <tr>
 <td><strong>9.2</strong> <br>Different ways we can map from data to properties of a visualization.</td>
