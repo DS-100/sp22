@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 9 – Visualization, Part 1
+title: Lecture 9 – SQL II
 nav_exclude: true
 ---
 
-# Lecture 9 – Visualization, Part 1
+# Lecture 9 – SQL II
 
 Presented by Alvin Wan
 
