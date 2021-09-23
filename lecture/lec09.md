@@ -38,32 +38,37 @@ Content by Alvin Wan, Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yif
 <td></td>
 </tr>
 <tr>
-<td><strong>9.2</strong> <br>Types of Relationships</td>
+<td><strong>9.2</strong> <br>Motivation</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/ryrha1Qz1UY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.2</a></td>
 </tr>
 <tr>
-<td><strong>9.3</strong> <br>Join Tables</td>
-<td><iframe width="300" height="500" height src="https://youtube.com/embed/FAYKJT1TFUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><strong>9.3</strong> <br>Types of Relationships</td>
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/i59rN_M5qD8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.3</a></td>
 </tr>
 <tr>
-<td><strong>9.4</strong> <br>Handling Null</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/LEMkOxv599U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><strong>9.4</strong> <br>Join Tables</td>
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/FAYKJT1TFUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.4</a></td>
 </tr>
 <tr>
-<td><strong>9.5</strong> <br>Subsampling</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/iq-n9cUBxeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><strong>9.5</strong> <br>Handling Null</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/LEMkOxv599U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.5</a></td>
 </tr>
 <tr>
-<td><strong>9.6</strong> <br>Practice</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/6vkZUwkoAwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><strong>9.6</strong> <br>Subsampling</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/iq-n9cUBxeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.6</a></td>
 </tr>
 <tr>
-<td><strong>9.7</strong> <br>Conclusion</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/8Q9cIg4s8v8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><strong>9.7</strong> <br>Practice</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/6vkZUwkoAwM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.7</a></td>
+</tr>
+<tr>
+<td><strong>9.8</strong> <br>Conclusion</td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/8Q9cIg4s8v8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><a href="" target="\_blank">9.8</a></td>
 </tr>
