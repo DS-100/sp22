@@ -33,7 +33,7 @@ Content by Alvin Wan, Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yif
 <tbody>
 <tr>
 <tr>
-<td><strong>9.1</strong> <br>Introductiontd>
+<td><strong>9.1</strong> <br>Introduction</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/ICupEbT0VHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td></td>
 </tr>
