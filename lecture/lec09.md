@@ -44,7 +44,7 @@ Content by Alvin Wan, Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yif
 </tr>
 <tr>
 <td><strong>9.3</strong> <br>Types of Relationships</td>
-<td><iframe width="300" height="500" height src="https://youtube.com/embed/i59rN_M5qD8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/vGgKqxUPX7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.3</a></td>
 </tr>
 <tr>
