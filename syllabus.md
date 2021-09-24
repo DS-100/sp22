@@ -134,6 +134,7 @@ This course has discussion sections on Fridays, lasting for one hour. The goal o
 
 To encourage attendance and participation in live discussion, we will offer the option of having discussion contribute to your grade. Specifically, points you earn from attending/participating in discussion can reduce the weighting of homeworks on your overall course grade. See the course policies for more details.
 
+- **You must be assigned to a discussion section, even if you don't intend on attending the section.**
 - In a typical week, we will release the discussion worksheet on Friday morning.
 - We will be holding live discussion sections on Fridays. You will sign up for a section, but attendance will not be required.
   - **Unlike past semesters, live discussions will not provide physical handouts.**
