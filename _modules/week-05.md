@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-09-24
   events:
-    ? '**Discussion 5**{: .label .label-disc } SQL'
+    ? '**Discussion 5**{: .label .label-disc } [SQL](https://drive.google.com/file/d/1bsY9yQBM2sLir8fBzw9AQC2M-jJfqYVZ/view?usp=sharing)'
     ? '**Homework 5**{: .label .label-hw } SQL (due Sept 30)'
     ? '**Lab 5**{: .label .label-lab } Transformations and KDEs (due Sept 28)'
     : ""
