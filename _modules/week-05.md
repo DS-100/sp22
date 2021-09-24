@@ -23,7 +23,7 @@ days:
   events:
     ? '**Discussion 5**{: .label .label-disc } [SQL](https://drive.google.com/file/d/1bsY9yQBM2sLir8fBzw9AQC2M-jJfqYVZ/view?usp=sharing)'
     ? '**Homework 5**{: .label .label-hw } SQL (due Sept 30)'
-    ? '**Lab 5**{: .label .label-lab } Transformations and KDEs (due Sept 28)'
+    ? '**Lab 5**{: .label .label-lab } [Transformations and SQL](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flab%2Flab05&branch=main) (due Sept 28)'
     : ""
 
 ---
