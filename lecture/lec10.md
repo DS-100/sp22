@@ -12,7 +12,7 @@ Content by Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu, Debo
 
 - [slides](https://docs.google.com/presentation/d/1LX24J599pyM438meJRfOFI97T1cHq1eGQ0YqBo8ANm0/edit?usp=sharing)
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfqXd_ftBLzb6EovfL5ky_Ll)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec10/&branch=main)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flec%2Flec10&branch=main)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
