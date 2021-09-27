@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-09-28
   events:
-    ? '**Lecture 10**{: .label .label-lecture } Visualization I'
+    ? '**Lecture 10**{: .label .label-lecture } [Visualization I](lecture/lec10)'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-09-29
