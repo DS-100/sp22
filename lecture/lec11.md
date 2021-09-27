@@ -12,7 +12,7 @@ Content by Suraj Rampure, Ani Adhikari, Deborah Nolan, Joseph Gonzalez
 
 - [slides](https://docs.google.com/presentation/d/1-YzJlV8K4LbIwNYZQQVBTqgcp94hc6_ftPmT1sxy8w8/edit?usp=sharing)
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfo4T5Qhz9MwpdAGMDGxBZkk)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec11/&branch=main)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flec%2Flec11&branch=main)
 
 Extra reading on colormaps:
 
