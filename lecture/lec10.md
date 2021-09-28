@@ -31,6 +31,11 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
+<td><strong>10.0</strong> <br />Formal definition of visualization. The purpose of visualization in the data science lifecycle.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/loW5f8KMkpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td></td>
+</tr>
+<tr>
 <td><strong>10.1</strong> <br />Formal definition of visualization. The purpose of visualization in the data science lifecycle.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/jJEEYES-Drw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
 <td><a href="https://forms.gle/zgF41YvrS94UcvmcA" target="\_blank">10.1</a></td>
