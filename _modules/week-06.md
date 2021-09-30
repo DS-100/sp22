@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-10-01
   events:
-    ? '**Discussion 6**{: .label .label-disc } Visualization'
+    ? '**Discussion 6**{: .label .label-disc } [Visualization](lecture/lec11)'
     ? '**Homework 6**{: .label .label-hw } Bike Sharing (due Oct 7)'
     ? '**Lab 6**{: .label .label-lab } Modeling, Summary Statistics, and Loss Functions (due Oct 5)'
     : ""
