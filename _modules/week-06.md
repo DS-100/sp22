@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-10-01
   events:
-    ? '**Discussion 6**{: .label .label-disc } Visualization'
+    ? '**Discussion 6**{: .label .label-disc } [Visualization](https://drive.google.com/file/d/1qqzkRrZ9ewUNFBKEarHtJhdiVXZZRcx9/view?usp=sharing)'
     ? '**Homework 6**{: .label .label-hw } [Bike Sharing](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Fhw%2Fhw6&branch=main) (due Oct 7)'
     ? '**Lab 6**{: .label .label-lab } [Modeling, Summary Statistics, and Loss Functions](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flab%2Flab06&branch=main) (due Oct 5)'
     : ""
