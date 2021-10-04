@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 13 – Ordinary Least Squares
+title: Lecture 13 – Simple Linear Regression
 nav_exclude: true
 ---
 
-# Lecture 13 – Ordinary Least Squares
+# Lecture 13 – Simple Linear Regression
 
 Presented by Anthony D. Joseph and Suraj Rampure
 
