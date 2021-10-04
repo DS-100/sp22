@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Lecture 12 – Simple Linear Regression
+title: Lecture 12 – Modeling
 nav_exclude: true
 ---
 
-# Lecture 12 – Simple Linear Regression
+# Lecture 12 – Modeling
 
-Presented by Suraj Rampure
+Presented by Fernando Perez and Suraj Rampure
 
-Content by Suraj Rampure and Ani Adhikari
+Content by Fernando Perez, Suraj Rampure, Ani Adhikari, Deborah Nolan, Joseph Gonzalez
 
 - [slides](https://docs.google.com/presentation/d/1jp-w5-BtagpTJH_F1KQ7aT_A5CPHIS0J4yF_vR3ubE4/edit?usp=sharing)
 - [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqdg_WubE2qBPnSLSu1i5Pz)
