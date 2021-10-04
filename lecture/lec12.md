@@ -10,9 +10,9 @@ Presented by Fernando Perez and Suraj Rampure
 
 Content by Fernando Perez, Suraj Rampure, Ani Adhikari, Deborah Nolan, Joseph Gonzalez
 
-- [slides](https://docs.google.com/presentation/d/1jp-w5-BtagpTJH_F1KQ7aT_A5CPHIS0J4yF_vR3ubE4/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqdg_WubE2qBPnSLSu1i5Pz)
-- [code](https://github.com/DS-100/fa21/tree/main/lec/lec12) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec12/&branch=main))
+- [slides](https://docs.google.com/presentation/d/1PchK3LJ6g__61fEMJvDOjVcg3fTmZwL22Ytk_zpPED0/edit?usp=sharing)
+- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfq7fbhdteiNbYrrV3_c96uW)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec12/&branch=main)
 - [code HTML](../../resources/assets/lectures/lec12/lec12.html)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
