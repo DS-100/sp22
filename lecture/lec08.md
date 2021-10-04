@@ -39,7 +39,7 @@ Content by Anthony D. Joseph, Allen Shen, Josh Hug, John DeNero, Joseph Gonzalez
 <tr>
 <td><strong>8.2</strong> <br>Motivation</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/EQSvbsTuuUs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="" target="\_blank">8.2</a></td>
+<td><a href="https://forms.gle/LUG5kwmSNFGdJkUF6" target="\_blank">8.2</a></td>
 </tr>
 <tr>
 <td><strong>8.3</strong> <br>Terminology</td>
@@ -54,7 +54,7 @@ Content by Anthony D. Joseph, Allen Shen, Josh Hug, John DeNero, Joseph Gonzalez
 <tr>
 <td><strong>8.5</strong> <br>Querying Rows</td>
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/Aw69PRyFUto" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="" target="\_blank">8.5</a></td>
+<td><a href="https://forms.gle/nMEo7ZdvxHNf3JAx5" target="\_blank">8.5</a></td>
 </tr>
 <tr>
 <td><strong>8.6</strong> <br>Querying Groups</td>
