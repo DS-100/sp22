@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-10-05
   events:
-    ? '**Lecture 12**{: .label .label-lecture } Modeling'
+    ? '**Lecture 12**{: .label .label-lecture } [Modeling](lecture/lec12)'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-10-06
