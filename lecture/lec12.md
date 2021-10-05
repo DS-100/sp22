@@ -49,17 +49,17 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <tr>
 <td><strong>12.4</strong> <br />Minimizing mean squared error for the constant model using calculus, to show that the sample mean is the optimal model parameter in this case.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/_yY-jFZRaVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="" target="\_blank">12.4 - coming soon</a></td>
+<td><a href="https://forms.gle/XojKNWZd9F5UmYoi7" target="\_blank">12.4</a></td>
 </tr>
 <tr>
 <td><strong>12.5</strong> <br />Performing the same optimization as in the last video, but by using a non-calculus algebraic manipulation.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/c5pbo8FJuO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="" target="\_blank">12.5 - coming soon</a></td>
+<td><a href="https://forms.gle/qYpGybMbmt7QSceUA" target="\_blank">12.5</a></td>
 </tr>
 <tr>
 <td><strong>12.6</strong> <br />Minimizing mean absolute error for the constant model using calculus, to show that the sample median is the optimal parameter in this case. Identifying that this solution isn't necessarily unique.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/fWCuiWAEtUc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="" target="\_blank">12.6 - coming soon</a></td>
+<td><a href="https://forms.gle/wwb7Jfqcuc6GdZig8" target="\_blank">12.6</a></td>
 </tr>
 <tr>
 <td><strong>12.7</strong> <br />Comparing the loss surfaces of MSE and MAE for the constant model. Discussing the benefits and drawbacks of squared and absolute loss. Recapping the "modeling process".</td>
