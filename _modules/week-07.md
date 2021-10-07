@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-10-07
   events:
-    ? '**Lecture 13**{: .label .label-lecture } Simple Linear Regression'
+    ? '**Lecture 13**{: .label .label-lecture } [Simple Linear Regression](lecture/lec13)'
     : ""
 - date: 2021-10-08
   events:
