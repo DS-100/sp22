@@ -22,8 +22,8 @@ days:
 - date: 2021-10-08
   events:
     ? '**Discussion 7**{: .label .label-disc } [Modeling and Linear Regression](https://drive.google.com/file/d/1fbiu4l1vT-EuggIq0Ju51Pjjpsl-4cYr/view?usp=sharing)'
-    ? '**Homework 7**{: .label .label-hw } Regression (on paper) (due Oct 14)'
-    ? '**Lab 7**{: .label .label-lab } Simple Linear Regression (due Oct 12)'
+    ? '**Homework 7**{: .label .label-hw } [Regression (on paper)](https://drive.google.com/file/d/11E87V-ude_uwChqNPxAbLPj62are7iYl/view?usp=sharing) (due Oct 14)'
+    ? '**Lab 7**{: .label .label-lab } [Simple Linear Regression](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=tree%2Ffa21%2Flab%2Flab07&branch=main) (due Oct 12)'
     : ""
 
 ---
