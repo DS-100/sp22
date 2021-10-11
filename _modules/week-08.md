@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-10-12
   events:
-    ? '**Lecture 14**{: .label .label-lecture } Linear Regression + Geometric Interpretation'
+    ? '**Lecture 14**{: .label .label-lecture } [Linear Regression + Geometric Interpretation](lecture/lec14)'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-10-13
