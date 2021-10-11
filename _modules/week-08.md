@@ -17,7 +17,7 @@ days:
     : ''
 - date: 2021-10-14
   events:
-    ? '**Lecture 15**{: .label .label-lecture } Human Contexts and Ethics'
+    ? '**Lecture 15**{: .label .label-lecture } Modeling in Context: Fairness in Housing Appraisal'
     : ''
 - date: 2021-10-15
   events:
