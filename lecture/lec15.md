@@ -9,7 +9,7 @@ nav_exclude: true
 Presented by Ari Edmundson and Margarita Boenig-Liptsin
 
 - [slides](https://docs.google.com/presentation/d/1FYML1Yu27f7ROd0--MAEjudBxmUbTWh8jkwdA82RwB4/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpNWBfcVOSKps0q3F4qbZtC)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfo7wid1ZOQ47I_U1ZC1z6n7)
 
 <table>
 <colgroup>
@@ -25,11 +25,6 @@ Presented by Ari Edmundson and Margarita Boenig-Liptsin
 </tr>
 </thead>
 <tbody>
-<tr>
-<td><strong>15.0</strong> <br> Introduction </td>
-<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/LhaYP9QxKck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td></td>
-</tr>
 <tr>
 <td><strong>15.1</strong> <br> CCAO Intro + Problem </td>
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/8iHMk-2QJUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
