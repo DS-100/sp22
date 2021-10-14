@@ -17,7 +17,7 @@ days:
     : ''
 - date: 2021-10-14
   events:
-    ? '**Lecture 15**{: .label .label-lecture } Modeling in Context: Fairness in Housing Appraisal'
+    ? '**Lecture 15**{: .label .label-lecture } [Modeling in Context: Fairness in Housing Appraisal](lecture/lec15)'
     : ''
 - date: 2021-10-15
   events:
