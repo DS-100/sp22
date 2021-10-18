@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lecture 17 – Cross-Validation and Regularization
+title: Lecture 17 – Bias and Variance
 nav_exclude: true
 ---
 
