@@ -23,7 +23,7 @@ days:
   events:
     ? '**Discussion 9**{: .label .label-disc } Feature Engineering and Bias-Variance Tradeoff'
     ? '**Homework 9**{: .label .label-hw } Housing II (due Oct 28)'
-    ? '**Lab 9**{: .label .label-lab} Feature Engineering (due Oct 26)'
+    ? '**Lab 9**{: .label .label-lab} Content Review (due Oct 26)'
     : ""
 
 ---
