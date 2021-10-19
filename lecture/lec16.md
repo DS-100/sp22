@@ -15,7 +15,7 @@ Content by Alvin Wan, Andrew Bray, Suraj Rampure, Ani Adhikari
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfrt-MdrzT5knYbZ_sJVfPWB)
 - [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec16/)
 
-A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
+A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding. **Currently, this lecture has no quick checks. We will be adding some shortly.**
 
 <table>
 <colgroup>
