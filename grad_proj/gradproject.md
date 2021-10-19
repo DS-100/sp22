@@ -37,16 +37,17 @@ You will receive feedback from peer grading before the final deadline, and you a
 
 ## Timeline <a name="timeline"></a>
 
+
 | Date (by EOD at 11:59pm) 	| Event / Deliverable                           |
 |--------------------------	|---------------------------------------------	|
-| 4/11                     	| Research proposal and project groups due    	|
-| 4/25                     	| Project checkpoint                          	|
-| 4/30                     	| First draft of final report due             	|
-| 4/31                     	| Peer grading starts                         	|
-| 5/4                      	| Peer grading due                            	|
-| 5/9                      	| Revised final report due                    	|
-| 5/12                     	| Presentation video due                      	|
-| 5/14                     	| Presentation video released (at discretion) 	|
+| 11/9                      | Research proposal and project groups due    	|
+| 11/22                     | Project checkpoint                          	|
+| 12/1                     	| First draft of final report due             	|
+| 12/2                     	| Peer grading starts                         	|
+| 12/6                      | Peer grading due                            	|
+| 12/13                     | Revised final report due                    	|
+| 12/15                     | Presentation video due                      	|
+| 12/17                     | Presentation video released (at discretion) 	|
 
 ## Deliverables and Grade Breakdown <a name="grade-breakdown"></a>
 
@@ -78,6 +79,8 @@ The following subsections contain the descriptions and additional requirements f
 
 This dataset
 ### Topic 1: COVID-19 <a name="covid-19"></a>
+
+Note: You may not choose this topic of you are already using the COVID-19 dataset for the final project.
 
 #### Dataset A: Testing and Mortality Statistics <a name="1-a"></a>
 
