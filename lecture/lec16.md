@@ -38,37 +38,37 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </tr>
 <tr>
 <td><strong>16.2</strong><br>Numpy: Coding a Linear Model</td>
-<td><iframe width="300" height="300" height src="https://youtube/embed/T_focSCuCqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/T_focSCuCqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">16.2</a></td>
 </tr>
 <tr>
 <td><strong>16.3</strong><br>Sklearn: Coding a Linear Model</td>
-<td><iframe width="300" height="300" height src="https://youtube/embed/wbdw_d-Vf3I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/wbdw_d-Vf3I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">16.3</a></td>
 </tr>
 <tr>
 <td><strong>16.4</strong><br>Where a Linear Model Struggles</td>
-<td><iframe width="300" height="300" height src="https://youtube/embed/62BVUi87z-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><iframe width="300" height="300" height src="https://youtube.com/embed/62BVUi87z-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">16.4</a></td>
 </tr>
 <tr>
 <td><strong>16.5</strong><br>Benefit #1: Enhancing your linear model</td>
-<td><iframe width="300" height="500" height src="https://youtube/embed/jHTCCEEgaeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/jHTCCEEgaeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">16.5</a></td>
 </tr>
 <tr>
 <td><strong>16.6</strong><br>Sklearn: Imputing Data</td>
-<td><iframe width="300" height="500" height src="https://youtube/embed/IVeCuLMt-t0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/IVeCuLMt-t0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">16.6</a></td>
 </tr>
 <tr>
 <td><strong>16.7</strong><br>Benefit #2: Applying Domain Knowledge</td>
-<td><iframe width="300" height="500" height src="https://youtube/embed/YNyeEA-1RIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/YNyeEA-1RIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">16.7</a></td>
 </tr>
 <tr>
 <td><strong>16.8</strong><br>Benefit #3: Non-numeric and Categorical Data</td>
-<td><iframe width="300" height="500" height src="https://youtube/embed/B1FZeFwF0rM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+<td><iframe width="300" height="500" height src="https://youtube.com/embed/B1FZeFwF0rM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">16.8</a></td>
 </tr>
 <tr>
