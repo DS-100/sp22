@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 16 – Bias and Variance
+title: Lecture 16 – Feature Engineering
 nav_exclude: true
 ---
 
-# Lecture 16 – Bias and Variance
+# Lecture 16 – Feature Engineering
 
 Presented by Alvin Wan
 
