@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-10-19
   events:
-    ? '**Lecture 16**{: .label .label-lecture } [Feature Engineering](lec/lec16)'
+    ? '**Lecture 16**{: .label .label-lecture } [Feature Engineering](lecture/lec16)'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-10-20
