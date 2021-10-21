@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-10-21
   events:
-    ? '**Lecture 17**{: .label .label-lecture } Bias-Variance Tradeoff'
+    ? '**Lecture 17**{: .label .label-lecture } [Bias-Variance Tradeoff](lecture/lec17)'
     : ""
 - date: 2021-10-22
   events:
