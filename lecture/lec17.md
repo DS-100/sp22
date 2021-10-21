@@ -4,7 +4,7 @@ title: Lecture 17 – Bias and Variance
 nav_exclude: true
 ---
 
-# Lecture 17 – Bias and Variance</h1>
+# Lecture 17 – Bias and Variance
 
 Presented by Fernando Perez and Ani Adhikari
 
