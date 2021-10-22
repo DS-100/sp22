@@ -23,7 +23,7 @@ days:
   events:
     ? '**Discussion 13**{: .label .label-disc } Decision Trees and Inference'
     ? '**Homework 12**{: .label .label-hw } Spam & Ham II (due Nov 25)'
-    ? '**Lab 12**{: .label .label-lab } Decision Trees & Random Forests (due Nov 23)'
+    ? '**Lab 13**{: .label .label-lab } Decision Trees & Random Forests (due Nov 23)'
     : ""
 
 ---
