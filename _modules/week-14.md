@@ -23,7 +23,7 @@ days:
   events:
     ? '**No Discussion**{: .label .label-disc } (Thanksgiving)'
     ? '**Homework 13**{: .label .label-hw } PCA (due Dec 2)'
-    ? '**Lab 13**{: .label .label-lab } PCA (due Nov 30)'
+    ? '**Lab 14**{: .label .label-lab } PCA (due Nov 30)'
     : ""
 
 ---
