@@ -23,7 +23,7 @@ days:
   events:
     ? '**Discussion 11**{: .label .label-disc } Gradient Descent and Logistic Regression I'
     ? '**Homework 10**{: .label .label-hw } Gradient Descent and Logistic Regression (due Nov 11)'
-    ? '**Lab 10**{: .label .label-lab } Climate Data (due Nov 9)'
+    ? '**Lab 11**{: .label .label-lab } Climate Data (due Nov 9)'
     : ""
 
 ---
