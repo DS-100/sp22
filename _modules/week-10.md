@@ -23,7 +23,7 @@ days:
   events:
     ? '**Discussion 10**{: .label .label-disc } Regularization and Cross-Validation'
     ? '**No Homework**{: .label .label-hw } Midterm on 11/1'
-    ? '**Lab 10**{: .label .label-lab } Cross-Validation and Regularization (due Nov 4)'
+    ? '**Lab 10**{: .label .label-lab } [Cross-Validation and Regularization](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=tree%2Ffa21%2Flab%2Flab10&branch=main) (due Nov 4)'
     : ""
 
 ---
