@@ -23,7 +23,7 @@ days:
   events:
     ? '**Discussion 10**{: .label .label-disc } Regularization and Cross-Validation'
     ? '**No Homework**{: .label .label-hw } Midterm on 11/1'
-    ? '**Lab 10**{: .label .label-lab } Cross-Validation and Regularization (due Nov 2)'
+    ? '**Lab 10**{: .label .label-lab } Cross-Validation and Regularization (due Nov 4)'
     : ""
 
 ---
