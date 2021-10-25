@@ -1,21 +1,36 @@
 ---
 layout: page
-title: Lecture 18 – Gradient Descent
+title: Lecture 18 – Cross-Validation and Regularization
 nav_exclude: true
 ---
 
-# Lecture 18 – Gradient Descent
+# Lecture 18 – Cross-Validation and Regularization
 
-Presented by Raguvir Kunani, Anthony D. Joseph
+Presented by Anthony D. Joseph, Joseph Gonzalez, Suraj Rampure, Paul Shao
 
-Content by Raguvir Kunani, Josh Hug, Joseph Gonzalez, Paul Shao
+Content by Joseph Gonzalez, Suraj Rampure, Paul Shao
 
-- [slides](https://docs.google.com/presentation/d/1YAymtiN92ipgIw9MEXFCIoEHP5csdoeX0_vVo37LLXo/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfpuAxccmVe2yu19U-kmLy0j)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su21&subPath=lec/lec18/&branch=main)
-- [code HTML](../../resources/assets/lectures/lec18/lec18.html)
-- (optional) [Raguvir's Gradient Descent Walkthrough](https://raguvir.me/teaching/ds100/resources/other/gradient_descent_walkthrough.pdf)
-- (optional) [Loss Game](../../resources/assets/lectures/lec18/gradient_game_v3.html)
+- [slides](https://docs.google.com/presentation/d/1UL2ljxgvk8UQnBpkadPCS9-os7f6Iw_X4bXCERGp7HI/edit?usp=sharing)
+- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfrhTm0sdDpyYbDhUiqr1vG5)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec18/&branch=main)
+
+**Important**: Read this before proceeding with the lectures, as it details what materials you should focus on. (This is also largely recapped in Video 16.1.)
+
+Sections 16.1 through 16.4 discuss train-test splits and cross-validation.
+
+16.1, in addition to giving an overview of the lecture, walks through why we need to split our data into train and test in the first place, and how cross-validation works. It primarily consists of slides.
+16.2 and 16.3 walk through the process of creating a basic train-test split, and evaluating models that we’ve fit on our training data using our testing data. Code is in “Part 1”.
+16.4 walks through the process of implementing cross-validation. In this video there references to a `Pipeline` object in `scikit-learn`. This is **not** in scope for us, so do not worry about its details.
+
+Sections 16.5 and 16.6 discuss regularization.
+
+16.5 discusses why we need to regularize, and how penalties on the norm of our parameter vector accomplish this goal.
+16.6 explicitly lists the optimal model parameter when using the L2 penalty on our linear model (called “ridge regression”).
+
+There are also three **supplementary** videos accompanying this lecture. They don’t introduce any new material, but may still be helpful for your understanding. They are listed as supplementary and not required since the runtime of this lecture is already quite long. They do not have accompanying Quick Checks for this reason.
+
+16.7 and 16.8 walk through implementing ridge and LASSO regression in a notebook. These videos are helpful in explaining how regularization and cross-validation are used in practice. These videos again use `Pipeline`, which is not in scope.
+16.9 is another **supplementary** video, created by Paul Shao (a TA for Data 100 in Spring 2020). It gives a great high-level overview of both the bias-variance tradeoff and regularization.
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
@@ -34,27 +49,48 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
-<td><strong>18.0</strong> <br>Introduction and Motivating Gradient Descent.</td>
-<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/K7xinj5-8Oo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td></td>
+<td><strong>16.1</strong> <br />Lecture overview. Training error vs. testing error. Why we need to split our data into train and test. How cross-validation works, and why it is useful.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/y6ZW4nZtlhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeyzg8cTdWXADSk5Ki7EVaOm1h5R_V2iqTfg5Ozv481YRdt4Q/viewform" target="\_blank">16.1</a></td>
 </tr>
 <tr>
-<td><strong>18.1</strong> <br>Gradient descent in one dimension. Convexity.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/gQq93hzecHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeoSD6AtUlyRrf9hCQWDwGn8PqL9SdWU479C_Q_P8CJ5F45Lg/viewform" target="\_blank">18.1</a></td>
+<td><strong>16.2</strong> <br />Using scikit-learn to construct a train-test split.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/_Bzfy7BTjz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeRph43oLp3hAmD5uH42BMquAoeGAQeey6XCaLsEbUsEZItzg/viewform" target="\_blank">16.2</a></td>
 </tr>
 <tr>
-<td><strong>18.2</strong> <br>Various methods of optimizing loss functions in one dimension.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/AzxMoqcyWzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfsx1xVVxT8aeK6H1Qx_hPzHkOwPP1xncK3U3Ornt8vpLKIdQ/viewform" target="\_blank">18.2</a></td>
+<td><strong>16.3</strong> <br />Building a linear model and determining its training and test error.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/2i7yj4JhIkw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdRetxoBG08ztF3RUrodibq7N1DzOVkT9AHIkKVNflnkStFNA/viewform" target="\_blank">16.3</a></td>
 </tr>
 <tr>
-<td><strong>18.3</strong> <br>Gradient descent in multiple dimensions. Interpretation of gradients.</td>
-<td><iframe width="300" height="500" height src="https://youtube.com/embed/16nIdtc5x9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScFeTRKsws3FlqlcAYLqiPlOn98nNbjJZKADpsrgYk-ZOGwmA/viewform" target="\_blank">18.3</a></td>
+<td><strong>16.4</strong> <br />Implementing cross-validation, and using it to help select a model.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/m8580Et4pjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfi_PiJCgRsdzrI9vwyRKHUV5B37WZfaEh0u6HA-che0Ii3-w/viewform" target="\_blank">16.4</a></td>
 </tr>
 <tr>
-<td><strong>18.4</strong> <br>Stochastic gradient descent (SGD). Comparison between gradient descent and SGD.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/CWaZS14cdh8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfveRPyYF25Pp6vrehPumB6M7kRJjzJhCUBoCoZ_TfbuxzruA/viewform" target="\_blank">18.4</a></td>
+<td><strong>16.5</strong> <br />An overview of regularization.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/NqKtsZpHmRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfEckJSRCSCkVz_JxGhrf2MtcctLWcT9NBMQFtF3GGcRIRvVw/viewform" target="\_blank">16.5</a></td>
 </tr>
+<tr>
+<td><strong>16.6</strong> <br />Ridge regression and LASSO regression.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/B-labBbXj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfz0-SU11o_wgeIUmIoV7VKtCNgwm4WZVrXU-WWsBwPxekIlg/viewform" target="\_blank">16.6</a></td>
+</tr>
+<tr>
+<td><strong>16.7</strong> <br />*Supplemental.* Using ridge regression and cross-validation in scikit-learn.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/frdGPG10dOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a>N/A</a></td>
+</tr>
+<tr>
+<td><strong>16.8</strong> <br />*Supplemental.* Using LASSO regression and cross-validation in scikit-learn.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/hqZNVrZ3flw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a>N/A</a></td>
+</tr>
+<tr>
+<td><strong>16.9</strong> <br />*Supplemental.* An overview of the bias-variance tradeoff, and how it interfaces with regularization.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/U2J75Iq2nrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a>N/A</a></td>
+</tr>
+</tbody></table>
