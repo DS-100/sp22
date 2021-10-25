@@ -51,32 +51,32 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <tr>
 <td><strong>16.1</strong> <br />Lecture overview. Training error vs. testing error. Why we need to split our data into train and test. How cross-validation works, and why it is useful.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/y6ZW4nZtlhI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeyzg8cTdWXADSk5Ki7EVaOm1h5R_V2iqTfg5Ozv481YRdt4Q/viewform" target="\_blank">16.1</a></td>
+<td><a href="https://forms.gle/6CbWjfgNXeJzoDFK7" target="\_blank">16.1</a></td>
 </tr>
 <tr>
 <td><strong>16.2</strong> <br />Using scikit-learn to construct a train-test split.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/_Bzfy7BTjz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeRph43oLp3hAmD5uH42BMquAoeGAQeey6XCaLsEbUsEZItzg/viewform" target="\_blank">16.2</a></td>
+<td><a href="https://forms.gle/jx7cQVVfyNh9Pzcy8" target="\_blank">16.2</a></td>
 </tr>
 <tr>
 <td><strong>16.3</strong> <br />Building a linear model and determining its training and test error.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/2i7yj4JhIkw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdRetxoBG08ztF3RUrodibq7N1DzOVkT9AHIkKVNflnkStFNA/viewform" target="\_blank">16.3</a></td>
+<td><a href="https://forms.gle/QMpoxmNpBhAKUQVn6" target="\_blank">16.3</a></td>
 </tr>
 <tr>
 <td><strong>16.4</strong> <br />Implementing cross-validation, and using it to help select a model.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/m8580Et4pjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfi_PiJCgRsdzrI9vwyRKHUV5B37WZfaEh0u6HA-che0Ii3-w/viewform" target="\_blank">16.4</a></td>
+<td><a href="https://forms.gle/fA1MgxJomFAawsX87" target="\_blank">16.4</a></td>
 </tr>
 <tr>
 <td><strong>16.5</strong> <br />An overview of regularization.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/NqKtsZpHmRY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfEckJSRCSCkVz_JxGhrf2MtcctLWcT9NBMQFtF3GGcRIRvVw/viewform" target="\_blank">16.5</a></td>
+<td><a href="https://forms.gle/bB91QjoUpvRnBbJN6" target="\_blank">16.5</a></td>
 </tr>
 <tr>
 <td><strong>16.6</strong> <br />Ridge regression and LASSO regression.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/B-labBbXj_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfz0-SU11o_wgeIUmIoV7VKtCNgwm4WZVrXU-WWsBwPxekIlg/viewform" target="\_blank">16.6</a></td>
+<td><a href="https://forms.gle/JBcDvMhis1BzNg7fA" target="\_blank">16.6</a></td>
 </tr>
 <tr>
 <td><strong>16.7</strong> <br />*Supplemental.* Using ridge regression and cross-validation in scikit-learn.</td>
