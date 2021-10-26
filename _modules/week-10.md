@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-10-26
   events:
-    ? '**Lecture 18**{: .label .label-lecture } Regularization and Cross-Validation'
+    ? '**Lecture 18**{: .label .label-lecture } [Regularization and Cross-Validation](lecture/lec18)'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-10-27
