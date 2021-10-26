@@ -1,4 +1,5 @@
-CREATE TABLE IF NOT EXISTS [trop_storm] (
+DROP TABLE IF EXISTS trop_storm;
+CREATE TABLE trop_storm (
 [Year] INT NOT NULL,
 [Basin] VARCHAR NULL,
 [Num_Tropical] INTEGER NULL,
