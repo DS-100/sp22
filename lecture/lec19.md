@@ -29,7 +29,7 @@ Content by Dr. Chelle Gentemann
 </thead>
 <tbody>
 <tr>
-<td><strong>19</strong> <br />Guest lecture with Dr. Chelle Gentemann, a </td>
+<td><strong>19</strong> <br />Guest lecture on climate data with oceanographer Dr. Chelle Gentemann.</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/Zbpzjy3OSmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
 <td><a href="https://forms.gle/6CbWjfgNXeJzoDFK7" target="\_blank">18.1</a></td>
 </tr>
