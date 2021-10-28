@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 19 – Logistic Regression, Part 1
+title: Lecture 19 – Guest Lecture: Physical Data and the Climate
 nav_exclude: true
 ---
 
-# Lecture 19 – Logistic Regression, Part 1
+# Lecture 19 – Guest Lecture: Physical Data and the Climate
 
 Presented by Dr. Chelle Gentemann
 
