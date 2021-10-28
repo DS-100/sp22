@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-10-28
   events:
-    ? '**Lecture 19**{: .label .label-lecture } Guest Lecture: Physical Data and the Climate'
+    ? '**Lecture 19**{: .label .label-lecture } [Guest Lecture: Physical Data and the Climate](lecture/lec19)'
     : ""
 - date: 2021-10-29
   events:
