@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 18 – Cross-Validation and Regularization
+title: Lecture 19 – Guest Lecture: Physical Data and the Climate
 nav_exclude: true
 ---
 
-# Lecture 18 – Cross-Validation and Regularization
+# Lecture 19 – Guest Lecture: Physical Data and the Climate
 
 Presented by Anthony D. Joseph, Joseph Gonzalez, Suraj Rampure, Paul Shao
 
