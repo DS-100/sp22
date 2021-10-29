@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 19 – Guest Lecture: Physical Data and the Climate
+title: Lecture 19 – Physical Data and the Climate
 nav_exclude: true
 ---
 
-# Lecture 19 – Guest Lecture: Physical Data and the Climate
+# Lecture 19 – Physical Data and the Climate
 
 Presented by Anthony D. Joseph, Joseph Gonzalez, Suraj Rampure, Paul Shao
 
