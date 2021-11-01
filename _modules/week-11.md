@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-11-04
   events:
-    ? '**Lecture 21**{: .label .label-lecture } Logistic Regression I'
+    ? '**Lecture 21**{: .label .label-lecture } Dimensionality Reduction & PCA'
     : ""
 - date: 2021-11-05
   events:
