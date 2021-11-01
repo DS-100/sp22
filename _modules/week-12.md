@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-11-09
   events:
-    ? '**Lecture 22**{: .label .label-lecture } Logistic Regression II and Classification'
+    ? '**Lecture 22**{: .label .label-lecture } Logistic Regression I'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-11-10
