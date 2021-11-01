@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-11-16
   events:
-    ? '**Lecture 23**{: .label .label-lecture } Decision Trees'
+    ? '**Lecture 23**{: .label .label-lecture } Logistic Regression II and Classification'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-11-17
@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-11-18
   events:
-    ? '**Lecture 24**{: .label .label-lecture } Inference for Modeling'
+    ? '**Lecture 24**{: .label .label-lecture } Decision Trees'
     : ""
 - date: 2021-11-19
   events:
