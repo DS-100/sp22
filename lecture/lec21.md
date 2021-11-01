@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Lecture 21 – Decision Trees
+title: Lecture 21 – Principal Components Analysis
 nav_exclude: true
 ---
 
-# Lecture 21 – Decision Trees
+# Lecture 21 – Principal Components Analysis
 
 Presented by Anthony D. Joseph
 
-Content by Josh Hug
+Content by Josh Hug, John DeNero, Sam Lau, and Suraj Rampure
 
-- [slides](https://docs.google.com/presentation/d/1oN7at3ljTNtRgRR6wO7Di8O3vK4M2pKBzPL3zomot2s/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfo7PbO4IyzKpF1S5GFf0L3a)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa20&subPath=lecture/lec20/)
-- [code HTML](../../resources/assets/lectures/lec20/lec20.html)
+- [slides](https://docs.google.com/presentation/d/1hUIMrI5arBxeoPWHLXuXHopo7JekOrDqoVg5yjubexw/edit?usp=sharing)
+- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfqbEH11YKb5ZFsMzyH6Gibi)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lecture/lec21/)
+- [Summer 2020 PCA notes](http://www.ds100.org/su20/resources/assets/lectures/live07/live7.pdf)
+- [PCA tutorial](https://arxiv.org/pdf/1404.1100.pdf)
 
-**[Raguvir's Decision Tree Guide](https://hackmd.io/@rkunani/decision-tree)**
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
@@ -34,32 +34,38 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
-<td><strong>21.0</strong> <br>Introduction</td>
-<td><iframe width="300" height="300" height src="https://www.youtube.com/embed/K-c09PAl6Jg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td></td>
+<td><strong>22.1</strong> <br />Dimensionality. Visualizing high-dimensional data.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/cRKHiaYAH8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSc-cMTc05Jv9cvU2EnCa13iaSJ-Vc57j6hA0K5EMxunyGEwZA/viewform" target="\_blank">22.1</a></td>
 </tr>
 <tr>
-<td><strong>21.1</strong> <br>Decision tree basics. Decision trees in scikit-learn.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/fz30i-PgVBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSffVTRqAuijoA8Q3OPv_D1od96NaWGTnxWImThSr5R2aOYdYQ/viewform" target="\_blank">21.1</a></td>
+<td><strong>22.2</strong> <br />More visualizations of high-dimensional data.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/joE5rVir8uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdkR56J3KPQZqh5qBfYbOK_ca2Iy9Klr-3D6n33zyBDWQrL-Q/viewform" target="\_blank">22.2</a></td>
 </tr>
 <tr>
-<td><strong>21.2</strong> <br>Overfitting and decision trees.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/IGzRkQkG2Vk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ8SCiMZBBGDc9iv9RiW_XLIPK6BcX3XRrRFcE56LIH8T0Ug/viewform" target="\_blank">21.2</a></td>
+<td><strong>22.3</strong> <br />Matrix decomposition, redundancy, and rank. Introduction to the singular value decomposition (SVD).</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/rFuyMgD6Z5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfOrnulBMvI042vrwUh5n9mzHrMKfnd9imWVBWE8HOcHCkzNw/viewform" target="\_blank">22.3</a></td>
 </tr>
 <tr>
-<td><strong>21.3</strong> <br>Decision tree generation. Finding the best split. Entropy and weighted entropy.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/-mekg9slre4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdVHVy5E5XimUHbiaj5L01wEEqIw_ztzj1uvDgVr8MGjVLlWQ/viewform" target="\_blank">21.3</a></td>
+<td><strong>22.4</strong> <br />The theory behind the singular value decomposition. Orthogonality and orthonormality.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/e9QDPdWa9NI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfyjk9RqFaBdqayZBKQKJ2P1h58L01toYZce0_RSbAoa3fRUw/viewform" target="\_blank">22.4</a></td>
 </tr>
 <tr>
-<td><strong>21.4</strong> <br>Restricting decision tree complexity. Preventing growth and pruning. Random forests and bagging.</td>
-<td><iframe width="300" height="500" height src="https://youtube.com/embed/e8LlOnYFXcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSe7NBp2PP2X86bGBnNvsCuZeXkkFFPK9NSuJRolu1ybp-U2Pw/viewform" target="\_blank">21.4</a></td>
+<td><strong>22.5</strong> <br />Definition and computation of principal components. Geometric interpretation of principal components and low rank approximations. Data centering.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/UuPBTEnd4GU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScw_fww3v5Fows5sIU7uMfpXz4IM-m74NoOzYbvcBScKg7qZA/viewform" target="\_blank">22.5</a></td>
 </tr>
 <tr>
-<td><strong>21.5</strong> <br>Regression trees. Summary of decision trees, classification, and regression.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/bALgXcAaoDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfBOt8a-fw-OmDYjMRO415Te_PB5aUAgFaZCruviKxc6Yog2Q/viewform" target="\_blank">21.5</a></td>
+<td><strong>22.6</strong> <br />Interpretation of singular values. The relationship between singular values and variance. Analyzing scree plots.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/TsaIkauTsuM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSc9hzkBYU3bxppA59vClSct91iS53cp7fONsWo0vXGoJ4qChg/viewform" target="\_blank">22.6</a></td>
 </tr>
+<tr>
+<td><strong>22.7</strong> <br />Introduction to principal Component analysis (PCA). PCA for exploratory data analysis.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/0JHaGBT0hmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfl_hhXt33Ao7kG6yBx_u3eJoh8SJAY8eOpSu5RkLwvbJvT3Q/viewform" target="\_blank">22.7</a></td>
+</tr>
+</tbody></table>
