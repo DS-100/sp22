@@ -21,9 +21,9 @@ days:
     : ""
 - date: 2021-11-12
   events:
-    ? '**Discussion 12**{: .label .label-disc } Classification and Logistic Regression II'
+    ? '**Discussion 12**{: .label .label-disc } Logistic Regression II and Classification'
     ? '**Homework 11**{: .label .label-hw } Spam & Ham I'
-    ? '**Lab 12**{: .label .label-lab } Logistic Regression (due Nov 16)'
+    ? '**Lab 12**{: .label .label-lab } PCA (due Nov 16)'
     : ""
 
 ---
