@@ -21,8 +21,8 @@ days:
     : ""
 - date: 2021-11-05
   events:
-    ? '**Discussion 11**{: .label .label-disc } Gradient Descent and Logistic Regression I'
-    ? '**Homework 10**{: .label .label-hw } Gradient Descent and Logistic Regression (due Nov 11)'
+    ? '**Discussion 11**{: .label .label-disc } Gradient Descent & PCA'
+    ? '**Homework 10**{: .label .label-hw } PCA (due Nov 11)'
     ? '**Lab 11**{: .label .label-lab } Climate Data (due Nov 9)'
     : ""
 
