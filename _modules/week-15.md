@@ -21,7 +21,7 @@ days:
     : ""
 - date: 2021-12-03
   events:
-    ? '**Discussion 14**{: .label .label-disc } PCA & Clustering'
+    ? '**Discussion 14**{: .label .label-disc } Decision Trees, Inference, & Clustering'
     ? '**Homework 15**{: .label .label-hw } (optional) Taxis (due Dec 9)'
     ? '**Lab 15**{: .label .label-lab } Clustering (due Dec 7)'
     : ""
