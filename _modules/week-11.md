@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-11-02
   events:
-    ? '**Lecture 20**{: .label .label-lecture } Gradient Descent'
+    ? '**Lecture 20**{: .label .label-lecture } [Gradient Descent](lecture/lec20)'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-11-03
