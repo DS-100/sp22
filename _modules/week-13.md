@@ -21,8 +21,8 @@ days:
     : ""
 - date: 2021-11-19
   events:
-    ? '**Discussion 13**{: .label .label-disc } Decision Trees and Inference'
-    ? '**Homework 12**{: .label .label-hw } Spam & Ham II (due Nov 25)'
+    ? '**Discussion 13**{: .label .label-disc } Logistic Regression II and Classification'
+    ? '**Homework 12**{: .label .label-hw } Spam & Ham I (due Nov 25)'
     ? '**Lab 13**{: .label .label-lab } Logistic Regression (due Nov 23)'
     : ""
 
