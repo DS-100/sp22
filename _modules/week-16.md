@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-12-09
   events:
-    ? '**Final Project**{: .label .label-proj } Final Project due (?)'
+    ? 'Review'
     : ''
 
 ---
