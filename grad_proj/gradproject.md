@@ -71,18 +71,15 @@ Please be sure to consult the [references on causal inference](#causal_inference
 
 ### Accessing Datasets <a name="access-dataset"></a>
 
-All the datasets (or links to access and download them) provided by us can be found inside the [graduate project dataset link](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj&branch=main) on DataHub. If you wish to work on the project locally, you can also download the zip files containing the datasets for each topic.
+All the datasets (or links to access and download them) provided by us can be found inside the [graduate project dataset link](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Fgrad_proj&branch=main) on DataHub. If you wish to work on the project locally, you can also download the zip files containing the datasets for each topic.
 
 The following subsections contain the descriptions and additional requirements for each dataset.
 
-#### Dataset A: Testing and Mortality Statistics <a name="1-a"></a>
-
-This dataset
 ### Topic 1: COVID-19 <a name="covid-19"></a>
 
-Note: You may not choose this topic of you are already using the COVID-19 dataset for the final project.
-
 #### Dataset A: Testing and Mortality Statistics <a name="1-a"></a>
+
+Note: You may not choose this dataset of you are already using the COVID-19 dataset for the final project.
 
 This dataset contains US reports on COVID-19 testing and cases from the [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) and CDC (Centers for Disease Control and Prevention). You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%201%20-%20Covid%2019&branch=main) within `Dataset_A.zip` on DataHub:
 
@@ -113,6 +110,8 @@ This dataset contains (in full-text and metadata form) scholarly articles relate
 ### Topic 2: Climate and the Environment <a name="climate"></a>
 
 #### Dataset A: General Measurements and Statistics <a name="2-a"></a>
+
+Note: You may not choose this dataset of you are already using the AQI or Traffic datasets for the final project.
 
 This dataset contains some general statistics and measurements of various aspects of the climate and the environment. You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%202%20-%20Climate%20and%20the%20Environment&branch=main) within `Dataset_A.zip` on DataHub. It includes the following reports:
 
