@@ -4,7 +4,7 @@ weekNumber: 12
 days:
 - date: 2021-11-08
   events:
-    ? 'N/A'
+    ? '**Final Project**{: .label .label-proj } Project Dataset Form due'
     : ''
 - date: 2021-11-09
   events:
