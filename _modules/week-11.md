@@ -13,7 +13,7 @@ days:
     : ''
 - date: 2021-11-03
   events:
-    ? 'N/A'
+    ? '**Final Project**{: .label .label-proj } Project Part 1 Released'
     : ""
 - date: 2021-11-04
   events:
@@ -21,6 +21,7 @@ days:
     : ""
 - date: 2021-11-05
   events:
+    ? '**Final Project**{: .label .label-proj } Project Group Form due'
     ? '**Discussion 11**{: .label .label-disc } Gradient Descent & PCA'
     ? '**Homework 10**{: .label .label-hw } PCA (due Nov 11)'
     ? '**Lab 11**{: .label .label-lab } Climate Data (due Nov 9)'
