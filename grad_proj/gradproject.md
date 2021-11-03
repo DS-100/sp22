@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Graduate Project
-nav_exclude: true
-nav_order: 6
+nav_order: 3
 description: Specifications for the final project for Data 200.
 ---
 # Graduate Project
@@ -67,7 +66,7 @@ This section contains the datasets we will provide to you to explore your resear
 - You must incorporate **at least one** of the provided datasets.
 - You are welcome to **bring in additional datasets** to complement the datasets provided here, but you must cite the sources and clearly describe the content of any additional data you use in the final report.
 
-Please be sure to consult the [references on causal inference](#causal_inference) for guidance on how to work with multiple datasets if you decide on doing that. 
+Please be sure to consult the [references on causal inference](#causal_inference) for guidance on how to work with multiple datasets if you decide on doing that.
 
 ### Accessing Datasets <a name="access-dataset"></a>
 
@@ -100,7 +99,7 @@ This dataset contains reports from the Household Pulse Survey launched by NCHS i
 * `nchs_covid_telemedicine_usage.csv` contains survey estimates of responses to questions that ask if healthcare providers offered telemedicine (including video and telephone appointments) -- both during and before the pandemic -- and about the use of telemedicine during the pandemic. ([documentation](https://data.cdc.gov/NCHS/Use-of-Telemedicine-During-COVID-19/8xy9-ubqz))
 
 You must choose to work with **at least 3 of the reports** above in your analysis.
- 
+
 #### Dataset C: Ongoing Researches <a name="1-c"></a>
 
 This dataset contains (in full-text and metadata form) scholarly articles related to COVID-19. The data are optimized for machine readability and made available for use by the global research community. The dataset is intended to mobilize researchers to generate new insights from the articles in support of the fight against this infectious disease. You can access the link to obtain the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%201%20-%20Covid%2019&branch=main) within `Dataset_C.zip` on DataHub:
@@ -116,16 +115,16 @@ Note: You may not choose this dataset of you are already using the AQI or Traffi
 This dataset contains some general statistics and measurements of various aspects of the climate and the environment. You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%202%20-%20Climate%20and%20the%20Environment&branch=main) within `Dataset_A.zip` on DataHub. It includes the following reports:
 
 - `daily_global_weather_2020.csv` contains data on daily temperature and precipitation measurements. To learn how to use the data from this file, please read the following section on the first report.
-- `us_greenhouse_gas_emissions_direct_emitter_facilities.csv` and `us_greenhouse_gas_emission_direct_emitter_gas_type.csv` contain data reported by EPA (Environment Protection Agency) on greenhouse gas emissions, detailing the specific types of gas reported by facilities and general information about the facilities themselves. The dataset is made available through EPA's [GHGRP (Greenhouse Gas Reporting Program)](https://www.epa.gov/ghgreporting). 
+- `us_greenhouse_gas_emissions_direct_emitter_facilities.csv` and `us_greenhouse_gas_emission_direct_emitter_gas_type.csv` contain data reported by EPA (Environment Protection Agency) on greenhouse gas emissions, detailing the specific types of gas reported by facilities and general information about the facilities themselves. The dataset is made available through EPA's [GHGRP (Greenhouse Gas Reporting Program)](https://www.epa.gov/ghgreporting).
 - `us_air_quality_measures.csv` contains data from the EPA's AQS (Air Quality System) that measures air quality on a county level from approximately 4000 monitoring stations around the country. ([source](https://data.cdc.gov/Environmental-Health-Toxicology/Air-Quality-Measures-on-the-National-Environmental/cjae-szjv))
 
 The following subsection contains more details on how to work with the first report on global daily temperature and precipitation:
 
-The first report on daily temperature and precipitation is measured by weather stations in the [Global Historical Climatology Network](https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn) for January to October 2020. 
+The first report on daily temperature and precipitation is measured by weather stations in the [Global Historical Climatology Network](https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn) for January to October 2020.
 
 The data in `daily_global_weather_2020.csv` is derived from the source file at https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/2020.csv.gz.
 
-To help you get started with a dataset of manageable size, we have preprocessed the GHCN dataset to include only the average temperature and precipitation measurements from stations that have both measurements. Each row in the preprocessed dataset contains both the average temperature and precipitation measurements for a given station on a given date. 
+To help you get started with a dataset of manageable size, we have preprocessed the GHCN dataset to include only the average temperature and precipitation measurements from stations that have both measurements. Each row in the preprocessed dataset contains both the average temperature and precipitation measurements for a given station on a given date.
 
 If you wish to explore the climate data for a different year, you can use the `GHCN_data_preprocessing.ipynb` notebook to download and perform the preprocessing described above. Please be advised that depending on the dataset size for a given year, `GHCN_data_preprocessing.ipynb` may not run on DataHub. We will not be providing infrastructural support for running the notebook, but you are welcome to run it on a different machine you have access to or ask a GSI to dump the data for you.
 
@@ -143,13 +142,13 @@ This dataset contains studies focused specifically on the impact of environmenta
 
 #### Dataset A: Space Exploration <a name="3-a"></a>
 
-This dataset contains a set of reports from pioneering researches that explore the outer space. Much of the data from these studies have provided a rich foundation for a variety of large-scale research projects that explore widely discussed topics such as habitable exoplanets or search for extraterrestrial life. 
+This dataset contains a set of reports from pioneering researches that explore the outer space. Much of the data from these studies have provided a rich foundation for a variety of large-scale research projects that explore widely discussed topics such as habitable exoplanets or search for extraterrestrial life.
 
 You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%203%20-%20Emerging%20Researches%20and%20Technologies&branch=main) within `Dataset_A.zip` on DataHub. It includes the following reports:
 
 - `kepler_exoplanet_search.csv` contains data collected by NASA from the Kepler Space Observatory as part of a long-term study on finding habitable exoplanets from over 10,000 candidates. ([source](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=koi))
 - `kelper_planetary_system_composite.csv` contains data collected by NASA from the Kelper Space Observatory as part of an ongoing study that tabulates all confirmed planetary systems outside the solar system. You are encouraged to use the composite data in conjunction with the exoplanet search results above. ([source](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PSCompPars))
-- `nasa_neows.csv` contains data collected from NASA's [NeoWs (Near Earth Object Web Service)](https://neowise.ipac.caltech.edu/) that collects information on near earth asteroids. 
+- `nasa_neows.csv` contains data collected from NASA's [NeoWs (Near Earth Object Web Service)](https://neowise.ipac.caltech.edu/) that collects information on near earth asteroids.
 
 #### Dataset B: Recommender Systems <a name="3-b"></a>
 
@@ -166,7 +165,7 @@ The project submission should include the following two components.
 
 Your analysis notebook(s) should address all of the following components in the data science lifecycle. Please note that a thorough explanation of your thought process and approach is **as important as** your work. We have provided a few preliminary questions/tips you can think about for each part:
 - **Data Sampling and Collection**
-  - How were the data collected? 
+  - How were the data collected?
   - Was there any potential bias introduced in the sampling process?
 - **Data Cleaning**
   - What type of data are you currently exploring?
@@ -176,7 +175,7 @@ Your analysis notebook(s) should address all of the following components in the 
   - Is there any correlation between the variables you are interested in exploring?
   - How would you cleanly and accurately visualize the relationship among variables?
 - **Data Modeling and Inferences**
-  - Please note that the following datasets have a data modeling requirement, i.e. you need to utilize at least 1 machine learning model we teach in this class in your project: Topic 1 - Dataset A, Topic 1 - Dataset C, Topic 2 - Dataset A, Topic 3 - Dataset A, Topic 3 - Dataset B. For datasets not mentioned above, you are welcome to continue building machine learning model(s). Otherwise, we will be placing more 
+  - Please note that the following datasets have a data modeling requirement, i.e. you need to utilize at least 1 machine learning model we teach in this class in your project: Topic 1 - Dataset A, Topic 1 - Dataset C, Topic 2 - Dataset A, Topic 3 - Dataset A, Topic 3 - Dataset B. For datasets not mentioned above, you are welcome to continue building machine learning model(s). Otherwise, we will be placing more
   emphasis on the inference part instead.
   - Here are a few components your notebook must address:
     - What type of machine learning problem are you investigating?
@@ -188,8 +187,8 @@ Your analysis notebook(s) should address all of the following components in the 
     - From a bias-variance tradeoff standpoint, how do you assess the performance of your model? How do you check if it is overfitting?
     - How would you improve your model based on the outcome?
   - If you are choosing to pursue your research question from an inference angle, your notebook must demonstrate sufficient analysis and visualization to support your conclusion. We will not restrict you to the type of analysis as there are many different statistical techniques that may apply to your case. However, we also ask that you provide detailed justification for the techniques you choose and how it allows you make those inferences.
-  
-[Component 2]. **Project Writeup (previously narrative notebook)**. This is a single PDF that summarizes your workflow and what you have learned. It should be structured as a research paper and include a title, list of authors, abstract, introduction, description of data, description of methods, summary of results, and discussion. Make sure to number figures and tables and include informative captions. 
+
+[Component 2]. **Project Writeup (previously narrative notebook)**. This is a single PDF that summarizes your workflow and what you have learned. It should be structured as a research paper and include a title, list of authors, abstract, introduction, description of data, description of methods, summary of results, and discussion. Make sure to number figures and tables and include informative captions.
 
 If you wish, you can render the PDF using LaTeX, provided that the provenance of the figures is clearly labeled in the main narrative, and the figures can be reproduced by running the analysis notebooks
 
@@ -198,7 +197,7 @@ Specifically, you should address the following in the narrative:
 * Clearly stated research questions and why they are interesting and important. You must include **at least one research question involving at least one or more datasets from one of the topics we provided**, but you may include additional research questions about each individual dataset. At least one of your research questions has to include a modeling component, e.g., can we build a model using climate data to predict growth in COVID-19 cases accurately?
 * A brief survey of related work on the topic(s) of your analysis and how your project differs from or complements existing research.
 * If applicable, descriptions of additional datasets that you gathered to support your analysis.
-* Methodology: carefully describe the methods you use and why they are appropriate for answering your search questions. It must include 
+* Methodology: carefully describe the methods you use and why they are appropriate for answering your search questions. It must include
     * a brief overview of causal inference, which should be written in a way such that another student in Data 100 who has never been exposed to the concept can carry out the analyses involving the datasets in your project.
     * a detailed description of how modeling is done in your project, including inference or prediction methods used, feature engineering and regularization if applicable, and cross-validation or test data as appropriate for model selection and evaluation.  
 * _Interesting findings_* about each dataset when analyzed individually. Include visualizations and descriptions of data cleaning and data transformation necessary to perform the analysis that led to your findings.
@@ -207,7 +206,7 @@ Specifically, you should address the following in the narrative:
 * An evaluation of your approach and discuss any limitations of the methods you used.
 * Describe any surprising discoveries that you made and future work.
 
-\* Examples of **interesting findings**: interesting data distributions and trends, correlations between different features, the relationship between the data distribution for the general population and specific datasets (e.g., the gender distribution in the census dataset vs. in the mental health dataset), specific features that are notably effective/ineffective for prediction. 
+\* Examples of **interesting findings**: interesting data distributions and trends, correlations between different features, the relationship between the data distribution for the general population and specific datasets (e.g., the gender distribution in the census dataset vs. in the mental health dataset), specific features that are notably effective/ineffective for prediction.
 
 The narrative notebook should include figures sparingly to support specific claims. It can include runnable components, but it should not have large amounts of code. The length of the report should be 8+/-2 pages when it is printed as a PDF, excluding figures and code.
 
@@ -228,7 +227,7 @@ For groups with multiple members, please use student IDs joined by `_` as the na
 ## Rubrics <a name="rubrics"></a>
 ### Peer Grading Rubric <a name="peer-rubric"></a>
 
-Each group will peer grade the projects from another group. The review will be graded out of a total of 15 points. 
+Each group will peer grade the projects from another group. The review will be graded out of a total of 15 points.
 
 Each review should include the following components:
 
@@ -240,7 +239,7 @@ Each review should include the following components:
 2. An evaluation of the report based on the Data Science Lifecycle (**10 points, 2 points per component**). The review should include at least **one strong point and one suggestion for improvement** for each of the following components in the project:
   - Data collection and sampling
   - Data cleaning
-  - Exploratory data analysis (including data wrangling and visualization) 
+  - Exploratory data analysis (including data wrangling and visualization)
   - Data modeling (including feature engineering, selection of the model, and evaluation of the model's performance)
   - Inference (do the results from the model sufficiently support the conclusion within the report?)
 
@@ -271,8 +270,8 @@ The project writeup will be graded out of a total of 30 points based on the foll
 
 ### <a name="causal_inference"></a>Causal Inference
 
-When studying the relationship between datasets, you might want to consult the following references on causality vs. correlation. Oftentimes, it is tempting to make claims about causal relationships when there is not enough evidence from the data to support such claims. Please review the following references, or other reputable references that you find on the topic to familiarize yourself with relevant concepts and methods. 
+When studying the relationship between datasets, you might want to consult the following references on causality vs. correlation. Oftentimes, it is tempting to make claims about causal relationships when there is not enough evidence from the data to support such claims. Please review the following references, or other reputable references that you find on the topic to familiarize yourself with relevant concepts and methods.
 
-* [Data 102  Data, Inference, and Decisions Spring 2020: Lecture 13: Causal Inference I. Moritz Hardt.](https://data102.org/sp20/assets/notes/notes13.pdf) 
+* [Data 102  Data, Inference, and Decisions Spring 2020: Lecture 13: Causal Inference I. Moritz Hardt.](https://data102.org/sp20/assets/notes/notes13.pdf)
 * [Hernán MA, Robins JM (2020). Causal Inference: What If. Boca Raton: Chapman & Hall/CRC.](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 * [Advanced Data Analysis from an Elementary Point of View by Cosma Rohilla Shalizi](https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/)
