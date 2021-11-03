@@ -13,7 +13,7 @@ days:
     : ''
 - date: 2021-11-17
   events:
-    ? 'N/A'
+    ? '**Final Project**{: .label .label-proj } Design Document Due'
     : ""
 - date: 2021-11-18
   events:
@@ -21,6 +21,7 @@ days:
     : ""
 - date: 2021-11-19
   events:
+    ? '**Final Project**{: .label .label-proj } Design Document Review'
     ? '**Discussion 13**{: .label .label-disc } Logistic Regression II and Classification'
     ? '**Homework 12**{: .label .label-hw } Spam & Ham I (due Nov 25)'
     ? '**Lab 13**{: .label .label-lab } Logistic Regression (due Nov 23)'
