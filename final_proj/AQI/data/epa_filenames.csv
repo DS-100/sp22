@@ -1,0 +1,10 @@
+name,epa_filename
+annual_county_aqi,annual_aqi_by_county_2020
+daily_county_aqi,daily_aqi_by_county_2020
+daily_ozone,daily_44201_2020
+daily_so2,daily_42401_2020
+daily_co,daily_42101_2020
+daily_no2,daily_42602_2020
+daily_temp,daily_WIND_2020
+daily_wind,daily_TEMP_2020
+aqs_sites,aqs_sites
