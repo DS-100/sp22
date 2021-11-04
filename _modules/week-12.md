@@ -10,6 +10,7 @@ days:
   events:
     ? '**Lecture 22**{: .label .label-lecture } Logistic Regression I'
     ? '**Live Lab**{: .label .label-lab }'
+    ? '**Grad Project**{: .label .label-proj } Research Proposal and Project Groups due'
     : ''
 - date: 2021-11-10
   events:
