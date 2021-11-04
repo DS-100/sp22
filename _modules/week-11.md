@@ -25,7 +25,7 @@ days:
     ? '**Final Project**{: .label .label-proj } Project Group Form due'
     ? '**Discussion 11**{: .label .label-disc } Gradient Descent & PCA'
     ? '**Homework 10**{: .label .label-hw } PCA (due Nov 11)'
-    ? '**Lab 11**{: .label .label-lab } Climate Data (due Nov 9)'
+    ? '**Lab 11**{: .label .label-lab } PCA (due Nov 9)'
     : ""
 
 ---
