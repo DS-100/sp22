@@ -12,7 +12,7 @@ Content by Josh Hug, Joseph Gonzalez
 
 - [slides](https://docs.google.com/presentation/d/1g95PxhwKYhXEPtleWdEPDPD9KXYOc9ExBETpzr1zudA/edit?usp=sharing)
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfpYjpvx8rGkW-fomubpt_Cc)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lecture/lec20/)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec20/)
 - [Loss Game](https://gradient-game.herokuapp.com/)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
