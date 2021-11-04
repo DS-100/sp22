@@ -13,7 +13,7 @@ days:
     : ''
 - date: 2021-12-01
   events:
-    ? 'N/A'
+    ? '**Grad Project**{: .label .label-proj } First Report Draft due'
     : ""
 - date: 2021-12-02
   events:
