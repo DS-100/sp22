@@ -4,7 +4,7 @@ weekNumber: 14
 days:
 - date: 2021-11-22
   events:
-    ? '**Final Project**{: .label .label-proj } Design Document Review (tentative)'
+    ? '**Grad Project**{: .label .label-proj } Project Checkpoint'
     : ''
 - date: 2021-11-23
   events:
