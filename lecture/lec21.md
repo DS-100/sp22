@@ -12,7 +12,7 @@ Content by Josh Hug, John DeNero, Sam Lau, and Suraj Rampure
 
 - [slides](https://docs.google.com/presentation/d/1hUIMrI5arBxeoPWHLXuXHopo7JekOrDqoVg5yjubexw/edit?usp=sharing)
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfqbEH11YKb5ZFsMzyH6Gibi)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lecture/lec21/)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec21/)
 - [Summer 2020 PCA notes](http://www.ds100.org/su20/resources/assets/lectures/live07/live7.pdf)
 - [PCA tutorial](https://arxiv.org/pdf/1404.1100.pdf)
 
