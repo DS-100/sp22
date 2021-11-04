@@ -18,6 +18,7 @@ days:
 - date: 2021-12-02
   events:
     ? '**Lecture 27**{: .label .label-lecture } Guest Lecture: The Social Cost of Carbon'
+    ? '**Grad Project**{: .label .label-proj } Peer Grading starts'
     : ""
 - date: 2021-12-03
   events:
