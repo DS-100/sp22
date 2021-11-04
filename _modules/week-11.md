@@ -18,7 +18,7 @@ days:
     : ""
 - date: 2021-11-04
   events:
-    ? '**Lecture 21**{: .label .label-lecture } Dimensionality Reduction & PCA'
+    ? '**Lecture 21**{: .label .label-lecture } [Dimensionality Reduction & PCA](lecture/lec21)'
     : ""
 - date: 2021-11-05
   events:
