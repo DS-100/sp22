@@ -23,7 +23,7 @@ days:
 - date: 2021-11-05
   events:
     ? '**Final Project**{: .label .label-proj } Project Group Form due'
-    ? '**Discussion 11**{: .label .label-disc } Gradient Descent'
+    ? '**Discussion 11**{: .label .label-disc } [Gradient Descent](https://drive.google.com/file/d/1lxI2x4HEfweX4FV06V8KnLL_WBRdFCZK/view?usp=sharing)'
     ? '**Homework 10**{: .label .label-hw } PCA (due Nov 12)'
     ? '**Lab 11**{: .label .label-lab } PCA (due Nov 9)'
     : ""
