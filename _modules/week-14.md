@@ -24,7 +24,7 @@ days:
 - date: 2021-11-26
   events:
     ? '**No Discussion**{: .label .label-disc } (Thanksgiving)'
-    ? '**Homework 13**{: .label .label-hw } Spam & Ham II (due Dec 2)'
+    ? '**Homework 13**{: .label .label-hw } Spam & Ham II (due Dec 4)'
     ? '**Lab 14**{: .label .label-lab } Decision Trees & Random Forests (due Nov 30)'
     : ""
 
