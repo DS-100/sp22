@@ -25,7 +25,7 @@ days:
     ? '**Final Project**{: .label .label-proj } Project Group Form due'
     ? '**Discussion 11**{: .label .label-disc } [Gradient Descent](https://drive.google.com/file/d/1lxI2x4HEfweX4FV06V8KnLL_WBRdFCZK/view?usp=sharing)'
     ? '**Homework 10**{: .label .label-hw } PCA (due Nov 12)'
-    ? '**Lab 11**{: .label .label-lab } PCA (due Nov 9)'
+    ? '**Lab 11**{: .label .label-lab } [PCA](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flab%2Flab11&branch=main) (due Nov 9)'
     : ""
 
 ---
