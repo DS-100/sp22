@@ -1,6 +1,6 @@
 ---
-title: Week 16
-weekNumber: 16
+title: Week 17
+weekNumber: 17
 days:
 - date: 2021-12-13
   events:
