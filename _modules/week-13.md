@@ -23,7 +23,7 @@ days:
   events:
     ? '**Final Project**{: .label .label-proj } Design Document Review'
     ? '**Discussion 13**{: .label .label-disc } Logistic Regression II and Classification'
-    ? '**Homework 12**{: .label .label-hw } Spam & Ham I (due Nov 25)'
+    ? '**Homework 12**{: .label .label-hw } Spam & Ham I (due Nov 29)'
     ? '**Lab 13**{: .label .label-lab } Logistic Regression (due Nov 23)'
     : ""
 
