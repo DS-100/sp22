@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2021-11-09
   events:
-    ? '**Lecture 22**{: .label .label-lecture } Logistic Regression I'
+    ? '**Lecture 22**{: .label .label-lecture } [Logistic Regression I](lecture/lec22)'
     ? '**Live Lab**{: .label .label-lab }'
     ? '**Grad Project**{: .label .label-proj } Research Proposal and Project Groups due'
     : ''
