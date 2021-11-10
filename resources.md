@@ -12,7 +12,7 @@ description: Past exams and other relevant material to aid you in the course.
 
 | Semester | Midterm (1) | Midterm 2  | Final |
 | -- | -- | -- | -- |
-| Fall 2021 | [Exam](assets/exams/su21/fa21mt.pdf) [(Solutions)](assets/exams/su21/fa21mtsol.pdf) |  |  |
+| Fall 2021 | [Exam](assets/exams/fa21/fa21mt.pdf) [(Solutions)](assets/exams/fa21/fa21mtsol.pdf) |  |  |
 | Summer 2021 | [Exam](assets/exams/su21/su21mt.pdf) [(Solutions)](assets/exams/su21/su21mt_sol.pdf) [[Video]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoYEIK8ZhIDCEE2Td6Ih_2V) |  | [Exam](assets/exams/su21/su21final.pdf) [(Solutions)](assets/exams/su21/su21final_sol.pdf) |
 | Spring 2021 | [Exam](assets/exams/sp21/sp21mt.pdf) [(Solutions)](assets/exams/sp21/sp21mtsol.pdf) |  | [Exam](assets/exams/sp21/sp21final.pdf) [(Solutions)](assets/exams/sp21/sp21finalsol.pdf) |
 | Fall 2020 | [Exam](assets/exams/fa20/fa20mt.pdf) [(Solutions)](assets/exams/fa20/fa20mtsol.pdf) |  | [Exam](assets/exams/fa20/fa20final.pdf) [(Solutions)](assets/exams/fa20/fa20finalsol.pdf)  |
