@@ -22,7 +22,7 @@ days:
     : ""
 - date: 2021-11-12
   events:
-    ? '**Discussion 12**{: .label .label-disc } PCA and Logistic Regression I'
+    ? '**Discussion 12**{: .label .label-disc } [Logistic Regression I and PCA](https://drive.google.com/file/d/1stSFUUVM1gCFQMfC55yX6wWB78DXYNsB/view?usp=sharing)'
     ? '**Homework 11**{: .label .label-hw } Gradient Descent and Logistic Regression (due Nov 18)'
     ? '**Lab 12**{: .label .label-lab } Climate Data (due Nov 16)'
     : ""
