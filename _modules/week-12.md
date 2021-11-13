@@ -23,8 +23,8 @@ days:
 - date: 2021-11-12
   events:
     ? '**Discussion 12**{: .label .label-disc } [Logistic Regression I and PCA](https://drive.google.com/file/d/1stSFUUVM1gCFQMfC55yX6wWB78DXYNsB/view?usp=sharing)'
-    ? '**Homework 11**{: .label .label-hw } Gradient Descent and Logistic Regression (due Nov 18)'
-    ? '**Lab 12**{: .label .label-lab } Climate Data (due Nov 16)'
+    ? '**Homework 11**{: .label .label-hw } [Gradient Descent and Logistic Regression](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Fhw%2Fhw11&branch=main) (due Nov 18)'
+    ? '**Lab 12**{: .label .label-lab } [Climate Data](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flab%2Flab12&branch=main) (due Nov 17)'
     : ""
 
 ---
