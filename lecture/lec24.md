@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Lecture 24 – Clustering, Part 1
+title: Lecture 24 – Decision Trees
 nav_exclude: true
 ---
 
-# Lecture 24 – Clustering, Part 1
+# Lecture 24 – Decision Trees
 
-Presented by Isaac Schmidt
+Presented by Anthony D. Joseph
 
 Content by Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1u90oimKo8yfAvUtPRpq5ZQA5d_0j612eyevkowZb1Yo/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfo9b-nY2WNTHuR8hND86SPT)
+- [slides](https://docs.google.com/presentation/d/1sFrz5Bb3mrET_MAdlF1e1L-pEcg-nzhizmAKV2jXALw/edit?usp=sharing)
+- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfq-LeVCOzZmEWhbLyxPl_re)
 
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
@@ -30,32 +30,28 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </thead>
 <tbody>
 <tr>
-<td><strong>24.0</strong> <br>Introduction.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/0jjOdMOo6oo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td></td>
+<td><strong>24.1</strong> <br />Decision tree basics. Decision trees in scikit-learn.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/fz30i-PgVBc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://forms.gle/atBGijXTcXWtKU1o9" target="\_blank">24.1</a></td>
 </tr>
 <tr>
-<td><strong>24.1</strong> <br>Introduction to clustering. Examples of clustering in practice.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/twm2hGD6bjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfjSpdbJ9MxbqVllBu_uYDFqb9gV29tAC-Tc4Pe7E_RCO2WNQ/viewform?usp=sf_link" target="\_blank">24.1</a></td>
+<td><strong>24.2</strong> <br />Overfitting and decision trees.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/IGzRkQkG2Vk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://forms.gle/Lvdnq7wFws8L5TJQ8" target="\_blank">24.2</a></td>
 </tr>
 <tr>
-<td><strong>24.2</strong> <br>The K-Means clustering algorithm. Example of K-Means clustering.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/3N1x-Cs1cLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfBBjZuu6i1TqFjt4B4v9S5v-mGr7kDriFb80q9we5wFp8IWw/viewform?usp=sf_link" target="\_blank">24.2</a></td>
+<td><strong>24.3</strong> <br />Decision tree generation. Finding the best split. Entropy and weighted entropy.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/-mekg9slre4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://forms.gle/ajdFcaefYerXE6sr5" target="\_blank">24.3</a></td>
 </tr>
 <tr>
-<td><strong>24.3</strong> <br>Loss functions for K-Means. Inertia and distortion. Optimizing inertia.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/2K1GTkSKo08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScX9cJs3ssj3xk-GEYH2j8oAk9LDkRfS1bAoIFft4m8wlh42g/viewform?usp=sf_link" target="\_blank">24.3</a></td>
+<td><strong>24.4</strong> <br />Restricting decision tree complexity. Preventing growth and pruning. Random forests and bagging.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/e8LlOnYFXcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://forms.gle/4Mt9A3r9vRHJ5MrZ7" target="\_blank">24.4</a></td>
 </tr>
 <tr>
-<td><strong>24.4</strong> <br>Agglomerative clustering as an alternative to K-Means. Example of agglomerative clustering. Dendrograms and other clustering algorithms.</td>
-<td><iframe width="300" height="500" height src="https://youtube.com/embed/bdYGtckdV78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLScZacBj4e6mJhuEfNLLtlJnGHUxZty2VZnQTyc10JiWssahTw/viewform?usp=sf_link" target="\_blank">24.4</a></td>
+<td><strong>24.5</strong> <br />Regression trees. Summary of decision trees, classification, and regression.</td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/bALgXcAaoDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><a href="https://forms.gle/q48Jmzd5o6dLsihG9" target="\_blank">24.5</a></td>
 </tr>
-<tr>
-<td><strong>24.5</strong> <br>Picking the number of clusters. The elbow method and silhouette scores. Summary of clustering and machine learning.</td>
-<td><iframe width="300" height="300" height src="https://youtube.com/embed/CTMZ_d9A7og" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-<td><a href="https://docs.google.com/forms/d/e/1FAIpQLSc7JkiYPqwzDkIlVZPYfnFRCConto1mw1gcb93dyZHxoDCNOA/viewform?usp=sf_link" target="\_blank">24.5</a></td>
-</tr>
+</tbody></table>
