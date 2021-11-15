@@ -50,6 +50,12 @@ You will receive feedback from peer grading before the final deadline, and you a
 
 ## Deliverables and Grade Breakdown <a name="grade-breakdown"></a>
 
+**NEW ADJUSTED GRADING POLICY:** There are two grading options. You may either participate in peer grading, or you can choose not to. In order to opt into the peer grading option, make sure to submit the first draft of your project on Gradescope. If you don't submit anything, you'd default to the no peer grading option. 
+
+The grading breakdown for each option is the following:
+
+### Peer Grading Option
+
 | Deliverable                          	| Weight 	|
 |--------------------------------------	|--------	|
 | Research proposal and project groups 	| 10%    	|
@@ -57,6 +63,15 @@ You will receive feedback from peer grading before the final deadline, and you a
 | Peer grading                         	| 15%    	|
 | Final report: analysis notebook      	| 20%    	|
 | Final report: project writeup        	| 30%    	|
+| Final presentation video             	| 15%    	|
+
+### No Peer Grading Option
+
+| Deliverable                          	| Weight 	|
+|--------------------------------------	|--------	|
+| Research proposal and project groups 	| 10%    	|
+| Final report: analysis notebook      	| 30%    	|
+| Final report: project writeup        	| 45%    	|
 | Final presentation video             	| 15%    	|
 
 ## Datasets <a name="dataset"></a>
