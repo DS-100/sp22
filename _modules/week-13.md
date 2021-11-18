@@ -17,7 +17,7 @@ days:
     : ""
 - date: 2021-11-18
   events:
-    ? '**Lecture 24**{: .label .label-lecture } Decision Trees'
+    ? '**Lecture 24**{: .label .label-lecture } [Decision Trees](lecture/lec24)'
     : ""
 - date: 2021-11-19
   events:
