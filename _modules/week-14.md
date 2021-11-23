@@ -8,8 +8,8 @@ days:
     : ''
 - date: 2021-11-23
   events:
-    ? '**Final Project**{: .label .label-proj } Design Document Review (tentative)'
-    ? '**Lecture 25**{: .label .label-lecture } Inference for Modeling'
+    ? '**Final Project**{: .label .label-proj } Alternate Design Document Review'
+    ? '**Lecture 25**{: .label .label-lecture } [Inference for Modeling](lecture/lec25)'
     ? '**Live Lab**{: .label .label-lab }'
     ? '**Final Project**{: .label .label-proj } Project Part 2 Released'
     : ''
