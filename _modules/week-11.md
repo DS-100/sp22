@@ -14,7 +14,7 @@ days:
 - date: 2021-11-03
   events:
     ? '**Final Project**{: .label .label-proj } [Project Part 1](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Ffinal_proj&branch=main)'
-    ? '**Final Project Spec**{: .label .label-proj } [Project Part 1 Spec](https://drive.google.com/file/d/1KF_XkKA50k4Tf3vul_vOf_4VcxqVS8bj/view?usp=sharing)'
+    ? '**Final Project**{: .label .label-proj } [Project Part 1 Spec](https://drive.google.com/file/d/1KF_XkKA50k4Tf3vul_vOf_4VcxqVS8bj/view?usp=sharing)'
     : ""
 - date: 2021-11-04
   events:
