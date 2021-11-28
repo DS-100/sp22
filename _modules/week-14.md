@@ -25,8 +25,11 @@ days:
 - date: 2021-11-26
   events:
     ? '**No Discussion**{: .label .label-disc } (Thanksgiving)'
+    : ""
+- date: 2021-11-27
+  events:
     ? '**Homework 13**{: .label .label-hw } Spam & Ham II (due Dec 3)'
-    ? '**Lab 14**{: .label .label-lab } Decision Trees & Random Forests (due Dec 2)'
+    ? '**Lab 14**{: .label .label-lab } [Decision Trees & Random Forests](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flab%2Flab14&branch=main) (due Dec 2)'
     : ""
 
 ---
