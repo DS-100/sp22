@@ -4,7 +4,7 @@ weekNumber: 15
 days:
 - date: 2021-11-29
   events:
-    ? '**Homework 13**{: .label .label-hw } Spam & Ham II (due Dec 6)'
+    ? '**Homework 13**{: .label .label-hw } Spam & Ham II (due Dec 5)'
     : ''
 - date: 2021-11-30
   events:
