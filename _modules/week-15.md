@@ -4,11 +4,11 @@ weekNumber: 15
 days:
 - date: 2021-11-29
   events:
-    ? '**Homework 13**{: .label .label-hw } Spam & Ham II (due Dec 5)'
+    ? '**Homework 13**{: .label .label-hw } [Spam & Ham II](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Fhw%2Fhw12&branch=main) (due Dec 5)'
     : ''
 - date: 2021-11-30
   events:
-    ? '**Lecture 26**{: .label .label-lecture } Clustering'
+    ? '**Lecture 26**{: .label .label-lecture } [Clustering](lecture/lec26)'
     ? '**Live Lab**{: .label .label-lab }'
     : ''
 - date: 2021-12-01
