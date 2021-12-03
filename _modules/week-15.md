@@ -24,7 +24,7 @@ days:
   events:
     ? '**Discussion 14**{: .label .label-disc } [Decision Trees, Inference, & Clustering](https://drive.google.com/file/d/10iQWvM09dBNQvnECcfop2DWkxfSRt9KH/view?usp=sharing)'
     ? '**Homework 14**{: .label .label-hw } (optional) Taxis (due Dec 9)'
-    ? '**Lab 15**{: .label .label-lab } [Clustering](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flab%2Flab15&branch=main) (due Dec 7)'
+    ? '**Lab 15**{: .label .label-lab } (optional) [Clustering](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flab%2Flab15&branch=main) (due Dec 7)'
     : ""
 
 ---
