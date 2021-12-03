@@ -18,29 +18,24 @@ Content by David Anthoff
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
-<col style="width: 25%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th></th>
 <th>Video</th>
-<th>Quick Check</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>27.1</strong> <br />Part 1</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/jeL0eqCoVKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td></td>
 </tr>
 <tr>
 <td><strong>27.2</strong> <br />Part 2</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/mhzDEeH4c7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td></td>
 </tr>
 <tr>
 <td><strong>27.3</strong> <br />Part 3</td>
 <td><iframe width="300" height="" src="https://youtube.com/embed/kwgVlm3dYa0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td></td>
 </tr>
 </tbody></table>
