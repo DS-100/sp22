@@ -11,6 +11,8 @@ Presented by David Anthoff
 Content by David Anthoff
 
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfp2WNAVbvZN_YjsKesHE-Bz)
+- [slides pt 1](https://docs.google.com/presentation/d/1xR_8q0nkbHX3XwKzwS72IwJNeOOcbuvCEMyyYljv5lU/edit?usp=sharing)
+- [slides pt 2](https://docs.google.com/presentation/d/192ltcgsKkJOp3ucWQO0f-CQWwr2f5KKUuajn_rIrdH8/edit?usp=sharing)
 
 <table>
 <colgroup>
@@ -38,7 +40,7 @@ Content by David Anthoff
 </tr>
 <tr>
 <td><strong>27.3</strong> <br />Part 3</td>
-<td><iframe width="300" height="" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
+<td><iframe width="300" height="" src="https://youtube.com/embed/kwgVlm3dYa0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
 <td></td>
 </tr>
 </tbody></table>
