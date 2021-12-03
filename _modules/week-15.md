@@ -22,7 +22,7 @@ days:
     : ""
 - date: 2021-12-03
   events:
-    ? '**Discussion 14**{: .label .label-disc } Decision Trees, Inference, & Clustering'
+    ? '**Discussion 14**{: .label .label-disc } [Decision Trees, Inference, & Clustering](https://drive.google.com/file/d/10iQWvM09dBNQvnECcfop2DWkxfSRt9KH/view?usp=sharing)'
     ? '**Homework 15**{: .label .label-hw } (optional) Taxis (due Dec 9)'
     ? '**Lab 15**{: .label .label-lab } Clustering (due Dec 7)'
     : ""
