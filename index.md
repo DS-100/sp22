@@ -12,7 +12,7 @@ description: A week-to-week description of the content covered in the course.
 **Frequently Asked Questions:** Before posting on the [class Ed](https://edstem.org/us/courses/15436/), please read the [class FAQ page](https://ds100.org/sp22faq).
 
 {: .mb-2 }
-UC Berkeley, Fall 2021
+UC Berkeley, Spring 2022
 {: .mb-0 .fs-6 .text-grey-dk-000 }
 
 <div>
