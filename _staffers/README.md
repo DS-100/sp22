@@ -1,2 +1,2 @@
 ## Staffers directory
-Staff photos go here
+Staff information (bios, etc) go here
