@@ -16,7 +16,7 @@
 title: Data 100
 description: Principles and Techniques of Data Science
 author: Kunal Agarwal
-baseurl: '/fa21' # the subpath of your site, e.g. /blog
+baseurl: '/sp22' # the subpath of your site, e.g. /blog
 url: 'https://ds100.org' # the base hostname & protocol for your site, e.g. http://example.com
 
 # Theme settings
