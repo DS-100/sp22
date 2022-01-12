@@ -9,7 +9,7 @@ description: A week-to-week description of the content covered in the course.
 
 <!-- ## Note: This page is under construction. Everything on this website is subject to change. -->
 
-**Frequently Asked Questions:** Before posting on the [class Piazza](https://piazza.com/class/kqsiwfz12g0482), please read the [class FAQ page](https://ds100.org/fa21faq).
+**Frequently Asked Questions:** Before posting on the [class Ed](https://edstem.org/us/courses/15436/), please read the [class FAQ page](https://ds100.org/sp22faq).
 
 {: .mb-2 }
 UC Berkeley, Fall 2021
@@ -36,6 +36,6 @@ UC Berkeley, Fall 2021
 
 <br><br>
 
-{% for module in site.modules %}
+<!-- {% for module in site.modules %}
 {{ module }}
-{% endfor %}
+{% endfor %} -->
