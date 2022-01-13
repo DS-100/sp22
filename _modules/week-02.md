@@ -14,7 +14,7 @@ days:
   events:
     ? '**Discussion 2**{: .label .label-disc } Pandas'
     ? '**Lab 2**{: .label .label-lab } Pandas (due Feb 1)'
-    ? '**Homeowrk 2**{: .label .label-hw } Food Safety (due Feb 3)'
+    ? '**Homework 2**{: .label .label-hw } Food Safety (due Feb 3)'
     : ""
 
 ---
