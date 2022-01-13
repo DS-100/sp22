@@ -7,7 +7,7 @@ description: A week-to-week description of the content covered in the course.
 
 # Principles and Techniques of Data Science
 
-<!-- ## Note: This page is under construction. Everything on this website is subject to change. -->
+## Note: This page is under construction. Everything on this website is subject to change.
 
 **Frequently Asked Questions:** Before posting on the [class Ed](https://edstem.org/us/courses/15436/), please read the [class FAQ page](https://ds100.org/sp22faq).
 
@@ -26,7 +26,7 @@ UC Berkeley, Spring 2022
 
 
 <ul>
-<!-- <li><b>THIS PAGE IS UNDER CONSTRUCTION. Please don’t interpret anything on this website as truth until this warning is removed. </b></li>
+<!--<li><b>THIS PAGE IS UNDER CONSTRUCTION. Please don’t interpret anything on this website as truth until this warning is removed. </b></li>
 <li>Please read our <a href="http://www.ds100.org/su21faq">course FAQ</a> before contacting staff with questions that might be answered there.</li>
 <li>The <a href="{{ site.baseurl }}/syllabus">Syllabus</a> contains a detailed explanation of how each course component will work this summer, given that the course is being taught entirely online.</li>
 <li>The scheduling of all weekly events is in the <a href="{{ site.baseurl }}/calendar">Calendar</a>.</li>
