@@ -14,7 +14,7 @@ days:
   events:
     ? '**Discussion 1**{: .label .label-disc } Intro'
     ? '**Lab 1**{: .label .label-lab } Prerequisite Coding (due Jan 25)'
-    ? '**Homeowrk 1**{: .label .label-hw } Intro + Prerequisites (due Jan 27)'
+    ? '**Homework 1**{: .label .label-hw } Intro + Prerequisites (due Jan 27)'
     : ''
 
 ---
