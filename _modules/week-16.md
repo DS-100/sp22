@@ -1,10 +1,14 @@
 ---
-title: Week 16
-weekNumber: 16
+title: Week 15
+weekNumber: 15
 days:
-- date: 2022-05-13
+- date: 2022-05-03
   events:
-    ? '**Final**{: .label .label-hw } Final Exam (7-10 pm)'
+    ? 'RRR Week'
+    : ''
+- date: 2022-05-05
+  events:
+    ? 'RRR Week'
     : ''
 
 ---

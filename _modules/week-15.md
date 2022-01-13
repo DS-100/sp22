@@ -1,14 +1,17 @@
 ---
-title: Week 15
-weekNumber: 15
+title: Week 14
+weekNumber: 14
 days:
-- date: 2022-05-03
+- date: 2022-04-26
   events:
-    ? 'RRR Week'
+    ? '**Lecture 27**{: .label .label-lecture } Clustering'
     : ''
-- date: 2022-05-05
+- date: 2022-04-28
   events:
-    ? 'RRR Week'
+    ? '**Lecture 28**{: .label .label-lecture } Inference for Modeling'
     : ''
-
+- date: 2022-04-29
+  events:
+    ? '**Discussion 14**{: .label .label-disc } Clustering, Inference for Modeling'
+    : ""
 ---

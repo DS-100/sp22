@@ -1,19 +1,13 @@
 ---
-title: Week 10
+title: Spring Break
 weekNumber: 10
 days:
-- date: 2022-03-29
+- date: 2022-03-22
   events:
-    ? '**Lecture 19**{: .label .label-lecture } SQL I'
+    ? 'Spring Break'
     : ''
-- date: 2022-03-31
+- date: 2022-03-24
   events:
-    ? '**Lecture 20**{: .label .label-lecture } SQL II'
+    ? 'Spring Break'
     : ''
-- date: 2022-04-01
-  events:
-    ? '**Discussion 10**{: .label .label-disc } SQL'
-    ? '**Lab 10**{: .label .label-lab } SQL (due Apr 5)'
-    ? '**Homework 7**{: .label .label-hw } SQL and PCA (due Apr 14)'
-    : ""
 ---

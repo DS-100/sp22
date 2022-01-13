@@ -1,18 +1,19 @@
 ---
-title: Week 11
-weekNumber: 11
+title: Week 10
+weekNumber: 10
 days:
-- date: 2022-04-05
+- date: 2022-03-29
   events:
-    ? '**Lecture 21**{: .label .label-lecture } PCA'
+    ? '**Lecture 19**{: .label .label-lecture } SQL I'
     : ''
-- date: 2022-04-07
+- date: 2022-03-31
   events:
-    ? '**Midterm**{: .label .label-hw } Mini-Midterm 2'
+    ? '**Lecture 20**{: .label .label-lecture } SQL II'
     : ''
-- date: 2022-04-08
+- date: 2022-04-01
   events:
-    ? '**Discussion 11**{: .label .label-disc } More SQL, PCA'
-    ? '**Lab 11**{: .label .label-lab } PCA (due Apr 12)'
+    ? '**Discussion 10**{: .label .label-disc } SQL'
+    ? '**Lab 10**{: .label .label-lab } SQL (due Apr 5)'
+    ? '**Homework 7**{: .label .label-hw } SQL and PCA (due Apr 14)'
     : ""
 ---

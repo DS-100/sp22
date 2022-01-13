@@ -1,19 +1,18 @@
 ---
-title: Week 12
-weekNumber: 12
+title: Week 11
+weekNumber: 11
 days:
-- date: 2022-04-12
+- date: 2022-04-05
   events:
-    ? '**Lecture 23**{: .label .label-lecture } Classification and Logistic Regression'
+    ? '**Lecture 21**{: .label .label-lecture } PCA'
     : ''
-- date: 2022-04-14
+- date: 2022-04-07
   events:
-    ? '**Lecture 24**{: .label .label-lecture } Logistic Regression II'
+    ? '**Midterm**{: .label .label-hw } Mini-Midterm 2'
     : ''
-- date: 2022-04-15
+- date: 2022-04-08
   events:
-    ? '**Discussion 12**{: .label .label-disc } Logistic Regression'
-    ? '**Lab 12**{: .label .label-lab } Logistic Regression (due Apr 19)'
-    ? '**Proj 2A**{: .label .label-hw } Spam & Ham I (due Apr 21)'
+    ? '**Discussion 11**{: .label .label-disc } More SQL, PCA'
+    ? '**Lab 11**{: .label .label-lab } PCA (due Apr 12)'
     : ""
 ---

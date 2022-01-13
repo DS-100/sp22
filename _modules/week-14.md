@@ -1,17 +1,19 @@
 ---
-title: Week 14
-weekNumber: 14
+title: Week 13
+weekNumber: 13
 days:
-- date: 2022-04-26
+- date: 2022-04-19
   events:
-    ? '**Lecture 27**{: .label .label-lecture } Clustering'
+    ? '**Lecture 25**{: .label .label-lecture } TBD'
     : ''
-- date: 2022-04-28
+- date: 2022-04-21
   events:
-    ? '**Lecture 28**{: .label .label-lecture } Inference for Modeling'
+    ? '**Lecture 26**{: .label .label-lecture } Decision Trees'
     : ''
-- date: 2022-04-29
+- date: 2022-04-22
   events:
-    ? '**Discussion 14**{: .label .label-disc } Clustering, Inference for Modeling'
+    ? '**Discussion 13**{: .label .label-disc } Decision Trees'
+    ? '**Lab 13**{: .label .label-lab } Decision Trees & Random Forests (due Apr 26)'
+    ? '**Proj 2B**{: .label .label-hw } Spam & Ham II (due Apr 28)'
     : ""
 ---
