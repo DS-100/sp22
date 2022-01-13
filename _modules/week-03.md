@@ -14,6 +14,6 @@ days:
   events:
     ? '**Discussion 3**{: .label .label-disc } Data Cleaning and Regex'
     ? '**Lab 3**{: .label .label-lab } Data Cleaning (due Feb 8)'
-    ? '**Homeowork 3**{: .label .label-hw } Tweets (due Feb 10)'
+    ? '**Homework 3**{: .label .label-hw } Tweets (due Feb 10)'
     : ""
 ---
