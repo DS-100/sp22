@@ -2,28 +2,18 @@
 title: Week 10
 weekNumber: 10
 days:
-- date: 2021-10-25
+- date: 2022-03-29
   events:
-    ? 'N/A'
+    ? '**Lecture 19**{: .label .label-lecture } SQL I'
     : ''
-- date: 2021-10-26
+- date: 2022-03-31
   events:
-    ? '**Lecture 18**{: .label .label-lecture } [Regularization and Cross-Validation](lecture/lec18)'
-    ? '**Live Lab**{: .label .label-lab }'
+    ? '**Lecture 20**{: .label .label-lecture } SQL II'
     : ''
-- date: 2021-10-27
+- date: 2022-04-01
   events:
-    ? 'N/A'
+    ? '**Discussion 10**{: .label .label-disc } SQL'
+    ? '**Lab 10**{: .label .label-lab } SQL (due Apr 5)'
+    ? '**Homework 7**{: .label .label-hw } SQL and PCA (due Apr 14)'
     : ""
-- date: 2021-10-28
-  events:
-    ? '**Lecture 19**{: .label .label-lecture } [Guest Lecture: Physical Data and the Climate](lecture/lec19)'
-    : ""
-- date: 2021-10-29
-  events:
-    ? '**Discussion 10**{: .label .label-disc } [Regularization and Cross-Validation](https://drive.google.com/file/d/1lBsXkpF29ZPrNTilpANkNvj1bpAzg6WX/view?usp=sharing) ([solutions](https://drive.google.com/file/d/1aI2X7rv8p8OhOtGGMMfcHQbnlq_RzunL/view?usp=sharing))'
-    ? '**No Homework**{: .label .label-hw } Midterm on 11/1'
-    ? '**Lab 10**{: .label .label-lab } [Cross-Validation and Regularization](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=tree%2Ffa21%2Flab%2Flab10&branch=main) (due Nov 4)'
-    : ""
-
 ---

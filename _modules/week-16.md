@@ -2,17 +2,9 @@
 title: Week 16
 weekNumber: 16
 days:
-- date: 2021-12-06
+- date: 2022-05-13
   events:
-    ? '**Grad Project**{: .label .label-proj } Peer Grading due'
-    : ''
-- date: 2021-12-07
-  events:
-    ? 'Review'
-    : ''
-- date: 2021-12-09
-  events:
-    ? 'Review'
+    ? '**Final**{: .label .label-hw } Final Exam (7-10 pm)'
     : ''
 
 ---

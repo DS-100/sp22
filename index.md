@@ -15,15 +15,15 @@ description: A week-to-week description of the content covered in the course.
 UC Berkeley, Spring 2022
 {: .mb-0 .fs-6 .text-grey-dk-000 }
 
-<div>
 
+<div>
 <!-- {% assign instructors = site.staffers | where: 'role', 'Instructor' %}
 <div class="role">
   {% for staffer in instructors %}
   {{ staffer }}
   {% endfor %} -->
-
 </div>
+
 
 <ul>
 <!-- <li><b>THIS PAGE IS UNDER CONSTRUCTION. Please don’t interpret anything on this website as truth until this warning is removed. </b></li>
@@ -36,6 +36,6 @@ UC Berkeley, Spring 2022
 
 <br><br>
 
-<!-- {% for module in site.modules %}
+{% for module in site.modules %}
 {{ module }}
-{% endfor %} -->
+{% endfor %}
