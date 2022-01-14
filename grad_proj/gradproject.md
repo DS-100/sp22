@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Graduate Project
-nav_order: 3
+nav_exclude: true
 description: Specifications for the final project for Data 200.
 ---
 # Graduate Project
