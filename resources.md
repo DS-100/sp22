@@ -32,16 +32,19 @@ description: Past exams and other relevant material to aid you in the course.
 
 [Spring 2019 Midterm 1 Reference Sheet](assets/exams/sp19/sp19_mt1_reference_sheet.pdf)
 
+## Supplementary Textbook
+Alongside each lecture are textbook readings to the [Data 100 textbook](https://www.textbook.ds100.org/). Textbook readings are purely supplementary, and may contain material that is not in scope (and may also not be comprehensive). The textbook is *actively in development* during Spring 2022! Some readings may become out-of-date or reordered as the semester progresses. If you see a reading on our schedule that no longer exists, don't hesitate to send a [pull request](https://github.com/DS-100/sp22/tree/gh-pages) to our course GitHub!
+
 ## Other Resources
 
-We will be posting all lecture materials on the course syllabus. In addition, they will also be listed in the following publicly visible [Github Repo](https://github.com/DS-100/fa20).
+We will be posting all lecture materials on the course syllabus. In addition, they will also be listed in the following publicly visible [Github Repo](https://github.com/DS-100/sp22).
 
 Here is a collection of resources that will help you learn more about various concepts and skills covered in the class. Learning by reading is a key part of being a well rounded data scientist. We will not assign mandatory reading but instead encourage you to look at these _and other_ materials. If you find something helpful, post it on Piazza, and consider contributing it to the course website.
 
 You can send us changes to the course website by
 [forking](https://help.github.com/articles/fork-a-repo/) and sending a [pull
 request](https://help.github.com/articles/about-pull-requests/) to the [course
-website github repository](https://github.com/DS-100/fa20). You will then
+website github repository](https://github.com/DS-100/sp22). You will then
 become part of the history of Data 100 at Berkeley.
 
 ## Local Setup

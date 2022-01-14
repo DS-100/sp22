@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Data 100
 description: Principles and Techniques of Data Science
-author: Kunal Agarwal
+author: Andrew Lenz
 baseurl: '/sp22' # the subpath of your site, e.g. /blog
 url: 'https://ds100.org' # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -26,12 +26,14 @@ search_enabled: true
 permalink: pretty
 nav_links:
   Links:
+    Course FAQ:
+      - 'https://ds100.org/sp22faq'
     Datahub:
       - 'https://data100.datahub.berkeley.edu'
     Gradescope:
       - 'https://www.gradescope.com/courses/279047'
-    Piazza:
-      - 'https://piazza.com/class/kqsiwfz12g0482'
+    EdStem:
+      - 'https://edstem.org/us/courses/15436/discussion/'
 
 aux_links:
   # 'Kevin Lin':
