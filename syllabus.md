@@ -4,6 +4,7 @@ title: Syllabus
 nav_order: 2
 description: >-
     Principles and Techniques of Data Science
+markdown: kramdown
 course:
     edstem: https://edstem.org/us/courses/15436/
     faq: https://ds100.org/sp22faq
@@ -14,17 +15,14 @@ course:
 ---
 
 # Syllabus
+{:.no_toc}
 
 ## Note: This page is under construction. Everything on this website is subject to change.
+{:.no_toc}
 
 Jump to:
-
-- [About Data 100](#about)
-- [Course Culture](#course_culture)
-- [Course Components](#format)
-- [Policies and Grading](#policies)
-- [Additional Resources](#resources)
-- <a href="{{page.course.faq}}" target="_blank">Course FAQ Page</a> (opens in a separate tab)
+* TOC
+{:toc}
 
 <br>
 
@@ -35,22 +33,22 @@ Jump to:
 Combining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world. This intermediate level class bridges between [Data 8](http://data8.org) and upper division computer science and statistics courses as well as methods courses in other fields. In this class, we explore key areas of data science including question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making.​ Through a strong emphasis on data centric computing, quantitative critical thinking, and exploratory data analysis, this class covers key principles and techniques of data science. These include languages for transforming, querying and analyzing data; algorithms for machine learning methods including regression, classification and clustering; principles behind creating informative data visualizations; statistical concepts of measurement error and prediction; and techniques for scalable data processing.
 
 ### Goals
+{:.no_toc}
 
 - Prepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context
 - Enable students to start careers as data scientists by providing experience working with real-world data, tools, and techniques
 - Empower students to apply computational and inferential thinking to address real-world problems
 
+<a name = 'prerequisites'></a>
 ### Prerequisites
 
 While we are working to make this class widely accessible, we currently require the following (or equivalent) prerequisites. **Unlike past semesters, prerequisites will be enforced in this class. It is your responsibility to know the material in the prerequisites.**
 
 - **Foundations of Data Science**: [Data 8](http://data8.org) covers much of the material in Data 100 but at an introductory level. Data8 provides basic exposure to python programming and working with tabular data as well as visualization, statistics, and machine learning.
 - **Computing**: _The Structure and Interpretation of Computer Programs_ ([CS 61A](http://cs61a.org)) or _Computational Structures in Data Science_ ([CS 88](https://cs88-website.github.io)). These courses provide additional background in python programming (e.g., for loops, lambdas, debugging, and complexity) that will enable Data 100 to focus more on the concepts in Data Science and less on the details of programming in python.
-- **Math**: _Linear Algebra_ (Math 54, [EE 16A](http://ee16a.org), or Stat 89A): We will need some basic concepts like linear operators, eigenvectors, derivatives, and integrals to enable statistical inference and derive new prediction algorithms. This may be satisfied concurrently to Data 100.
+- **Math**: _Linear Algebra_ (Math 54, [EE 16A](https://eecs16a.org/), or Stat 89A): We will need some basic concepts like linear operators, eigenvectors, derivatives, and integrals to enable statistical inference and derive new prediction algorithms. This may be satisfied concurrently to Data 100.
 
 <br>
-
-<a name = 'course_culture'></a>
 
 ## Course Culture
 
@@ -74,7 +72,8 @@ Your reaction to this topic might be to laugh it off, or to make or think snide 
 
 This issue is very important to Data 100's course staff. Therefore, if we cannot appeal to your decency and collegiality, let us at least appeal to your self-interest. Do not mess around on this matter. It will not go well for you.
 
-### Issues with Course Staff
+
+### Communicate Issues with Course Staff
 
 Professionalism and respect for diversity are not just matters between students; they also apply to how the course staff treat the students. The staff of this course will treat you in a way that respects our differences. However, despite our best efforts, we might slip up, hopefully inadvertently. If you are concerned about classroom environment issues created by the staff or overall class dynamic, please feel free to talk to us about it. The instructors and the Head TA ({{page.course.head_ta}}) in particular welcome any comments or concerns regarding conduct of the course and the staff.
 
@@ -91,8 +90,6 @@ We are committed to creating a learning environment welcoming of all students th
 
 **We take all complaints about unprofessional or discriminatory behavior seriously.**
 
-<a name = 'format'></a>
-
 ## Course Components
 
 This fall, Data 100 will be run in a hybrid format. Here’s a nice high-level “typical week in the course”. 
@@ -108,13 +105,12 @@ This fall, Data 100 will be run in a hybrid format. Here’s a nice high-level �
 
 * **All deadlines are subject to change.**
 * **Note: In-person meetings are fully dependent on public health guidelines. We are prepared to hold all course activities online should circumstances demand.**
+* If you have COVID symptoms, please do not attend in-person activities. Instead, please keep up with the class using the online or asynchronous modes of participation (Zoom, EdStem).
 * Office Hours are scheduled on the [Calendar page](../calendar). 
 * Lectures, discussions, assignments, projects, and exams are scheduled on the [Home page](../).
-* See below for [Policies and Grading](#policies).
 
 <br>
 
-<a name = 'lecture'></a>
 ### Lecture
 There are 2 live lectures per week. You can attend in-person or via Zoom as permitted by campus policy. All lecture recordings will also be posted to [bCourses (link forthcoming)]({{page.course.bcourses}}) within 24 hours of the live recording. Each lecture will also have an EdStem thread for students to ask questions.
 
@@ -122,29 +118,28 @@ There are 2 live lectures per week. You can attend in-person or via Zoom as perm
 We will have some guest speakers this term, on topics including Human Context and Ethics of Data Science and applications to Climate Change. **These lectures will be held live on Zoom**, and we strongly encourage you to attend them!
 -->
 
-<a name = 'discussion'></a>
 ### Discussion
 Live discussion sections are on Fridays, lasting for one hour. The goal of these sessions is to work through problems, hone your skills, and flesh out your understanding as part of a team. The problems that you solve and present as part of discussion are important in understanding this material.
 
 - **You must be assigned to a discussion section, even if you don't intend on regularly attending.**
-- To encourage attendance and participation in live discussion, you have the option to have discussion attendance contribute to your overall course grade. See the [Grading and Course Policies](#policies) section for more details.
+- To encourage attendance and participation in live discussion, you have the option to have discussion attendance contribute to your overall course grade. See [Policies](#policies) below for more details.
 - Discussion sign-ups will be released the first week of class through Signup Genius (link forthcoming). Attendance points will only be given for the section you are assigned to.
 - **You can switch sections via the sign-up form through the end of the 3rd week, Friday 2/24/2022.** From the 4th week onwards, your section will be locked in for the rest of the semester.  Due to room restrictions, you may not attend an in-person section that you were not assigned to; there is no such restriction on online sections.
 - In a typical week, we will release the discussion worksheet on Friday morning and solutions on Saturday. We are still receiving guidance as to whether we can provide physical handouts during in-person discussions. 
 <!--- We will release discussion recordings or walkthroughs the week after the discussion.-->
 
-<a name = 'homework'></a>
-### Homework
+### Homework and Projects
 
 Homeworks are week-long assignments that are designed to help students develop an in-depth understanding of both the theoretical and practical aspects of ideas presented in lecture.
 
-- In a typical week, the homework is released on Friday and is due the following Thursday at 11:59PM Pacific. One or two homeworks will be on-paper written assignments; the rest will be Jupyter notebooks. See the [Policies and Grading](#policies) section for grading details.
-<!-- - Near the midterm, or during weeks in which a project is assigned, you will have more than one week to work on the current assignment. -->
-- Homeworks have both visible and hidden autograder tests. The visible tests are mainly sanity checks, e.g. a probability is <= 1, and are visible to students while they do the assignment. The hidden tests generally check for correctness, and are invisible to students while they are doing the assignment.
-- The primary form of support students will have for homeworks and projects are the **office hours** we’ll host, and **Ed**.
-- Homeworks must be completed individually.
+Projects: Projects are two-week long assignments that synthesize multiple topics.
 
-<a name = 'labs'></a>
+- In a typical week, the homework (or project) is released on Friday and is due the following Thursday at 11:59PM Pacific. One or two homeworks will be on-paper written assignments; the rest will be Jupyter notebooks. See the [Policies](#policies) section for grading details.
+<!-- - Near the midterm, or during weeks in which a project is assigned, you will have more than one week to work on the current assignment. -->
+- Homeworks and projects have both visible and hidden autograder tests. The visible tests are mainly sanity checks, e.g. a probability is <= 1, and are visible to students while they do the assignment. The hidden tests generally check for correctness, and are invisible to students while they are doing the assignment.
+- The primary form of support students will have for homeworks and projects are the **office hours** we’ll host, and **Ed**.
+- Homeworks and projects must be completed individually. See the [Collaboration Policy](#collaboration-policy-and-academic-dishonesty) for more details.
+
 ### Lab
 
 Labs are shorter programming assignments designed to give students familiarity with new ideas.
@@ -153,22 +148,22 @@ Labs are shorter programming assignments designed to give students familiarity w
 - All lab autograder tests are visible.
 - In lieu of official lab sections, we will be helping with lab in several ways:
     - Lab walkthroughs, which are recorded videos posted as part of the lab.
-    - Lab Help Sections, which are Tuesday office hours that prioritize lab debugging and questions. See the [Calendar](../calendar) and our [Office Hours](#officehours) for more details.
+    - Lab Help Sections, which are Tuesday office hours that prioritize lab debugging and questions. See the [Calendar](../calendar) and our [Office Hours](#office-hours) for more details.
     - EdStem.
 - All labs are intended to take about an hour. You can therefore think of Lab Help Sections as lab sections, where attendance is not required nor expected to complete the lab. The best place to get individual help with lab is Lab Help Sections.
 
-<a name = 'officehours'></a>
 ### Office Hours
 
-- The office hours and locations are listed on the [Calendar](../calendar); office hours will be held both virtually and in-person. **To adhere to public health guidelines, we ask that students leave the OH room after their questions have been answered**.
-- Students can come to office hours for any questions on course assignments or material. Note that "Lab Help Sections" will prioritize lab-related questions.
-- Virtual OH can be accessed via [oh.ds100.org](https://oh.ds100.org/), where students add themselves to the “queue” and specify the assignment they need help on.
+The office hours and locations are listed on the [Calendar](../calendar); office hours will be held both virtually and in-person. Instructor office hours are also listed on the calendar. **To adhere to public health guidelines, we ask that students leave the OH room after their questions have been answered**.
+
+In general, students can come to office hours for any questions on course assignments or material. Note that events labeled Lab Help Sections will prioritize lab debugging and questions, after which other questions can be addressed.
+
+Virtual OH can be accessed via [oh.ds100.org](https://oh.ds100.org/), where students add themselves to the “queue” and specify the assignment they need help on.
 <!-- where students add themselves to the "queue" and specify the assignment they need help on. Once it's their turn, they will be provided with a Zoom link to join, in order to get help from staff. -->
-- The instructors will also be hosting office hours, listed on the [Calendar](../calendar).
 <!-- - We are also holding "lost office hours" once a week. These are designed to accommodate students who are behind on material and would like help catching up. These are meant for conceptual questions only, not for assignment help. These will also be reflected on the [Calendar](../calendar). -->
 
 ### Weekly Checks
-While lecture and discussion section attendance is not required, nor even expected, we do expect you to stay up to date with material. To help us keep track of your progress and sentiment about the course, there will be 14 weekly surveys due on Mondays at 11:59 PM Pacific.
+While lecture and discussion section attendance is not required, nor even expected, we do expect you to stay up to date with material. To help us keep track of your progress and sentiment about the course, there will be 14 weekly surveys due on Mondays at 11:59 PM Pacific. Weekly check-ins are submitted via Google Form, and links will be provided on the [Home page](../) each week.
 
 <!--
 Quick Checks, as mentioned above, are short conceptual questions embedded into each lecture, in the form of Google Forms. **Quick Checks are not graded.** These are meant for you to check your understanding of the concepts that were just introduced. <!-- Since there are roughly 26 lectures, there are roughly 26 Quick Checks, each of which consists of 4-7 Google Forms.
@@ -199,9 +194,8 @@ All students enrolled in the graduate version of the course (CS C200 or Stat C20
 <br/>
 <br/>
 
-<a name = 'policies'></a>
 
-## Policies and Grading
+## Policies
 
 ### Grading Scheme
 
@@ -212,30 +206,28 @@ All students enrolled in the graduate version of the course (CS C200 or Stat C20
 | Projects | 12.5% | 10% |
 | Midterms | 25% | 25% | Midterm 1: 15%<br/>Midterm 2: 10% |
 | Final | 25% | 25% | |
-| Weekly Survey | 2.5% |  - ||
+| Weekly Check | 2.5% |  - ||
 | Final Graduate Project | -  | 15% ||
 
-**Optional attendance grading:** For both graduate and undergraduates, you may substitute 5% of your HW grade with discussion attendance throughout the semester. When calculating your overall grade at the end of the semester, we will automatically determine your homework grade as the maximum of your homework grade with and without attendance. There will be 3 drops (so attending 11 of the 14 scheduled discussions is considered full attendance credit).
+**Optional attendance grading:** For both graduate and undergraduates, you may substitute 5% of your HW grade with discussion attendance throughout the semester. When calculating your overall grade at the end of the semester, we will automatically determine your homework grade as the maximum of your homework grade with and without attendance. Attending 11 of the 14 scheduled discussions is considered full attendance credit (i.e., there are 3 drops).
 
 <br>
+
 
 ### Late Policy
 
 All assignments are due at 11:59 pm Pacific on the due date specified on the syllabus. 
+
 **Homeworks, labs, and weekly checks will not be accepted late.** 
 Google Forms (weekly checks) will promptly close after the deadline.
 Gradescope (labs and homeworks) may allow you to make late submissions, but you will later be given a 0. 
+
+**Projects** are marked down by 10% per day, **up to two days**. After two days, project submissions will not be accepted. Submission times are rounded up to the next day. That is, 2 minutes late = 1 day late.
 
 **Extensions** are only provided to students with DSP accommodations, or in the case of exceptional circumstances. If you have DSP accommodations, you should expect to receive an email from us. Otherwise, email our Communications TA {{page.course.comms_ta}} at [{{page.course.comms_email}}](mailto:{{page.course.comms_email}})
 to request an extension. If you make a request close to the deadline, we can not guarantee that you will receive a response before the deadline. Additionally, simply submitting a request does not guarantee you will receive an extension. Even if your work is incomplete, please submit before the deadline so you can receive credit for the work you did complete.
 
 Note that extension requests will *not* be granted in cases where a student’s local (DataHub) tests are not passing. It is the student’s responsibility to solve such problems in advance of the deadline.
-
-**Projects** are marked down by 10% per day, **up to two days**. After two days, project submissions will not be accepted. Submission times are rounded up to the next day. That is, 2 minutes late = 1 day late.
-
-**Weekly Check-ins** are submitted via the Google Form linked on the [Home page](../).
-
-<br>
 
 ### Regrade Requests
 
@@ -250,8 +242,6 @@ Regrade requests will **not** be considered in cases in which:
 - a student fails to save their notebook before exporting and uploads an old version to the autograder
 - a situation arises in which the course staff cannot ensure that the student's work was done before the assignment deadline
 <!--- a students submits without following the steps outlined in [@13](https://piazza.com/class/kqsiwfz12g0482?cid=13)-->
-
-<br>
 
 ### Collaboration Policy and Academic Dishonesty
 
@@ -269,75 +259,73 @@ We also ask that you **do not post your assignment solutions publicly**.
 **Exams.**
 Cheating on exams is a serious offense. We have methods of detecting cheating on exams – so don't do it! Students caught cheating on any exam will fail this course.
 
-<a name = 'resources'></a>
-
-## Additional Resources
-Please see our [Resources](../resources/) page for course content resources, including the optional supplementary textbook.
-
-### We want you to succeed!
+## We want you to succeed!
 
 If you are feeling overwhelmed, visit our office hours and talk with us. We know college can be stressful – and especially so during the COVID-19 pandemic – and we want to help you succeed.
 
 **Important Note**: We are committed to being a resource to you, but it is important to note that all members of the teaching staff for this course are [responsible employees](https://svsh.berkeley.edu/responsible-employee), meaning that **we must disclose any incidents of sexual harassment or violence to campus authorities**. If you would like to speak to a confidential advocate, please consider reaching out to the [Berkeley PATH to Care Center](https://care.berkeley.edu/).
 
-### Basic Needs Center
-The [Basic Needs Center](https://basicneeds.berkeley.edu/home) (lower level of MLK Student Union, Suite 72) provides support with all the essential resources needed to not only survive, but thrive here at UC Berkeley. Their mission is to support you and work together towards justice and belonging for all. They define Basic Needs as the essential resources that impact your health, belonging, persistence, and overall well being. It is an ecosystem that includes: nutritious food, stable housing, hygiene, transportation, healthcare, mental wellness, financial sustainability, sleep, and emergency dependent services. They refuse to accept hunger, homelessness, and all other basic needs injustices as part of our university.
 
-### Berkeley International Office (BIO)
-The mission of the [Berkeley International Office](http://internationaloffice.berkeley.edu/) (2299 Piedmont Avenue, 510-642-2818) is to provide support with all the essential resources needed to not only survive, but thrive here at UC Berkeley. Their mission is to support you and work together towards justice and belonging for all. They define Basic Needs as the essential resources that impact your health, belonging, persistence, and overall well being. It is an ecosystem that includes: nutritious food, stable housing, hygiene, transportation, healthcare, mental wellness, financial sustainability, sleep, and emergency dependent services. They refuse to accept hunger, homelessness, and all other basic needs injustices as part of our university.
+## Additional Resources
+Please see our [Resources](../resources/) page for course content resources, including the optional supplementary textbook.
 
-### Center for Access to Engineering Excellence (CAEE)
+### COVID-19 Resources and Support
+{:.no_toc}
+You can find UC Berkeley’ COVID-19 resources and support [here](https://coronavirus.berkeley.edu/).
+
+### For academic performance, support, and technology
+{:.no_toc}
 The [Center for Access to Engineering Excellence](https://engineering.berkeley.edu/student-services/academic-support) (Bechtel Engineering Center 227) is an inclusive center that offers study spaces, nutritious snacks, and tutoring in >50 courses for Berkeley engineers and other majors across campus. The Center also offers a wide range of professional development, leadership, and wellness programs, and loans iclickers, laptops, and professional attire for interviews.
 
-### Counseling and Psychological Services (CAPS)
+As the primary academic support service for undergraduates at UC Berkeley, the [Student Learning Center](http://slc.berkeley.edu/) (510-642-7332) assists students in transitioning to Cal, navigating the academic terrain, creating networks of resources, and achieving academic, personal, and professional goals. Through various services including tutoring, study groups, workshops, and courses, SLC supports undergraduate students in Biological and Physical Sciences, Business Administration, Computer Science, Economics, Mathematics, Social Sciences, Statistics, Study Strategies, and Writing.
+
+The [Educational Opportunity Program](http://eop.berkeley.edu/) (EOP, Cesar Chavez Student Center 119; 510-642-7224) at Cal has provided first generation and low income college students with the guidance and resources necessary to succeed at the best public university in the world. EOP’s individualized academic counseling, support services, and extensive campus referral network help students develop the unique gifts and talents they each bring to the university while empowering them to achieve.
+
+The [Student Technology Equity Program](STEP, https://technology.berkeley.edu/STEP) connects laptops, Wi-Fi hotspots, and other required technology to students in need.
+
+### For mental well-being
+{:.no_toc}
 The staff of the [UHS Counseling and Psychological Services](https://uhs.berkeley.edu/caps) (Tang Center, 2222 Bancroft Way; 510-642-9494; for after-hours support, please call the 24/7 line at 855-817-5667) provides confidential, brief counseling and crisis intervention to students with personal, academic and career stress. Services are provided by a multicultural group of professional counselors including psychologists, social workers, and advanced level trainees. All undergraduate and graduate students are eligible for CAPS services, regardless of insurance coverage.
 
 To improve access for engineering students, a licensed psychologist from the Tang Center also holds walk-in appointments for confidential counseling in Bechtel Engineering Center 241 (check [here](https://engineering.berkeley.edu/student-services/advising-counseling) for schedule).
 
-### COVID-19 Resources and Support
-You can find UC Berkeley’ COVID-19 resources and support [here](https://coronavirus.berkeley.edu/).
+### For disability accommodations
+{:.no_toc}
+The [Disabled Students’ Program](https://dsp.berkeley.edu/) (DSP, 260 César Chávez Student Center \#4250; 510-642-0518) serves students with disabilities of all kinds, including mobility impairments, blind or low vision, deaf or hard of hearing; chronic illnesses (chronic pain, repetitive strain injuries, brain injuries, AIDS/HIV, cancer, etc.) psychological disabilities (bipolar disorder, severe anxiety or depression, etc.), Attention Deficit Disorder/Attention Deficit Hyperactivity Disorder, and Learning Disabilities. Services are individually designed and based on the specific needs of each student as identified by DSP’s Specialists. The Program’s official website includes information on DSP staff, UCB’s disabilities policy, application procedures, campus access guides for most university buildings, and portals for students and faculty.
 
-### Disabled Students’ Program (DSP)
-The [Disabled Students’ Program](https://dsp.berkeley.edu/) (260 César Chávez Student Center \#4250; 510-642-0518) serves students with disabilities of all kinds, including mobility impairments, blind or low vision, deaf or hard of hearing; chronic illnesses (chronic pain, repetitive strain injuries, brain injuries, AIDS/HIV, cancer, etc.) psychological disabilities (bipolar disorder, severe anxiety or depression, etc.), Attention Deficit Disorder/Attention Deficit Hyperactivity Disorder, and Learning Disabilities. Services are individually designed and based on the specific needs of each student as identified by DSP’s Specialists. The Program’s official website includes information on DSP staff, UCB’s disabilities policy, application procedures, campus access guides for most university buildings, and portals for students and faculty.
-
-### Educational Opportunity Program (EOP)
-The [Educational Opportunity Program](http://eop.berkeley.edu/) (Cesar Chavez Student Center 119; 510-642-7224) at Cal has provided first generation and low income college students with the guidance and resources necessary to succeed at the best public university in the world. EOP’s individualized academic counseling, support services, and extensive campus referral network help students develop the unique gifts and talents they each bring to the university while empowering them to achieve.
-
-### Gender Equity Resource Center (GenEq)
-The [Gender Equity Resource Center](https://cejce.berkeley.edu/geneq), fondly referred to as GenEq, is a UC Berkeley campus community center committed to fostering an inclusive Cal experience for all. GenEq is the campus location where students, faculty, staff and Alumni connect for resources, services, education and leadership programs related to gender and sexuality. The programs and services of the Gender Equity Resource Center are focused into four key areas: women; lesbian, gay, bisexual, and transgender (LGBT); sexual and dating violence; and hate crimes and bias driven incidents. GenEq strives to provide a space for respectful dialogue about sexuality and gender; illuminate the interrelationship of sexism, homophobia and gender bias and violence; create a campus free of violence and hate; provide leadership opportunities; advocate on behalf of survivors of sexual, hate, dating and gender violence; foster a community of women and LGBT leaders; and be a portal to campus and community resources on LGBT, Women, and the many intersections of identity (e.g., race, class, ability, etc.).
-
-### Multicultural Education Program
-The [Multicultural Education Program](http://mep.berkeley.edu/) (MEP) is one of six initiatives funded by the Evelyn and Walter Haas, Jr. Fund to work towards institutional change and to create a positive campus climate for diversity. The MEP is a five-year initiative to establish a sustainable infrastructure for activities like educational consultation and diversity workshops for the campus that address both specific topics, and to cater to group needs across the campus.
-
-### Ombudsperson for Students
+### For solving a dispute
+{:.no_toc}
 The [Ombudsperson for Students](https://sa.berkeley.edu/Ombuds) (Sproul Hall 102; 510-642-5754) provides a confidential service for students involved in a University-related problem (academic or administrative), acting as a neutral complaint resolver and not as an advocate for any of the parties involved in a dispute. The Ombudsperson can provide information on policies and procedures affecting students, facilitate students’ contact with services able to assist in resolving the problem, and assist students in complaints concerning improper application of University policies or procedures. All matters referred to this office are held in strict confidence. The only exceptions, at the sole discretion of the Ombudsperson, are cases where there appears to be imminent threat of serious harm.
 
-### PATH to Care Center
-The [PATH to Care Center](https://care.berkeley.edu/) (510-642-1998) offers Confidential Care Advocates providing affirming, empowering, and confidential support for survivors and those who have experienced gendered violence, including sexual harassment, dating and intimate partner violence, sexual assault, stalking, and sexual exploitation. Advocates bring a non-judgmental, caring approach to exploring all options, rights, and resources.
-
-### Care Line (PATH to Care Center)
-The [Care Line](https://care.berkeley.edu/care-line/) (510-643-2005) is a 24/7, confidential, free, campus-based resource for urgent support around sexual assault, sexual harassment, interpersonal violence, stalking, and invasion of sexual privacy. The Care Line will connect you with a confidential advocate for trauma-informed crisis support including time-sensitive information, securing urgent safety resources, and accompaniment to medical care or reporting.
-
-### Student Advocate's Office
 The [Student Advocate’s Office](https://advocate.berkeley.edu/) (SAO) is an executive, non-partisan office of the ASUC. We offer free, confidential casework services and resources to any student(s) navigating issues with the University, including academic, conduct, financial aid, and grievance concerns. All support is centered around students and aims for an equity-based approach.
 
-### Social Services
+### For recovery from sexual harassment or sexual assault
+{:.no_toc}
+The [Care Line](https://care.berkeley.edu/care-line/) (510-643-2005) is a 24/7, confidential, free, campus-based resource for urgent support around sexual assault, sexual harassment, interpersonal violence, stalking, and invasion of sexual privacy. The Care Line will connect you with a confidential advocate for trauma-informed crisis support including time-sensitive information, securing urgent safety resources, and accompaniment to medical care or reporting.
+
+### For social services
+{:.no_toc}
 [Social Services](http://uhs.berkeley.edu/students/counseling/socialservices.shtml) provides confidential services and counseling to help students with managing problems that can emerge from illness such as financial, academic, legal, family concerns, and more. They specialize in helping students with pregnancy resources and referrals; alcohol/drug problems related to one’s own or a family member’s use; sexual assault/rape; relationship or other violence; and support for health concerns-new diagnoses or ongoing conditions. Social Services staff will assess a student’s immediate needs, work with the student to develop a plan to meet those needs, and facilitate arrangements with academic departments and advocate for the student with other campus offices and community agencies, as well as coordinate services within UHS.
 
-### Student Learning Center (SLC)
-As the primary academic support service for undergraduates at UC Berkeley, the [Student Learning Center](http://slc.berkeley.edu/) (510-642-7332) assists students in transitioning to Cal, navigating the academic terrain, creating networks of resources, and achieving academic, personal, and professional goals. Through various services including tutoring, study groups, workshops, and courses, SLC supports undergraduate students in Biological and Physical Sciences, Business Administration, Computer Science, Economics, Mathematics, Social Sciences, Statistics, Study Strategies, and Writing.
 
-### Student Technology Equity Program (STEP)
-The [Student Technology Equity Program](https://technology.berkeley.edu/STEP) connects laptops, Wi-Fi hotspots, and other required technology to students in need.
+### For finding community on campus
+{:.no_toc}
 
-### UC Berkeley Food Pantry
-The [UC Berkeley Food Pantry](https://pantry.berkeley.edu/) (#68 Martin Luther King Student Union) aims to reduce food insecurity among students and staff at UC Berkeley, especially the lack of nutritious food. Students and staff can visit the pantry as many times as they need and take as much as they need while being mindful that it is a shared resource. The pantry operates on a self-assessed need basis; there are no eligibility requirements. The pantry is not for students and staff who need supplemental snacking food, but rather, core food support.
+The mission of the [Berkeley International Office](BIO, http://internationaloffice.berkeley.edu/) (2299 Piedmont Avenue, 510-642-2818) is to provide support with all the essential resources needed to not only survive, but thrive here at UC Berkeley. Their mission is to support you and work together towards justice and belonging for all. They define Basic Needs as the essential resources that impact your health, belonging, persistence, and overall well being. It is an ecosystem that includes: nutritious food, stable housing, hygiene, transportation, healthcare, mental wellness, financial sustainability, sleep, and emergency dependent services. They refuse to accept hunger, homelessness, and all other basic needs injustices as part of our university.
 
-### Undocumented Students Program (USP)
+The [Gender Equity Resource Center](https://cejce.berkeley.edu/geneq), fondly referred to as GenEq, is a UC Berkeley campus community center committed to fostering an inclusive Cal experience for all. GenEq is the campus location where students, faculty, staff and Alumni connect for resources, services, education and leadership programs related to gender and sexuality. The programs and services of the Gender Equity Resource Center are focused into four key areas: women; lesbian, gay, bisexual, and transgender (LGBT); sexual and dating violence; and hate crimes and bias driven incidents. GenEq strives to provide a space for respectful dialogue about sexuality and gender; illuminate the interrelationship of sexism, homophobia and gender bias and violence; create a campus free of violence and hate; provide leadership opportunities; advocate on behalf of survivors of sexual, hate, dating and gender violence; foster a community of women and LGBT leaders; and be a portal to campus and community resources on LGBT, Women, and the many intersections of identity (e.g., race, class, ability, etc.).
+
 The [Undocumented Students Program](https://undocu.berkeley.edu/) (119 Cesar Chavez Center; 642-7224) practices a holistic, multicultural and solution-focused approach that delivers individualized service for each student. The academic counseling, legal support, financial aid resources and extensive campus referral network provided by USP helps students develop the unique gifts and talents they each bring to the university, while empowering a sense of belonging. The program’s mission is to support the advancement of undocumented students within higher education and promote pathways for engaged scholarship.
 
-<a name = 'acknowledgments'></a>
+The [Multicultural Education Program](http://mep.berkeley.edu/) (MEP) is one of six initiatives funded by the Evelyn and Walter Haas, Jr. Fund to work towards institutional change and to create a positive campus climate for diversity. The MEP is a five-year initiative to establish a sustainable infrastructure for activities like educational consultation and diversity workshops for the campus that address both specific topics, and to cater to group needs across the campus.
+
+### For basic needs (food, shelter, etc.)
+{:.no_toc}
+The [Basic Needs Center](https://basicneeds.berkeley.edu/home) (lower level of MLK Student Union, Suite 72) provides support with all the essential resources needed to not only survive, but thrive here at UC Berkeley. Their mission is to support you and work together towards justice and belonging for all. They define Basic Needs as the essential resources that impact your health, belonging, persistence, and overall well being. It is an ecosystem that includes: nutritious food, stable housing, hygiene, transportation, healthcare, mental wellness, financial sustainability, sleep, and emergency dependent services. They refuse to accept hunger, homelessness, and all other basic needs injustices as part of our university.
+
+The [UC Berkeley Food Pantry](https://pantry.berkeley.edu/) (#68 Martin Luther King Student Union) aims to reduce food insecurity among students and staff at UC Berkeley, especially the lack of nutritious food. Students and staff can visit the pantry as many times as they need and take as much as they need while being mindful that it is a shared resource. The pantry operates on a self-assessed need basis; there are no eligibility requirements. The pantry is not for students and staff who need supplemental snacking food, but rather, core food support.
 
 ## Acknowledgments!
+{:.no_toc}
 
-Course Culture and Additional Resources inspired and adapted with permission from Dr. Sarah Chasins' [Fall 2021 CS 164 Syllabus](https://inst.eecs.berkeley.edu/~cs164/fa21/syllabus.html).
+Course Culture and Additional Resources inspired and adapted with permission from Dr. Sarah Chasins' [Fall 2021 CS 164 Syllabus](https://inst.eecs.berkeley.edu/~cs164/fa21/syllabus.html) and Grace O'Connell, the Asssociate Dean for Inclusive Excellence.
