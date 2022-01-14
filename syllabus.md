@@ -261,7 +261,7 @@ We also ask that you **do not post your assignment solutions publicly**.
 **Exams.**
 Cheating on exams is a serious offense. We have methods of detecting cheating on exams – so don't do it! Students caught cheating on any exam will fail this course.
 
-## Hybrid Format
+<!-- ## Hybrid Format -->
 
 <a name = 'resources'></a>
 
