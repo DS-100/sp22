@@ -6,6 +6,10 @@ days:
   events:
     ? '**Lecture 27**{: .label .label-lecture } Clustering'
     : ''
+- date: 2022-04-27
+  events:
+    ? '**Grad Project**{: .label .label-proj } First Draft for Grad Project Due'
+    : ''
 - date: 2022-04-28
   events:
     ? '**Lecture 28**{: .label .label-lecture } Inference for Modeling'
