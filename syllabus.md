@@ -4,6 +4,13 @@ title: Syllabus
 nav_order: 2
 description: >-
     Principles and Techniques of Data Science
+course:
+    edstem: https://edstem.org/us/courses/15436/
+    faq: https://ds100.org/sp22faq
+    bcourses: ""
+    head_ta: Andrew Lenz
+    comms_ta: Samantha
+    comms_email: snhing@berkeley.edu
 ---
 
 # Syllabus
@@ -17,6 +24,7 @@ Jump to:
 - [Course Components](#format)
 - [Policies and Grading](#policies)
 - [Additional Resources](#resources)
+- <a href="{{page.course.faq}}" target="_blank">Course FAQ Page</a> (opens in a separate tab)
 
 <br>
 
@@ -68,7 +76,7 @@ This issue is very important to Data 100's course staff. Therefore, if we cannot
 
 ### Issues with Course Staff
 
-Professionalism and respect for diversity are not just matters between students; they also apply to how the course staff treat the students. The staff of this course will treat you in a way that respects our differences. However, despite our best efforts, we might slip up, hopefully inadvertently. If you are concerned about classroom environment issues created by the staff or overall class dynamic, please feel free to talk to us about it. The instructors and the head GSIs in particular welcome any comments or concerns regarding conduct of the course and the staff.
+Professionalism and respect for diversity are not just matters between students; they also apply to how the course staff treat the students. The staff of this course will treat you in a way that respects our differences. However, despite our best efforts, we might slip up, hopefully inadvertently. If you are concerned about classroom environment issues created by the staff or overall class dynamic, please feel free to talk to us about it. The instructors and the Head TA ({{page.course.head_ta}}) in particular welcome any comments or concerns regarding conduct of the course and the staff.
 
 We are committed to creating a learning environment welcoming of all students that supports a diversity of thoughts, perspectives and experiences and respects your identities and backgrounds (including race, ethnicity, nationality, gender identity, socioeconomic class, sexual orientation, language, religion, ability, and more.) To help accomplish this:
 
@@ -108,7 +116,7 @@ This fall, Data 100 will be run in a hybrid format. Here’s a nice high-level �
 
 <a name = 'lecture'></a>
 ### Lecture
-There are 2 live lectures per week. You can attend in-person or via Zoom as permitted by campus policy. All lecture recordings will be posted to [bCourses (link forthcoming)]() within 24 hours of the live recording. Each lecture will also have an EdStem thread for students to ask questions.
+There are 2 live lectures per week. You can attend in-person or via Zoom as permitted by campus policy. All lecture recordings will also be posted to [bCourses (link forthcoming)]({{page.course.bcourses}}) within 24 hours of the live recording. Each lecture will also have an EdStem thread for students to ask questions.
 
 <!--
 We will have some guest speakers this term, on topics including Human Context and Ethics of Data Science and applications to Climate Change. **These lectures will be held live on Zoom**, and we strongly encourage you to attend them!
@@ -145,15 +153,15 @@ Labs are shorter programming assignments designed to give students familiarity w
 - All lab autograder tests are visible.
 - In lieu of official lab sections, we will be helping with lab in several ways:
     - Lab walkthroughs, which are recorded videos posted as part of the lab.
-    - Lab Help, which are Tuesday office hours that prioritize lab debugging and questions. See the [Calendar](../calendar) and our [Office Hours](#officehours) for more details.
+    - Lab Help Sections, which are Tuesday office hours that prioritize lab debugging and questions. See the [Calendar](../calendar) and our [Office Hours](#officehours) for more details.
     - EdStem.
-- All labs are intended to take about an hour. You can therefore think of Lab Help as lab sections, where attendance is not required nor expected to complete the lab. The best place to get individual help with lab is Lab Help.
+- All labs are intended to take about an hour. You can therefore think of Lab Help Sections as lab sections, where attendance is not required nor expected to complete the lab. The best place to get individual help with lab is Lab Help Sections.
 
 <a name = 'officehours'></a>
 ### Office Hours
 
 - The office hours and locations are listed on the [Calendar](../calendar); office hours will be held both virtually and in-person. **To adhere to public health guidelines, we ask that students leave the OH room after their questions have been answered**.
-- Students can come to office hours for any questions on course assignments or material. Note that "Lab Help* office hours will prioritize lab-related questions.
+- Students can come to office hours for any questions on course assignments or material. Note that "Lab Help Sections" will prioritize lab-related questions.
 - Virtual OH can be accessed via [oh.ds100.org](https://oh.ds100.org/), where students add themselves to the “queue” and specify the assignment they need help on.
 <!-- where students add themselves to the "queue" and specify the assignment they need help on. Once it's their turn, they will be provided with a Zoom link to join, in order to get help from staff. -->
 - The instructors will also be hosting office hours, listed on the [Calendar](../calendar).
@@ -177,10 +185,9 @@ There will be three exams in this course:
 * Midterm 2 on **Thursday, April 7** (7-8PM Pacific). Note the shorter exam time period.
 * Final exam during our scheduled slot, **Friday, May 13, 7-10pm Pacific**.
 
-- We are still deciding proctoring format, but you will have the option to complete the exam virtually or in-person. <!--The exam will be primarily virtual and zoom proctored, following campus guidelines. We will have the option to be proctored in-person, but you will still be completing the exam online (just being in-person proctored instead of zoom proctored). In-person spots will be given on a case by case basis by only those who necessarily need it (form coming soon).-->
-- Alternate exam times will be provided.
-- If you cannot make the regular final exam time for a pre-approved reason, there will be alternate final exam times. We will be releasing forms on EdStem in the first few weeks of the semester so that you can let us know of your conflicts (for both midterms and the final).
-- DSP students will be offered on-campus exam taking as per their accommodations.
+- We are still deciding proctoring format, but we will primarily have in-person exams with the option for virtual exams. Alternate exam times will be provided for all exams; for the final exam, alternate exam times will be provided for a pre-approved reason.<!--The exam will be primarily virtual and zoom proctored, following campus guidelines. We will have the option to be proctored in-person, but you will still be completing the exam online (just being in-person proctored instead of zoom proctored). In-person spots will be given on a case by case basis by only those who necessarily need it (form coming soon).-->
+- In the first few weeks of the semester, we will be releasing forms for exam options on EdStem so that you can let us know of your conflicts (for both midterms and the final).
+- DSP students will be offered the option for on-campus exams as per their accommodations.
 
 <!--
 Two time options will be offered to cover various timezones. No further alternates will be offered.
@@ -219,7 +226,8 @@ All assignments are due at 11:59 pm Pacific on the due date specified on the syl
 Google Forms (weekly checks) will promptly close after the deadline.
 Gradescope (labs and homeworks) may allow you to make late submissions, but you will later be given a 0. 
 
-**Extensions** are only provided to students with DSP accommodations, or in the case of exceptional circumstances. If you have DSP accommodations, you should expect to receive an email from us. Otherwise, email our Communications TA, Samantha, at [snhing@berkeley.edu](mailto:snhing@berkeley.edu) to request an extension. If you make a request close to the deadline, we can not guarantee that you will receive a response before the deadline. Additionally, simply submitting a request does not guarantee you will receive an extension. Even if your work is incomplete, please submit before the deadline so you can receive credit for the work you did complete.
+**Extensions** are only provided to students with DSP accommodations, or in the case of exceptional circumstances. If you have DSP accommodations, you should expect to receive an email from us. Otherwise, email our Communications TA {{page.course.comms_ta}} at [{{page.course.comms_email}}](mailto:{{page.course.comms_email}})
+to request an extension. If you make a request close to the deadline, we can not guarantee that you will receive a response before the deadline. Additionally, simply submitting a request does not guarantee you will receive an extension. Even if your work is incomplete, please submit before the deadline so you can receive credit for the work you did complete.
 
 Note that extension requests will *not* be granted in cases where a student’s local (DataHub) tests are not passing. It is the student’s responsibility to solve such problems in advance of the deadline.
 
@@ -261,7 +269,6 @@ We also ask that you **do not post your assignment solutions publicly**.
 **Exams.**
 Cheating on exams is a serious offense. We have methods of detecting cheating on exams – so don't do it! Students caught cheating on any exam will fail this course.
 
-## Hybrid Format
 
 <a name = 'resources'></a>
 

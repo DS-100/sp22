@@ -9,8 +9,6 @@ description: A week-to-week description of the content covered in the course.
 
 ## Note: This page is under construction. Everything on this website is subject to change.
 
-**Frequently Asked Questions:** Before posting on the [class Ed](https://edstem.org/us/courses/15436/), please read the [class FAQ page](https://ds100.org/sp22faq).
-
 {: .mb-2 }
 UC Berkeley, Spring 2022
 {: .mb-0 .fs-6 .text-grey-dk-000 }
@@ -24,15 +22,11 @@ UC Berkeley, Spring 2022
   {% endfor %} -->
 </div>
 
-
-<ul>
-<!--<li><b>THIS PAGE IS UNDER CONSTRUCTION. Please don’t interpret anything on this website as truth until this warning is removed. </b></li>
-<li>Please read our <a href="http://www.ds100.org/su21faq">course FAQ</a> before contacting staff with questions that might be answered there.</li>
-<li>The <a href="{{ site.baseurl }}/syllabus">Syllabus</a> contains a detailed explanation of how each course component will work this summer, given that the course is being taught entirely online.</li>
-<li>The scheduling of all weekly events is in the <a href="{{ site.baseurl }}/calendar">Calendar</a>.</li>
-<li>The Zoom links for all live events are in <a href="https://piazza.com/class/kpcl6edmxuk3fg?cid=6">@6 on Piazza</a>.</li>
-<li><strong>Note:</strong>The schedule of lectures and assignments is subject to change.</li>
-</ul> -->
++ **Frequently Asked Questions:** Before posting on the [class Ed](https://edstem.org/us/courses/15436/), please read the [class FAQ page](https://ds100.org/sp22faq).
++ The [Syllabus]({{site.baseurl}}/syllabus) page contains a detailed explanation of how each course component will work this semester, given the course will be taught in a hybrid format.
++ The scheduling of all weekly events is in the [Calendar]({{ site.baseurl }}/calendar)
++ Zoom links for any remote live events will be posted on EdStem once they are available.
++ **Note:** The schedule of lectures and assignments is subject to change.
 
 <br><br>
 

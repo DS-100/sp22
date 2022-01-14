@@ -8,6 +8,24 @@ description: Past exams and other relevant material to aid you in the course.
 
 # Resources
 
+Here is a collection of resources that will help you learn more about various concepts and skills covered in the class. Learning by reading is a key part of being a well rounded data scientist. We will not assign mandatory reading but instead encourage you to look at these _and other_ materials. If you find something helpful, post it on EdStem, and consider contributing it to the course website.
+
+- [Optional Supplementary Textbook](#textbook)
+- [Exam Resources](#exam)
+- [Course Website](#course_website)
+- [Local Setup](#local)
+- [Coding and Probability Resources](#web_resources)
+- [Books](#books)
+- [Data Science Education](#education)
+
+<a name = 'textbook'></a>
+
+## Optional Supplementary Textbook
+Alongside each lecture are optional textbook readings to the Data 100 textbook, [Principles and Techniques of Data Science](https://www.textbook.ds100.org/). Textbook readings are purely supplementary, and may contain material that is not in scope (and may also not be comprehensive). The textbook is *actively in development* during Spring 2022! Some readings may become out-of-date or reordered as the semester progresses. If you see a reading on our schedule that no longer exists, don't hesitate to send a pull request to our course GitHub (see [below](#course_website)).
+
+
+<a name = 'exam'></a>
+
 ## Exam Resources
 
 | Semester | Midterm (1) | Midterm 2  | Final |
@@ -32,14 +50,10 @@ description: Past exams and other relevant material to aid you in the course.
 
 [Spring 2019 Midterm 1 Reference Sheet](assets/exams/sp19/sp19_mt1_reference_sheet.pdf)
 
-## Supplementary Textbook
-Alongside each lecture are textbook readings to the [Data 100 textbook](https://www.textbook.ds100.org/). Textbook readings are purely supplementary, and may contain material that is not in scope (and may also not be comprehensive). The textbook is *actively in development* during Spring 2022! Some readings may become out-of-date or reordered as the semester progresses. If you see a reading on our schedule that no longer exists, don't hesitate to send a [pull request](https://github.com/DS-100/sp22/tree/gh-pages) to our course GitHub!
-
-## Other Resources
+<a name = 'course_website'></a>
+## Course Website
 
 We will be posting all lecture materials on the course syllabus. In addition, they will also be listed in the following publicly visible [Github Repo](https://github.com/DS-100/sp22).
-
-Here is a collection of resources that will help you learn more about various concepts and skills covered in the class. Learning by reading is a key part of being a well rounded data scientist. We will not assign mandatory reading but instead encourage you to look at these _and other_ materials. If you find something helpful, post it on Piazza, and consider contributing it to the course website.
 
 You can send us changes to the course website by
 [forking](https://help.github.com/articles/fork-a-repo/) and sending a [pull
@@ -47,28 +61,33 @@ request](https://help.github.com/articles/about-pull-requests/) to the [course
 website github repository](https://github.com/DS-100/sp22). You will then
 become part of the history of Data 100 at Berkeley.
 
+<a name = 'local'></a>
 ## Local Setup
 
-Click [here]({{ site.baseurl }}/setup) to read our guide on how to set up our development environment locally (as an alternative to using DataHub).
+Click [here]({{ site.baseurl }}/setup) to read our guide on how to set up our development environment locally (as an alternative to using DataHub). Please note that any autograder tests will only work on DataHub.
 
-## SQL Resources
+<a name = 'web_resources'></a>
+## Coding and Probability Resources
 
-We've assembled some [SQL Review Slides](https://docs.google.com/presentation/d/1mLVkQxah9asdKhnTNpcUSYBOuKGSWE_d3MJ5nYuTw9U/edit?usp=sharing) to help you brush up on SQL. We've also compiled a list of SQL practice problems, which can be found [here](assets/other/sqlReview.pdf), along with their [solutions](assets/other/sqlReviewSol.pdf).
+**Pandas:**
 
-This [SQL Cheat Sheet](https://websitesetup.org/sql-cheat-sheet/) is an awesome resource that was created by Luke Harrison, a former Data 100 student.
+  - [The Pandas Cookbook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/tree/master/cookbook/): This provides a nice overview of some of the basic Pandas functions. However, it is slightly out of date.
+  - [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas) A set of lessons providing an overview of the Pandas library.
+  - [Python for Data Science](http://wavedatalab.github.io/datawithpython/index.html) Another set of notebook demonstrating Pandas functionality.
 
-## Probability Practice
+**SQL Resources**
++ We've assembled some [SQL Review Slides](https://docs.google.com/presentation/d/1mLVkQxah9asdKhnTNpcUSYBOuKGSWE_d3MJ5nYuTw9U/edit?usp=sharing) to help you brush up on SQL.
++ We've also compiled a list of SQL practice problems, which can be found [here](assets/other/sqlReview.pdf), along with their [solutions](assets/other/sqlReviewSol.pdf).
++ This [SQL Cheat Sheet](https://websitesetup.org/sql-cheat-sheet/) is an awesome resource that was created by Luke Harrison, a former Data 100 student.
 
-We've compiled a few practice probability problems that we believe may help in understanding the ideas covered in the course. They can be found [here](assets/other/prob_practice.pdf), along with their [solutions](assets/other/prob_practice_solutions.pdf).
+**Probability Practice**
++ We've compiled a few practice probability problems that we believe may help in understanding the ideas covered in the course. They can be found [here](assets/other/prob_practice.pdf), along with their [solutions](assets/other/prob_practice_solutions.pdf).
++ We'd also like to point you to the [textbook for Stat 88](http://stat88.org/textbook/notebooks/intro), an introductory probability course geared towards data science students at Berkeley.
 
-We'd also like to point you to the [textbook for Stat 88](http://stat88.org/textbook/notebooks/intro), an introductory probability course geared towards data science students at Berkeley.
+**Regex Practice**
++ We've organized some regex problems to help you get extra practice on regex in a notebook format. They can be found [here](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su20&subPath=disc/disc05/extra/), along with their [solutions](assets/other/regex_practice_sol.pdf).
 
-## Regex Practice
-
-We've organized some regex problems to help you get extra practice on regex in a notebook format. They can be found [here](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su20&subPath=disc/disc05/extra/), along with their [solutions](assets/other/regex_practice_sol.pdf).
-
-## Web References
-
+### Other Web References
 As a data scientist you will often need to search for information on various libraries and tools. In this class we will be using several key python libraries. Here are their documentation pages:
 
 - **The Bash Command Line:**
@@ -81,7 +100,7 @@ As a data scientist you will often need to search for information on various lib
   - [Python + Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/) this tutorial provides a great overview of a lot of the functionality we will be using in DS100.
   - [Python 101](http://nbviewer.jupyter.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/Python_101.ipynb): A notebook demonstrating a lot of python functionality with some (minimal explanation).
 
-* **Data Visualization:**
+- **Data Visualization:**
   - [matplotlib.pyplot tutorial](http://matplotlib.org/users/pyplot_tutorial.html#pyplot-tutorial): This short tutorial provides an overview of the basic plotting utilities we will be using.
   - [Altair Documentation](https://altair-viz.github.io/): Altair(Vega-Lite) is a new and powerful visualization library.  We might not get to teach it this semester, but you should check it out if you are interested in pursuing visualization deeper. In particular, you should find the [example gallery](https://altair-viz.github.io/gallery/index.html) helpful.
   - [Prof. Jeff Heer's Visualization Curriculum](https://github.com/uwdata/visualization-curriculum): This repository contains a series of Python-based Jupyter notebooks that teaches data visualization using Vega-Lite and Altair.
@@ -89,11 +108,7 @@ As a data scientist you will often need to search for information on various lib
     - [Edward Tufte's book sequences](https://www.edwardtufte.com/tufte/books_vdqi) -- a classic!
     - Prof. Heer's [class](https://courses.cs.washington.edu/courses/cse512/19sp/).
 
-* **Pandas:**
 
-  - [The Pandas Cookbook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/tree/master/cookbook/): This provides a nice overview of some of the basic Pandas functions. However, it is slightly out of date.
-  - [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas) A set of lessons providing an overview of the Pandas library.
-  - [Python for Data Science](http://wavedatalab.github.io/datawithpython/index.html) Another set of notebook demonstrating Pandas functionality.
 
 <!-- * **Git:**
   - [Getting Started with Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control): A tutorial on version control and Git.
@@ -102,13 +117,14 @@ As a data scientist you will often need to search for information on various lib
   - [Learning about Branches](http://learngitbranching.js.org): This is a perhaps overly interactive tutorial that some people might find helpful.
   - [Explaining Git with D3](http://onlywei.github.io/explain-git-with-d3/) -->
 
+<a name = 'books'></a>
 ## Books
 
 Because data science is a relatively new and rapidly evolving discipline there is no single _ideal_ textbook for this subject.
 Instead we plan to use reading from a collection of books all of which are free.
 However, we have listed a few optional books that will provide additional context for those who are interested.
 
-- **[Principles and Techniques of Data Science](https://www.textbook.ds100.org/)**
+- **[Principles and Techniques of Data Science](https://www.textbook.ds100.org/)**, the Data 100 textbook.
 
 - **[Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)** (Free online PDF) This book is a great reference for the machine learning and some of the statistics material in the class
 
@@ -119,6 +135,7 @@ However, we have listed a few optional books that will provide additional contex
 
 - **[Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do)** ([Available as eBook for Berkeley students](http://proquest.safaribooksonline.com/9781449323592)). This book provides a good reference for the Pandas library.
 
+<a name = 'education'></a>
 ## Data Science Education
 
-Interested in bringing the Data Science major or curriculum to your academic institution?  Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfw6iN-V58Urvg7RRfbjNQceisLULBizg0qku1_2qV8cvOtvA/viewform) if you would like support from Berkeley in offering some variant of our Data Science courses at your institution (or just to let us know that you're interested). Information about the courses appear at [data8.org](http://data8.org) and [ds100.org](http://ds100.org). Please note that this form is for instructors. If you are only interested in learning Python or data science, please look at our Data 8 or Data 100 websites mentioned above.
+Interested in bringing the Data Science major or curriculum to your academic institution?  Please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSfw6iN-V58Urvg7RRfbjNQceisLULBizg0qku1_2qV8cvOtvA/viewform) if you would like support from Berkeley in offering some variant of our Data Science courses at your institution (or just to let us know that you're interested). Information about the courses appear at [data8.org](http://data8.org) and [ds100.org](http://ds100.org). Please note that this form is only for instructors. If you are only interested in learning Python or data science, please look at our Data 8 or Data 100 websites mentioned above.
