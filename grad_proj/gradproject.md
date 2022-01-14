@@ -39,22 +39,16 @@ You will receive feedback from peer grading before the final deadline, and you a
 
 | Date (by EOD at 11:59pm) 	| Event / Deliverable                           |
 |--------------------------	|---------------------------------------------	|
-| 11/9                      | Research proposal and project groups due    	|
-| 11/22                     | Project checkpoint                          	|
-| 12/1                     	| First draft of final report due             	|
-| 12/2                     	| Peer grading starts                         	|
-| 12/6                      | Peer grading due                            	|
-| 12/13                     | Revised final report due                    	|
-| 12/15                     | Presentation video due                      	|
-| 12/17                     | Presentation video released (at discretion) 	|
+| 4/9                       | Research proposal and project groups due    	|
+| 4/22                      | Project checkpoint                          	|
+| 4/27                    	| First draft of final report due             	|
+| 4/28                  	| Peer grading starts                         	|
+| 5/2                       | Peer grading due                            	|
+| 5/9                       | Revised final report due                    	|
+| 5/11                      | Presentation video due                      	|
+| 5/13                      | Presentation video released (at discretion) 	|
 
 ## Deliverables and Grade Breakdown <a name="grade-breakdown"></a>
-
-**NEW ADJUSTED GRADING POLICY:** There are two grading options. You may either participate in peer grading, or you can choose not to. In order to opt into the peer grading option, make sure to submit the first draft of your project on Gradescope. If you don't submit anything, you'd default to the no peer grading option. 
-
-The grading breakdown for each option is the following:
-
-### Peer Grading Option
 
 | Deliverable                          	| Weight 	|
 |--------------------------------------	|--------	|
@@ -65,14 +59,6 @@ The grading breakdown for each option is the following:
 | Final report: project writeup        	| 30%    	|
 | Final presentation video             	| 15%    	|
 
-### No Peer Grading Option
-
-| Deliverable                          	| Weight 	|
-|--------------------------------------	|--------	|
-| Research proposal and project groups 	| 10%    	|
-| Final report: analysis notebook      	| 30%    	|
-| Final report: project writeup        	| 45%    	|
-| Final presentation video             	| 15%    	|
 
 ## Datasets <a name="dataset"></a>
 
@@ -92,8 +78,6 @@ The following subsections contain the descriptions and additional requirements f
 ### Topic 1: COVID-19 <a name="covid-19"></a>
 
 #### Dataset A: Testing and Mortality Statistics <a name="1-a"></a>
-
-Note: You may not choose this dataset of you are already using the COVID-19 dataset for the final project.
 
 This dataset contains US reports on COVID-19 testing and cases from the [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) and CDC (Centers for Disease Control and Prevention). You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%201%20-%20Covid%2019&branch=main) within `Dataset_A.zip` on DataHub:
 
@@ -124,8 +108,6 @@ This dataset contains (in full-text and metadata form) scholarly articles relate
 ### Topic 2: Climate and the Environment <a name="climate"></a>
 
 #### Dataset A: General Measurements and Statistics <a name="2-a"></a>
-
-Note: You may not choose this dataset of you are already using the AQI or Traffic datasets for the final project.
 
 This dataset contains some general statistics and measurements of various aspects of the climate and the environment. You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%202%20-%20Climate%20and%20the%20Environment&branch=main) within `Dataset_A.zip` on DataHub. It includes the following reports:
 
