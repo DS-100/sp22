@@ -141,7 +141,7 @@ Homeworks are week-long assignments that are designed to help students develop a
 - In a typical week, the homework is released on Friday and is due the following Thursday at 11:59PM Pacific. One or two homeworks will be on-paper written assignments; the rest will be Jupyter notebooks. See the [Policies and Grading](#policies) section for grading details.
 <!-- - Near the midterm, or during weeks in which a project is assigned, you will have more than one week to work on the current assignment. -->
 - Homeworks have both visible and hidden autograder tests. The visible tests are mainly sanity checks, e.g. a probability is <= 1, and are visible to students while they do the assignment. The hidden tests generally check for correctness, and are invisible to students while they are doing the assignment.
-- The primary form of support students will have for homeworks and projects are the **office hours** we’ll host, and **Piazza**.
+- The primary form of support students will have for homeworks and projects are the **office hours** we’ll host, and **Ed**.
 - Homeworks must be completed individually.
 
 <a name = 'labs'></a>
@@ -268,7 +268,6 @@ We also ask that you **do not post your assignment solutions publicly**.
 
 **Exams.**
 Cheating on exams is a serious offense. We have methods of detecting cheating on exams – so don't do it! Students caught cheating on any exam will fail this course.
-
 
 <a name = 'resources'></a>
 

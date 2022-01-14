@@ -16,4 +16,7 @@ days:
     ? '**Lab 10**{: .label .label-lab } SQL (due Apr 5)'
     ? '**Homework 7**{: .label .label-hw } SQL and PCA (due Apr 14)'
     : ""
+- date: 2022-04-02
+  events:
+    ? '**Grad Project**{: .label .label-proj } Grad Project Released'
 ---
