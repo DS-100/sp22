@@ -31,9 +31,9 @@ nav_links:
     Datahub:
       - 'https://data100.datahub.berkeley.edu'
     Gradescope:
-      - 'https://www.gradescope.com/courses/279047'
-    EdStem:
-      - 'https://edstem.org/us/courses/15436/discussion/'
+      - 'https://www.gradescope.com/courses/353100'
+    Ed:
+      - 'https://edstem.org/us/courses/15436/'
 
 aux_links:
   # 'Kevin Lin':
