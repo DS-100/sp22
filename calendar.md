@@ -20,9 +20,9 @@ To access in-person office hours, go to the room in the location of the office h
 
 To access virtual office hours, go to our [Office Hours Queue](http://oh.ds100.org). When it’s your turn, you will be given the Zoom link to join.
 
-Instructor office hours with Fernando and Alvin appear in <span style="color:#795548">**brown**</span>. You should come to these with questions about concepts. To access instructor office hours, use the Zoom links posted on Piazza. If you would like to meet with the instructors and none of these times work for you, please reach out to us privately.
+Instructor office hours with Josh and Lisa appear in <span style="color:#795548">**brown**</span>. You should come to these with questions about concepts. To access instructor office hours, use the Zoom links posted on Piazza. If you would like to meet with the instructors and none of these times work for you, please reach out to us privately.
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=Y19vaTd1YzVuaHY2OW5nZ3BnZGVqZHFjMG9oc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19tdDE3dXQzcmxoOG5oZWM0czhwY2I5OGgxc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y191ZXBzcTB2MnI2Mzc2MW5vZWU2bHJwMXFiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23795548&color=%23D50000&color=%23F4511E&mode=WEEK&showTitle=0" style="borderwidth:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_aecg0a4v5ebgcl8tjj7q726op4%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 <br>
 
@@ -40,4 +40,4 @@ This calendar contains times for
 
 <!-- To access these events, use the Zoom links posted in <b><a href="">@6 on Piazza</a></b>. -->
 
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&src=Y19kZTNyNHEyMzlwZm9yY3RrOGExNmljdmE3MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19jcWVpNzhnY2NrMzhnNGM4MmpsN2RqOGVsc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y181MnJibzB1MnFpcG1rZWs4M2Z2dmVtdHUyY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4&color=%237CB342&color=%239E69AF&showTitle=0&mode=WEEK" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_fo7b35sk65gnagmvjhs0kccts8%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
