@@ -36,18 +36,18 @@ Combining data, computation, and inferential thinking, data science is redefinin
 ### Goals
 {:.no_toc}
 
-- Prepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context
-- Enable students to start careers as data scientists by providing experience working with real-world data, tools, and techniques
-- Empower students to apply computational and inferential thinking to address real-world problems
+- Prepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context.
+- Enable students to start careers as data scientists by providing experience working with real-world data, tools, and techniques.
+- Empower students to apply computational and inferential thinking to address real-world problems.
 
 <a name = 'prerequisites'></a>
 ### Prerequisites
 
-While we are working to make this class widely accessible, we currently require the following (or equivalent) prerequisites. **Unlike past semesters, prerequisites will be enforced in this class. It is your responsibility to know the material in the prerequisites.**
+While we are working to make this class widely accessible, we currently require the following (or equivalent) prerequisites. **Unlike past semesters, prerequisites will be enforced in this class. It is your responsibility to know the material in the prerequisites.** The instructors do not have the authority to waive these requirements. You should contact CDSS at <a href="https://data.berkeley.edu/academics/data-science-undergraduate-studies/courses/spring-2022-classes">https://data.berkeley.edu/academics/data-science-undergraduate-studies/courses/spring-2022-classes</a> to request an exception.
 
 - **Foundations of Data Science**: [Data 8](http://data8.org) covers much of the material in Data 100 but at an introductory level. Data8 provides basic exposure to python programming and working with tabular data as well as visualization, statistics, and machine learning.
 - **Computing**: _The Structure and Interpretation of Computer Programs_ ([CS 61A](http://cs61a.org)) or _Computational Structures in Data Science_ ([CS 88](https://cs88-website.github.io)). These courses provide additional background in python programming (e.g., for loops, lambdas, debugging, and complexity) that will enable Data 100 to focus more on the concepts in Data Science and less on the details of programming in python.
-- **Math**: _Linear Algebra_ (Math 54, [EE 16A](https://eecs16a.org/), or Stat 89A): We will need some basic concepts like linear operators, eigenvectors, derivatives, and integrals to enable statistical inference and derive new prediction algorithms. This may be satisfied concurrently to Data 100.
+- **Math**: _Linear Algebra_ (Math 54, [EE 16A](https://eecs16a.org/), or Stat 89A): We will need some basic concepts like linear operators, eigenvectors, derivatives, and integrals to enable statistical inference and derive new prediction algorithms. <b>This may be satisfied concurrently to Data 100.</b>
 
 <br>
 
@@ -57,7 +57,7 @@ Students taking Data C100/C200 come from a wide range of backgrounds. We hope to
 
 ### Be Aware of Your Actions
 
-Sometimes, the little things add up to creating an unwelcoming culture to some students. For example, you and a friend may think you are sharing in a private joke about other races, genders, or cultures, but this can have adverse effects on classmates who overhear it. There is a great deal of research on something called “stereotype threat,” which finds simply reminding someone that they belong to a particular culture or share a particular identity (on whatever dimension) can interfere with their course performance.
+Sometimes, the little things add up to creating an unwelcoming culture to some students. For example, you and a friend may think you are sharing in a private joke about other races, majors, genders, abilities, cultures, etc. but this can have adverse effects on classmates who overhear it. There is a great deal of research on something called “stereotype threat,” which finds simply reminding someone that they belong to a particular culture or share a particular identity (on whatever dimension) can interfere with their course performance.
 
 Stereotype threat works both ways: you can assume that a student will struggle based on who they appear to be, or you can assume that a student is doing great based on who they appear to be. Both are potentially harmful.
 
@@ -67,12 +67,9 @@ Bear in mind that diversity has many facets, some of which are not visible. Your
 
 Beyond the slips that many of us make unintentionally are a host of behaviors that the course staff, department, and university do not tolerate. These are generally classified under the term harassment; sexual harassment is a specific form that is governed by federal laws known as Title IX.
 
-UC Berkeley’s Title IX website provides many resources for understanding the terms, procedures, and policies around harassment. Make sure you are aware enough of these issues to avoid crossing a line in your interactions with other students. For example, repeatedly asking another student out on a date after they have said no can cross this line.
+UC Berkeley’s <a href="https://ophd.berkeley.edu/">Title IX website</a> provides many resources for understanding the terms, procedures, and policies around harassment. Make sure you are aware enough of these issues to avoid crossing a line in your interactions with other students. For example, repeatedly asking another student out on a date after they have said no can cross this line.
 
 Your reaction to this topic might be to laugh it off, or to make or think snide remarks about “political correctness” or jokes about consent or other things. You might think people just need to grow a thicker skin or learn to take a joke. This isn’t your decision to make. Research shows the consequences (emotional as well as physical) on people who experience harassment. When your behavior forces another student to focus on something other than their education, you have crossed a line. You have no right to take someone else’s education away from them.
-
-This issue is very important to Data 100's course staff. Therefore, if we cannot appeal to your decency and collegiality, let us at least appeal to your self-interest. Do not mess around on this matter. It will not go well for you.
-
 
 ### Communicate Issues with Course Staff
 
@@ -93,7 +90,7 @@ We are committed to creating a learning environment welcoming of all students th
 
 ## Course Components
 
-This fall, Data 100 will be run in a hybrid format. Here’s a nice high-level “typical week in the course”. 
+Below is a high-level “typical week in the course” for Spring 2022.
 
 |  Mo | Tu | We | Th | Fr |
 | --- | --- | --- | --- | --- | --- |
