@@ -12,6 +12,7 @@ course:
     head_ta: Andrew Lenz
     comms_ta: Samantha
     comms_email: snhing@berkeley.edu
+    email: data100.instructors@berkeley.edu
 ---
 
 # Syllabus
@@ -152,7 +153,7 @@ Labs are shorter programming assignments designed to give students familiarity w
     - EdStem.
 - All labs are intended to take about an hour. You can therefore think of Lab Help Sections as lab sections, where attendance is not required nor expected to complete the lab. The best place to get individual help with lab is Lab Help Sections.
 
-### Office Hours
+### Office Hours and Communication
 
 The office hours and locations are listed on the [Calendar](../calendar); office hours will be held both virtually and in-person. Instructor office hours are also listed on the calendar. **To adhere to public health guidelines, we ask that students leave the OH room after their questions have been answered**.
 
@@ -162,11 +163,18 @@ Virtual OH can be accessed via [oh.ds100.org](https://oh.ds100.org/), where stud
 <!-- where students add themselves to the "queue" and specify the assignment they need help on. Once it's their turn, they will be provided with a Zoom link to join, in order to get help from staff. -->
 <!-- - We are also holding "lost office hours" once a week. These are designed to accommodate students who are behind on material and would like help catching up. These are meant for conceptual questions only, not for assignment help. These will also be reflected on the [Calendar](../calendar). -->
 
+**EdStem**, or **Ed** for short, is our course forum this quarter. The course is [here]({{page.course.edstem}}). Please check out EdStem or the [FAQ](page.course.faq) page first before emailing instructors. 
+
+**Staff email**:
+You can email [{{page.course.email}}](mailto:{{page.course.email}}) and one of the instructors will get back to you. Note that to ensure more timely responses, this address is monitored by the team of the two lead instructors (Josh Hug and Lisa Yan) the Head TA ({{page.course.head_ta}}), as well as several lead GSIs, to ensure more timely responses. You can contact Josh and Lisa directly for matters that require strict privacy and their direct attention.
+
 ### Weekly Checks
 While lecture and discussion section attendance is not required, nor even expected, we do expect you to stay up to date with material. To help us keep track of your progress and sentiment about the course, there will be 14 weekly surveys due on Mondays at 11:59 PM Pacific. Weekly check-ins are submitted via Google Form, and links will be provided on the [Home page](../) each week.
 
 <!--
-Quick Checks, as mentioned above, are short conceptual questions embedded into each lecture, in the form of Google Forms. **Quick Checks are not graded.** These are meant for you to check your understanding of the concepts that were just introduced. <!-- Since there are roughly 26 lectures, there are roughly 26 Quick Checks, each of which consists of 4-7 Google Forms.
+Quick Checks, as mentioned above, are short conceptual questions embedded into each lecture, in the form of Google Forms. **Quick Checks are not graded.** These are meant for you to check your understanding of the concepts that were just introduced.
+
+Since there are roughly 26 lectures, there are roughly 26 Quick Checks, each of which consists of 4-7 Google Forms.
 
 That is, your score on them does not matter, you just need to do them. For each lecture, you will be required to submit a code to Gradescope that you will receive after completing one of the Google Forms for that lecture. These are due the Monday after the lecture is released. (Though we will assign grades using Gradescope, we will also collect emails on the Google Forms themselves.)
 -->
@@ -180,7 +188,7 @@ There will be three exams in this course:
 * Midterm 2 on **Thursday, April 7** (7-8PM Pacific). Note the shorter exam time period.
 * Final exam during our scheduled slot, **Friday, May 13, 7-10pm Pacific**.
 
-- We are still deciding proctoring format, but we will primarily have in-person exams with the option for virtual exams. Alternate exam times will be provided for all exams; for the final exam, alternate exam times will be provided for a pre-approved reason.<!--The exam will be primarily virtual and zoom proctored, following campus guidelines. We will have the option to be proctored in-person, but you will still be completing the exam online (just being in-person proctored instead of zoom proctored). In-person spots will be given on a case by case basis by only those who necessarily need it (form coming soon).-->
+- We are still deciding proctoring format, but we will primarily have in-person exams with the option for virtual exams. Alternate exam times will be provided for all exams for pre-approved reasons, such as a concurrent final exam. If you miss an exam due to a personal emergency or illness, please contact the Head TA {{page.course.head_ta}} immediately.<!--The exam will be primarily virtual and zoom proctored, following campus guidelines. We will have the option to be proctored in-person, but you will still be completing the exam online (just being in-person proctored instead of zoom proctored). In-person spots will be given on a case by case basis by only those who necessarily need it (form coming soon).-->
 - In the first few weeks of the semester, we will be releasing forms for exam options on EdStem so that you can let us know of your conflicts (for both midterms and the final).
 - DSP students will be offered the option for on-campus exams as per their accommodations.
 
