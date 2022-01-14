@@ -36,7 +36,7 @@ This calendar contains times for
 - live discussion sections (in <span style="color:blue">**blue**</span>)
 - live lab sections (in <span style="color:#9e69af">**purple**</span>)
 
-**Note: All events on this calendar are virtual.**
+<!-- **Note: All events on this calendar are virtual.** -->
 
 <!-- To access these events, use the Zoom links posted in <b><a href="">@6 on Piazza</a></b>. -->
 
