@@ -110,7 +110,8 @@ Below is a high-level “typical week in the course” for Spring 2022.
 <br>
 
 ### Lecture
-There are 2 live lectures per week. You can attend in-person or via Zoom as permitted by campus policy. All lecture recordings will also be posted to [bCourses (link forthcoming)]({{page.course.bcourses}}) within 24 hours of the live recording. Each lecture will also have an EdStem thread for students to ask questions.
+There are 2 live lectures per week. You can attend in-person or via Zoom as permitted by campus policy. All lecture recordings will also be published within 24 hours of the live recording. Each lecture will also have an EdStem thread for students to ask questions.
+
 
 <!--
 We will have some guest speakers this term, on topics including Human Context and Ethics of Data Science and applications to Climate Change. **These lectures will be held live on Zoom**, and we strongly encourage you to attend them!
@@ -182,7 +183,7 @@ That is, your score on them does not matter, you just need to do them. For each 
 
 There will be three exams in this course:
 * Midterm 1 on **Thursday, February 24** (7-9PM Pacific)
-* Midterm 2 on **Thursday, April 7** (7-8PM Pacific). Note the shorter exam time period.
+* Midterm 2 on **Thursday, April 7** (7-8:30PM Pacific). Note the shorter exam time period.
 * Final exam during our scheduled slot, **Friday, May 13, 7-10pm Pacific**.
 
 - We are still deciding proctoring format, but we will primarily have in-person exams with the option for virtual exams. Alternate exam times will be provided for all exams for pre-approved reasons, such as a concurrent final exam. If you miss an exam due to a personal emergency or illness, please contact the Head TA {{page.course.head_ta}} immediately.<!--The exam will be primarily virtual and zoom proctored, following campus guidelines. We will have the option to be proctored in-person, but you will still be completing the exam online (just being in-person proctored instead of zoom proctored). In-person spots will be given on a case by case basis by only those who necessarily need it (form coming soon).-->
