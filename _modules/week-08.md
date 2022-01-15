@@ -4,7 +4,7 @@ weekNumber: 8
 days:
 - date: 2022-03-07
   events:
-    ? '**Weekly Check 8**{: .label .label-disc } Weekly Check 8 (due Mar 14)'
+    ? '**Weekly Check 8**{: .label .label-proj } Weekly Check 8 (due Mar 14)'
     : ''
 - date: 2022-03-08
   events:

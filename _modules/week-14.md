@@ -4,7 +4,7 @@ weekNumber: 13
 days:
 - date: 2022-04-18
   events:
-    ? '**Weekly Check 13**{: .label .label-disc } Weekly Check 13 (due Apr 25)'
+    ? '**Weekly Check 13**{: .label .label-proj } Weekly Check 13 (due Apr 25)'
     : ''
 - date: 2022-04-19
   events:
