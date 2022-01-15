@@ -97,8 +97,8 @@ Below is a high-level “typical week in the course” for Spring 2022.
 | Office Hours | Office Hours | Office Hours | Office Hours | Office Hours | 
 | <span style="color:Green">Live Lecture</span> | | <span style="color:Green">Live Lecture</span> | | | 
 | |  | | | <span style="color:Blue">Discussion Section</span> | 
-| | | | <span style="color:Red">**Homework due**</span> | <span style="color:Red">**Homework released**</span> | 
-| | <span style="color:Purple">Lab Help<br/>**Lab due**</span> | | | <span style="color:Purple"> **Lab released**</span> | 
+| | | | <span style="color:Red">**Homework N due**</span> | <span style="color:Red">**Homework N+ released**</span> | 
+| | <span style="color:Purple">Lab N Help<br/>**Lab N due**</span> | | | <span style="color:Purple"> **Lab N+1 released**</span> | 
 | Weekly check due/released | | | | | 
 
 * **All deadlines are subject to change.**
@@ -134,7 +134,7 @@ Projects: Projects are two-week long assignments that synthesize multiple topics
 
 - In a typical week, the homework (or project) is released on Friday and is due the following Thursday at 11:59PM Pacific. One or two homeworks will be on-paper written assignments; the rest will be Jupyter notebooks. See the [Policies](#policies) section for grading details.
 <!-- - Near the midterm, or during weeks in which a project is assigned, you will have more than one week to work on the current assignment. -->
-- Homeworks and projects have both visible and hidden autograder tests. The visible tests are mainly sanity checks, e.g. a probability is <= 1, and are visible to students while they do the assignment. The hidden tests generally check for correctness, and are invisible to students while they are doing the assignment.
+- Homeworks and projects have both visible and hidden autograder tests. The visible tests are mainly sanity checks. For example, a sanity check might verify that the answer you entered is a number as expected, and not a word. The hidden tests generally check for correctness, and are invisible to students while they are doing the assignment.
 - The primary form of support students will have for homeworks and projects are the **office hours** we’ll host, and **Ed**.
 - Homeworks and projects must be completed individually. See the [Collaboration Policy](#collaboration-policy-and-academic-dishonesty) for more details.
 
@@ -242,10 +242,10 @@ Students will be allowed to submit regrade requests for the autograded and writt
 
 Regrade requests will **not** be considered in cases in which:
 
-- a student uploads the incorrect file to the autograder
-- the autograder fails to execute and the student does not notify the course staff _before the assignment deadline_
-- a student fails to save their notebook before exporting and uploads an old version to the autograder
-- a situation arises in which the course staff cannot ensure that the student's work was done before the assignment deadline
+- a student uploads the incorrect file to the autograder.
+- the autograder fails to execute and the student does not notify the course staff _before the assignment deadline_.
+- a student fails to save their notebook before exporting and uploads an old version to the autograder.
+- a situation arises in which the course staff cannot ensure that the student's work was done before the assignment deadline.
 <!--- a students submits without following the steps outlined in [@13](https://piazza.com/class/kqsiwfz12g0482?cid=13)-->
 
 ### Collaboration Policy and Academic Dishonesty
