@@ -207,11 +207,11 @@ All students enrolled in the graduate version of the course (CS C200 or Stat C20
 
 |Category | Data C100 | Data C200 | Details |
 | --- | --- | --- |
-| Homeworks | 20% | 20% | Drop lowest 2 scores |
-| Labs | 10% | 5% | Drop lowest 3 scores |
-| Projects | 12.5% | 10% |
-| Midterms | 25% | 25% | Midterm 1: 15%<br/>Midterm 2: 10% |
-| Final | 25% | 25% | |
+| Homeworks | 22.5% | 20% | Drop lowest 2 scores |
+| Labs      | 10% | 5% | Drop lowest 3 scores |
+| Projects  | 15% | 10% |
+| Midterms  | 25% | 25% | Midterm 1: 15%<br/>Midterm 2: 10% |
+| Final     | 25% | 25% | |
 | Weekly Check | 2.5% |  - ||
 | Final Graduate Project | -  | 15% ||
 
