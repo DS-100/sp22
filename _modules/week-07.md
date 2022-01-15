@@ -2,6 +2,10 @@
 title: Week 7
 weekNumber: 7
 days:
+- date: 2022-02-28
+  events:
+    ? '**Weekly Check 7**{: .label .label-disc } Weekly Check 7 (due Mar 7)'
+    : ''
 - date: 2022-03-01
   events:
     ? '**Lecture 13**{: .label .label-lecture } Gradient Descent, sklearn'

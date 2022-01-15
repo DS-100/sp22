@@ -5,6 +5,7 @@ days:
 - date: 2022-01-18
   events:
     ? '**Lecture 1**{: .label .label-lecture } Course Overview'
+    ? '**Weekly Check 1**{: .label .label-disc } Weekly Check 1 (due Jan 24)'
     : ''
 - date: 2022-01-20
   events:
