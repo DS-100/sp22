@@ -2,6 +2,10 @@
 title: Week 6
 weekNumber: 6
 days:
+- date: 2022-02-21
+  events:
+    ? '**Weekly Check 6**{: .label .label-disc } Weekly Check 6 (due Feb 28)'
+    : ''
 - date: 2022-02-22
   events:
     ? '**Lecture 11**{: .label .label-lecture } Ordinary Least Squares'

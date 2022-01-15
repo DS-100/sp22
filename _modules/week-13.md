@@ -2,6 +2,10 @@
 title: Week 12
 weekNumber: 12
 days:
+- date: 2022-04-11
+  events:
+    ? '**Weekly Check 12**{: .label .label-disc } Weekly Check 12 (due Apr 18)'
+    : ''
 - date: 2022-04-12
   events:
     ? '**Lecture 23**{: .label .label-lecture } Classification and Logistic Regression'

@@ -2,6 +2,10 @@
 title: Week 11
 weekNumber: 11
 days:
+- date: 2022-04-04
+  events:
+    ? '**Weekly Check 11**{: .label .label-disc } Weekly Check 11 (due Apr 11)'
+    : ''
 - date: 2022-04-05
   events:
     ? '**Lecture 21**{: .label .label-lecture } PCA'

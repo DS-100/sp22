@@ -2,6 +2,10 @@
 title: Week 3
 weekNumber: 3
 days:
+- date: 2022-01-31
+  events:
+    ? '**Weekly Check 3**{: .label .label-disc } Weekly Check 3 (due Feb 7)'
+    : ''
 - date: 2022-02-01
   events:
     ? '**Lecture 5**{: .label .label-lecture } Data Cleaning, EDA'

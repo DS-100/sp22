@@ -2,6 +2,10 @@
 title: Week 9
 weekNumber: 9
 days:
+- date: 2022-03-14
+  events:
+    ? '**Weekly Check 9**{: .label .label-disc } Weekly Check 9 (due Mar 21)'
+    : ''
 - date: 2022-03-15
   events:
     ? '**Lecture 17**{: .label .label-lecture } Probability I: Random Variables'

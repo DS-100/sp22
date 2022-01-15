@@ -2,6 +2,10 @@
 title: Week 10
 weekNumber: 10
 days:
+- date: 2022-03-28
+  events:
+    ? '**Weekly Check 10**{: .label .label-disc } Weekly Check 10 (due Apr 4)'
+    : ''
 - date: 2022-03-29
   events:
     ? '**Lecture 19**{: .label .label-lecture } SQL I'

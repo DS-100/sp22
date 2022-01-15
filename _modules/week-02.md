@@ -2,6 +2,10 @@
 title: Week 2
 weekNumber: 2
 days:
+- date: 2022-01-24
+  events:
+    ? '**Weekly Check 2**{: .label .label-disc } Weekly Check 2 (due Jan 31)'
+    : ''
 - date: 2022-01-25
   events:
     ? '**Lecture 3**{: .label .label-lecture } Pandas I'

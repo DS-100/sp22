@@ -2,6 +2,10 @@
 title: Week 14
 weekNumber: 14
 days:
+- date: 2022-04-25
+  events:
+    ? '**Weekly Check 14**{: .label .label-disc } Weekly Check 14 (due May 2)'
+    : ''
 - date: 2022-04-26
   events:
     ? '**Lecture 27**{: .label .label-lecture } Clustering'
