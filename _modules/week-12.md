@@ -12,7 +12,7 @@ days:
     : ''
 - date: 2022-04-07
   events:
-    ? '**Midterm**{: .label .label-hw } Mini-Midterm 2'
+    ? '**Midterm**{: .label .label-hw } Midterm 2 (7-8:30 pm)'
     : ''
 - date: 2022-04-08
   events:

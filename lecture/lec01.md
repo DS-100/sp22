@@ -1,22 +1,25 @@
 ---
 layout: page
-title: Lecture 1 – Introduction, Course Overview
+title: Lecture 1 – Course Overview
 nav_exclude: true
 ---
 
-# Lecture 1 – Introduction, Course Overview
+# Lecture 1 – Course Overview
 
-Presented by Fernando Pérez, Alvin Wan, and Anthony Joseph
+<!-- Presented by Fernando Pérez, Alvin Wan, and Anthony Joseph
 
-Content by Fernando Pérez, Alvin Wan, Suraj Rampure, Allen Shen, Joseph Gonzalez, Andrew Bray, Josh Hug, and Sam Lau
+Content by Fernando Pérez, Alvin Wan, Suraj Rampure, Allen Shen, Joseph Gonzalez, Andrew Bray, Josh Hug, and Sam Lau -->
 
+- [Slides]()
+- [Code]()
+- Recording
+- Optional readings: [Principles and Techniques of Data Science](https://ds100.org/sp22/resources#textbook) Ch. 1 
+
+<!-- ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec01/&branch=main))
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfqqdzogA5zgyA00cOMeMMMR)
-- [slides](https://docs.google.com/presentation/d/1DwsSNJclar4KCJRlzSDux_ISCotf9VMI89iTqSOBh6o/edit?usp=sharing)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flec%2Flec01%2Flec01.ipynb&branch=main)
-<!-- ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec01/&branch=main)) -->
-- [code HTML](../../resources/assets/lectures/lec01/lec01.html)
+- [code HTML](../../resources/assets/lectures/lec01/lec01.html) -->
 
-<table>
+<!-- <table>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -60,4 +63,4 @@ Content by Fernando Pérez, Alvin Wan, Suraj Rampure, Allen Shen, Joseph Gonzale
 <td><strong>1.6</strong> <br> A demonstration of various data science tools using data from students in the Fall 2020 class.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/kDYLLodjYrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
 </tr>
-<tr>
+<tr> -->

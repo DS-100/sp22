@@ -12,7 +12,7 @@ days:
     : ''
 - date: 2022-02-24
   events:
-    ? '**Midterm**{: .label .label-hw } Midterm 1'
+    ? '**Midterm**{: .label .label-hw } Midterm 1 (7-9 pm)'
     : ''
 - date: 2021-02-25
   events:

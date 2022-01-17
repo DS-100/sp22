@@ -4,7 +4,7 @@ weekNumber: 1
 days:
 - date: 2022-01-18
   events:
-    ? '**Lecture 1**{: .label .label-lecture } Course Overview'
+    ? '**Lecture 1**{: .label .label-lecture } [Course Overview](lecture/lec01)'
     ? '**Weekly Check 1**{: .label .label-proj } Weekly Check 1 (due Jan 24)'
     : ''
 - date: 2022-01-20
