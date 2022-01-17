@@ -5,6 +5,7 @@ days:
 - date: 2022-01-18
   events:
     ? '**Lecture 1**{: .label .label-lecture } [Course Overview](lecture/lec01)'
+    : '[Ch. 1](https://www.textbook.ds100.org/ch/01/lifecycle_intro.html)'
     ? '**Weekly Check 1**{: .label .label-proj } Weekly Check 1 (due Jan 24)'
     : ''
 - date: 2022-01-20

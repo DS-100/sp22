@@ -27,6 +27,7 @@ UC Berkeley, Spring 2022
 + The [Syllabus]({{site.baseurl}}/syllabus) page contains a detailed explanation of how each course component will work this semester, given the course will be taught in a hybrid format.
 + The scheduling of all weekly events is in the [Calendar]({{ site.baseurl }}/calendar)
 + Zoom links for any remote live events will be posted on EdStem once they are available.
++ Linked textbook readings are optional and actively in development. See [Optional Supplementary Textbook]({{site.baseurl}}/resources/#textbook).
 + **Note:** The schedule of lectures and assignments is subject to change.
 
 **Friday, January 14 Announcement**

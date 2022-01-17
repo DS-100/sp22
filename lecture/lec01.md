@@ -13,7 +13,6 @@ Content by Fernando Pérez, Alvin Wan, Suraj Rampure, Allen Shen, Joseph Gonzale
 - [Slides]()
 - [Code]()
 - Recording
-- Optional readings: [Principles and Techniques of Data Science](https://ds100.org/sp22/resources#textbook) Ch. 1 
 
 <!-- ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec01/&branch=main))
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfqqdzogA5zgyA00cOMeMMMR)
