@@ -92,8 +92,8 @@ Below is a high-level “typical week in the course” for Spring 2022.
 |  Mo | Tu | We | Th | Fr |
 | --- | --- | --- | --- | --- | --- |
 | | Office Hours | Office Hours | Office Hours | | 
-| <span style="color:Green">Live Lecture</span> | | <span style="color:Green">Live Lecture</span> | | | 
-| |  | | | <span style="color:Blue">Discussion Section</span> | 
+| | <span style="color:Green">Live Lecture</span> | | <span style="color:Green">Live Lecture</span> | |
+| | | | | <span style="color:Blue">Discussion Section</span> | 
 | | | | <span style="color:Red">**Homework N due**</span> | <span style="color:Red">**Homework N+1 released**</span> | 
 | | <span style="color:Purple">Lab N Help<br/>**Lab N due**</span> | | | <span style="color:Purple"> **Lab N+1 released**</span> | 
 | Weekly check due/released | | | | | 
