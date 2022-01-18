@@ -18,9 +18,6 @@ course:
 # Syllabus
 {:.no_toc}
 
-## Note: This page is under construction. Everything on this website is subject to change.
-{:.no_toc}
-
 Jump to:
 * TOC
 {:toc}
@@ -97,7 +94,7 @@ Below is a high-level “typical week in the course” for Spring 2022.
 | Office Hours | Office Hours | Office Hours | Office Hours | Office Hours | 
 | <span style="color:Green">Live Lecture</span> | | <span style="color:Green">Live Lecture</span> | | | 
 | |  | | | <span style="color:Blue">Discussion Section</span> | 
-| | | | <span style="color:Red">**Homework N due**</span> | <span style="color:Red">**Homework N+ released**</span> | 
+| | | | <span style="color:Red">**Homework N due**</span> | <span style="color:Red">**Homework N+1 released**</span> | 
 | | <span style="color:Purple">Lab N Help<br/>**Lab N due**</span> | | | <span style="color:Purple"> **Lab N+1 released**</span> | 
 | Weekly check due/released | | | | | 
 
@@ -208,11 +205,11 @@ All students enrolled in the graduate version of the course (CS C200 or Stat C20
 |Category | Data C100 | Data C200 | Details |
 | --- | --- | --- |
 | Homeworks | 22.5% | 20% | Drop lowest 2 scores |
-| Labs      | 10% | 5% | Drop lowest 3 scores |
-| Projects  | 15% | 10% |
+| Labs      | 10% | 5% <br/>(or 0%, lab opt-out)| Drop lowest 3 scores |
+| Projects  | 15% | 10% <br/>(or 15%, lab opt-out)| 
 | Midterms  | 25% | 25% | Midterm 1: 15%<br/>Midterm 2: 10% |
 | Final     | 25% | 25% | |
-| Weekly Check | 2.5% |  - ||
+| Weekly Check | 2.5% |  - | Drop lowest 4 scores|
 | Final Graduate Project | -  | 15% ||
 
 **Optional attendance grading:** For both graduate and undergraduates, you may substitute 5% of your HW grade with discussion attendance throughout the semester. When calculating your overall grade at the end of the semester, we will automatically determine your homework grade as the maximum of your homework grade with and without attendance. Attending 11 of the 14 scheduled discussions is considered full attendance credit (i.e., there are 3 drops).

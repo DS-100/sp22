@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: Home / Schedule
 nav_order: 1
 description: A week-to-week description of the content covered in the course.
 course:
@@ -23,6 +23,8 @@ UC Berkeley, Spring 2022
   {% endfor %} -->
 </div>
 
+Jump to the calendar [here](#calendar).
+
 + **Frequently Asked Questions:** Before posting on the [class Ed]({{page.course.edstem}}), please read the [class FAQ page]({{page.course.faq}}).
 + The [Syllabus]({{site.baseurl}}/syllabus) page contains a detailed explanation of how each course component will work this semester, given the course will be taught in a hybrid format.
 + The scheduling of all weekly events is in the [Calendar]({{ site.baseurl }}/calendar)
@@ -38,6 +40,9 @@ Starting Tuesday 2/1 we will resume the hybrid instruction as described in the [
 + All Lab Help Sections and Office Hours start the second week (week of 1/24). You do not need to sign up for Lab Help Sections. More info on the [Syllabus]({{ site.baseurl}}/syllabus).
 
 <br><br>
+
+<a name="calendar"></a>
+## Calendar
 
 {% for module in site.modules %}
 {{ module }}
