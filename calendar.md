@@ -32,12 +32,12 @@ Instructor office hours with Josh and Lisa appear in <span style="color:#795548"
 
 This calendar contains times for
 
-- live lectures (in <span style="color:green">**green**</span>)
-- live discussion sections (in <span style="color:blue">**blue**</span>)
-- live lab sections (in <span style="color:#9e69af">**purple**</span>)
+- live lectures (in <span style="color:brown">**brown**</span>)
+- live discussion sections (in <span style="color:orange">**orange**</span>)
+- live lab help sections (in <span style="color:green;">**green**</span>)
 
 <!-- **Note: All events on this calendar are virtual.** -->
 
 <!-- To access these events, use the Zoom links posted in <b><a href="">@6 on Piazza</a></b>. -->
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_fo7b35sk65gnagmvjhs0kccts8%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=0&mode=WEEK&src=Y191NGF0bWVhdGxwNzZ2ZXUyN3ZvMGFybm02Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y190OGE0MzY1cGhmY20wMGUyOW1oMXVha3Fuc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y19mbzdiMzVzazY1Z25hZ212amhzMGtjY3RzOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F09300&color=%237CB342&color=%23795548" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
