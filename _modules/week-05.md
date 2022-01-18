@@ -9,11 +9,11 @@ days:
 - date: 2022-02-15
   events:
     ? '**Lecture 9**{: .label .label-lecture } Modeling, Loss, and Optimization'
-    : ''
+    : '[Ch. 4](https://www.textbook.ds100.org/ch/04/modeling_intro.html)'
 - date: 2022-02-17
   events:
     ? '**Lecture 10**{: .label .label-lecture } Simple Linear Regression'
-    : ''
+    : '[Ch. 15](https://www.textbook.ds100.org/ch/15/linear_models.html)'
 - date: 2021-02-18
   events:
     ? '**Discussion 5**{: .label .label-disc } Modeling and Simple Linear Regression'

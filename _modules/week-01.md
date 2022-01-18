@@ -11,7 +11,7 @@ days:
 - date: 2022-01-20
   events:
     ? '**Lecture 2**{: .label .label-lecture } Sampling and Probability'
-    : ''
+    : '[Ch. 2](https://www.textbook.ds100.org/ch/02/data_scope_intro.html), [Ch. 3.1](https://www.textbook.ds100.org/ch/03/theory_urn.html)'
 - date: 2022-01-21
   events:
     ? '**Discussion 1**{: .label .label-disc } Intro'
