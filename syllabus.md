@@ -164,7 +164,7 @@ Virtual OH can be accessed via [oh.ds100.org](https://oh.ds100.org/), where stud
 You can email [{{page.course.email}}](mailto:{{page.course.email}}) and one of the instructors will get back to you. Note that to ensure more timely responses, this address is monitored by the team of the two lead instructors (Josh Hug and Lisa Yan) the Head TA ({{page.course.head_ta}}), as well as several lead GSIs, to ensure more timely responses. You can contact Josh and Lisa directly for matters that require strict privacy and their direct attention.
 
 ### Weekly Checks
-While lecture and discussion section attendance is not required, nor even expected, we do expect you to stay up to date with material. To help us keep track of your progress and sentiment about the course, there will be 14 weekly surveys due on Mondays at 11:59 PM Pacific. Weekly check-ins are submitted via Google Form, and links will be provided on the [Home page](../) each week.
+While lecture and discussion section attendance is not required, nor even expected, we do expect you to stay up to date with material. To help us keep track of your progress and sentiment about the course, there will be 14 weekly surveys due on Mondays at 11:59 PM Pacific. Weekly check-ins are submitted via Google Form, and links will be provided on the [Home page](../) each week. Weekly Checks are graded on completion, not correctness.
 
 <!--
 Quick Checks, as mentioned above, are short conceptual questions embedded into each lecture, in the form of Google Forms. **Quick Checks are not graded.** These are meant for you to check your understanding of the concepts that were just introduced.
@@ -213,6 +213,8 @@ All students enrolled in the graduate version of the course (CS C200 or Stat C20
 | Final Graduate Project | -  | 15% ||
 
 **Optional attendance grading:** For both graduate and undergraduates, you may substitute 5% of your HW grade with discussion attendance throughout the semester. When calculating your overall grade at the end of the semester, we will automatically determine your homework grade as the maximum of your homework grade with and without attendance. Attending 11 of the 14 scheduled discussions is considered full attendance credit (i.e., there are 3 drops).
+
+**Grad lab opt-out**: When calculating your overall grade at the end of the semester, we will automatically take the max of your grade with and without labs. 
 
 <br>
 
