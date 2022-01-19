@@ -17,7 +17,7 @@ scopes = [
 ]
 credentials = ServiceAccountCredentials.from_json_keyfile_name("sheets_parser.json", scopes) #access the json key you downloaded earlier
 file = gspread.authorize(credentials) # authenticate the JSON key with gspread
-sheet = file.open("Data 100 Fall 2021 Staff Onboarding (Responses)")  #open sheet
+sheet = file.open("DS100 Sp22 Staff Onboarding (Responses)")  #open sheet
 sheet = sheet.sheet1  #all desired info should be in the first sheet
 
 def attribute_parser(row):
@@ -26,11 +26,11 @@ def attribute_parser(row):
     last_name = re.search(r'\s([^\s]+)$', row[2])
     attributes["name"] = row[2].strip() if last_name == None else row[3].strip() + ' ' + re.search(r'\s([^\s]+)$', row[2]).group(0).strip()
     attributes["pronouns"] = row[4].lower()
-    attributes["role"] = assign_role(row[7])
-    attributes["sid"] = row[8]
+    attributes["role"] = assign_role(row[8])
+    attributes["sid"] = row[9]
     attributes["photo_name"] = attributes['name'].replace(' ', '_')
-    attributes["bio"] = row[13].replace('\n', '').replace('’', "'")
-    attributes["website"] = row[14]
+    attributes["bio"] = row[14].replace('\n', '').replace('’', "'")
+    attributes["website"] = row[15]
     if attributes["role"] == "Instructor":
         attributes["oh"] = row[40]
     return attributes
@@ -55,7 +55,7 @@ def get_photo_location(photos, attributes):
 
 def main():
     photos = os.listdir('../resources/assets/staff_pics')
-    for i in range(2, 49): #modify the second number depending on the number of rows in the sheet.
+    for i in range(2, 42): #modify the second number depending on the number of rows in the sheet.
         row = sheet.row_values(i)
         attributes = attribute_parser(row)
         # print(attributes)
