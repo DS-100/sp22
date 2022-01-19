@@ -6,7 +6,7 @@ days:
   events:
     ? '**Lecture 1**{: .label .label-lecture } [Course Overview](lecture/lec01)'
     : '[Ch. 1](https://www.textbook.ds100.org/ch/01/lifecycle_intro.html)'
-    ? '**Weekly Check 1**{: .label .label-proj } Weekly Check 1 (due Jan 24)'
+    ? '**Weekly Check 1**{: .label .label-proj } [Weekly Check 1](https://forms.gle/ZNAvz4BP3hGfVKWJA) (due Jan 24)'
     : ''
 - date: 2022-01-20
   events:
