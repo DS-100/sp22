@@ -31,8 +31,8 @@ def attribute_parser(row):
     attributes["photo_name"] = attributes['name'].replace(' ', '_')
     attributes["bio"] = row[14].replace('\n', '').replace('’', "'")
     attributes["website"] = row[15]
-    if attributes["role"] == "Instructor":
-        attributes["oh"] = row[40]
+    # if attributes["role"] == "Instructor":
+    #     attributes["oh"] = row[40]
     return attributes
 
 def assign_role(job):
@@ -69,7 +69,7 @@ def main():
                 + 'website: ' + attributes['website'] + '\n'
                 + 'photo: http://ds100.org/fa21/resources/assets/staff_pics/' + get_photo_location(photos, attributes) + '\n'
                 + 'pronouns: ' + attributes['pronouns'] + '\n'
-                + 'oh: ' + attributes['oh'] + '\n'
+                # + 'oh: ' + attributes['oh'] + '\n'
                 + '---\n'
                 + attributes['bio'] + '\n')
         else:
