@@ -1,21 +1,22 @@
 ---
 layout: page
-title: Lecture 2 – Data Sampling and Probability I
+title: Lecture 2 – Sampling and Probability
 nav_exclude: true
 ---
 
-# Lecture 2 – Data Sampling and Probability I
+# Lecture 2 – Sampling and Probability
 
-Presented by Isaac Schmidt and Suraj Rampure
+Presented by Lisa Yan and Josh Hug
 
 Content by Fernando Pérez, Suraj Rampure, Ani Adhikari, and Joseph Gonzalez
 
-- [slides](https://docs.google.com/presentation/d/1b8V53ddjN9GCCSDB2e-EKtPQpl3N_xCkMOj_cgvJGPI/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfpo96SEp_53MnrkbRUuMDtJ)
+- [Slides]()
+- [Code]() ([Code HTML]())
+- Recording
 
-A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
+<!-- A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding. -->
 
-<table>
+<!-- <table>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
@@ -29,11 +30,11 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </tr>
 </thead>
 <tbody>
-<!-- <tr>
+ <tr>
 <td><strong>2.0</strong> <br> Introduction to lecture format.</td>
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/L5hZE3_ECpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td></td>
-</tr> -->
+</tr> 
 <tr>
 <td><strong>2.1.1</strong> <br> Data science lifecycle, case study on squirrels.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/fyhu-Xg2Dfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
@@ -83,4 +84,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><strong>2.9 (Extra)</strong> <br> Example usages of the binomial coefficient. </td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/lR6FeO5Pgss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="https://forms.gle/hvX4ascExVahEb3h6" target="\_blank">2.9</a></td>
-</tr>
+</tr> -->
