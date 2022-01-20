@@ -10,6 +10,7 @@ course:
     faq: https://ds100.org/sp22faq
     bcourses: ""
     head_ta: Andrew Lenz
+    head_email: andrew.lenz@berkeley.edu
     comms_ta: Samantha
     comms_email: snhing@berkeley.edu
     email: data100.instructors@berkeley.edu
@@ -183,7 +184,7 @@ There will be three exams in this course:
 * Midterm 2 on **Thursday, April 7** (7-8:30PM Pacific). Note the shorter exam time period.
 * Final exam during our scheduled slot, **Friday, May 13, 7-10pm Pacific**.
 
-- We are still deciding proctoring format, but we will primarily have in-person exams with the option for virtual exams. Alternate exam times will be provided for all exams for pre-approved reasons, such as a concurrent final exam. If you miss an exam due to a personal emergency or illness, please contact the Head TA {{page.course.head_ta}} immediately.<!--The exam will be primarily virtual and zoom proctored, following campus guidelines. We will have the option to be proctored in-person, but you will still be completing the exam online (just being in-person proctored instead of zoom proctored). In-person spots will be given on a case by case basis by only those who necessarily need it (form coming soon).-->
+- We are still deciding proctoring format, but we will primarily have in-person exams with the option for virtual exams. Alternate exam times will be provided for all exams for pre-approved reasons, such as a concurrent final exam. If you miss an exam due to a personal emergency or illness, please email the Head TA {{page.course.head_ta}} at [{{page.course.head_email}}]({{page.course.head_email}}) immediately.<!--The exam will be primarily virtual and zoom proctored, following campus guidelines. We will have the option to be proctored in-person, but you will still be completing the exam online (just being in-person proctored instead of zoom proctored). In-person spots will be given on a case by case basis by only those who necessarily need it (form coming soon).-->
 - In the first few weeks of the semester, we will be releasing forms for exam options on EdStem so that you can let us know of your conflicts (for both midterms and the final).
 - DSP students will be offered the option for on-campus exams as per their accommodations.
 
@@ -229,8 +230,7 @@ Gradescope (labs and homeworks) may allow you to make late submissions, but you 
 
 **Projects** are marked down by 10% per day, **up to two days**. After two days, project submissions will not be accepted. Submission times are rounded up to the next day. That is, 2 minutes late = 1 day late.
 
-**Extensions** are only provided to students with DSP accommodations, or in the case of exceptional circumstances. If you have DSP accommodations, you should expect to receive an email from us. Otherwise, email our Communications TA {{page.course.comms_ta}} at [{{page.course.comms_email}}](mailto:{{page.course.comms_email}})
-to request an extension. If you make a request close to the deadline, we can not guarantee that you will receive a response before the deadline. Additionally, simply submitting a request does not guarantee you will receive an extension. Even if your work is incomplete, please submit before the deadline so you can receive credit for the work you did complete.
+**Extensions** are only provided to students with DSP accommodations, or in the case of exceptional circumstances. If you have DSP accommodations, you should expect to receive an email from us. Otherwise, email our Communications TA {{page.course.comms_ta}} at [{{page.course.comms_email}}]({{page.course.comms_email}}) to request an extension. If you make a request close to the deadline, we can not guarantee that you will receive a response before the deadline. Additionally, simply submitting a request does not guarantee you will receive an extension. Even if your work is incomplete, please submit before the deadline so you can receive credit for the work you did complete.
 
 Note that extension requests will *not* be granted in cases where a student’s local (DataHub) tests are not passing. It is the student’s responsibility to solve such problems in advance of the deadline.
 
