@@ -2,19 +2,24 @@
 layout: page
 title: Lecture 2 – Sampling and Probability
 nav_exclude: true
+slides: 
 ---
 
-# Lecture 2 – Sampling and Probability
+# Lecture 2 – Data Sampling and Probability
 
-Presented by Lisa Yan and Josh Hug
+Presented by Lisa Yan
 
-Content by Fernando Pérez, Suraj Rampure, Ani Adhikari, and Joseph Gonzalez
+Content by Fernando Pérez, Suraj Rampure, Ani Adhikari, Joseph Gonzalez, and Lisa Yan
 
-- [Slides]()
-- [Code]() ([Code HTML]())
-- Recording
 
-<!-- A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding. -->
+- [slides](https://docs.google.com/presentation/d/15CbbMS0guv9CNJTTDP4h5T4hrNK8rJJ2cO1rmXo3H3Y/edit?usp=sharing){:target="_blank"}
+- Recording (TBD)
+- [Extra, Summer 2021] Binomial coefficient: [Part 1](https://www.youtube.com/watch?v=4j2mFGkvwWE){:target="_blank"}, [Part 2](https://www.youtube.com/watch?v=lR6FeO5Pgss){:target="_blank"}
+
+<!--
+>>>>>>> e0aa630e63dda30b12a0a9581799eb779c89bf4e
+
+ A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding. -->
 
 <!-- <table>
 <colgroup>
@@ -30,11 +35,14 @@ Content by Fernando Pérez, Suraj Rampure, Ani Adhikari, and Joseph Gonzalez
 </tr>
 </thead>
 <tbody>
+<<<<<<< HEAD
  <tr>
 <td><strong>2.0</strong> <br> Introduction to lecture format.</td>
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/L5hZE3_ECpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td></td>
 </tr> 
+=======
+>>>>>>> e0aa630e63dda30b12a0a9581799eb779c89bf4e
 <tr>
 <td><strong>2.1.1</strong> <br> Data science lifecycle, case study on squirrels.</td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/fyhu-Xg2Dfw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
@@ -84,4 +92,5 @@ Content by Fernando Pérez, Suraj Rampure, Ani Adhikari, and Joseph Gonzalez
 <td><strong>2.9 (Extra)</strong> <br> Example usages of the binomial coefficient. </td>
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/lR6FeO5Pgss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="https://forms.gle/hvX4ascExVahEb3h6" target="\_blank">2.9</a></td>
+<<<<<<< HEAD
 </tr> -->
