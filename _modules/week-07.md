@@ -8,11 +8,11 @@ days:
     : ''
 - date: 2022-03-01
   events:
-    ? '**Lecture 13**{: .label .label-lecture } Gradient Descent, sklearn'
+    ? '**Lecture 12**{: .label .label-lecture } Gradient Descent, sklearn'
     : '[Ch. 17](https://www.textbook.ds100.org/ch/17/gradient_descent.html)'
 - date: 2022-03-03
   events:
-    ? '**Lecture 14**{: .label .label-lecture } Case Study (HCE): Fairness in Housing Appraisal'
+    ? '**Lecture 13**{: .label .label-lecture } Case Study (HCE): Fairness in Housing Appraisal'
     : ''
 - date: 2022-03-04
   events:

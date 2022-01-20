@@ -8,11 +8,11 @@ days:
     : ''
 - date: 2022-04-19
   events:
-    ? '**Lecture 25**{: .label .label-lecture } TBD'
+    ? '**Lecture 23**{: .label .label-lecture } TBD'
     : ''
 - date: 2022-04-21
   events:
-    ? '**Lecture 26**{: .label .label-lecture } Decision Trees'
+    ? '**Lecture 24**{: .label .label-lecture } Decision Trees'
     : '[Ch. 27](https://www.textbook.ds100.org/ch/27/dtrees_intro.html)'
 - date: 2022-04-22
   events:
