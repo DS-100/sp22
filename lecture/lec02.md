@@ -13,7 +13,7 @@ Content by Fernando Pérez, Suraj Rampure, Ani Adhikari, Joseph Gonzalez, and Li
 
 
 - [slides](https://docs.google.com/presentation/d/15CbbMS0guv9CNJTTDP4h5T4hrNK8rJJ2cO1rmXo3H3Y/edit?usp=sharing){:target="_blank"}
-- Recording (TBD)
+- [Recording](https://youtu.be/CyLQGm_anEo)
 - [Extra, Summer 2021] Binomial coefficient: [Part 1](https://www.youtube.com/watch?v=4j2mFGkvwWE){:target="_blank"}, [Part 2](https://www.youtube.com/watch?v=lR6FeO5Pgss){:target="_blank"}
 
 <!--
