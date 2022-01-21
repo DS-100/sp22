@@ -3,3 +3,5 @@
 _site/*
 .Rhistory
 _staffers/sheets_parser.json
+*.swp
+*.swo

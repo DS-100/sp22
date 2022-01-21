@@ -87,6 +87,10 @@ Click [here]({{ site.baseurl }}/setup) to read our guide on how to set up our de
 **Regex Practice**
 + We've organized some regex problems to help you get extra practice on regex in a notebook format. They can be found [here](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su20&subPath=disc/disc05/extra/), along with their [solutions](assets/other/regex_practice_sol.pdf).
 
+**LaTeX Tips**
++ Check out these [handy LaTeX tips]({{site.baseurl}}/resources/assets/hw/latex_tips.pdf)
++ [For more about basic LaTeX formatting, you can read this article.](https://www.sharelatex.com/learn/Mathematical_expressions)
+
 ### Other Web References
 As a data scientist you will often need to search for information on various libraries and tools. In this class we will be using several key python libraries. Here are their documentation pages:
 
