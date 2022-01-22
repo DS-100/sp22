@@ -7,24 +7,17 @@ description: Past exams and other relevant material to aid you in the course.
 ---
 
 # Resources
+{:.no_toc}
 
 Here is a collection of resources that will help you learn more about various concepts and skills covered in the class. Learning by reading is a key part of being a well rounded data scientist. We will not assign mandatory reading but instead encourage you to look at these _and other_ materials. If you find something helpful, post it on EdStem, and consider contributing it to the course website.
 
-- [Optional Supplementary Textbook](#textbook)
-- [Exam Resources](#exam)
-- [Course Website](#course_website)
-- [Local Setup](#local)
-- [Coding and Probability Resources](#web_resources)
-- [Books](#books)
-- [Data Science Education](#education)
-
-<a name = 'textbook'></a>
+Jump to:
+* TOC
+{:toc}
 
 ## Optional Supplementary Textbook
 Alongside each lecture are optional textbook readings to the Data 100 textbook, [Principles and Techniques of Data Science](https://www.textbook.ds100.org/). Textbook readings are purely supplementary, and may contain material that is not in scope (and may also not be comprehensive). The textbook is *actively in development* during Spring 2022! Some readings may become out-of-date or reordered as the semester progresses. If you see a reading on our schedule that no longer exists, don't hesitate to send a pull request to our course GitHub (see [below](#course_website)).
 
-
-<a name = 'exam'></a>
 
 ## Exam Resources
 
@@ -61,33 +54,35 @@ request](https://help.github.com/articles/about-pull-requests/) to the [course
 website github repository](https://github.com/DS-100/sp22). You will then
 become part of the history of Data 100 at Berkeley.
 
-<a name = 'local'></a>
 ## Local Setup
 
 Click [here]({{ site.baseurl }}/setup) to read our guide on how to set up our development environment locally (as an alternative to using DataHub). Please note that any autograder tests will only work on DataHub.
 
-<a name = 'web_resources'></a>
 ## Coding and Probability Resources
 
-**Pandas:**
+#### Pandas
 
   - [The Pandas Cookbook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/tree/master/cookbook/): This provides a nice overview of some of the basic Pandas functions. However, it is slightly out of date.
   - [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas) A set of lessons providing an overview of the Pandas library.
   - [Python for Data Science](http://wavedatalab.github.io/datawithpython/index.html) Another set of notebook demonstrating Pandas functionality.
 
-**SQL Resources**
+#### SQL Resources
 + We've assembled some [SQL Review Slides](https://docs.google.com/presentation/d/1mLVkQxah9asdKhnTNpcUSYBOuKGSWE_d3MJ5nYuTw9U/edit?usp=sharing) to help you brush up on SQL.
 + We've also compiled a list of SQL practice problems, which can be found [here](assets/other/sqlReview.pdf), along with their [solutions](assets/other/sqlReviewSol.pdf).
 + This [SQL Cheat Sheet](https://websitesetup.org/sql-cheat-sheet/) is an awesome resource that was created by Luke Harrison, a former Data 100 student.
 
-**Probability Practice**
+#### Probability Practice
 + We've compiled a few practice probability problems that we believe may help in understanding the ideas covered in the course. They can be found [here](assets/other/prob_practice.pdf), along with their [solutions](assets/other/prob_practice_solutions.pdf).
 + We'd also like to point you to the [textbook for Stat 88](http://stat88.org/textbook/notebooks/intro), an introductory probability course geared towards data science students at Berkeley.
 
-**Regex Practice**
+#### Regex Practice
 + We've organized some regex problems to help you get extra practice on regex in a notebook format. They can be found [here](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/su20&subPath=disc/disc05/extra/), along with their [solutions](assets/other/regex_practice_sol.pdf).
 
-### Other Web References
+#### LaTeX Tips
++ Check out these [handy LaTeX tips]({{site.baseurl}}/resources/assets/hw/latex_tips.pdf)
++ [For more about basic LaTeX formatting, you can read this article.](https://www.sharelatex.com/learn/Mathematical_expressions)
+
+#### Other Web References
 As a data scientist you will often need to search for information on various libraries and tools. In this class we will be using several key python libraries. Here are their documentation pages:
 
 - **The Bash Command Line:**
