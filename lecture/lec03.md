@@ -8,7 +8,7 @@ nav_exclude: true
 
 Presented by Josh Hug
 
-Content by Fernando Pérez, Josh Hug
+Content by Josh Hug
 
 - [slides](https://docs.google.com/presentation/d/1pvgbzNQl-ktWPZSVeXICCMKTE0JvuKyx7HcA04B0uB0/edit?usp=sharing)
 - [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec03&branch=main)
