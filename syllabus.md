@@ -213,7 +213,7 @@ All students enrolled in the graduate version of the course (CS C200 or Stat C20
 | Weekly Check | 2.5% |  - | Drop lowest 4 scores|
 | Final Graduate Project | -  | 15% ||
 
-**Optional attendance grading:** For both graduate and undergraduates, you may substitute 5% of your HW grade with discussion attendance throughout the semester. When calculating your overall grade at the end of the semester, we will automatically determine your homework grade as the maximum of your homework grade with and without attendance. Attending 11 of the 14 scheduled discussions is considered full attendance credit (i.e., there are 3 drops).
+**Optional attendance grading:** For both graduate and undergraduates, you may substitute part of your Homework grade with Discussion attendance throughout the semester: Discussion attendance and homework will be 5% and 17.5%, respectively, of the overall grade. When calculating your overall grade at the end of the semester, we will automatically determine your homework grade as the maximum of your homework grade with and without attendance. Attending 11 of the 14 scheduled discussions is considered full attendance credit (i.e., there are 3 drops).
 
 **Grad lab opt-out**: When calculating your overall grade at the end of the semester, we will automatically take the max of your grade with and without labs. 
 
