@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2022-01-25
   events:
-    ? '**Lecture 3**{: .label .label-lecture } [Pandas I](lecture/lec03)']
+    ? '**Lecture 3**{: .label .label-lecture } [Pandas I](lecture/lec03)'
     : '[Ch. 6.1](https://www.textbook.ds100.org/ch/06/pandas_subsetting.html), [6.5](https://www.textbook.ds100.org/ch/06/pandas_other_reps.html)'
 - date: 2022-01-27
   events:
