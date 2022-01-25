@@ -56,6 +56,8 @@ become part of the history of Data 100 at Berkeley.
 
 ## Local Setup
 
+**NOTE:** This section is out of date and no longer supported by the course staff.
+
 Click [here]({{ site.baseurl }}/setup) to read our guide on how to set up our development environment locally (as an alternative to using DataHub). Please note that any autograder tests will only work on DataHub.
 
 ## Coding and Probability Resources
