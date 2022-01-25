@@ -16,7 +16,7 @@ days:
     : '[Ch. 11.4-11.6](https://www.textbook.ds100.org/ch/11/viz_principles.html)'
 - date: 2021-02-11
   events:
-    ? '**Discussion 4**{: .label .label-disc } Visualization'
+    ? '**Discussion 4**{: .label .label-disc } Regex, Visualization'
     ? '**Lab 4**{: .label .label-lab } Transformations and KDE (due Feb 15)'
     ? '**Homework 4**{: .label .label-hw } Bike Sharing (due Feb 17)'
     : ""

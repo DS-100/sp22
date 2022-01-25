@@ -16,7 +16,7 @@ days:
     : '[Ch. 24.4-24.8](https://www.textbook.ds100.org/ch/24/classification_log_reg.html)'
 - date: 2022-04-15
   events:
-    ? '**Discussion 12**{: .label .label-disc } Logistic Regression'
+    ? '**Discussion 12**{: .label .label-disc } Logistic Regression I'
     ? '**Lab 12**{: .label .label-lab } Logistic Regression (due Apr 19)'
     ? '**Proj 2A**{: .label .label-hw } Spam & Ham I (due Apr 21)'
     : ""

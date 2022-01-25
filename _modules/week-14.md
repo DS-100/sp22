@@ -16,7 +16,7 @@ days:
     : '[Ch. 27](https://www.textbook.ds100.org/ch/27/dtrees_intro.html)'
 - date: 2022-04-22
   events:
-    ? '**Discussion 13**{: .label .label-disc } Decision Trees'
+    ? '**Discussion 13**{: .label .label-disc } Logistic Regression II'
     ? '**Lab 13**{: .label .label-lab } Decision Trees & Random Forests (due Apr 26)'
     ? '**Proj 2B**{: .label .label-hw } Spam & Ham II (due Apr 28)'
     : ""

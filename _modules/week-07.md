@@ -16,7 +16,7 @@ days:
     : ''
 - date: 2022-03-04
   events:
-    ? '**Discussion 7**{: .label .label-disc } Gradient Descent and Feature Engineering'
+    ? '**Discussion 7**{: .label .label-disc } Gradient Descent'
     ? '**Lab 7**{: .label .label-lab } Ordinary Least Squares, Feature Engineering (due Mar 8)'
     ? '**Proj 1A**{: .label .label-hw } Housing I (due Mar 10)'
     : ""

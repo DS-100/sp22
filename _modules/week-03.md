@@ -16,7 +16,7 @@ days:
     : '[Ch. 13](https://www.textbook.ds100.org/ch/13/text_intro.html)'
 - date: 2021-02-04
   events:
-    ? '**Discussion 3**{: .label .label-disc } Data Cleaning and Regex'
+    ? '**Discussion 3**{: .label .label-disc } Pandas, Data Cleaning'
     ? '**Lab 3**{: .label .label-lab } Data Cleaning (due Feb 8)'
     ? '**Homework 3**{: .label .label-hw } Tweets (due Feb 10)'
     : ""

@@ -20,6 +20,6 @@ days:
     : '[Ch. 19.2](https://www.textbook.ds100.org/ch/19/mult_inference.html)'
 - date: 2022-04-29
   events:
-    ? '**Discussion 14**{: .label .label-disc } Clustering, Inference for Modeling'
+    ? '**Discussion 14**{: .label .label-disc } Clustering'
     : ""
 ---

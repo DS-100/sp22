@@ -16,7 +16,7 @@ days:
     : '[Ch. 22](https://www.textbook.ds100.org/ch/22/reg_intro.html), [21.3](https://www.textbook.ds100.org/ch/21/bias_cv.html)'
 - date: 2022-03-11
   events:
-    ? '**Discussion 8**{: .label .label-disc } HCE, Regularization, and Cross-Validation'
+    ? '**Discussion 8**{: .label .label-disc } HCE, Feature Engineering'
     ? '**Lab 8**{: .label .label-lab } Cross-Validation and Regularization (due Mar 15)'
     ? '**Proj 1B**{: .label .label-hw } Housing II (due Mar 17)'
     : ""
