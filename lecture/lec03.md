@@ -1,20 +1,21 @@
 ---
 layout: page
-title: Lecture 3 – Data Sampling and Probability II
+title: Lecture 3 – Pandas I
 nav_exclude: true
 ---
 
-# Lecture 3 – Data Sampling and Probability II
+# Lecture 3 – Pandas I
 
-Presented by Anthony D. Joseph and Suraj Rampure
+Presented by Josh Hug
 
-Content by Anthony D. Joseph, Suraj Rampure, Ani Adhikari
+Content by Fernando Pérez, Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1chdFHBUK_0Uw1Ul5Dk1rMYdv3bQQfTMQ8BllRPp0i1I/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfo0cnFQHr1mMjuIePabJFCh)
-- (supplemental) [Stat 88 chapter on distributions](http://stat88.org/textbook/notebooks/Chapter_03/03_The_Binomial_Distribution.html)
+- [slides]()
+- recording (TBD)
 
-A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
+
+
+<!--A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
 <colgroup>
@@ -60,3 +61,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/wXOBc6qO3YU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td>N/A</td>
 </tr>
+-->
