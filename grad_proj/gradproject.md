@@ -32,7 +32,7 @@ The purpose of the project is to give students experience in both open-ended dat
 
 You will receive feedback from peer grading before the final deadline, and you are expected to incorporate the feedback into the final report and presentation. You will be graded on both the final report and presentation, as well as [deliverables](#deliverables) before the submission of the final reports, including your peer reviews.
 
-**Teamwork**: You can work alone or in a group with **at most two other students**. If you are interested in working with others, we will have a Piazza post for teammate search. Everyone in the same group will receive the same grade. The group size will be taken into consideration for grading.
+**Teamwork**: You can work alone or in a group with **at most two other students**. If you are interested in working with others, we will have an Ed post for teammate search. Everyone in the same group will receive the same grade. The group size will be taken into consideration for grading.
 
 ## Timeline <a name="timeline"></a>
 
@@ -71,7 +71,7 @@ Please be sure to consult the [references on causal inference](#causal_inference
 
 ### Accessing Datasets <a name="access-dataset"></a>
 
-All the datasets (or links to access and download them) provided by us can be found inside the [graduate project dataset link](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Fgrad_proj&branch=main) on DataHub. If you wish to work on the project locally, you can also download the zip files containing the datasets for each topic.
+All the datasets provided by us can be found inside the `shared` directory on Datahub. [graduate project datasets link](TBD) on DataHub. If you wish to work on the project locally, you can also download the zip files containing the datasets for each topic.
 
 The following subsections contain the descriptions and additional requirements for each dataset.
 
@@ -79,7 +79,7 @@ The following subsections contain the descriptions and additional requirements f
 
 #### Dataset A: Testing and Mortality Statistics <a name="1-a"></a>
 
-This dataset contains US reports on COVID-19 testing and cases from the [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) and CDC (Centers for Disease Control and Prevention). You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%201%20-%20Covid%2019&branch=main) within `Dataset_A.zip` on DataHub:
+This dataset contains US reports on COVID-19 testing and cases from the [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) and CDC (Centers for Disease Control and Prevention). You can access all the data [here](TBD) within the `Dataset A` directory on DataHub:
 
 * `csse_covid_19_daily_reports_us.csv` contains US daily reports ([documentation](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data#usa-daily-state-reports-csse_covid_19_daily_reports_us))
 * `cdc_death_counts_by_sex_age_state.csv` contains US weekly reports on deaths involving COVID-19, pneumonia, and influenza reported to NCHS by sex, age, group, and state. ([documentation](https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-by-Sex-Age-and-S/9bhg-hcku))
@@ -89,7 +89,7 @@ You must choose to work with **at least 2 of the reports** above in your analysi
 
 #### Dataset B: Impact on Health Care <a name="1-b"></a>
 
-This dataset contains reports from the Household Pulse Survey launched by NCHS in partnership with the U.S. Census Bureau; it focuses on how COVID-19 has affected survey correspondents' mental health and their access to health care. In addition, it provides statistics on usage of telemedicine by healthcare providers. You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%201%20-%20Covid%2019&branch=main) within `Dataset_B.zip` on DataHub:
+This dataset contains reports from the Household Pulse Survey launched by NCHS in partnership with the U.S. Census Bureau; it focuses on how COVID-19 has affected survey correspondents' mental health and their access to health care. In addition, it provides statistics on usage of telemedicine by healthcare providers. You can access all the data [here](TBD) within the `Dataset B` directory on DataHub:
 
 * `nchs_covid_indicators_of_anxiety_depression.csv` contains survey estimates of responses to questions that are indicators of anxiety or depression based on reported frequency of symptoms within the past week. ([documentation](https://data.cdc.gov/NCHS/Indicators-of-Anxiety-or-Depression-Based-on-Repor/8pt5-q6wp))
 * `nchs_covid_mental_health_care.csv` contains survey estimates of responses to questions that ask if participants have accessed mental health care in the past 4 weeks. ([documentation](https://data.cdc.gov/NCHS/Mental-Health-Care-in-the-Last-4-Weeks/yni7-er2q))
@@ -101,7 +101,7 @@ You must choose to work with **at least 3 of the reports** above in your analysi
 
 #### Dataset C: Ongoing Researches <a name="1-c"></a>
 
-This dataset contains (in full-text and metadata form) scholarly articles related to COVID-19. The data are optimized for machine readability and made available for use by the global research community. The dataset is intended to mobilize researchers to generate new insights from the articles in support of the fight against this infectious disease. You can access the link to obtain the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%201%20-%20Covid%2019&branch=main) within `Dataset_C.zip` on DataHub:
+This dataset contains (in full-text and metadata form) scholarly articles related to COVID-19. The data are optimized for machine readability and made available for use by the global research community. The dataset is intended to mobilize researchers to generate new insights from the articles in support of the fight against this infectious disease. You can access the link to obtain the data [here](TBD) within the `Dataset C` directory on DataHub:
 
 * `covid_open_research_dataset.txt` contains the link that will guide you to obtain the full-text and metadata dataset of COVID-related research articles. ([documentation](https://azure.microsoft.com/en-us/services/open-datasets/catalog/covid-19-open-research/))
 
@@ -109,7 +109,7 @@ This dataset contains (in full-text and metadata form) scholarly articles relate
 
 #### Dataset A: General Measurements and Statistics <a name="2-a"></a>
 
-This dataset contains some general statistics and measurements of various aspects of the climate and the environment. You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%202%20-%20Climate%20and%20the%20Environment&branch=main) within `Dataset_A.zip` on DataHub. It includes the following reports:
+This dataset contains some general statistics and measurements of various aspects of the climate and the environment. You can access all the data [here](TBD) within the `Dataset A` directory on DataHub. It includes the following reports:
 
 - `daily_global_weather_2020.csv` contains data on daily temperature and precipitation measurements. To learn how to use the data from this file, please read the following section on the first report.
 - `us_greenhouse_gas_emissions_direct_emitter_facilities.csv` and `us_greenhouse_gas_emission_direct_emitter_gas_type.csv` contain data reported by EPA (Environment Protection Agency) on greenhouse gas emissions, detailing the specific types of gas reported by facilities and general information about the facilities themselves. The dataset is made available through EPA's [GHGRP (Greenhouse Gas Reporting Program)](https://www.epa.gov/ghgreporting).
@@ -129,7 +129,7 @@ The data contains only the (latitude, longitude) coordinates for the weather sta
 
 #### Dataset B: Biodiversity in the Ecosystem <a name="2-b"></a>
 
-This dataset contains studies focused specifically on the impact of environmental and climate changes on biodiversity and the local ecosystems. You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%202%20-%20Climate%20and%20the%20Environment&branch=main) within `Dataset_B.zip` on DataHub. It includes the following reports:
+This dataset contains studies focused specifically on the impact of environmental and climate changes on biodiversity and the local ecosystems. You can access all the data [here](TBD) within the `Dataset B` directory on DataHub. It includes the following reports:
 
 - `bioCON_plant_diversity.csv` contains data collected as part of an ecological experiment, BioCON (Biodiversity, CO2, and Nitrogen), that started in 1997 and focused on studying biodiversity within the plant species at Cedar Creek Ecosystem Science Preserve. ([documentation](https://search.dataone.org/view/https%3A%2F%2Fpasta.lternet.edu%2Fpackage%2Fmetadata%2Feml%2Fknb-lter-cdr%2F339%2F9))
 - `plant_pollinator_diversity_set1.csv` and `plant_pollinator_diversity_set2.csv` contain ecological data collected from a long-term observation study from 2011 to 2018 that focuses on plant-pollinator interaction and its impact on local biodiversity. ([documentation](https://search.dataone.org/view/https%3A%2F%2Fpasta.lternet.edu%2Fpackage%2Fmetadata%2Feml%2Fknb-lter-and%2F5216%2F6))
@@ -141,7 +141,7 @@ This dataset contains studies focused specifically on the impact of environmenta
 
 This dataset contains a set of reports from pioneering researches that explore the outer space. Much of the data from these studies have provided a rich foundation for a variety of large-scale research projects that explore widely discussed topics such as habitable exoplanets or search for extraterrestrial life.
 
-You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%203%20-%20Emerging%20Researches%20and%20Technologies&branch=main) within `Dataset_A.zip` on DataHub. It includes the following reports:
+You can access all the data [here](TBD) within the `Dataset A` directory on DataHub. It includes the following reports:
 
 - `kepler_exoplanet_search.csv` contains data collected by NASA from the Kepler Space Observatory as part of a long-term study on finding habitable exoplanets from over 10,000 candidates. ([source](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=koi))
 - `kelper_planetary_system_composite.csv` contains data collected by NASA from the Kelper Space Observatory as part of an ongoing study that tabulates all confirmed planetary systems outside the solar system. You are encouraged to use the composite data in conjunction with the exoplanet search results above. ([source](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PSCompPars))
@@ -151,7 +151,7 @@ You can access all the data [here](https://data100.datahub.berkeley.edu/hub/user
 
 A recommender system is an information filtering system that focuses on predicting the preference a user would give to an item by predicting its rank; it is used in a variety of areas, such as search engines, online shopping platforms, etc. This dataset contains a set of reports on various tools using a recommender system.
 
-You can access the links to obtain all the data [here](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https://github.com/DS-100/sp21&urlpath=tree/sp21/grad_proj/Topic%203%20-%20Emerging%20Researches%20and%20Technologies&branch=main) within `Dataset_B.zip` on DataHub. It includes the following reports:
+You can access the links to obtain all the data [here](TBD) within the `Dataset B` directory on DataHub. It includes the following reports:
 - `fitness_recommendation.txt` contains a link to access the fitness data from sequential sensors for various workouts. ([documentation](https://sites.google.com/eng.ucsd.edu/fitrec-project/home))
 - `amazon_reviews.txt` contains a link to access the data on a subset of Amazon product reviews. The report includes metadata such as ratings and text on the reviews and general information about the product. ([documentation](https://nijianmo.github.io/amazon/index.html))
 
@@ -174,7 +174,7 @@ Your analysis notebook(s) should address all of the following components in the 
 - **Data Modeling and Inferences**
   - Please note that the following datasets have a data modeling requirement, i.e. you need to utilize at least 1 machine learning model we teach in this class in your project: Topic 1 - Dataset A, Topic 1 - Dataset C, Topic 2 - Dataset A, Topic 3 - Dataset A, Topic 3 - Dataset B. For datasets not mentioned above, you are welcome to continue building machine learning model(s). Otherwise, we will be placing more
   emphasis on the inference part instead.
-  - Here are a few components your notebook must address:
+  - Here are a few components your notebook must address if your focus is on modeling:
     - What type of machine learning problem are you investigating?
     - What model do you plan on using and why?
     - Does your model require hyperparameter tuning? If so, how do you approach it?
@@ -183,9 +183,12 @@ Your analysis notebook(s) should address all of the following components in the 
     - What loss metrics are you using to evaluate your model?
     - From a bias-variance tradeoff standpoint, how do you assess the performance of your model? How do you check if it is overfitting?
     - How would you improve your model based on the outcome?
-  - If you are choosing to pursue your research question from an inference angle, your notebook must demonstrate sufficient analysis and visualization to support your conclusion. We will not restrict you to the type of analysis as there are many different statistical techniques that may apply to your case. However, we also ask that you provide detailed justification for the techniques you choose and how it allows you make those inferences.
+  - If you are choosing to pursue your research question from an inference angle
+    - Your notebook must demonstrate sufficient analysis and visualization to support your conclusion. 
+    - You must have a clearly constructed hypothesis test (including a clearly defined test statistic, significance level, and justification of chosen procedure)
+    - We will not restrict you to the type of statistical test you conduct as there are many different statistical techniques that may apply to your case. However, we also ask that you provide detailed justification for the techniques you choose and how it allows you make those inferences.
 
-[Component 2]. **Project Writeup (previously narrative notebook)**. This is a single PDF that summarizes your workflow and what you have learned. It should be structured as a research paper and include a title, list of authors, abstract, introduction, description of data, description of methods, summary of results, and discussion. Make sure to number figures and tables and include informative captions.
+[Component 2]. **Project Writeup**. This is a single PDF that summarizes your workflow and what you have learned. It should be structured as a research paper and include a title, list of authors, abstract, introduction, description of data, description of methods, summary of results, and discussion. Make sure to number figures and tables and include informative captions.
 
 If you wish, you can render the PDF using LaTeX, provided that the provenance of the figures is clearly labeled in the main narrative, and the figures can be reproduced by running the analysis notebooks
 
