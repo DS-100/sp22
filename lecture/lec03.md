@@ -10,8 +10,9 @@ Presented by Josh Hug
 
 Content by Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1pvgbzNQl-ktWPZSVeXICCMKTE0JvuKyx7HcA04B0uB0/edit?usp=sharing)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec03&branch=main)
+- [slides](https://docs.google.com/presentation/d/1pvgbzNQl-ktWPZSVeXICCMKTE0JvuKyx7HcA04B0uB0/edit?usp=sharing){:target="_blank"}
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec03&branch=main){:target="_blank"}
+- [code in HTML format](https://ds100.org/sp22/resources/assets/lectures/lec03/03-pandas-basics.html){:target="_blank"}
 - recording (TBD)
 
 
