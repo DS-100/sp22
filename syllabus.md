@@ -131,7 +131,7 @@ Homeworks are week-long assignments that are designed to help students develop a
 
 Projects: Projects are two-week long assignments that synthesize multiple topics.
 
-- In a typical week, the homework (or project) is released on Friday and is due the following Thursday at 11:59PM Pacific. One or two homeworks will be on-paper written assignments; the rest will be Jupyter notebooks. See the [Policies](#policies) section for grading details.
+- In a typical week, the homework (or project) is released Friday through DataHub and is due the following Thursday at 11:59PM Pacific through **Gradescope** (updated 1/26). One or two homeworks will be on-paper written assignments; the rest will be Jupyter notebooks. See the [Policies](#policies) section for grading details.
 <!-- - Near the midterm, or during weeks in which a project is assigned, you will have more than one week to work on the current assignment. -->
 - Homeworks and projects have both visible and hidden autograder tests. The visible tests are mainly sanity checks. For example, a sanity check might verify that the answer you entered is a number as expected, and not a word. The hidden tests generally check for correctness, and are invisible to students while they are doing the assignment.
 - The primary form of support students will have for homeworks and projects are the **office hours** we’ll host, and **Ed**.
@@ -141,7 +141,7 @@ Projects: Projects are two-week long assignments that synthesize multiple topics
 
 Labs are shorter programming assignments designed to give students familiarity with new ideas.
 
-- In a typical week, the lab is released on Friday and is due the following Tuesday at 11:59PM.
+- In a typical week, the lab is released on Friday through DataHub and is due the following Tuesday at 11:59PM through **Gradescope** (updated 1/26).
 - All lab autograder tests are visible.
 - In lieu of official lab sections, we will be helping with lab in several ways:
     - Lab walkthroughs, which are recorded videos posted as part of the lab.
