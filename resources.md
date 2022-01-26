@@ -64,6 +64,8 @@ Click [here]({{ site.baseurl }}/setup) to read our guide on how to set up our de
 
 #### Pandas
 
+  - [DS100 Textbook Pandas Reference Table](https://www.textbook.ds100.org/ch/a04/ref_pandas.html)
+  - [Pandas API Reference](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)
   - [The Pandas Cookbook](http://nbviewer.jupyter.org/github/jvns/pandas-cookbook/tree/master/cookbook/): This provides a nice overview of some of the basic Pandas functions. However, it is slightly out of date.
   - [Learn Pandas](https://bitbucket.org/hrojas/learn-pandas) A set of lessons providing an overview of the Pandas library.
   - [Python for Data Science](http://wavedatalab.github.io/datawithpython/index.html) Another set of notebook demonstrating Pandas functionality.
@@ -93,11 +95,13 @@ As a data scientist you will often need to search for information on various lib
   - [Bash Part 2](https://drive.google.com/file/d/0B6nL03OcEigncUxXNnNmV3VuN1U/view): Part 2 of the intro to command line.
 
 - **Python:**
+  - [DS100 Textbook scikit-learn Reference Table](https://www.textbook.ds100.org/ch/a04/ref_sklearn.html)
   - [Python Tutorial](https://docs.python.org/3.5/tutorial/): Teach yourself python. This is a pretty comprehensive tutorial.
   - [Python + Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/) this tutorial provides a great overview of a lot of the functionality we will be using in DS100.
   - [Python 101](http://nbviewer.jupyter.org/urls/bitbucket.org/hrojas/learn-pandas/raw/master/lessons/Python_101.ipynb): A notebook demonstrating a lot of python functionality with some (minimal explanation).
 
 - **Data Visualization:**
+  - [DS100 Textbook Seaborn Reference Table](https://www.textbook.ds100.org/ch/a04/ref_seaborn.html) and [Matplotlib Reference Table](https://www.textbook.ds100.org/ch/a04/ref_matplotlib.html)
   - [matplotlib.pyplot tutorial](http://matplotlib.org/users/pyplot_tutorial.html#pyplot-tutorial): This short tutorial provides an overview of the basic plotting utilities we will be using.
   - [Altair Documentation](https://altair-viz.github.io/): Altair(Vega-Lite) is a new and powerful visualization library.  We might not get to teach it this semester, but you should check it out if you are interested in pursuing visualization deeper. In particular, you should find the [example gallery](https://altair-viz.github.io/gallery/index.html) helpful.
   - [Prof. Jeff Heer's Visualization Curriculum](https://github.com/uwdata/visualization-curriculum): This repository contains a series of Python-based Jupyter notebooks that teaches data visualization using Vega-Lite and Altair.
