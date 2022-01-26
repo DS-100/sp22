@@ -108,7 +108,7 @@ Below is a high-level “typical week in the course” for Spring 2022.
 <br>
 
 ### Lecture
-There are 2 live lectures per week. You can attend in-person or via Zoom as permitted by campus policy. All lecture recordings will also be published within 24 hours of the live recording. Each lecture will also have an EdStem thread for students to ask questions.
+There are 2 live lectures per week. You can attend hybrid all semester: in-person or via Zoom as permitted by campus policy. All lecture recordings will also be published within 24 hours of the live recording. 
 
 
 <!--
