@@ -10,6 +10,7 @@ days:
   events:
     ? '**Lecture 3**{: .label .label-lecture } [Pandas I](lecture/lec03)'
     : '[Ch. 6.1](https://www.textbook.ds100.org/ch/06/pandas_subsetting.html), [6.5](https://www.textbook.ds100.org/ch/06/pandas_other_reps.html)'
+    ? 'Textbook: [Pandas Reference Table](https://www.textbook.ds100.org/ch/a04/ref_pandas.html)'
 - date: 2022-01-27
   events:
     ? '**Lecture 4**{: .label .label-lecture } Pandas II'
