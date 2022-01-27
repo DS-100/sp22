@@ -4,20 +4,17 @@ title: Lecture 4 – Pandas I
 nav_exclude: true
 ---
 
-# Lecture 4 - Pandas, Part 1
+# Lecture 4 - Pandas, Part 2
 
-Presented by Fernando Pérez
+Presented by Josh Bug
 
-Content by Fernando Pérez, Josh Hug
+Content by Josh Hug, Fernando Pérez
 
-- [slides](https://docs.google.com/presentation/d/1s0hoeSwst3o3FnwzdiUnlwfvzn0Q71Na1_gK6G9yh10/edit?usp=sharing)
-- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfqr9gXn5ZzH30aKY7S9cMSy)
-- [code](https://github.com/DS-100/fa21/tree/main/lec/lec04) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec04/&branch=main))
+- [slides](https://docs.google.com/presentation/d/1FC-cs5MTGSkDzI_7R_ZENgwoHQ4aVamxFOpJuWT0fo0/edit?usp=sharing)
+- [code](https://github.com/DS-100/sp22/tree/main/lec/lec04) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec04/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec04/lec04.html)
-- [Intro to Pandas if you’ve taken Data 8 (zip)](https://github.com/DS-100/fa21/raw/main/lec/lec04/pandas_for_data8_students.zip)
-- [Prof. Hug's Pandas I Lecture Materials](https://ds100.org/su20/lecture/lec5/)
 
-A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
+<!--A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
 <colgroup>
@@ -79,3 +76,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><a href="https://forms.gle/Asvgi4UWUFruanN1A" target="\_blank">4.5.2</a></td>
 </tr>
 <tr>
+-->

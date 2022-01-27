@@ -14,7 +14,7 @@ days:
     ? 'Reference: [Pandas API Documentation](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)'
 - date: 2022-01-27
   events:
-    ? '**Lecture 4**{: .label .label-lecture } Pandas II'
+    ? '**Lecture 4**{: .label .label-lecture } [Pandas II](lecture/lec04)'
     : '[Ch. 6.2-6.4](https://www.textbook.ds100.org/ch/06/pandas_aggregating.html)'
 - date: 2021-01-28
   events:
