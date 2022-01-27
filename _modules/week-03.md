@@ -9,11 +9,11 @@ days:
 - date: 2022-02-01
   events:
     ? '**Lecture 5**{: .label .label-lecture } Data Cleaning, EDA'
-    : '[Ch. 8-10](https://www.textbook.ds100.org/ch/08/repr_intro.html)'
+    : '[Ch. 8-9](https://www.textbook.ds100.org/ch/08/wrangling_intro.html)'
 - date: 2022-02-03
   events:
     ? '**Lecture 6**{: .label .label-lecture } Regex'
-    : '[Ch. 13](https://www.textbook.ds100.org/ch/13/text_intro.html)'
+    : '[Ch. 12](https://www.textbook.ds100.org/ch/12/text_intro.html)'
 - date: 2021-02-04
   events:
     ? '**Discussion 3**{: .label .label-disc } Pandas, Data Cleaning'

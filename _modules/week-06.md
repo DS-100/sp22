@@ -9,7 +9,7 @@ days:
 - date: 2022-02-22
   events:
     ? '**Lecture 11**{: .label .label-lecture } Ordinary Least Squares'
-    : '[Ch. 19.1](https://www.textbook.ds100.org/ch/19/mult_model.html)'
+    : '[Ch. 18.1](https://www.textbook.ds100.org/ch/18/mult_model.html)'
 - date: 2022-02-24
   events:
     ? '**Midterm**{: .label .label-hw } Midterm 1 (7-9 pm)'
