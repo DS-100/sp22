@@ -18,7 +18,7 @@ days:
     : '[Ch. 6.2-6.4](https://www.textbook.ds100.org/ch/06/pandas_aggregating.html)'
 - date: 2021-01-28
   events:
-    ? '**Discussion 2**{: .label .label-disc } Sampling and Probability, Pandas'
+    ? '**Discussion 2**{: .label .label-disc } [Sampling and Probability, Pandas](https://drive.google.com/file/d/1mFuGnkzAu_knU2c0MHE8LRuXnfhu6kIY/view?usp=sharing) (code)'
     ? '**Lab 2**{: .label .label-lab } Pandas (due Feb 1)'
     ? '**Homework 2**{: .label .label-hw } Food Safety (due Feb 3)'
     : ""
