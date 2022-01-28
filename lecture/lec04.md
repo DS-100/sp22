@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lecture 4 – Pandas I
+title: Lecture 4 – Pandas II
 nav_exclude: true
 ---
 
@@ -13,6 +13,7 @@ Content by Josh Hug, Fernando Pérez
 - [slides](https://docs.google.com/presentation/d/1FC-cs5MTGSkDzI_7R_ZENgwoHQ4aVamxFOpJuWT0fo0/edit?usp=sharing)
 - [code](https://github.com/DS-100/sp22/tree/main/lec/lec04) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec04/&branch=main))
 - [code HTML](../../resources/assets/lectures/lec04/lec04.html)
+- [recording](https://youtu.be/IKkdllmBLzE){:target="_blank"}
 
 <!--A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
