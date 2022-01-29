@@ -19,7 +19,7 @@ days:
 - date: 2021-01-28
   events:
     ? '**Discussion 2**{: .label .label-disc } [Sampling and Probability, Pandas](https://drive.google.com/file/d/1mFuGnkzAu_knU2c0MHE8LRuXnfhu6kIY/view?usp=sharing) ([code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Fdisc%2Fdisc02))'
-    ? '**Lab 2**{: .label .label-lab } Pandas (due Feb 1)'
+    ? '**Lab 2**{: .label .label-lab } [Pandas](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Flab%2Flab02) (due Feb 1)'
     ? '**Homework 2**{: .label .label-hw } [Food Safety](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Fhw%2Fhw02) (due Feb 3)'
     : ""
 
