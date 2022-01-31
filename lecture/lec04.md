@@ -6,7 +6,7 @@ nav_exclude: true
 
 # Lecture 4 - Pandas, Part 2
 
-Presented by Josh Bug
+Presented by Josh Hug
 
 Content by Josh Hug, Fernando Pérez
 
