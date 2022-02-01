@@ -4,7 +4,7 @@ weekNumber: 3
 days:
 - date: 2022-01-31
   events:
-    ? '**Weekly Check 3**{: .label .label-proj } Weekly Check 3 (due Feb 7)'
+    ? '**Weekly Check 3**{: .label .label-proj } [Weekly Check 3](https://forms.gle/rTbGJayTnpaaFt1EA) (due Feb 7)'
     : ''
 - date: 2022-02-01
   events:
