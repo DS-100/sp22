@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2022-02-01
   events:
-    ? '**Lecture 5**{: .label .label-lecture } Data Cleaning, EDA'
+    ? '**Lecture 5**{: .label .label-lecture } [Data Cleaning, EDA](lecture/lec05)'
     : '[Ch. 8-9](https://www.textbook.ds100.org/ch/08/wrangling_intro.html)'
 - date: 2022-02-03
   events:

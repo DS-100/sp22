@@ -7,6 +7,11 @@ description: Calendars with times for all course events.
 
 # Calendar
 
+<p>
+<a href="http://oh.ds100.org/" class="btn btn-green" target="_blank">Office Hours Queue</a>
+<a href="https://berkeley.zoom.us/j/97379426810?pwd=TnRBdnRKYjVEd1pVaGQ1Y3hJaTk5dz09" class="btn btn-purple" target="_blank">Zoom (Online OH only)</a>
+</p>
+
 - [Office Hours Calendar](#ohc)
 - [Lecture, Discussion, Lab, and Special Events Calendar](#ldlc)
 
