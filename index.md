@@ -33,7 +33,8 @@ UC Berkeley, Spring 2022
 
 Jump to current week: [here](#week-{{page.currWeekNumber}}).
 
-+ **All discussions (Week 1), Lab Help Sections (Week 2), and office hours (Week 2) will be held online for the first two weeks (through 1/28)**. Zoom links, discussions sign up link is on Ed [here](https://edstem.org/us/courses/15436/discussion/1021263). In-person sections will go back to in-person starting the week of 1/31; lecture will stay hybrid (lecture in-person signup through Week 2: [here](https://www.signupgenius.com/go/805094ea8aa28a3fd0-inperson)).
++ Lecture is hybrid: in-person in Li Ka Shing 245 and online via Zoom (see link above). Recordings will be posted within 12 hours of live lecture.
++ For discussion recordings, see this Jupyter [notebook](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=tree%2Fsp22%2Fdisc%2Fdisc_recording_links.ipynb&branch=main). 
 + **Frequently Asked Questions:** Before posting on the [class Ed]({{page.course.edstem}}), please read the [class FAQ page]({{page.course.faq}}).
 + Join Ed: [here]({{page.course.edstem_join}}).
 + Textbook readings are optional and actively in development. See the [Resources]({{site.baseurl}}/resources/#textbook) for more details.

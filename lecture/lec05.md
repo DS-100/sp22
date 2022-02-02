@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 5 – Data Cleaning, EDA
+title: Lecture 5 – Data Wrangling, EDA
 nav_exclude: true
 ---
 
-# Lecture 5 - Data Cleaning, EDA
+# Lecture 5 - Data Wrangling, EDA
 
 Presented by Lisa Yan
 
