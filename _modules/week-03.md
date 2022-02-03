@@ -12,7 +12,7 @@ days:
     : '[Ch. 8-9](https://www.textbook.ds100.org/ch/08/wrangling_intro.html)'
 - date: 2022-02-03
   events:
-    ? '**Lecture 6**{: .label .label-lecture } Regex'
+    ? '**Lecture 6**{: .label .label-lecture } [Regex](lecture/lec06)'
     : '[Ch. 12](https://www.textbook.ds100.org/ch/12/text_intro.html)'
 - date: 2021-02-04
   events:

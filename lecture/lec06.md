@@ -1,20 +1,20 @@
 ---
 layout: page
-title: Lecture 6 – Data Cleaning and EDA
+title: Lecture 6 – Regular Expressions
 nav_exclude: true
 ---
 
-# Lecture 6 – Data Cleaning and EDA
+# Lecture 6 - Regular Expressions
 
-Presented by Anthony D. Joseph
+Presented by Lisa Yan
 
-Content by Anthony D. Joseph, Joseph Gonzalez, Deborah Nolan, Joseph Hellerstein
+Content by Lisa Yan and Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1vx3V52wAwuM2_mJNUlhIAqJpD_-TTviZKak6ra-In2o/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfoJppOTck3vL3r_947Vh3uM)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa20&amp;subPath=lecture/lec06/)
-- [(bonus) Joe Hellerstein’s primer on data models](https://drive.google.com/file/d/1nLftW2PaJNot-J9zIgES4HchXTTrB_63/view?usp=sharing)
+- [slides](https://docs.google.com/presentation/d/1vx3V52wAwuM2_mJNUlhIAqJpD_-TTviZKak6ra-In2o/edit?usp=sharing){:target="_blank"}
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=tree%2Fsp22%2Flec%2Flec06%2Flec06.ipynb&branch=main){:target="_blank"}
+- DS100 Regex Reference Sheet on the [Resources page]({{site.baseurl}}/resources#regex-practice)
 
+<!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
@@ -71,3 +71,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><iframe width="300" height="" src="https://youtube.com/embed/Ta2MysR0_G0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
 <td>N/A</td>
 </tr>
+-->
