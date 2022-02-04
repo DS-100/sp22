@@ -11,8 +11,8 @@ Presented by Lisa Yan
 Content by Lisa Yan
 
 - [slides](https://docs.google.com/presentation/d/1R9lPV6ysgxGKe5g9vnfzh7Z6p8R5wmNQtE4k-lZEn74/edit?usp=sharing){:target="_blank"}
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec05%2Flec05.ipynb&branch=main)){:target="_blank"}
-- [code HTML](../../resources/assets/lectures/lec05/lec05.html)){:target="_blank"}
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec05%2Flec05.ipynb&branch=main){:target="_blank"}
+- [code HTML](../../resources/assets/lectures/lec05/lec05.html){:target="_blank"}
 - [recording](https://youtu.be/NY-LmBuo_co){:target="_blank"}
 
 <!--
