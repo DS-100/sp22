@@ -236,7 +236,7 @@ Note that extension requests will *not* be granted in cases where a student’s 
 
 ### Regrade Requests
 
-Students will be allowed to submit regrade requests for the autograded and written portions of assignments in cases in which the rubric was incorrectly applied or the autograder scored their submission incorrectly. Regrades for the written portions of assignments will be handled through Gradescope, and autograder regrades via a Google Form. The deadline for regrade requests (autograded and written) is one week after grades are released for the corresponding assignment. Google Form for written regrades is [here](https://forms.gle/hD8DR4iaQWTBY7uv9).
+Students will be allowed to submit regrade requests for the autograded and written portions of assignments in cases in which the rubric was incorrectly applied or the autograder scored their submission incorrectly. Regrades for the written portions of assignments will be handled through Gradescope, and autograder regrades via a Google Form [here](https://forms.gle/hD8DR4iaQWTBY7uv9). The deadline for regrade requests (autograded and written) is one week after grades are released for the corresponding assignment.
 
 **Always check that the autograder executes correctly!** Gradescope will show you the output of the public tests, and you should see the same results as you did on DataHub. If you see a discrepancy, ensure that you have exported the assignment correctly and, if there is still an issue, post on EdStem _as soon as possible_.
 
