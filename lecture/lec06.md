@@ -12,7 +12,8 @@ Content by Lisa Yan and Josh Hug
 
 - [slides](https://docs.google.com/presentation/d/1xQsqa7e3xDZ9nBiekbSBOecwvQm8pSVGa-FBoV6aJ7E/edit){:target="_blank"}
 - [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=tree%2Fsp22%2Flec%2Flec06%2Flec06.ipynb&branch=main){:target="_blank"}
-- DS100 Regex Reference Sheet on the [Resources page]({{site.baseurl}}/resources#regex-practice)
+- DS100 Regex Reference Sheet on the [Resources page]({{site.baseurl}}/resources#regex-practice){:target="_blank"}
+- [recording](https://youtu.be/neFOzXoS06s){:target="_blank"}
 
 <!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
