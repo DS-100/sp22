@@ -34,7 +34,6 @@ UC Berkeley, Spring 2022
 Jump to current week: [here](#week-{{page.currWeekNumber}}).
 
 + Lecture is hybrid: in-person in Li Ka Shing 245 and online via Zoom (see link above). Recordings will be posted within 12 hours of live lecture.
-+ For discussion recordings, see this Jupyter [notebook](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=tree%2Fsp22%2Fdisc%2Fdisc_recording_links.ipynb&branch=main). 
 + **Frequently Asked Questions:** Before posting on the [class Ed]({{page.course.edstem}}), please read the [class FAQ page]({{page.course.faq}}).
 + Join Ed: [here]({{page.course.edstem_join}}).
 + Textbook readings are optional and actively in development. See the [Resources]({{site.baseurl}}/resources/#textbook) for more details.
