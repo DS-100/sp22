@@ -1,21 +1,20 @@
 ---
 layout: page
-title: Lecture 8 – SQL I
+title: Lecture 8 – Visualizations II
 nav_exclude: true
 ---
 
-# Lecture 8 - SQL I
+# Lecture 8 - Visualizations I
 
-Presented by Alvin Wan
+Presented by Josh Hug
 
-Content by Anthony D. Joseph, Allen Shen, Josh Hug, John DeNero, Joseph Gonzalez
+Content by 
 
-- [slides](https://docs.google.com/presentation/d/1dluAsb2QMQQvooBJC88-mSFu9g6S9zqk6g9XarYbP-E/edit?usp=sharing)
-- [demo slides](https://docs.google.com/presentation/d/1OZA9ayI3i6-rYGwZHhyPoOlb5pj2EH-haHuWVw9disg/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfocPLvQRFt4JwyebH5PNuy4)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flec%2Flec08&branch=main)
+- slides
+- code
 
-**The Quick Checks for this lecture are not yet ready to be released; please check back later.** A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
+
+<!-- **The Quick Checks for this lecture are not yet ready to be released; please check back later.** A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
 <colgroup>
@@ -71,3 +70,4 @@ Content by Anthony D. Joseph, Allen Shen, Josh Hug, John DeNero, Joseph Gonzalez
 <td><iframe width="300" height="300" height src="https://www.youtube.com/embed/CE8QcsBkwFs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">8.8</a></td>
 </tr>
+-->

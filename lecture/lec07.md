@@ -1,20 +1,19 @@
 ---
 layout: page
-title: Lecture 7 – Regular Expressions
+title: Lecture 7 – Visualizations I
 nav_exclude: true
 ---
 
-# Lecture 7 - Regular Expressions
+# Lecture 7 - Visualizations
 
-Presented by Anthony D. Joseph
+Presented by Josh Hug
 
-Content by Anthony D. Joseph, Josh Hug
+Content by Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1r4AT3zpJa0TE_B3zPn9WAimPMiWp77YcvKvdTLaMSII/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfp_ralYHWOfZQNDa5og0Ptw)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&amp;subPath=lec/lec07/)
+- slides
+- code
 
-A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
+<!-- A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
 <colgroup>
@@ -65,3 +64,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><iframe width="300" height="" src="https://youtube.com/embed/_pka1Yu8h2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
 <td><a href="https://forms.gle/eZ29VEahKBh8frJ47" target="\_blank">7.7</a></td>
 </tr>
+-->
