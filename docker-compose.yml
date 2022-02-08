@@ -1,0 +1,10 @@
+version: '3.0'
+
+services:
+  notebook:
+    image: jupyter/pyspark-notebook
+    container_name: Data100-Notebook
+    ports:
+      - 8888:8888
+    volumes:
+      - ./:/home/jovyan
