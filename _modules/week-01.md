@@ -14,7 +14,7 @@ days:
     : '[Ch. 2](https://www.textbook.ds100.org/ch/02/data_scope_intro.html), [3.1](https://www.textbook.ds100.org/ch/03/theory_urn.html)'
 - date: 2022-01-21
   events:
-    ? '**Discussion 1**{: .label .label-disc } [Intro](https://drive.google.com/file/d/1G-DFAHyEJeJt9s58eYfIaDSAlzRRUV8J/view?usp=drivesdk) ([solutions](https://drive.google.com/file/d/15ScVLva9Xye0iyp6a5cPLYxAMbYMS3XM/view?usp=sharing))'
+    ? '**Discussion 1**{: .label .label-disc } [Intro](https://drive.google.com/file/d/1G-DFAHyEJeJt9s58eYfIaDSAlzRRUV8J/view?usp=drivesdk) ([solutions](https://drive.google.com/file/d/15ScVLva9Xye0iyp6a5cPLYxAMbYMS3XM/view?usp=sharing)) ([recording](https://youtube.com/playlist?list=PLQCcNQgUcDfqstviOsQASBH4PotPoIHxO))'
     ? '**Lab 1**{: .label .label-lab } [Prerequisite Coding](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Flab%2Flab01) (due Jan 25)'
     ? '**Homework 1**{: .label .label-hw } [Intro + Prerequisites](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Fhw%2Fhw01) (due Jan 27)'
     : ''
