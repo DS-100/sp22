@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2022-02-08
   events:
-    ? '**Lecture 7**{: .label .label-lecture } [Visualization I](https://docs.google.com/presentation/d/16I18f4NlOdODeQ20e4YQVwDJ_869MHKKklWeMmYK8IQ/edit?usp=sharing)'
+    ? '**Lecture 7**{: .label .label-lecture } [Visualization I](lecture/lec07)'
     : '[Ch. 10.1-10.3](https://www.textbook.ds100.org/ch/10/viz_quantitative.html)'
     ? 'Textbook: [Seaborn Reference Table](https://www.textbook.ds100.org/ch/a04/ref_seaborn.html)'
     ? 'Textbook: [Matplotlib Reference Table](https://www.textbook.ds100.org/ch/a04/ref_matplotlib.html)'
