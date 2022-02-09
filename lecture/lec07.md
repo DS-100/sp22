@@ -12,6 +12,7 @@ Content by Josh Hug
 
 - [slides](https://docs.google.com/presentation/d/16I18f4NlOdODeQ20e4YQVwDJ_869MHKKklWeMmYK8IQ/edit?usp=sharing){:target="_blank"}
 - [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=tree%2Fsp22%2Flec%2Flec07%2Flec7.ipynb&branch=main){:target="_blank"}
+- [recording](https://youtu.be/uRmKjhDB-rU){:target="_blank"}
 
 <!-- A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
