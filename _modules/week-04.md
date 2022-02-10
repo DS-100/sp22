@@ -14,8 +14,7 @@ days:
     ? 'Textbook: [Matplotlib Reference Table](https://www.textbook.ds100.org/ch/a04/ref_matplotlib.html)'
 - date: 2022-02-10
   events:
-    ? '**Lecture 8**{: .label .label-lecture } [Visualization II](https://docs.google.com/presentation/d/1W5PoZ-SwxjpFMrCblOHDqutCP7v4RGNf2s8rnz6d8ak/edit?usp=sharing)'
-    : '[Ch. 10.4-10.6](https://www.textbook.ds100.org/ch/10/viz_principles.html)'
+    ? '**Lecture 8**{: .label .label-lecture } [Visualization II](lecture/lec08)'
 - date: 2021-02-11
   events:
     ? '**Discussion 4**{: .label .label-disc } Regex, Visualization'
