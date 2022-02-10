@@ -11,7 +11,8 @@ Presented by Josh Hug
 Content by 
 
 - [slides](https://docs.google.com/presentation/d/1W5PoZ-SwxjpFMrCblOHDqutCP7v4RGNf2s8rnz6d8ak/edit?usp=sharing)
-- code
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=tree%2Fsp22%2Flec%2Flec07%2Flec8.ipynb&branch=main){:target="_blank"}
+- [recording](https://www.youtube.com/playlist?list=PLNSdoiHk6ujjMD38SRGlblg0glWUQM4NK)
 
 
 <!-- **The Quick Checks for this lecture are not yet ready to be released; please check back later.** A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
