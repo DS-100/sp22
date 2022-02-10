@@ -4,13 +4,13 @@ title: Lecture 8 – Visualizations II
 nav_exclude: true
 ---
 
-# Lecture 8 - Visualizations I
+# Lecture 8 - Visualizations II
 
 Presented by Josh Hug
 
 Content by 
 
-- slides
+- [slides](https://docs.google.com/presentation/d/1W5PoZ-SwxjpFMrCblOHDqutCP7v4RGNf2s8rnz6d8ak/edit?usp=sharing)
 - code
 
 
