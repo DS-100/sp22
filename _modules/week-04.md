@@ -17,7 +17,7 @@ days:
     ? '**Lecture 8**{: .label .label-lecture } [Visualization II](lecture/lec08)'
 - date: 2021-02-11
   events:
-    ? '**Discussion 4**{: .label .label-disc } Regex, Visualization'
+    ? '**Discussion 4**{: .label .label-disc } [Regex, Visualization](https://drive.google.com/file/d/1zZo8GO-0GhQTR_ZUpyssCwfAWCJxEGZe/view?usp=sharing)'
     ? '**Lab 4**{: .label .label-lab } Transformations and KDE (due Feb 15)'
     ? '**Homework 4**{: .label .label-hw } Bike Sharing (due Feb 17)'
     : ""
