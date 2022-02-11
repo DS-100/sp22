@@ -8,10 +8,11 @@ nav_exclude: true
 
 Presented by Josh Hug
 
-Content by 
+Content by Josh Hug
 
 - [slides](https://docs.google.com/presentation/d/1W5PoZ-SwxjpFMrCblOHDqutCP7v4RGNf2s8rnz6d8ak/edit?usp=sharing)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=tree%2Fsp22%2Flec%2Flec07%2Flec8.ipynb&branch=main){:target="_blank"}
+- [code](https://github.com/DS-100/sp22/tree/main/lec/lec08){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=tree%2Fsp22%2Flec%2Flec07%2Flec8.ipynb&branch=main){:target="_blank"})
+- [code HTML](../../resources/assets/lectures/lec08/lec08.html){:target="_blank"}
 - [recording](https://www.youtube.com/playlist?list=PLNSdoiHk6ujjMD38SRGlblg0glWUQM4NK)
 
 

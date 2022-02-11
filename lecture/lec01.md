@@ -11,8 +11,9 @@ Presented by Josh Hug and Lisa Yan
 Content by Fernando Pérez, Alvin Wan, Suraj Rampure, Allen Shen, Joseph Gonzalez, Andrew Bray, Josh Hug, and Sam Lau
 
 - [slides](https://docs.google.com/presentation/d/1qYtBrllmWNvydDMs9F311S9UwjqUt4I_yNZ0P4yXA54/edit?usp=sharing){:target="_blank"}
-- [Code](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&urlpath=tree/sp22/lec/lec01/lec01.ipynb&branch=main){:target="_blank"} ([Code HTML](../../resources/assets/lectures/lec01/lec01.html){:target="_blank"})
-- [Recording](https://youtu.be/zv41ooawXlA){:target="_blank"}
+- [code](https://github.com/DS-100/sp22/tree/main/lec/lec01){:target="_blank"} ([launch](http://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&urlpath=tree/sp22/lec/lec01/lec01.ipynb&branch=main))
+- [code HTML](../../resources/assets/lectures/lec01/lec01.html){:target="_blank"}
+- [recording](https://youtu.be/zv41ooawXlA){:target="_blank"}
 
 <!-- ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec01/&branch=main))
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfqqdzogA5zgyA00cOMeMMMR)
