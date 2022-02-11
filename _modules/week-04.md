@@ -18,7 +18,7 @@ days:
 - date: 2021-02-11
   events:
     ? '**Discussion 4**{: .label .label-disc } [Regex, Visualization](https://drive.google.com/file/d/1zZo8GO-0GhQTR_ZUpyssCwfAWCJxEGZe/view?usp=sharing)'
-    ? '**Lab 4**{: .label .label-lab } Transformations and KDE (due Feb 15)'
+    ? '**Lab 4**{: .label .label-lab } [Transformations and KDE](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Flab%2Flab04%2Flab04.ipynb) (due Feb 15)'
     ? '**Homework 4**{: .label .label-hw } Bike Sharing (due Feb 17)'
     : ""
 
