@@ -4,17 +4,15 @@ title: Lecture 9 – SQL II
 nav_exclude: true
 ---
 
-# Lecture 9 – SQL II
+# Lecture 9 – Modeling and Simple Linear Regression
 
-Presented by Alvin Wan
+By Lisa Yan
 
-Content by Alvin Wan, Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu
+- [slides](https://docs.google.com/presentation/d/1SnfnL2A0EvSyEYXG_15YYUnP1u-xISkNrholjdaQKbg/edit?usp=sharing){:target="_blank"}
+- [code](https://github.com/DS-100/sp22/tree/main/lec/lec09){:target="_blank"} ([launch](
+https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec09%2Flec09.ipynb&branch=main){:target="_blank"}
 
-- [slides](https://docs.google.com/presentation/d/1D3U3P78-BfjLW7EYK9NKRHMAWXj8j7ua19bZtTP6CZs/edit?usp=sharing)
-- [demo slides](https://docs.google.com/presentation/d/1WWGRqszsNGJMQ3jA8rAB_8zgIfPQQPl14ZfkFUD1Sno/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfrwfPDEi-Nw_ZqRTyZm8nWQ)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flec%2Flec09&branch=main)
-
+<!--
 **The Quick Checks for this lecture are not yet ready to be released; please check back later.** A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
@@ -72,3 +70,4 @@ Content by Alvin Wan, Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yif
 <td><iframe width="300" height="300" height src="https://youtube.com/embed/8Q9cIg4s8v8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
 <td><a href="" target="\_blank">9.8</a></td>
 </tr>
+-->
