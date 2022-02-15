@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2022-02-15
   events:
-    ? '**Lecture 9**{: .label .label-lecture } Intro to Modeling, Simple Linear Regression'
+    ? '**Lecture 9**{: .label .label-lecture } [Intro to Modeling, Simple Linear Regression](lecture/lec09)'
     : '[Ch. 4](https://www.textbook.ds100.org/ch/04/modeling_intro.html)'
 - date: 2022-02-17
   events:
