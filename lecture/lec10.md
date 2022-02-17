@@ -10,7 +10,7 @@ By Lisa Yan
 
 - [slides](https://docs.google.com/presentation/d/1tCdhfvPOe7R4T7V9L9VjR_KtJG39UapZuNfNWITMK3Q/edit?usp=sharing){:target="_blank"}
 - [code](https://github.com/DS-100/sp22/tree/main/lec/lec10){:target="_blank"} ([launch](
-https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec09%2Flec10.ipynb&branch=main){:target="_blank"})
+https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec10%2Flec10.ipynb&branch=main){:target="_blank"})
 - [code HTML](../../resources/assets/lectures/lec10/lec10.html){:target="_blank"}
 
 <!--
