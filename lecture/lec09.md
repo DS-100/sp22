@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lecture 9 – SQL II
+title: Lecture 9 – Modeling and Simple Linear Regression
 nav_exclude: true
 ---
 
