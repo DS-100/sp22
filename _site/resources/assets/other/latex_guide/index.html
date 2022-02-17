@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
   
-    <title>Lecture 17 – Bias and Variance - Data 100</title>
+    <title>Quick Guide to LaTeX - Data 100</title>
 
     
   
@@ -24,18 +24,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Lecture 17 – Bias and Variance | Data 100</title>
+<title>Quick Guide to LaTeX | Data 100</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Lecture 17 – Bias and Variance" />
+<meta property="og:title" content="Quick Guide to LaTeX" />
 <meta name="author" content="Andrew Lenz" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Principles and Techniques of Data Science" />
 <meta property="og:description" content="Principles and Techniques of Data Science" />
-<link rel="canonical" href="http://localhost:4000/sp22/lecture/lec17/" />
-<meta property="og:url" content="http://localhost:4000/sp22/lecture/lec17/" />
+<link rel="canonical" href="http://localhost:4000/sp22/resources/assets/other/latex_guide/" />
+<meta property="og:url" content="http://localhost:4000/sp22/resources/assets/other/latex_guide/" />
 <meta property="og:site_name" content="Data 100" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"Andrew Lenz"},"url":"http://localhost:4000/sp22/lecture/lec17/","headline":"Lecture 17 – Bias and Variance","description":"Principles and Techniques of Data Science","@type":"WebPage","@context":"http://schema.org"}</script>
+{"author":{"@type":"Person","name":"Andrew Lenz"},"url":"http://localhost:4000/sp22/resources/assets/other/latex_guide/","headline":"Quick Guide to LaTeX","description":"Principles and Techniques of Data Science","@type":"WebPage","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -238,72 +238,7 @@
           
         
         <div id="main-content" class="page-content" role="main">
-          <h1 id="lecture-17--bias-and-variance">Lecture 17 – Bias and Variance</h1>
-
-<p>Presented by Fernando Perez and Ani Adhikari</p>
-
-<p>Content by Fernando Perez, Ani Adhikari, Suraj Rampure</p>
-
-<ul>
-  <li><a href="https://docs.google.com/presentation/d/15LDeDKNxpIa9j0_dHZr1F5AzrbVEUoM5OWOxgqYUKM0/edit?usp=sharing">slides</a></li>
-  <li><a href="https://youtube.com/playlist?list=PLQCcNQgUcDfqhL6AicGxDlNFngfplUlvb">playlist</a></li>
-  <li><a href="https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&amp;subPath=lec/lec17/">Bias-Variance decomposition derivation</a></li>
-</ul>
-
-<p><strong>Important:</strong> You may want to review <a href="../lec03">Lecture 3</a> for a refresher on random variables.</p>
-
-<p>A reminder – the right column of the table below contains <em>Quick Checks</em>. These are <strong>not</strong> required but suggested to help you check your understanding.</p>
-
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>Video</th>
-<th>Quick Check</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>17.1</strong><br />Variance of random variables. Walking through an alternate calculation of variance. Variance of a linear transformation.</td>
-<td><iframe width="300" height="" src="https://youtube.com/embed/3W_TtAHxlXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://forms.gle/EaLQde32vdq5R1FA7" target="\_blank">17.1</a></td>
-</tr>
-<tr>
-<td><strong>17.2</strong><br />Deriving the variance of a sum. Understanding covariance, correlation, and independence.</td>
-<td><iframe width="300" height="" src="https://youtube.com/embed/8ovh_lGuMdQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://forms.gle/AFtTfXaCNptq8tNt9" target="\_blank">17.2</a></td>
-</tr>
-<tr>
-<td><strong>17.3</strong><br />Variance of an i.i.d. sum. Variance of the Bernoulli and binomial distributions.</td>
-<td><iframe width="300" height="" src="https://youtube.com/embed/t4gPC6LDS1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://forms.gle/KqgfSxL2ixgSQF4F7" target="\_blank">17.3</a></td>
-</tr>
-<tr>
-<td><strong>17.4</strong><br />Variability of the sample mean. Reviewing inferential concepts from Data 8, but with the framework of random variables.</td>
-<td><iframe width="300" height="" src="https://youtube.com/embed/CwXhjoBt25I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://forms.gle/ex5p9KF81FmXXHyj8" target="\_blank">17.4</a></td>
-</tr>
-<tr>
-<td><strong>17.5</strong><br />Introducing the data generating process and prediction error. Model risk.</td>
-<td><iframe width="300" height="" src="https://youtube.com/embed/mPz-jIl9H7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://forms.gle/dUduyGCKC8oruLnC8" target="\_blank">17.5</a></td>
-</tr>
-<tr>
-<td><strong>17.6</strong><br />Looking at different sources of error in our model – observation variance, model variance, and bias – and discussing how to mitigate them.</td>
-<td><iframe width="300" height="" src="https://youtube.com/embed/mmjYEOeOEM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://forms.gle/DDnM1YBFDYSce8jD7" target="\_blank">17.6</a></td>
-</tr>
-<tr>
-<td><strong>17.7</strong><br />Decomposing model risk into the sum of observation variance, model variance, and the square of bias.</td>
-<td><iframe width="300" height="" src="https://youtube.com/embed/DEYCRlXvwg4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
-<td><a href="https://forms.gle/iHZLAeBP3wDa5UNK8" target="\_blank">17.7</a></td>
-</tr>
-</tbody></table>
+          <h1 id="quick-guide-to-latex">Quick Guide to LaTeX</h1>
 
 
 

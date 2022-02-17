@@ -86,6 +86,7 @@ Click [here]({{ site.baseurl }}/setup) to read our guide on how to set up our de
 
 
 #### LaTeX Tips
++ [Quick Guide to LaTeX]({{site.baseurl}}/resources/assets/other/latex_guide.html)
 + Check out these [handy LaTeX tips]({{site.baseurl}}/resources/assets/hw/latex_tips.pdf)
 + [For more about basic LaTeX formatting, you can read this article.](https://www.sharelatex.com/learn/Mathematical_expressions)
 
