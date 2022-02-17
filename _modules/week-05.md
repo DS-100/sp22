@@ -12,7 +12,7 @@ days:
     : '[Ch. 4](https://www.textbook.ds100.org/ch/04/modeling_intro.html)'
 - date: 2022-02-17
   events:
-    ? '**Lecture 10**{: .label .label-lecture } Constant Model, Loss, and Transformations'
+    ? '**Lecture 10**{: .label .label-lecture } [Constant Model, Loss, and Transformations](lecture/lec10)'
     : '[Ch. 14](https://www.textbook.ds100.org/ch/14/linear_models.html)'
 - date: 2021-02-18
   events:
