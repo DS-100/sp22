@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Lecture 10 – Visualization I
+title: Lecture 10 – Constant Model, Loss, and Transformations
 nav_exclude: true
 ---
 
-# Lecture 10 – Visualization I
+# Lecture 10 – Constant Model, Loss, and Transformations
 
-Presented by Fernando Pérez
+By Lisa Yan
 
-Content by Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu, Deborah Nolan
+- [slides](https://docs.google.com/presentation/d/1tCdhfvPOe7R4T7V9L9VjR_KtJG39UapZuNfNWITMK3Q/edit?usp=sharing){:target="_blank"}
+- [code](https://github.com/DS-100/sp22/tree/main/lec/lec10){:target="_blank"} ([launch](
+https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec09%2Flec10.ipynb&branch=main){:target="_blank"})
+- [code HTML](../../resources/assets/lectures/lec10/lec10.html){:target="_blank"}
 
-- [slides](https://docs.google.com/presentation/d/1LX24J599pyM438meJRfOFI97T1cHq1eGQ0YqBo8ANm0/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfqXd_ftBLzb6EovfL5ky_Ll)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Ffa21&urlpath=lab%2Ftree%2Ffa21%2Flec%2Flec10&branch=main)
-
+<!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
@@ -75,3 +75,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><iframe width="300" height="" src="https://youtube.com/embed/s-dRmP_8zd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
 <td><a href="https://forms.gle/68yHpG7P8pm1wtu98" target="\_blank">10.8</a></td>
 </tr>
+-->
