@@ -12,7 +12,7 @@ days:
     : '[Ch. 18.1](https://www.textbook.ds100.org/ch/18/mult_model.html)'
 - date: 2022-02-24
   events:
-    ? '**Midterm**{: .label .label-hw } Midterm 1 (7-9 pm)'
+    ? '**Midterm**{: .label .label-hw } Midterm 1 (8-10 pm)'
     : ''
 - date: 2021-02-25
   events:
