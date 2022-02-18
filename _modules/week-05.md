@@ -18,7 +18,7 @@ days:
   events:
     ? '**Discussion 5**{: .label .label-disc } [Modeling and Simple Linear Regression](https://drive.google.com/file/d/1H8HnVptbX0XhQHmVx-QLtC8n-7NKX0oX/view?usp=sharing){:target="_blank"}'
     ? '**Lab 5**{: .label .label-lab } Modeling, Summary Statistics, Loss Functions (due Feb 22)'
-    ? '**Homework 5**{: .label .label-hw } [Regression (on paper)](hw/hw05/hw05_student.pdf) ([LaTex Template](hw/hw05/hw05_template.zip)) (due Mar 3)'
+    ? '**Homework 5**{: .label .label-hw } [Regression (on paper)](hw/hw05/hw05_student.pdf) ([LaTeX Template](hw/hw05/hw05_template.zip)) (due Mar 3)'
     : ""
 
 ---
