@@ -86,9 +86,7 @@ Click [here]({{ site.baseurl }}/setup) to read our guide on how to set up our de
 
 
 #### LaTeX Tips
-+ [Quick Guide to LaTeX]({{site.baseurl}}/latex_guide)
-+ Check out these [handy LaTeX tips]({{site.baseurl}}/resources/assets/hw/latex_tips.pdf)
-+ [For more about basic LaTeX formatting, you can read this article.](https://www.sharelatex.com/learn/Mathematical_expressions)
++ [Quick Guide to Overleaf and LaTeX]({{site.baseurl}}/latex_guide)
 
 #### Other Web References
 As a data scientist you will often need to search for information on various libraries and tools. In this class we will be using several key python libraries. Here are their documentation pages:
