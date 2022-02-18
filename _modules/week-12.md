@@ -12,7 +12,7 @@ days:
     : '[Ch. 25](https://www.textbook.ds100.org/ch/25/pca_intro.html)'
 - date: 2022-04-07
   events:
-    ? '**Midterm**{: .label .label-hw } Midterm 2 (7-8:30 pm)'
+    ? '**Midterm**{: .label .label-hw } Midterm 2 (7-8:30 pm) (No Lecture)'
     : ''
 - date: 2022-04-08
   events:
