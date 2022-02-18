@@ -16,7 +16,7 @@ days:
     : '[Ch. 14](https://www.textbook.ds100.org/ch/14/linear_models.html)'
 - date: 2021-02-18
   events:
-    ? '**Discussion 5**{: .label .label-disc } Modeling and Simple Linear Regression'
+    ? '**Discussion 5**{: .label .label-disc } [Modeling and Simple Linear Regression](https://drive.google.com/file/d/1H8HnVptbX0XhQHmVx-QLtC8n-7NKX0oX/view?usp=sharing){:target="_blank"}'
     ? '**Lab 5**{: .label .label-lab } Modeling, Summary Statistics, Loss Functions (due Feb 22)'
     ? '**Homework 5**{: .label .label-hw } Regression (on paper) (due Mar 3)'
     : ""
