@@ -17,7 +17,7 @@ days:
 - date: 2021-02-25
   events:
     ? '**Discussion 6**{: .label .label-disc } Ordinary Least Squares'
-    ? '**Lab 6**{: .label .label-lab } Simple Linear Regression (due Mar 1)'
+    ? '**Lab 6**{: .label .label-lab } Ordinary Least Squares (due Mar 1)'
     : ""
 
 ---
