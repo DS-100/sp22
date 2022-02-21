@@ -133,12 +133,12 @@ However, we have listed a few optional books that will provide additional contex
 
 - **[Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)** (Free online PDF) This book is a great reference for the machine learning and some of the statistics material in the class
 
-- **[Data Science from Scratch](http://shop.oreilly.com/product/0636920033400.do)** ([Available as eBook for Berkeley students](http://proquest.safaribooksonline.com/9781491901410)) This more applied book covers many of the topics in this class using Python but doesn't go into sufficient depth for some of the more mathematical material.
+- **[Data Science from Scratch](http://shop.oreilly.com/product/0636920033400.do)** ([Available as eBook for Berkeley students](https://www.oreilly.com/library/view/data-science-from/9781491901410/?ar)) This more applied book covers many of the topics in this class using Python but doesn't go into sufficient depth for some of the more mathematical material.
 
 - **[Doing Data Science](http://shop.oreilly.com/product/0636920028529.do)**
-  ([Available as eBook for Berkeley students](http://proquest.safaribooksonline.com/9781449363871)) This books provides a unique case-study view of data science but uses R and not Python.
+  ([Available as eBook for Berkeley students](https://www.oreilly.com/library/view/doing-data-science/9781449363871/?ar)) This books provides a unique case-study view of data science but uses R and not Python.
 
-- **[Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do)** ([Available as eBook for Berkeley students](http://proquest.safaribooksonline.com/9781449323592)). This book provides a good reference for the Pandas library.
+- **[Python for Data Analysis](http://shop.oreilly.com/product/0636920023784.do)** ([Available as eBook for Berkeley students](https://www.oreilly.com/library/view/python-for-data/9781491957653/?ar)). This book provides a good reference for the Pandas library.
 
 <a name = 'education'></a>
 ## Data Science Education
