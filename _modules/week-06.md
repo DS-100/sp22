@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2022-02-22
   events:
-    ? '**Lecture 11**{: .label .label-lecture } Ordinary Least Squares (Multiple Linear Regression)'
+    ? '**Lecture 11**{: .label .label-lecture } [Ordinary Least Squares (Multiple Linear Regression)](lecture/lec11)'
     : '[Ch. 18.1](https://www.textbook.ds100.org/ch/18/mult_model.html)'
 - date: 2022-02-24
   events:
