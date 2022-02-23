@@ -11,6 +11,7 @@ By Lisa Yan
 - [slides](https://docs.google.com/presentation/d/15eEbroVt2r36TXh28C2wm6wgUHlCBCsODR09kLHhDJ8/edit?usp=sharing){:target="_blank"}
 - [code](https://github.com/DS-100/sp22/tree/main/lec/lec11){:target="_blank"} ([launch](
 https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec11%2Flec11.ipynb&branch=main){:target="_blank"})
+- [code HTML](../../resources/assets/lectures/lec11/lec11.html){:target="_blank"}
 
 <!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
