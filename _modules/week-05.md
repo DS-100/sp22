@@ -9,11 +9,11 @@ days:
 - date: 2022-02-15
   events:
     ? '**Lecture 9**{: .label .label-lecture } [Intro to Modeling, Simple Linear Regression](lecture/lec09)'
-    : '[Ch. 4](https://www.textbook.ds100.org/ch/04/modeling_intro.html)'
+    : '[Ch. 14](https://www.textbook.ds100.org/ch/14/linear_models.html)'
 - date: 2022-02-17
   events:
     ? '**Lecture 10**{: .label .label-lecture } [Constant Model, Loss, and Transformations](lecture/lec10)'
-    : '[Ch. 14](https://www.textbook.ds100.org/ch/14/linear_models.html)'
+    : '[Ch. 4](https://www.textbook.ds100.org/ch/04/modeling_intro.html)'
 - date: 2021-02-18
   events:
     ? '**Discussion 5**{: .label .label-disc } [Modeling and Simple Linear Regression](https://drive.google.com/file/d/1H8HnVptbX0XhQHmVx-QLtC8n-7NKX0oX/view?usp=sharing){:target="_blank"} ([solutions](https://drive.google.com/file/d/1ftzRUaNaxWV1nEhQy_PCDGx-5SXbCWGg/view?usp=sharing){:target="_blank"}) ([recording](https://youtube.com/playlist?list=PLQCcNQgUcDfpeUCBnR7JPwaI-bsXh4LwJ){:target="_blank"})'
