@@ -9,7 +9,7 @@ days:
 - date: 2022-04-26
   events:
     ? '**Lecture 25**{: .label .label-lecture } Clustering'
-    : '[Ch. 27](https://www.textbook.ds100.org/ch/27/clustering_intro.html)'
+    : '[Ch. 28](https://www.textbook.ds100.org/ch/28/clustering_intro.html)'
 - date: 2022-04-27
   events:
     ? '**Grad Project**{: .label .label-proj } First Draft for Grad Project Due'
@@ -17,7 +17,7 @@ days:
 - date: 2022-04-28
   events:
     ? '**Lecture 26**{: .label .label-lecture } Inference for Modeling'
-    : '[Ch. 18.2](https://www.textbook.ds100.org/ch/18/mult_inference.html)'
+    : '[Ch. 19.2](https://www.textbook.ds100.org/ch/19/mult_inference.html)'
 - date: 2022-04-29
   events:
     ? '**Discussion 14**{: .label .label-disc } Clustering'

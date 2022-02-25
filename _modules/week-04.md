@@ -9,7 +9,7 @@ days:
 - date: 2022-02-08
   events:
     ? '**Lecture 7**{: .label .label-lecture } [Visualization I](lecture/lec07)'
-    : '[Ch. 10.1-10.3](https://www.textbook.ds100.org/ch/10/viz_quantitative.html)'
+    : '[Ch. 11](https://www.textbook.ds100.org/ch/11/viz_intro.html)'
     ? 'Textbook: [Seaborn Reference Table](https://www.textbook.ds100.org/ch/a04/ref_seaborn.html)'
     ? 'Textbook: [Matplotlib Reference Table](https://www.textbook.ds100.org/ch/a04/ref_matplotlib.html)'
 - date: 2022-02-10

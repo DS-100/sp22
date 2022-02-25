@@ -9,7 +9,7 @@ days:
 - date: 2022-04-05
   events:
     ? '**Lecture 20**{: .label .label-lecture } PCA'
-    : '[Ch. 25](https://www.textbook.ds100.org/ch/25/pca_intro.html)'
+    : '[Ch. 26](https://www.textbook.ds100.org/ch/26/pca_intro.html)'
 - date: 2022-04-07
   events:
     ? '**Midterm**{: .label .label-hw } Midterm 2 (7-8:30 pm) (No Lecture)'
