@@ -16,7 +16,7 @@ days:
     : ''
 - date: 2021-02-25
   events:
-    ? '**Discussion 6**{: .label .label-disc } Ordinary Least Squares'
+    ? '**Discussion 6**{: .label .label-disc } [Ordinary Least Squares](https://drive.google.com/file/d/141Ydoj96YrHZXCqVAmbYlz90o_vjoAu2/view?usp=sharing)'
     ? '**Lab 6**{: .label .label-lab } Ordinary Least Squares (due Mar 1)'
     : ""
 
