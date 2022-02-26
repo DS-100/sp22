@@ -13,6 +13,7 @@ By Lisa Yan
 https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec11%2Flec11.ipynb&branch=main){:target="_blank"})
 - [code HTML](../../resources/assets/lectures/lec11/lec11.html){:target="_blank"}
 - [recording](https://youtu.be/zudHMhLVwhw){:target="_blank"}
+- supplemental recording: [OLS Properties](https://youtu.be/dhG8GiZcyUE){:target="_blank"}
 
 <!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
