@@ -1,20 +1,18 @@
 ---
 layout: page
-title: Lecture 12 – Modeling
+title: Lecture 12 – Gradient Descent, sklearn
 nav_exclude: true
 ---
 
-# Lecture 12 – Modeling
+# Lecture 12 – Gradient Descent, sklearn
 
-Presented by Fernando Perez and Suraj Rampure
+Presented by Josh Hug
 
-Content by Fernando Perez, Suraj Rampure, Ani Adhikari, Deborah Nolan, Joseph Gonzalez
+Content by Josh Hug
+- [slides](https://docs.google.com/presentation/d/1j9ESgjn-aeZSOX5ON1wjkF5WBZHc4IN7XvTpYnX1pFs/edit?usp=sharing)
+- [code](https://github.com/DS-100/sp22/tree/main/lec/lec12){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec12%2Flec12.ipynb&branch=main){:target="_blank"})
 
-- [slides](https://docs.google.com/presentation/d/1PchK3LJ6g__61fEMJvDOjVcg3fTmZwL22Ytk_zpPED0/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfq7fbhdteiNbYrrV3_c96uW)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec12/&branch=main)
-- [code HTML](../../resources/assets/lectures/lec12/lec12.html)
-
+<!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
@@ -66,3 +64,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><iframe width="300" height="" src="https://youtube.com/embed/TZd-Jk0ltW8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></td>
 <td><a href="https://forms.gle/BBRXcxd8U958ZMN58" target="\_blank">12.7</a></td>
 </tr>
+-->
