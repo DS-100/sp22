@@ -9,11 +9,11 @@ days:
 - date: 2022-03-01
   events:
     ? '**Lecture 12**{: .label .label-lecture } Gradient Descent, sklearn'
-    : '[Ch. 16](https://www.textbook.ds100.org/ch/16/gradient_descent.html)'
+    : '[Ch. 17](https://www.textbook.ds100.org/ch/17/gradient_descent.html)'
 - date: 2022-03-03
   events:
     ? '**Lecture 13**{: .label .label-lecture } Feature Engineering'
-    : '[Ch. 21](https://www.textbook.ds100.org/ch/21/feature_engineering.html)'
+    : '[Ch. 20](https://www.textbook.ds100.org/ch/20/feature_engineering.html)'
 - date: 2022-03-04
   events:
     ? '**Discussion 7**{: .label .label-disc } Human Contexts in Engineering and Feature Engineering'

@@ -9,7 +9,7 @@ days:
 - date: 2022-02-22
   events:
     ? '**Lecture 11**{: .label .label-lecture } [Ordinary Least Squares (Multiple Linear Regression)](lecture/lec11)'
-    : '[Ch. 14.4](https://www.textbook.ds100.org/ch/14/linear_projection.html), [18.1](https://www.textbook.ds100.org/ch/18/mult_model.html)'
+    : '[Ch. 15.4](https://www.textbook.ds100.org/ch/15/linear_projection.html?highlight=linear%20projection), [19.1](https://www.textbook.ds100.org/ch/19/mult_model.html)'
 - date: 2022-02-24
   events:
     ? '**Midterm**{: .label .label-hw } Midterm 1 (8-10 pm) (No Lecture)'
