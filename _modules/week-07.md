@@ -4,11 +4,11 @@ weekNumber: 7
 days:
 - date: 2022-02-28
   events:
-    ? '**Weekly Check 7**{: .label .label-proj } Weekly Check 7 (due Mar 7)'
+    ? '**Weekly Check 7**{: .label .label-proj } [Weekly Check 7](https://forms.gle/iChRRb7LZAAoTeVe6) (due Mar 7)'
     : ''
 - date: 2022-03-01
   events:
-    ? '**Lecture 12**{: .label .label-lecture } Gradient Descent, sklearn'
+    ? '**Lecture 12**{: .label .label-lecture } [Gradient Descent, sklearn](lecture/lec12)'
     : '[Ch. 17](https://www.textbook.ds100.org/ch/17/gradient_descent.html)'
 - date: 2022-03-03
   events:
