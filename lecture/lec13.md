@@ -1,21 +1,19 @@
 ---
 layout: page
-title: Lecture 13 – Simple Linear Regression
+title: Lecture 13 – Gradient Descent, Feature Engineering
 nav_exclude: true
 ---
 
-# Lecture 13 – Simple Linear Regression
+# Lecture 13 – Gradient Descent, Feature Engineering
 
-Presented by Anthony D. Joseph and Suraj Rampure
+Presented by Josh Hug and Joseph Gonzalez
 
-Content by Suraj Rampure and Ani Adhikari
+Content by Josh Hug and Joseph Gonzalez
 
-- [slides](https://docs.google.com/presentation/d/15xSNRQAEuecZiresBWhxYrmDekjBD62BC2Q47eE4zKE/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfqrwbmTMJooHAxRHtxk7fOY)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec13/)
-- [code HTML](../../resources/assets/lectures/lec13/lec13.html)
+- [slides](https://docs.google.com/presentation/d/1tfdoQR-iit3KnxA1SjNd7V70ErNBJTGMfvqxH4BfMik/edit#slide=id.g116a5f99ddb_0_11)
+- [video playlist](https://www.youtube.com/watch?v=3QDyVfe7Tks&list=PLQCcNQgUcDfqQOBZbRKTy4mwEtykpa9O9)
 
-A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
+<!--A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
 <colgroup>
@@ -88,3 +86,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </tr>
 </tbody>
 </table>
+-->

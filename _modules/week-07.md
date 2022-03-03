@@ -12,7 +12,7 @@ days:
     : '[Ch. 17](https://www.textbook.ds100.org/ch/17/gradient_descent.html)'
 - date: 2022-03-03
   events:
-    ? '**Lecture 13**{: .label .label-lecture } Feature Engineering'
+    ? '**Lecture 13**{: .label .label-lecture } [Feature Engineering](lecture/lec13)'
     : '[Ch. 20](https://www.textbook.ds100.org/ch/20/feature_engineering.html)'
 - date: 2022-03-04
   events:
