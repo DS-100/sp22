@@ -16,7 +16,7 @@ days:
     : '[Ch. 20](https://www.textbook.ds100.org/ch/20/feature_engineering.html)'
 - date: 2022-03-04
   events:
-    ? '**Discussion 7**{: .label .label-disc } [Human Contexts in Engineering and Feature Engineering](https://drive.google.com/file/d/1pVRvY9EULOqRd8OMlyP9h6hnWmjwfunR/view?usp=sharing)'
+    ? '**Discussion 7**{: .label .label-disc } [Human Contexts in Engineering and Feature Engineering](https://drive.google.com/file/d/1pVRvY9EULOqRd8OMlyP9h6hnWmjwfunR/view?usp=sharing) ([solutions](https://drive.google.com/file/d/1D7tRrRm28JQO-RyvKASngzOCp6EDdQnj/view?usp=sharing))'
     ? '**Lab 7**{: .label .label-lab } [Gradient Descent and sklearn](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Flab%2Flab07%2Flab07.ipynb) (due Mar 8)'
     ? '**Proj 1A**{: .label .label-hw } [Housing I](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Fproj%2Fproj1a%2Fproj1a.ipynb) (due Mar 10)'
     : ""
