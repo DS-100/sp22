@@ -1,20 +1,17 @@
 ---
 layout: page
-title: Lecture 14 – Ordinary Least Squares
+title: Lecture 14 – Case Study (HCE): Fairness in Housing Appraisal
 nav_exclude: true
 ---
 
-# Lecture 14 – Ordinary Least Squares
+# Lecture 14 – Case Study (HCE): Fairness in Housing Appraisal
 
-Presented by Anthony D. Joseph and Suraj Rampure
+Presented by Ari Edmundson and Margarita Boenig-Liptsin
 
-Content by Suraj Rampure, Ani Adhikari, Deb Nolan, Joseph Gonzalez
+- [slides](https://docs.google.com/presentation/d/1FYML1Yu27f7ROd0--MAEjudBxmUbTWh8jkwdA82RwB4/edit#slide=id.gcab43a01d7_1_251)
+- [video playlist](https://www.youtube.com/playlist?list=PLQCcNQgUcDfo7wid1ZOQ47I_U1ZC1z6n7)
 
-- [slides](https://docs.google.com/presentation/d/1aeNPAe0g2C4CfU-oxjnnd66fKri0MYtGKYTizlouuec/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfrVbm9gLBCY6LEj52m1Bbdy)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec14/)
-
-A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
+<!--A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
 <colgroup>
@@ -62,3 +59,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 </tr>
 </tbody>
 </table>
+-->

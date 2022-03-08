@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2022-03-08
   events:
-    ? '**Lecture 14**{: .label .label-lecture } Case Study (HCE): Fairness in Housing Appraisal'
+    ? '**Lecture 14**{: .label .label-lecture } [Case Study (HCE): Fairness in Housing Appraisal](lecture/lec14)'
     : ''
 - date: 2022-03-10
   events:

@@ -7,7 +7,7 @@ course:
   edstem: https://edstem.org/us/courses/15436/
   edstem_join: https://edstem.org/us/join/TeKcwA
   faq: https://ds100.org/sp22faq
-currWeekNumber: 7
+currWeekNumber: 8
 ---
 
 # Principles and Techniques of Data Science
