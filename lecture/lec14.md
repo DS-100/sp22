@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lecture 14 – Case Study (HCE): Fairness in Housing Appraisal
+title: Lecture 14 – Fairness in Housing Appraisal
 nav_exclude: true
 ---
 
