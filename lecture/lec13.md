@@ -11,9 +11,9 @@ Presented by Josh Hug and Joseph Gonzalez
 Content by Josh Hug and Joseph Gonzalez
 
 - [slides](https://docs.google.com/presentation/d/1tfdoQR-iit3KnxA1SjNd7V70ErNBJTGMfvqxH4BfMik/edit#slide=id.g116a5f99ddb_0_11){:target="_blank"}
-- [code](https://github.com/DS-100/sp22/blob/main/lec/lec13/lec13.ipynb){:target="_blank"} ([lauch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec13%2Flec13.ipynb){:target="_blank"})
+- [code](https://github.com/DS-100/sp22/blob/main/lec/lec13/lec13.ipynb){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec13%2Flec13.ipynb){:target="_blank"})
 - [code HTML](../../resources/assets/lectures/lec13/lec13.html){:target="_blank"}
-- [code for video 6](https://github.com/DS-100/sp22/blob/main/lec/lec13/fitting-linear-models.ipynb){:target="_blank"} ([lauch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec13%2Ffitting-linear-models.ipynb){:target="_blank"})
+- [code for video 6](https://github.com/DS-100/sp22/blob/main/lec/lec13/fitting-linear-models.ipynb){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec13%2Ffitting-linear-models.ipynb){:target="_blank"})
 - [code for video 6 HTML](../../resources/assets/lectures/lec13/fitting-linear-models.html){:target="_blank"}
 - [video playlist](https://www.youtube.com/watch?v=3QDyVfe7Tks&list=PLQCcNQgUcDfqQOBZbRKTy4mwEtykpa9O9){:target="_blank"}
 
