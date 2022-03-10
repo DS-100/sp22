@@ -13,7 +13,7 @@ days:
     : ''
 - date: 2022-03-10
   events:
-    ? '**Lecture 15**{: .label .label-lecture } Regularization and Cross-Validation'
+    ? '**Lecture 15**{: .label .label-lecture } [Cross-Validation and Regularization](lecture/lec15)'
     : '[Ch. 22](https://www.textbook.ds100.org/ch/22/reg_intro.html), [21.3](https://www.textbook.ds100.org/ch/21/bias_cv.html)'
 - date: 2022-03-11
   events:
