@@ -8,7 +8,8 @@ nav_exclude: true
 
 Presented by Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1-Cga_fOn0dTMt1ss7vNmManX-NUYPXwXDQDAsaInuQM/edit?usp=sharing)
+- [slides](https://docs.google.com/presentation/d/1-Cga_fOn0dTMt1ss7vNmManX-NUYPXwXDQDAsaInuQM/edit?usp=sharing){:target="_blank"}
+- [recording](https://youtu.be/Lp8SpX2HgUo){:target="_blank"}
 
 <!--
 <table>
