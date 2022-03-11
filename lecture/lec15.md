@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Lecture 15 – Cross Validation, Regularization
+title: Lecture 15 – Cross Validation, Regularization
 nav_exclude: true
 ---
 
