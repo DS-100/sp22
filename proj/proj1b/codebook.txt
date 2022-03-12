@@ -1,0 +1,305 @@
+Fomat: Each column in the dataframe is documented in 3 consecutive rows (column label, description, data type).
+----------------------------------------------------------------------------------------------------------------------------------
+PIN
+Unique Permanent Identification Number for each property. All PINs are 14 digits: 2 digits for area + 2 digits for sub area + 2 digits for block + 2 digits for parcel + 4 digits for the multicode
+Plain Text
+
+
+Property Class
+Property class. For a list of property classes, see https://www.cookcountyassessor.com/assets/forms/classcode.pdf
+Number
+
+
+Neighborhood Code
+Neighborhood code as assigned by the Assessment office. An interactive map is available at https://maps.cookcountyil.gov/cookviewer/
+Number
+
+
+Land Square Feet
+Square feet of the land (not just the building) of the property. Note that land is divided into 'plots' and 'parcels' - this field applies to parcels, identified by PIN
+Number
+
+
+Town Code
+Township code as assigned by the Assessment office. An interactive map is available at https://maps.cookcountyil.gov/cookviewer/
+Number
+
+
+Apartments
+Number of apartments in the building - 2 = Two, 3 = Three, 4 = Four, 5 = Five, 6 = Six, 0 = None
+Number
+
+
+Wall Material
+Exterior wall material - 1=Wood, 2=Masonry, 3=Wood&Masonry, 4=Stucco
+Number
+
+
+Roof Material
+Roof construction material. 1 = Shingle/Asphalt, 2 = Tar & Gravel, 3 = Slate, 4 = Shake, 5 = Tile, 6 = Other
+Number
+
+
+Basement
+Basement type - 1 = Full, 2 = Slab, 3 = Partial, 4 = Crawl
+Number
+
+
+Basement Finish
+Basement finish - 1 = Formal rec room; 2 = Apartment; 3 = Unfinished
+Number
+
+
+Central Heating
+Central heating type - 1 = Warm air, 2 = Hot water steam, 3 = Electric, 4 = Other
+Number
+
+
+Other Heating
+Other heating type - 1 = Floor furnace, 2 = Unit heater, 3 = Stove, 4 = Solar, 5 = none
+Number
+
+
+Central Air
+Is central airconditioning present? - 1 = yes, 2 = no
+Number
+
+
+Fireplaces
+Number of fireplaces, counted as the number of flues one can see from the outside of the building.
+Number
+
+
+Attic Type
+Type of attic - 1 = Full, 2 = partial, 3 = none
+Number
+
+
+Attic Finish
+Finish of attic - 1 = Living area, 2 = Apartment, 3 = unfinished
+Number
+
+
+Design Plan
+Plan of Design - 1 = architect, 2 = stock plan
+Number
+
+
+Cathedral Ceiling
+Cathedral Ceiling - 1 = yes, 2 = No. (Note: the column name comes from a variable that is no longer used, but the column name was not changed to reflect Cathedral Ceiling)
+Number
+
+
+Construction Quality
+Construction quality - 1 = Deluxe, 2 = Average, 3 = Poor (There is one 4 in this dataset, but no 3. In general, this column is not useful for analytical purposes)
+Number
+
+
+Site Desirability
+Site desirability - 1 = Beneficial to Value, 2 = Not relevant to Value, 3 = Detracts from Value. This field lack sufficient variation to be useful for modeling.
+Number
+
+
+Garage 1 Size
+Garage 1 size - 1 = 1 car, 2 = 1.5 car, 3 = 2 car, 4 = 2.5 cars, 5 = 3 cars, 6 = 3.5 cars, 7 = none, 8 = 4 cars
+Number
+
+
+Garage 1 Material
+Garage 1 construction - 1 = Frame, 2 = Masonry, 3= Frame/Masonry, 4 = Stucco
+Number
+
+
+Garage 1 Attachment
+Is Garage 1 attached? 1 = Yes, 2 = No
+Number
+
+
+Garage 1 Area
+Is Garage 1 physically including within the building area? 1 = Yes, 2 = No. If yes, the garage area is subtracted from the building square feet calculation by the field agent.
+Number
+
+
+Garage 2 Size
+Garage 2 size - 1 = 1 car, 2 = 1.5 car, 3 = 2 car, 4 = 2.5 cars, 5 = 3 cars, 6 = 3.5 cars, 7 = none, 8 = 4 cars
+Number
+
+
+Garage 2 Material
+Garage 2 construction - 1 = Frame, 2 = Masonry, 3= Frame/Masonry, 4 = Stucco
+Number
+
+
+Garage 2 Attachment
+Is Garage 2 attached? 1 = Yes, 2 = No
+Number
+
+
+Garage 2 Area
+Is Garage 2 physically including within the building area? 1 = Yes, 2 = No. If yes, the garage area is subtracted from the building square feet calculation by the field agent.
+Number
+
+
+Porch
+Enclosed porch - 1 = Frame, 2 = Masonry, 3 = None
+Number
+
+
+Other Improvements
+Other improvements - if not 0, they contain a code. The definitions of these codes are maintained by the field workers. Unfortunatly, the way this data is entered makes it impossible to distinguish between a 1 & 2 and a 12, making this field mostly useless.
+Number
+
+
+Building Square Feet
+Building square feet, as measured from the exterior of the property
+Number
+
+
+Repair Condition
+State of Repair - 1 = Above average, 2 = Average, 3 = Below average
+Number
+
+
+Multi Code
+Variable that indicates that more one building exists on the PIN. 2 = one building, 3 = two buildings, etc… through 7 = 6 buildings.
+Number
+
+
+Number of Commercial Units
+Number of commercial units (the vast majority are for properties with class 212).
+Number
+
+
+Estimate (Land)
+Board of Review final estimated market value of land from the prior tax year.
+Number
+
+
+Estimate (Building)
+Board of Review final estimated market value of building from the prior tax year.
+Number
+
+
+Deed No.
+Deed number for sale
+Plain Text
+
+
+Sale Price
+Sale price
+Number
+
+
+Longitude
+Longitude coordinate of the property's location, as defined by the centroid of the parcel shape in GIS.
+Number
+
+
+Latitude
+Latitude coordinate of the property's location, as defined by the centroid of the parcel shape in GIS.
+Number
+
+
+Census Tract
+Census tract identifier - full map available through the Census Bureau, https://www.census.gov/geo/maps-data/maps/2010ref/st17_tract.html
+Plain Text
+
+
+Multi Property Indicator
+Indicator for a property with multiple improvements on one PIN, e.g. a main house and a coach house. NOT to be confused with a property which was part of a multi-pin sale.
+Number
+
+
+Modeling Group
+Modeling group, as defined by the property class. Properties with class 200, 201, 241, 299 is defined as "NCHARS", short for "no characteristics", which are condos and vacant land classes. Properties with class 202, 203, 204, 205, 206, 207, 208, 209, 210, 235, 278, and 295 are "SF", short for "single-family." Properties with class 211 and 212 are "MF", short for "multi-family."
+Plain Text
+
+
+Age
+Age of the property. If missing, this defaults to 10. This field is a combination of original age and effective age where original age refers to the oldest component of the building and effective age is a relative judgement due to renovations or other improvements. For instance, if a property is completely demolished and built up again, the age resets to 1. But if portions of the original structure are kept, it may be more complicated to determine the age.
+Number
+
+
+Use
+Use of property - 1 = single family, 2 = multi-family
+Number
+
+
+O'Hare Noise
+Indicator for the property under O'Hare approach flight path, within 1/4 mile.
+Number
+
+
+Floodplain
+Indicator for properties on a floodplain, defined as a FEMA Special Flood Hazard Area
+Number
+
+
+Road Proximity
+Indicates whether the property is within 300 ft of a major road.
+Number
+
+
+Sale Year
+Year of sale
+Number
+
+
+Sale Quarter
+Quarter of sale
+Number
+
+
+Sale Half-Year
+Half-year of sale
+Number
+
+
+Sale Quarter of Year
+Quarter of year of sale
+Number
+
+
+Sale Month of Year
+Month of year of sale
+Number
+
+
+Sale Half of Year
+Half of year of sale
+Number
+
+
+Most Recent Sale
+Indicator that this sale is the most recent sale of the property.
+Number
+
+
+Age Decade
+Age in decades
+Number
+
+
+Pure Market Filter
+Indicator for pure market sale
+Number
+
+
+Garage Indicator
+Indicates presence of a garage of any size.
+Number
+
+
+Neigborhood Code (mapping)
+Unmodified neighborhood code that can be used for mapping.
+Number
+
+
+Town and Neighborhood
+Combination of town and neighborhood used to uniquely neighborhoods across townships.
+Number
+
+
+Description
+Short description of the household.
+Plain Text
