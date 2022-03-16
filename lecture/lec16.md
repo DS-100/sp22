@@ -10,8 +10,10 @@ Presented by Lisa Yan
 
 Content by Lisa Yan
 
-- [slides](https://docs.google.com/presentation/d/1M2B4JPUO734RqmjCAlZL4iIem-PFVXMeiynp4fxoVFU/edit?usp=sharing)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec16/)
+- [slides](https://docs.google.com/presentation/d/1M2B4JPUO734RqmjCAlZL4iIem-PFVXMeiynp4fxoVFU/edit?usp=sharing){:target="_blank"}
+- [code](https://github.com/DS-100/sp22/blob/main/lec/lec16/lec16.ipynb){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec16/){:target="_blank"})
+- [code HTML](../../resources/assets/lectures/lec16/lec16.html){:target="_blank"}
+- [recording](https://youtu.be/V0bXUBbm1h4){:target="_blank"}
 
 <!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding. **Currently, this lecture has no quick checks. We will be adding some shortly.**
