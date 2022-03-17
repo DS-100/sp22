@@ -1,15 +1,22 @@
 ---
 layout: page
-title: Lecture 17 – Bias and Variance
+title: Lecture 17 – Estimators, Bias, and Variance
 nav_exclude: true
 ---
 
-# Lecture 17 – Bias and Variance
+# Lecture 17 – Probability II: Estimators, Bias, and Variance
 
-Presented by Fernando Perez and Ani Adhikari
+Presented by Lisa Yan
 
-Content by Fernando Perez, Ani Adhikari, Suraj Rampure
+Content by Lisa Yan, Ani Adhikari, and Suraj Rampure
 
+- [slides](https://docs.google.com/presentation/d/1gzgxGO_nbCDajYs7qIpjzjQfJqKadliBOat7Es10Ll8/edit?usp=sharing){:target="_blank"}
+- [code](https://github.com/DS-100/sp22/tree/main/lec/lec17){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=tree%2Fsp22%2Flec%2Flec17%2Flec17.ipynb&branch=main){:target="_blank"})
+- [code HTML](../../resources/assets/lectures/lec17/lec17.html){:target="_blank"}
+- [Derivation HTML](../../resources/assets/lectures/lec17/Derivation.html){:target="_blank"}
+
+
+<!--
 - [slides](https://docs.google.com/presentation/d/15LDeDKNxpIa9j0_dHZr1F5AzrbVEUoM5OWOxgqYUKM0/edit?usp=sharing)
 - [playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfqhL6AicGxDlNFngfplUlvb)
 - [Bias-Variance decomposition derivation](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec17/)
@@ -68,3 +75,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><a href="https://forms.gle/iHZLAeBP3wDa5UNK8" target="\_blank">17.7</a></td>
 </tr>
 </tbody></table>
+-->

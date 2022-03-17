@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>lec17</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Derivation</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14565,61 +14565,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Lecture-17-%E2%80%93-Probability-II:-Estimators,-Bias,-and-Variance">Lecture 17 &#8211; Probability II: Estimators, Bias, and Variance<a class="anchor-link" href="#Lecture-17-%E2%80%93-Probability-II:-Estimators,-Bias,-and-Variance">&#182;</a></h1><p><strong>by Lisa Yan</strong></p>
-<p>Content by Lisa Yan, Ani Adhikari, and Suraj Rampure</p>
-
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">matplotlib</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
-<span class="kn">import</span> <span class="nn">sklearn.linear_model</span> <span class="k">as</span> <span class="nn">lm</span>
-
-<span class="c1"># big font helper</span>
-<span class="k">def</span> <span class="nf">adjust_fontsize</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
-    <span class="n">SMALL_SIZE</span> <span class="o">=</span> <span class="mi">8</span>
-    <span class="n">MEDIUM_SIZE</span> <span class="o">=</span> <span class="mi">10</span>
-    <span class="n">BIGGER_SIZE</span> <span class="o">=</span> <span class="mi">12</span>
-    <span class="k">if</span> <span class="n">size</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">SMALL_SIZE</span> <span class="o">=</span> <span class="n">MEDIUM_SIZE</span> <span class="o">=</span> <span class="n">BIGGER_SIZE</span> <span class="o">=</span> <span class="n">size</span>
-
-    <span class="n">plt</span><span class="o">.</span><span class="n">rc</span><span class="p">(</span><span class="s1">&#39;font&#39;</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="n">SMALL_SIZE</span><span class="p">)</span>          <span class="c1"># controls default text sizes</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">rc</span><span class="p">(</span><span class="s1">&#39;axes&#39;</span><span class="p">,</span> <span class="n">titlesize</span><span class="o">=</span><span class="n">SMALL_SIZE</span><span class="p">)</span>     <span class="c1"># fontsize of the axes title</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">rc</span><span class="p">(</span><span class="s1">&#39;axes&#39;</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="n">MEDIUM_SIZE</span><span class="p">)</span>    <span class="c1"># fontsize of the x and y labels</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">rc</span><span class="p">(</span><span class="s1">&#39;xtick&#39;</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="n">SMALL_SIZE</span><span class="p">)</span>    <span class="c1"># fontsize of the tick labels</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">rc</span><span class="p">(</span><span class="s1">&#39;ytick&#39;</span><span class="p">,</span> <span class="n">labelsize</span><span class="o">=</span><span class="n">SMALL_SIZE</span><span class="p">)</span>    <span class="c1"># fontsize of the tick labels</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">rc</span><span class="p">(</span><span class="s1">&#39;legend&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="n">SMALL_SIZE</span><span class="p">)</span>    <span class="c1"># legend fontsize</span>
-    <span class="n">plt</span><span class="o">.</span><span class="n">rc</span><span class="p">(</span><span class="s1">&#39;figure&#39;</span><span class="p">,</span> <span class="n">titlesize</span><span class="o">=</span><span class="n">BIGGER_SIZE</span><span class="p">)</span>  <span class="c1"># fontsize of the figure title</span>
-
-<span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s1">&#39;fivethirtyeight&#39;</span><span class="p">)</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">set_context</span><span class="p">(</span><span class="s2">&quot;talk&quot;</span><span class="p">)</span>
-<span class="n">sns</span><span class="o">.</span><span class="n">set_theme</span><span class="p">()</span>
-<span class="c1">#plt.style.use(&#39;default&#39;) # revert style to default mpl</span>
-<span class="n">adjust_fontsize</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
-<span class="o">%</span><span class="k">matplotlib</span> inline
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr>
-<h1 id="The-Snowy-Plover">The Snowy Plover<a class="anchor-link" href="#The-Snowy-Plover">&#182;</a></h1><p>This example is from the Data 100 textbook: <a href="http://www.textbook.ds100.org/ch/19/mult_inference.html#">link</a>. It borrows some wording from Spring 2020's Data 100, Lecture 22.</p>
+<h1 id="Derivation-of-the-Bias-Variance-Decomposition">Derivation of the Bias-Variance Decomposition<a class="anchor-link" href="#Derivation-of-the-Bias-Variance-Decomposition">&#182;</a></h1><h3 id="A.-Adhikari,-Data-100-Spring-2020">A. Adhikari, Data 100 Spring 2020<a class="anchor-link" href="#A.-Adhikari,-Data-100-Spring-2020">&#182;</a></h3><p>(slightly modified for Fall 2020)<br>
+To save this file as a PDF, in Jupyter go to File -&gt; "Download As..."/"Save and Export Notebook As..." -&gt; "PDF via LaTeX (.pdf)"/"PDF". The menu options may vary depending on whether you are using Jupyter Notebook or Jupyter Lab.</p>
 
 </div>
 </div>
@@ -14627,11 +14574,28 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="The-Data">The Data<a class="anchor-link" href="#The-Data">&#182;</a></h2><p>The <a href="https://www.audubon.org/field-guide/bird/snowy-plover">Snowy Plover</a> is a tiny bird that lives on the coast in parts of California and elsewhere. It is so small that it is vulnerable to many predators and to people and dogs that don't look where they are stepping when they go to the beach. It is considered endangered in many parts of the US.</p>
-<p>The data are about the eggs and newly-hatched chicks of the Snowy Plover. Here's a <a href="http://cescos.fau.edu/jay/eps/articles/snowyplover.html">parent bird and some eggs</a>.</p>
-<p><img src="plover_eggs.jpg" alt="plover and eggs"></p>
-<p>The data were collected at the Point Reyes National Seashore by a former <a href="https://openlibrary.org/books/OL2038693M/BLSS_the_Berkeley_interactive_statistical_system">student at Berkeley</a>. The goal was to see how the size of an egg could be used to predict the weight of the resulting chick. The bigger the newly-hatched chick, the more likely it is to survive.</p>
-<p><img src="plover_chick.jpg" alt="plover and chick"></p>
+<h3 id="Preliminary">Preliminary<a class="anchor-link" href="#Preliminary">&#182;</a></h3><p>Before proceeding with this derivation, you should be familiar with the Random Variables lecture (Lecture 3 in Summer 2020). In particular, you really need to understand expectation and variance.</p>
+<p>This result will be used below. You don't have to know how to prove it.</p>
+<p><strong>If $V$ and $W$ are independent random variables then $\mathbb{E}(VW) = \mathbb{E}(V)\mathbb{E}(W)$</strong>.</p>
+<p><strong>Proof:</strong> We'll do this in the discrete finite case. Trust that it's true in greater generality.</p>
+<p>The job is to calculate the weighted average of the values of $VW$, where the weights are the probabilities of those values. Here goes.</p>
+\begin{align*}
+\mathbb{E}(VW) ~ &amp;= ~ \sum_v\sum_w vwP(V=v \text{ and } W=w) \\
+&amp;= ~ \sum_v\sum_w vwP(V=v)P(W=w) ~~~~ \text{by independence} \\
+&amp;= ~ \sum_v vP(V=v)\sum_w wP(W=w) \\
+&amp;= ~ \mathbb{E}(V)\mathbb{E}(W)
+\end{align*}
+</div>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="What's-in-this-Notebook">What's in this Notebook<a class="anchor-link" href="#What's-in-this-Notebook">&#182;</a></h3><ul>
+<li>The first part of what follows is an exposition of the definitions on the slides. </li>
+<li>The derivation starts at Step 1.</li>
+<li>Steps 1-3 is where the action is. Step 4 just puts together the results of Steps 2 and 3. </li>
+</ul>
 
 </div>
 </div>
@@ -14639,607 +14603,138 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Each row of the data frame below corresponds to one Snowy Plover egg and the resulting chick. Note how tiny the bird is:</p>
+<h2 id="Assumptions">Assumptions<a class="anchor-link" href="#Assumptions">&#182;</a></h2><p><strong>1.</strong> For each individual, the response is $g(x) + \epsilon$ where:</p>
 <ul>
-<li>Egg Length and Egg Breadth (widest diameter) are measured in millimeters</li>
-<li>Egg Weight and Bird Weight are measured in grams; for comparison, a standard paper clip weighs about one gram</li>
+<li>$x$ consists of the <strong>fixed</strong> values of all the predictor variables for that individual</li>
+<li>$g$ is a <strong>fixed</strong> function, typically unknown; sometimes called the <em>true</em> function or the <em>signal</em></li>
+<li>$\epsilon$ is a <strong>random error</strong> with mean 0 and variance $\sigma^2$, independent of all other individuals; it is sometimes called <em>noise</em> and is <em>unobservable,</em> which means that we never get to see it</li>
 </ul>
+<p><strong>2.</strong> We have a random sample from the model above. We don't know $g$ so we fit something of our choice.</p>
+<p><strong>3.</strong> A new individual comes along at $x$. Their response is $Y = g(x) + \epsilon$ for a brand new copy of $\epsilon$. This response is random because $\epsilon$ is random, and has a hidden $x$ in it because its value is $g(x)$ plus the noise.</p>
+<p><strong>4.</strong> $\hat{Y}(x)$ is our model's predicted response for this indiviual. It is random because it depends on our sample which is random.</p>
 
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">eggs</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;snowy_plover.csv&#39;</span><span class="p">)</span>
-<span class="n">eggs</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>egg_weight</th>
-      <th>egg_length</th>
-      <th>egg_breadth</th>
-      <th>bird_weight</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>7.4</td>
-      <td>28.80</td>
-      <td>21.84</td>
-      <td>5.2</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>7.7</td>
-      <td>29.04</td>
-      <td>22.45</td>
-      <td>5.4</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>7.9</td>
-      <td>29.36</td>
-      <td>22.48</td>
-      <td>5.6</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>7.5</td>
-      <td>30.10</td>
-      <td>21.71</td>
-      <td>5.3</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>8.3</td>
-      <td>30.17</td>
-      <td>22.75</td>
-      <td>5.9</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">eggs</span><span class="o">.</span><span class="n">shape</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>(44, 4)</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>For a particular egg, $x$ is the vector of length, breadth, and weight. The model is</p>
+<h2 id="Definitions">Definitions<a class="anchor-link" href="#Definitions">&#182;</a></h2><h3 id="Observation-Variance">Observation Variance<a class="anchor-link" href="#Observation-Variance">&#182;</a></h3><p>The point corresponding to the new observation is $(x, Y)$ where $Y = g(x) + \epsilon$. Remember that $g(x)$ is a constant,$\mathbb{E}(\epsilon) = 0$, and $\mathbb{V}ar(\epsilon) = \sigma^2$. It follows that</p>
+<ul>
+<li>$\mathbb{E}(Y) = g(x)$</li>
+<li>$\mathbb{V}ar(Y) = \mathbb{V}ar(\epsilon) = \sigma^2$</li>
+</ul>
+<p>That is why
 $$
-f_\theta(x) ~ = ~ \theta_0 + \theta_1\text{egg_length} + \theta_2\text{egg_breadth} + \theta_3\text{egg_weight} + \epsilon
-$$<ul>
-<li>For each $i$, the parameter $\theta_i$ is a fixed number but it is unobservable. We can only estimate it.</li>
-<li>The random error $\epsilon$ is also unobservable, but it is assumed to have expectation 0 and be independent and identically distributed across eggs.</li>
+\text{observation variance} ~ = ~ \sigma^2
+$$</p>
+<p><strong>Note:</strong> Since $\epsilon$ is centered, that is, $\mathbb{E}(\epsilon) = 0$, we have $\mathbb{V}ar(\epsilon) = \mathbb{E}(\epsilon^2)$. So you will sometimes see the observation variance $\sigma^2$ written as $\mathbb{E}(\epsilon^2)$ instead of $\mathbb{V}ar(Y)$ or $\mathbb{V}ar(\epsilon)$.</p>
+<h3 id="Model-Bias">Model Bias<a class="anchor-link" href="#Model-Bias">&#182;</a></h3><p>The <em>bias</em> of an estimator is the expected difference between the estimator and what it's trying to estimate.</p>
+<p>For the new individual at $x$, the <em>model bias</em> is defined by</p>
+$$
+\text{model bias} ~ = ~ \mathbb{E}(\hat{Y}(x) - Y) ~ = ~ \mathbb{E}(\hat{Y}(x)) - \mathbb{E}(Y) ~ = ~ \mathbb{E}(\hat{Y}(x)) - g(x)
+$$<p>This is the difference between our prediction at $x$ and the true signal at $x$, averaged over all possible samples.</p>
+<p>The key observation is that bias is a constant (that is, a number), not a random variable. It is a systematic error in the estimate.</p>
+<h3 id="Model-Variance">Model Variance<a class="anchor-link" href="#Model-Variance">&#182;</a></h3><p>We came up with our prediction $\hat{Y}(x)$ based on the model we chose to fit, using data from our random sample. Had that sample come out differently, our prediction might have been different. For each sample, we have a prediction, so the prediction is a random variable and thus has a mean and a variance.</p>
+<p>The variance of the predictor $\hat{Y}(x)$ is called the <em>model variance</em>. By the definition of variance,</p>
+$$
+\text{model variance} ~ = ~ \mathbb{E}\big{(} (\hat{Y}(x) - \mathbb{E}(\hat{Y}(x)))^2 \big{)}
+$$<h3 id="Model-Risk">Model Risk<a class="anchor-link" href="#Model-Risk">&#182;</a></h3><p>This is the mean squared error of our prediction.</p>
+$$
+\text{model risk} ~ = ~ \mathbb{E}\big{(} (Y - \hat{Y}(x))^2 \big{)}
+$$
+</div>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Goal">Goal<a class="anchor-link" href="#Goal">&#182;</a></h3><p>Decompose the model risk into recognizable components.</p>
+
+</div>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Step-1-(Figure-on-Slide-26)">Step 1 (Figure on Slide 26)<a class="anchor-link" href="#Step-1-(Figure-on-Slide-26)">&#182;</a></h3>\begin{align*}
+\text{model risk} ~ &amp;= ~ \mathbb{E}\big{(} (Y - \hat{Y}(x))^2 \big{)} \\
+&amp;= ~ \mathbb{E}\big{(} (g(x) + \epsilon - \hat{Y}(x))^2 \big{)} \\
+&amp;= ~ \mathbb{E}\big{(} (\epsilon + (g(x) - \hat{Y}(x)))^2 \big{)} \\
+&amp;= ~ \mathbb{E}(\epsilon^2) + 2\mathbb{E}(\epsilon(g(x) - \hat{Y}(x))) + \mathbb{E}\big{(}(g(x) - \hat{Y}(x))^2\big{)}
+\end{align*}<p>On the right hand side:</p>
+<ul>
+<li>The first term is the observation variance $\sigma^2$.</li>
+<li>The cross product term is 0 because $\epsilon$ is independent of $g(x) - \hat{Y}(x)$ and $\mathbb{E}(\epsilon) = 0$</li>
+<li>The last term is the mean squared difference between our predicted value and the value of the true function at $x$</li>
 </ul>
 
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">y</span> <span class="o">=</span> <span class="n">eggs</span><span class="p">[</span><span class="s2">&quot;bird_weight&quot;</span><span class="p">]</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">eggs</span><span class="p">[[</span><span class="s2">&quot;egg_weight&quot;</span><span class="p">,</span> <span class="s2">&quot;egg_length&quot;</span><span class="p">,</span> <span class="s2">&quot;egg_breadth&quot;</span><span class="p">]]</span>
-    
-<span class="n">model</span> <span class="o">=</span> <span class="n">lm</span><span class="o">.</span><span class="n">LinearRegression</span><span class="p">(</span><span class="n">fit_intercept</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
-
-<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span><span class="n">model</span><span class="o">.</span><span class="n">intercept_</span><span class="p">]</span> <span class="o">+</span> <span class="nb">list</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">coef_</span><span class="p">),</span>
-             <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;theta_hat&#39;</span><span class="p">],</span>
-             <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;intercept&#39;</span><span class="p">,</span> <span class="s1">&#39;egg_weight&#39;</span><span class="p">,</span> <span class="s1">&#39;egg_length&#39;</span><span class="p">,</span> <span class="s1">&#39;egg_breadth&#39;</span><span class="p">]))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;RMSE&quot;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">((</span><span class="n">y</span> <span class="o">-</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X</span><span class="p">))</span> <span class="o">**</span> <span class="mi">2</span><span class="p">))</span>
-              
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>theta_hat</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>intercept</th>
-      <td>-4.605670</td>
-    </tr>
-    <tr>
-      <th>egg_weight</th>
-      <td>0.431229</td>
-    </tr>
-    <tr>
-      <th>egg_length</th>
-      <td>0.066570</td>
-    </tr>
-    <tr>
-      <th>egg_breadth</th>
-      <td>0.215914</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>RMSE 0.045470853802757734
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Let's try bootstrapping the sample to obtain a 95% confidence interval for the parameter $\theta_1$ corresponding to egg weight.</p>
-<p>This code uses <code>df.sample</code> (<a href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sample.html">link</a>) to generate a bootstrap sample of the same size of the original sample.</p>
-
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_param1</span><span class="p">(</span><span class="n">model</span><span class="p">):</span>
-    <span class="c1"># first feature</span>
-    <span class="k">return</span> <span class="n">model</span><span class="o">.</span><span class="n">coef_</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-
-<span class="k">def</span> <span class="nf">bootstrap_params</span><span class="p">(</span><span class="n">sample_df</span><span class="p">,</span> <span class="n">get_param_fn</span><span class="o">=</span><span class="n">get_param1</span><span class="p">,</span> <span class="n">n_iters</span><span class="o">=</span><span class="mi">10000</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    sample: the bootstrap population</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">sample_df</span><span class="p">)</span>
-    <span class="n">estimates</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_iters</span><span class="p">):</span>
-        <span class="c1"># resample n times with replacement</span>
-        <span class="c1"># i.e., get a new sample of same size</span>
-        <span class="c1"># using df.sample(...)</span>
-        <span class="n">resample</span> <span class="o">=</span> <span class="n">sample_df</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-        
-        <span class="c1"># train model with this bootstrap sample</span>
-        <span class="n">resample_y</span> <span class="o">=</span> <span class="n">resample</span><span class="p">[</span><span class="s2">&quot;bird_weight&quot;</span><span class="p">]</span>
-        <span class="n">resample_X</span> <span class="o">=</span> <span class="n">resample</span><span class="p">[[</span><span class="s2">&quot;egg_weight&quot;</span><span class="p">,</span> <span class="s2">&quot;egg_length&quot;</span><span class="p">,</span> <span class="s2">&quot;egg_breadth&quot;</span><span class="p">]]</span>
-        <span class="n">model</span> <span class="o">=</span> <span class="n">lm</span><span class="o">.</span><span class="n">LinearRegression</span><span class="p">()</span>
-        <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">resample_X</span><span class="p">,</span> <span class="n">resample_y</span><span class="p">)</span>
-        
-        <span class="c1"># include the estimate</span>
-        <span class="n">estimate</span> <span class="o">=</span> <span class="n">get_param_fn</span><span class="p">(</span><span class="n">model</span><span class="p">)</span>
-        <span class="n">estimates</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">estimate</span><span class="p">)</span>
-    <span class="n">lower</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">estimates</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-    <span class="n">upper</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">estimates</span><span class="p">,</span> <span class="mf">97.5</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-    <span class="n">conf_interval</span> <span class="o">=</span> <span class="p">(</span><span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">conf_interval</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">approx_conf1</span> <span class="o">=</span> <span class="n">bootstrap_params</span><span class="p">(</span><span class="n">eggs</span><span class="p">,</span> <span class="n">get_param1</span><span class="p">)</span>
-<span class="n">approx_conf1</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><br/><br/></p>
-<h1 id="Testing-all-the-coefficients">Testing all the coefficients<a class="anchor-link" href="#Testing-all-the-coefficients">&#182;</a></h1><p>Let's bootstrap again and compute 95% confidence intervals for all 4 parameters, including the bias term:</p>
-
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_all_params</span><span class="p">(</span><span class="n">model</span><span class="p">):</span>
-    <span class="c1"># all features</span>
-    <span class="k">return</span> <span class="p">[</span><span class="n">model</span><span class="o">.</span><span class="n">intercept_</span><span class="p">]</span> <span class="o">+</span> <span class="nb">list</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">coef_</span><span class="p">)</span>
-
-<span class="n">approx_confs</span> <span class="o">=</span> <span class="n">bootstrap_params</span><span class="p">(</span><span class="n">eggs</span><span class="p">,</span> <span class="n">get_param_fn</span><span class="o">=</span><span class="n">get_all_params</span><span class="p">)</span>
-<span class="n">approx_confs</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Because the 95% confidence interval includes 0, we cannot reject the null hypothesis that the true parameter $\theta_1$ is 0.</p>
-
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">simple_resample</span><span class="p">(</span><span class="n">n</span><span class="p">):</span> 
-    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">low</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">high</span><span class="o">=</span><span class="n">n</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="n">n</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">bootstrap</span><span class="p">(</span><span class="n">boot_pop</span><span class="p">,</span> <span class="n">statistic</span><span class="p">,</span> <span class="n">resample</span><span class="o">=</span><span class="n">simple_resample</span><span class="p">,</span> <span class="n">replicates</span><span class="o">=</span><span class="mi">10000</span><span class="p">):</span>
-    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">boot_pop</span><span class="p">)</span>
-    <span class="n">resample_estimates</span> <span class="o">=</span> <span class="p">[</span><span class="n">statistic</span><span class="p">(</span><span class="n">boot_pop</span><span class="p">[</span><span class="n">resample</span><span class="p">(</span><span class="n">n</span><span class="p">)])</span>
-                          <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">replicates</span><span class="p">)]</span>
-    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">resample_estimates</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>But when we make confidence intervals for the model coefficients, we find 
-something strange.
-All of the confidence intervals contain 0, which prevents us from concluding
-that <em>any</em> variable is significantly related to the response.</p>
-
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">egg_thetas</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
-    <span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="p">[:,</span> <span class="p">:</span><span class="mi">3</span><span class="p">]</span>
-    <span class="n">y</span> <span class="o">=</span> <span class="n">data</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">]</span>
-    
-    <span class="n">model</span> <span class="o">=</span> <span class="n">lm</span><span class="o">.</span><span class="n">LinearRegression</span><span class="p">()</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">model</span><span class="o">.</span><span class="n">coef_</span>
-
-<span class="n">egg_thetas</span> <span class="o">=</span> <span class="n">bootstrap</span><span class="p">(</span><span class="n">eggs</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">egg_thetas</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs   celltag_hide-input">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">egg_ci</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">egg_thetas</span><span class="p">,</span> <span class="p">[</span><span class="mf">2.5</span><span class="p">,</span> <span class="mf">97.5</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">egg_ci</span><span class="o">.</span><span class="n">T</span><span class="p">,</span>
-             <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;lower&#39;</span><span class="p">,</span> <span class="s1">&#39;upper&#39;</span><span class="p">],</span>
-             <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;theta_egg_weight&#39;</span><span class="p">,</span> <span class="s1">&#39;theta_egg_length&#39;</span><span class="p">,</span> <span class="s1">&#39;theta_egg_breadth&#39;</span><span class="p">])</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><br/><br/></p>
-<hr>
-<h2 id="Inspecting-the-Relationship-between-Features">Inspecting the Relationship between Features<a class="anchor-link" href="#Inspecting-the-Relationship-between-Features">&#182;</a></h2><p>To see what's going on, we'll make a scatter plot matrix for the data.</p>
-
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">px</span><span class="o">.</span><span class="n">scatter_matrix</span><span class="p">(</span><span class="n">eggs</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">450</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">450</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>This shows that <code>bird_weight</code>
-is highly correlated with all the other
-variables (the bottom row), which means fitting a linear model is a good idea.
-But we also see that <code>egg_weight</code> is highly correlated with all the variables
-(the top row).
-This means we can't increase one covariate while
-keeping the others constant. The individual slopes have no meaning.</p>
-
+<h3 id="Step-2-(Figure-on-Slide-27)">Step 2 (Figure on Slide 27)<a class="anchor-link" href="#Step-2-(Figure-on-Slide-27)">&#182;</a></h3><p>At this stage we have</p>
+$$
+\text{model risk} ~ = ~ \text{observation variance} + \mathbb{E}\big{(}(g(x) - \hat{Y}(x))^2\big{)}
+$$<p>We don't yet have a good understanding of $g(x) - \hat{Y}(x)$. But we do understand the deviation $D_{\hat{Y}(x)} = \hat{Y}(x) - \mathbb{E}(\hat{Y}(x))$. We know that</p>
+<ul>
+<li>$\mathbb{E}(D_{\hat{Y}(x)}) ~ = ~ 0$</li>
+<li>$\mathbb{E}(D_{\hat{Y}(x)}^2) ~ = ~ \text{model variance}$</li>
+</ul>
+<p>So let's add and subtract $\mathbb{E}(\hat{Y}(x))$ and see if that helps.</p>
+$$
+g(x) - \hat{Y}(x) ~ = ~ (g(x) - \mathbb{E}(\hat{Y}(x)) + (\mathbb{E}(\hat{Y}(x) - \hat{Y}(x)) 
+$$<p>The first term on the right hand side is the model bias at $x$. The second term is $-D_{\hat{Y}(x)}$. So</p>
+$$
+g(x) - \hat{Y}(x) ~ = ~ \text{model bias} - D_{\hat{Y}(x)}
+$$
 </div>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Here's the correlations showing this more succinctly:</p>
-
+<h3 id="Step-3">Step 3<a class="anchor-link" href="#Step-3">&#182;</a></h3><p>Remember that the model bias at $x$ is a constant, not a random variable. Think of it as your favorite number, say 10. Then</p>
+\begin{align*}
+\mathbb{E}\big{(}(g(x) - \hat{Y}(x))^2\big{)} ~ &amp; = ~ \text{model bias}^2 - 2(\text{model bias})\mathbb{E}(D_{\hat{Y}(x)}) + \mathbb{E}(D_{\hat{Y}(x)}^2) \\
+&amp;= ~ \text{model bias}^2 - 0 + \text{model variance} \\
+&amp;= ~ \text{model bias}^2 + \text{model variance}
+\end{align*}
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">eggs</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><br/><br/></p>
-<hr>
-<h2 id="Changing-Our-Modeling-Features">Changing Our Modeling Features<a class="anchor-link" href="#Changing-Our-Modeling-Features">&#182;</a></h2><p>One way to fix this is to fit a model that only uses <code>egg_weight</code>.
-This model performs almost as well as the model that uses all three variables,
-and the confidence interval for $\theta_1$ doesn't 
-contain zero.</p>
-
+<h3 id="Step-4:-Bias-Variance-Decomposition">Step 4: Bias-Variance Decomposition<a class="anchor-link" href="#Step-4:-Bias-Variance-Decomposition">&#182;</a></h3><p>In Step 2 we had</p>
+$$
+\text{model risk} ~ = ~ \text{observation variance} + \mathbb{E}\big{(}(g(x) - \hat{Y}(x))^2\big{)}
+$$<p>Step 3 showed</p>
+$$
+\mathbb{E}\big{(}(g(x) - \hat{Y}(x))^2\big{)} ~ = ~ \text{model bias}^2 + \text{model variance}
+$$<p>Thus we have shown the bias-variance decomposition</p>
+$$
+\text{model risk} ~ = ~ \text{observation variance} + \text{model bias}^2 + \text{model variance}
+$$<p>That is,</p>
+$$
+\mathbb{E}\big{(} (Y - \hat{Y}(x))^2 \big{)} ~ = ~ \sigma^2 + \mathbb{E}\big{(} (g(x) - \mathbb{E}(\hat{Y}(x))^2\big{)} + \mathbb{E}\big{(} (\hat{Y}(x) - \mathbb{E}(\hat{Y}(x))^2 \big{)}
+$$
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">y</span> <span class="o">=</span> <span class="n">eggs</span><span class="p">[</span><span class="s2">&quot;bird_weight&quot;</span><span class="p">]</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">eggs</span><span class="p">[[</span><span class="s2">&quot;egg_weight&quot;</span><span class="p">]]</span>
-    
-<span class="n">model</span> <span class="o">=</span> <span class="n">lm</span><span class="o">.</span><span class="n">LinearRegression</span><span class="p">(</span><span class="n">fit_intercept</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
-
-<span class="n">display</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span><span class="n">model</span><span class="o">.</span><span class="n">intercept_</span><span class="p">]</span> <span class="o">+</span> <span class="nb">list</span><span class="p">(</span><span class="n">model</span><span class="o">.</span><span class="n">coef_</span><span class="p">),</span>
-             <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;theta_hat&#39;</span><span class="p">],</span>
-             <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;intercept&#39;</span><span class="p">,</span> <span class="s1">&#39;egg_weight&#39;</span><span class="p">]))</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;RMSE&quot;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">((</span><span class="n">y</span> <span class="o">-</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X</span><span class="p">))</span> <span class="o">**</span> <span class="mi">2</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">bootstrap_egg_weight_only</span><span class="p">(</span><span class="n">sample_df</span><span class="p">,</span> <span class="n">n_iters</span><span class="o">=</span><span class="mi">10000</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    copied over for convenience</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">sample_df</span><span class="p">)</span>
-    <span class="n">estimates</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_iters</span><span class="p">):</span>
-        <span class="n">resample</span> <span class="o">=</span> <span class="n">sample_df</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-        
-        <span class="n">resample_y</span> <span class="o">=</span> <span class="n">resample</span><span class="p">[</span><span class="s2">&quot;bird_weight&quot;</span><span class="p">]</span>
-        <span class="n">resample_X</span> <span class="o">=</span> <span class="n">resample</span><span class="p">[[</span><span class="s2">&quot;egg_weight&quot;</span><span class="p">]]</span> <span class="c1"># just one feature + intercept</span>
-        <span class="n">model</span> <span class="o">=</span> <span class="n">lm</span><span class="o">.</span><span class="n">LinearRegression</span><span class="p">()</span>
-        <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">resample_X</span><span class="p">,</span> <span class="n">resample_y</span><span class="p">)</span>
-        <span class="n">estimates</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="n">model</span><span class="o">.</span><span class="n">coef_</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-    <span class="n">lower</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">estimates</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-    <span class="n">upper</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">percentile</span><span class="p">(</span><span class="n">estimates</span><span class="p">,</span> <span class="mf">97.5</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-    <span class="n">conf_interval</span> <span class="o">=</span> <span class="p">(</span><span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">conf_interval</span>
-
-<span class="n">approx_conf_egg_weight_only</span> <span class="o">=</span> <span class="n">bootstrap_egg_weight_only</span><span class="p">(</span><span class="n">eggs</span><span class="p">)</span>
-<span class="n">approx_conf_egg_weight_only</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>It's no surprise that if you want to predict the
-weight of the newly-hatched chick, using the weight
-of the egg is your best move.</p>
-<p>As this example shows, checking for collinearity is important for inference.
-When we fit a model on highly correlated variables, we might not be able to
-use confidence intervals to conclude that variables are
-related to the prediction.</p>
-
+<h3 id="Special-Case-$%5Chat%7BY%7D(x)-=-f_%7B%5Chat%7B%5Ctheta%7D%7D(x)$">Special Case $\hat{Y}(x) = f_{\hat{\theta}}(x)$<a class="anchor-link" href="#Special-Case-$%5Chat%7BY%7D(x)-=-f_%7B%5Chat%7B%5Ctheta%7D%7D(x)$">&#182;</a></h3><p>In the case where we are making our predictions by fitting some function $f$ that involves parameters $\theta$, our estimate $\hat{Y}$ is $f_{\hat{\theta}}$ where $\hat{\theta}$ has been estimated from the data and hence is random.</p>
+<p>In the bias-variance decomposition</p>
+$$
+\mathbb{E}\big{(} (Y - \hat{Y}(x))^2 \big{)} ~ = ~ \sigma^2 + \mathbb{E}\big{(} (g(x) - \mathbb{E}(\hat{Y}(x))^2\big{)} + \mathbb{E}\big{(} (\hat{Y}(x) - \mathbb{E}(\hat{Y}(x))^2 \big{)}
+$$<p>just plug in the particular prediction $f_{\hat{\theta}}$ in place of the general prediction $\hat{Y}$:</p>
+$$
+\mathbb{E}\big{(} (Y - f_{\hat{\theta}}(x))^2 \big{)} ~ = ~ \sigma^2 + \mathbb{E}\big{(} (g(x) - \mathbb{E}(f_{\hat{\theta}}(x))^2\big{)} + \mathbb{E}\big{(} (f_{\hat{\theta}}(x) - \mathbb{E}(f_{\hat{\theta}}(x))^2 \big{)}
+$$
 </div>
 </div>
 </div>
