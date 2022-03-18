@@ -16,7 +16,7 @@ days:
     : '[Ch. 16.2-16.3](https://www.textbook.ds100.org/ch/16/prob_exp_var.html)'
 - date: 2022-03-18
   events:
-    ? '**Discussion 9**{: .label .label-disc } Cross-Validation + Probability I'
+    ? '**Discussion 9**{: .label .label-disc } [Cross-Validation + Probability I](https://drive.google.com/file/d/1ieZcBRcRi4G4DGgsN9FF9kRkZP0WBJuN/view?usp=sharing)'
     ? '**Lab 9**{: .label .label-lab } Probability and Modeling (due Mar 29)'
     ? '**Homework 6**{: .label .label-hw } Probability and Estimators (due Mar 31)'
     : ""

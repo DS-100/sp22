@@ -14,6 +14,7 @@ Content by Lisa Yan, Ani Adhikari, and Suraj Rampure
 - [code](https://github.com/DS-100/sp22/tree/main/lec/lec17){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=tree%2Fsp22%2Flec%2Flec17%2Flec17.ipynb&branch=main){:target="_blank"})
 - [code HTML](../../resources/assets/lectures/lec17/lec17.html){:target="_blank"}
 - [Derivation HTML](../../resources/assets/lectures/lec17/Derivation.html){:target="_blank"}
+- [recording](https://youtu.be/LH4dJMoU1X8){:target="_blank"}
 
 
 <!--
