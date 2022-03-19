@@ -17,7 +17,7 @@ days:
 - date: 2022-03-18
   events:
     ? '**Discussion 9**{: .label .label-disc } [Cross-Validation + Probability I](https://drive.google.com/file/d/1ieZcBRcRi4G4DGgsN9FF9kRkZP0WBJuN/view?usp=sharing)'
-    ? '**Lab 9**{: .label .label-lab } Probability and Modeling (due Mar 29)'
+    ? '**Lab 9**{: .label .label-lab } [Probability and Modeling](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Flab%2Flab09%2Flab09.ipynb) (due Mar 29)'
     ? '**Homework 6**{: .label .label-hw } Probability and Estimators (due Mar 31)'
     : ""
 
