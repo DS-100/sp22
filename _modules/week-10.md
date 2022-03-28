@@ -1,6 +1,6 @@
 ---
 title: Spring Break
-weekNumber: 10
+weekNumber: 0
 days:
 - date: 2022-03-22
   events:
