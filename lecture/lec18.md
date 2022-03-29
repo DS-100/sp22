@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Lecture 18 – Cross-Validation and Regularization
+title: Lecture 18 – SQL I
 nav_exclude: true
 ---
 
-# Lecture 18 – Cross-Validation and Regularization
+# Lecture 18 – SQL I
 
-Presented by Anthony D. Joseph, Joseph Gonzalez, Suraj Rampure, Paul Shao
+Presented by Josh Hug
 
-Content by Joseph Gonzalez, Suraj Rampure, Paul Shao
+Content by Josh Hug, Alvin Wan, Joseph Gonzalez
 
-- [slides](https://docs.google.com/presentation/d/1UL2ljxgvk8UQnBpkadPCS9-os7f6Iw_X4bXCERGp7HI/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfrhTm0sdDpyYbDhUiqr1vG5)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec18/&branch=main)
+- [slides](https://docs.google.com/presentation/d/1JLoC1xMzMuIzv_n2Gu0s8SZqHer2hQYiroYHRMgBMtc/edit?usp=sharing)
+- [code](https://github.com/DS-100/sp22/tree/main/lec/lec18){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=tree%2Fsp22%2Flec%2Flec18%2Flec18.ipynb&branch=main){:target="_blank"})
 
+<!--
 **Important**: Read this before proceeding with the lectures, as it details what materials you should focus on. (This is also largely recapped in Video 18.1.)
 
 Sections 18.1 through 18.4 discuss train-test splits and cross-validation.
@@ -94,3 +94,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><a>N/A</a></td>
 </tr>
 </tbody></table>
+-->

@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2022-03-29
   events:
-    ? '**Lecture 18**{: .label .label-lecture } SQL I'
+    ? '**Lecture 18**{: .label .label-lecture } [SQL I](lecture/lec18)'
     : '[Ch. 7.1-7.2](https://www.textbook.ds100.org/ch/07/sql_subsetting.html), [7.5](https://www.textbook.ds100.org/ch/07/sql_other_reps.html)'
 - date: 2022-03-31
   events:
