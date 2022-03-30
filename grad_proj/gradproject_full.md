@@ -77,7 +77,14 @@ If you wish to work on the project locally, you can also download the zip files 
 
 If you wish to work on Datahub, use the following instructions on how to easily move the data from Google Drive onto Datahub (keep in mind that your Datahub kernel can only manage 2GB of memory at maximum).
 
-**TODO** Add instructions here
+#### How to Pull Data from Google Drive directly onto Datahub
+
+1. **Get the Google Drive ID of the file**. You can do this by first getting the URL of the file. You do this by right-clicking on the file in Google Drive and pressing 'Get Link'. Once you have the URL, you can find the ID by looking for the set of characters after the /d/ in the url. For example, in the following url: **https://drive.google.com/file/d/16-4O_lJGioPC5G9il4vR_XrCgJ3J9_zK/view?usp=sharing** , the Google Drive ID would be **16-4O_lJGioPC5G9il4vR_XrCgJ3J9_zK**.
+2. **Download the data**. Once you have the Google Drive ID of the file, you can use the `utils.py` file inside the `grad_proj` directory on your Datahub. This file has a number of useful functions for downloading data. You'll want to use `fetch_and_cache_gdrive`. You will call the function in a notebook. The function takes in two arguments: **(1) Google Drive ID** that you got in the previous step, and **(2) name of the file**. Calling the function will generate a `data` folder and place the file into that folder, using the name you came up with as the second argument of the function.
+
+Hopefully the above steps help you to access the data on Google Drive. Take a look at the other functions in `utils.py` if you'd like to use other data sources to supplement your project. 
+
+There are other ways to move the data onto Datahub. Consider looking into [`gdown`](https://github.com/wkentaro/gdown) or just downloading the data from Google Drive and uploading it to Datahub manually.
 
 The following subsections contain the descriptions and additional requirements for each dataset.
 
@@ -272,7 +279,7 @@ The project writeup will be graded out of a total of 30 points based on the foll
 | Modeling and inference techniques                                      | 7     |
 | Analysis of results                                                    | 7     |
 | Implementation of peer review feedback                                 | 3     |
-| Discussion of potential societal impacts and/or ethical concerns                   | 2     |
+| Discussion of potential societal impacts and/or ethical concerns       | 2     |
 | Overall clarity and structure of the report                            | 3     |
 
 ### <a name="causal_inference"></a>Causal Inference
