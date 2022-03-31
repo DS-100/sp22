@@ -1,19 +1,21 @@
 ---
 layout: page
-title: Lecture 19 – Physical Data and the Climate
+title: Lecture 19 – SQL II, PCA
 nav_exclude: true
 ---
 
-# Lecture 19 – Physical Data and the Climate
+# Lecture 19 – SQL II and PCA I
 
-Presented by Dr. Chelle Gentemann
+Content by Josh Hug, Alvin Wan, Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu
 
-Content by Dr. Chelle Gentemann
+Presented by Josh Hug
 
-- [slides](https://bit.ly/d100-21-climate)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec19/&branch=main)
-- [playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfofMcFc894bQDIlCCyfK8qF)
+- [slides](https://docs.google.com/presentation/d/1EdxE8dlOpaJ09aloqeR9-3avz4f5fVTeZgfWSgbL6DM/edit?usp=sharing){:target="_blank"}
+- [code](https://github.com/DS-100/sp22/tree/main/lec/lec19){:target="_blank"}
+  - SQL: [launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec19%2Flec19a-sql.ipynb&branch=main){:target="_blank"}
+  - PCA: [launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec19%2Flec19b-pca.ipynb&branch=main){:target="_blank"}
 
+<!--
 <table>
 <colgroup>
 <col style="width: 25%" />
@@ -35,3 +37,4 @@ Content by Dr. Chelle Gentemann
 </tr>
 
 </tbody></table>
+-->
