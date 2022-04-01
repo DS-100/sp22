@@ -3,94 +3,90 @@ layout: page
 title: Graduate Project
 nav_exclude: true
 description: Specifications for the grad project for Data 200.
+markdown: kramdown
 ---
 # Graduate Project
+{:.no_toc}
 
-## Table of Contents
+* TOC
+{:toc}
 
-1. [Introduction](#introduction)
-2. [Timeline](#timeline)
-3. [Deliverables and Grade Breakdown](#grade-breakdown)
-4. [Datasets](#dataset)
-    1. [Accessing Datasets](#access-dataset)
-    2. [Topic 1: COVID-19](#covid-19)
-    3. [Topic 2: Climate and the Environment](#climate)
-    4. [Topic 3: Emerging Researches and Technologies](#tech)
-5. [Report Format and Submission](#report-format)
-6. [Rubrics](#rubrics)
-    1. [Peer Grading Rubric](#peer-rubric)
-    2. [Final Report: Analysis Notebook Grading Rubric](#analysis-rubric)
-    3. [Final Report: Project Writeup Grading Rubric](#writeup-rubric)
+## Introduction
 
-## Introduction <a name="introduction"></a>
-
-The graduate project is offered only to students enrolled in Data C200 or CS C200A. Other students are welcome to explore the questions and datasets in the project for learning, but their work will not be graded or counted towards their final grades.
+The graduate project is offered only to students enrolled in Data C200 or CS C200A. Other students are welcome to explore the questions and datasets in the project for personal learning, but their work will not be graded or counted towards their final grades.
 
 The purpose of the project is to give students experience in both open-ended data science analysis and research in general. In this project, you will work with **one or any combination** of the following datasets provided to you to explore research questions that you define.
 
-**Note**: in addition to the general guideline, each option has its own set of additional requirements for Report Format and Submission. Be sure to consult the correct section for your project option.
+**Project criteria**: In addition to the general guidelines, each dataset option below has its own set of additional requirements for Report Format and Submission. Be sure to consult the correct section for your project option.
 
-You will receive feedback from peer grading before the final deadline, and you are expected to incorporate the feedback into the final report and presentation. You will be graded on both the final report and presentation, as well as [deliverables](#deliverables) before the submission of the final reports, including your peer reviews.
+**Grading**: You will receive peer review feedback before the final deadline, and you are expected to incorporate the peer feedback into the final report and presentation. You will be graded on both the final report and presentation, as well as [deliverables](#deliverables) before the submission of the final reports, including your peer reviews.
 
-**Teamwork**: You can work alone or in a group with **at most two other students**. If you are interested in working with others, we will have an Ed post for teammate search. Everyone in the same group will receive the same grade. The group size will be taken into consideration for grading.
+**Teamwork**: You can work alone or in a group with **at most two other students**. If you are interested in working with others, we have an [Ed post](https://edstem.org/us/courses/15436/discussion/1058477) for teammate search. Everyone in the same group will receive the same grade. The group size will be taken into consideration when grading.
 
-## Timeline <a name="timeline"></a>
+## Timeline
 
 
-| Date (by EOD at 11:59pm) 	| Event / Deliverable                           |
+| Date (by EOD at 11:59pm Pacific) 	| Event / Deliverable           |
 |--------------------------	|---------------------------------------------	|
 | 4/9                       | Research proposal and project groups due    	|
 | 4/22                      | Project checkpoint                          	|
 | 4/27                    	| First draft of final report due             	|
-| 4/28                  	| Peer grading starts                         	|
-| 5/2                       | Peer grading due                            	|
+| 4/28                   	  | Peer review open                            	|
+| 5/2                       | Peer review due                             	|
 | 5/9                       | Revised final report due                    	|
 | 5/11                      | Presentation video due                      	|
 | 5/13                      | Presentation video released (at discretion) 	|
 
-## Deliverables and Grade Breakdown <a name="grade-breakdown"></a>
+## Deliverables and Grade Breakdown
 
 | Deliverable                          	| Weight 	|
 |--------------------------------------	|--------	|
 | Research proposal and project groups 	| 10%    	|
+| Checkpoint                            |  0%     |
 | Submission of first draft            	| 10%    	|
-| Peer grading                         	| 15%    	|
-| Final report: analysis notebook      	| 20%    	|
-| Final report: project writeup        	| 30%    	|
+| Peer review                         	| 15%    	|
+| Final report: Analysis notebook      	| 20%    	|
+| Final report: Project writeup        	| 30%    	|
 | Final presentation video             	| 15%    	|
 
+The project checkpoint is a quick Google Form to assess if you are making progress towards your goals.
 
-## Datasets <a name="dataset"></a>
+## Datasets
 
-This section contains the datasets we will provide to you to explore your research questions. Please note that:
+This section contains the datasets we will provide to you to explore your research questions.
 
 - You must incorporate **at least one** of the provided datasets.
 - You are welcome to **bring in additional datasets** to complement the datasets provided here, but you must cite the sources and clearly describe the content of any additional data you use in the final report.
 
-Please be sure to consult the [references on causal inference](#causal_inference) for guidance on how to work with multiple datasets if you decide on doing that.
+Should you need to connect together multiple datasets, please be sure to consult the [extra resource on causal inference](#extra-resources-causal-inference).
 
-### Accessing Datasets <a name="access-dataset"></a>
+### Accessing Datasets
 
-All the datasets provided by us can be found inside the following link on Google Drive. [graduate project datasets link](https://drive.google.com/drive/u/0/folders/1WGxxvFMqXutk3WKGqbHYJx0urmQp9Lbw) on Google Drive. 
+All the datasets provided by us can be found inside the following link on Google Drive:
 
-If you wish to work on the project locally, you can also download the zip files containing the datasets for each topic.
+<p align="center">
+<a href="https://drive.google.com/drive/u/0/folders/1WGxxvFMqXutk3WKGqbHYJx0urmQp9Lbw">Graduate Project Datasets Google Drive</a>
+</p>
 
 If you wish to work on Datahub, use the following instructions on how to easily move the data from Google Drive onto Datahub (keep in mind that your Datahub kernel can only manage 2GB of memory at maximum).
 
-#### How to Pull Data from Google Drive directly onto Datahub
+If you wish to work on the project locally, you can also download the zip files containing the datasets for each topic.
 
-1. **Get the Google Drive ID of the file**. You can do this by first getting the URL of the file. You do this by right-clicking on the file in Google Drive and pressing 'Get Link'. Once you have the URL, you can find the ID by looking for the set of characters after the /d/ in the url. For example, in the following url: **https://drive.google.com/file/d/16-4O_lJGioPC5G9il4vR_XrCgJ3J9_zK/view?usp=sharing** , the Google Drive ID would be **16-4O_lJGioPC5G9il4vR_XrCgJ3J9_zK**.
-2. **Download the data**. Once you have the Google Drive ID of the file, you can use the `utils.py` file inside the `grad_proj` directory on your Datahub. This file has a number of useful functions for downloading data. You'll want to use `fetch_and_cache_gdrive`. You will call the function in a notebook. The function takes in two arguments: **(1) Google Drive ID** that you got in the previous step, and **(2) name of the file**. Calling the function will generate a `data` folder and place the file into that folder, using the name you came up with as the second argument of the function.
+#### **How to Pull Data from Google Drive directly onto Datahub**
+{:.no_toc}
 
-Hopefully the above steps help you to access the data on Google Drive. Take a look at the other functions in `utils.py` if you'd like to use other data sources to supplement your project. 
+1. _Get the Google Drive ID of the file_. You can do this by first getting the URL of the file. You do this by right-clicking on the file in Google Drive and pressing 'Get Link'. Once you have the URL, you can find the ID by looking for the set of characters after the /d/ in the url. For example, in the following url: `https://drive.google.com/file/d/16-4O_lJGioPC5G9il4vR_XrCgJ3J9_zK/view?usp=sharing` , the Google Drive ID would be `16-4O_lJGioPC5G9il4vR_XrCgJ3J9_zK`.
+2. _Download the data_. Once you have the Google Drive ID of the file, you can use the `utils.py` file inside the `grad_proj` directory on your Datahub. This file has a number of useful functions for downloading data. You'll want to use `fetch_and_cache_gdrive`. You will call the function in a notebook. The function takes in two arguments: **(1) Google Drive ID** that you got in the previous step, and **(2) name of the file**. Calling the function will generate a `data` folder and place the file into that folder, using the name you came up with as the second argument of the function.
 
-There are other ways to move the data onto Datahub. Consider looking into [`gdown`](https://github.com/wkentaro/gdown) or just downloading the data from Google Drive and uploading it to Datahub manually.
+Hopefully the above steps help you to access the data on Google Drive. There are other ways to move the data onto Datahub. Consider looking into [`gdown`](https://github.com/wkentaro/gdown) or just downloading the data from Google Drive and uploading it to Datahub manually.
 
-The following subsections contain the descriptions and additional requirements for each dataset.
+Take a look at the other functions in `utils.py` if you'd like to use other data sources to supplement your project. 
 
-### Topic 1: COVID-19 <a name="covid-19"></a>
 
-#### Dataset A: Testing and Mortality Statistics <a name="1-a"></a>
+### Topic 1: COVID-19
+
+#### Dataset A: Testing and Mortality Statistics
+{:.no_toc}
 
 This dataset contains US reports on COVID-19 testing and cases from the [COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) and CDC (Centers for Disease Control and Prevention). You can access all the data within the `Topic 1/Dataset A` directory on Google Drive:
 
@@ -100,7 +96,8 @@ This dataset contains US reports on COVID-19 testing and cases from the [COVID-1
 
 You must choose to work with **at least 2 of the reports** above in your analysis.
 
-#### Dataset B: Impact on Health Care <a name="1-b"></a>
+#### Dataset B: Impact on Health Care
+{:.no_toc}
 
 This dataset contains reports from the Household Pulse Survey launched by NCHS in partnership with the U.S. Census Bureau; it focuses on how COVID-19 has affected survey correspondents' mental health and their access to health care. In addition, it provides statistics on usage of telemedicine by healthcare providers. You can access all the data within the `Topic 1/Dataset B` directory on Google Drive:
 
@@ -112,15 +109,17 @@ This dataset contains reports from the Household Pulse Survey launched by NCHS i
 
 You must choose to work with **at least 3 of the reports** above in your analysis.
 
-#### Dataset C: Ongoing Researches <a name="1-c"></a>
+#### Dataset C: Ongoing Researches
+{:.no_toc}
 
 This dataset contains (in full-text and metadata form) scholarly articles related to COVID-19. The data are optimized for machine readability and made available for use by the global research community. The dataset is intended to mobilize researchers to generate new insights from the articles in support of the fight against this infectious disease. You can access all the data within the `Topic 1/Dataset C` directory on Google Drive:
 
 * `covid_open_research_dataset.txt` contains the link that will guide you to obtain the full-text and metadata dataset of COVID-related research articles. ([documentation](https://azure.microsoft.com/en-us/services/open-datasets/catalog/covid-19-open-research/))
 
-### Topic 2: Climate and the Environment <a name="climate"></a>
+### Topic 2: Climate and the Environment
 
 #### Dataset A: General Measurements and Statistics <a name="2-a"></a>
+{:.no_toc}
 
 This dataset contains some general statistics and measurements of various aspects of the climate and the environment. You can access all the data within the `Topic 2/Dataset A` directory on Google Drive. It includes the following reports:
 
@@ -141,7 +140,8 @@ If you wish to explore the climate data for a different year, you can use the `G
 
 The data contains only the (latitude, longitude) coordinates for the weather stations. To map the coordinates to geographical locations, the [reverse-geocoder](https://github.com/thampiman/reverse-geocoder) package mentioned in the [References](#coordinates) section might be helpful.
 
-#### Dataset B: Biodiversity in the Ecosystem <a name="2-b"></a>
+#### Dataset B: Biodiversity in the Ecosystem
+{:.no_toc}
 
 This dataset contains studies focused specifically on the impact of environmental and climate changes on biodiversity and the local ecosystems. You can access all the data within the `Topic 2/Dataset B` directory on Google Drive. It includes the following reports:
 
@@ -151,7 +151,8 @@ This dataset contains studies focused specifically on the impact of environmenta
 
 ### Topic 3: Emerging Researches and Technologies <a name="tech"></a>
 
-#### Dataset A: Space Exploration <a name="3-a"></a>
+#### Dataset A: Space Exploration
+{:.no_toc}
 
 This dataset contains a set of reports from pioneering researches that explore the outer space. Much of the data from these studies have provided a rich foundation for a variety of large-scale research projects that explore widely discussed topics such as habitable exoplanets or search for extraterrestrial life.
 
@@ -161,7 +162,8 @@ You can access all the data within the `Topic 3/Dataset A` directory on Google D
 - `kelper_planetary_system_composite.csv` contains data collected by NASA from the Kelper Space Observatory as part of an ongoing study that tabulates all confirmed planetary systems outside the solar system. You are encouraged to use the composite data in conjunction with the exoplanet search results above. ([source](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PSCompPars))
 - `nasa_neows.csv` contains data collected from NASA's [NeoWs (Near Earth Object Web Service)](https://neowise.ipac.caltech.edu/) that collects information on near earth asteroids.
 
-#### Dataset B: Recommender Systems <a name="3-b"></a>
+#### Dataset B: Recommender Systems
+{:.no_toc}
 
 A recommender system is an information filtering system that focuses on predicting the preference a user would give to an item by predicting its rank; it is used in a variety of areas, such as search engines, online shopping platforms, etc. This dataset contains a set of reports on various tools using a recommender system.
 
@@ -169,10 +171,12 @@ You can access all the data within the `Topic 3/Dataset B` directory on Google D
 - `fitness_recommendation.txt` contains a link to access the fitness data from sequential sensors for various workouts. ([documentation](https://sites.google.com/eng.ucsd.edu/fitrec-project/home))
 - `amazon_reviews.txt` contains a link to access the data on a subset of Amazon product reviews. The report includes metadata such as ratings and text on the reviews and general information about the product. ([documentation](https://nijianmo.github.io/amazon/index.html))
 
-### Report Format and Submission <a name="report-format"></a>
+## Report Format and Submission
 The project submission should include the following two components.
 
-[Component 1]. **Analysis Notebooks**. The Jupyter Notebook(s) containing all the analyses that you performed on the datasets to support your claims in the narrative notebook. Make sure that all references to datasets are done as `data/[path to data files]`. You can copy the datasets from `~/shared/grad_proj/multiple_datasets` into `data/` at the top-level directory for your project on DataHub to do this.
+### [Component 1] Analysis Notebooks
+
+The Jupyter Notebook(s) containing all the analyses that you performed on the datasets to support your claims in the narrative notebook. Make sure that all references to datasets are done as `data/[path to data files]`. You can copy the datasets from `~/shared/grad_proj/multiple_datasets` into `data/` at the top-level directory for your project on DataHub to do this.
 
 Your analysis notebook(s) should address all of the following components in the data science lifecycle. Please note that a thorough explanation of your thought process and approach is **as important as** your work. We have provided a few preliminary questions/tips you can think about for each part:
 - **Data Sampling and Collection**
@@ -202,9 +206,11 @@ Your analysis notebook(s) should address all of the following components in the 
     - You must have a clearly constructed hypothesis test (including a clearly defined test statistic, significance level, and justification of chosen procedure)
     - We will not restrict you to the type of statistical test you conduct as there are many different statistical techniques that may apply to your case. However, we also ask that you provide detailed justification for the techniques you choose and how it allows you make those inferences.
 
-[Component 2]. **Project Writeup**. This is a single PDF that summarizes your workflow and what you have learned. It should be structured as a research paper and include a title, list of authors, abstract, introduction, description of data, description of methods, summary of results, and discussion. Make sure to number figures and tables and include informative captions.
+### [Component 2] Project Writeup
 
-If you wish, you can render the PDF using LaTeX, provided that the provenance of the figures is clearly labeled in the main narrative, and the figures can be reproduced by running the analysis notebooks
+This is a single PDF that summarizes your workflow and what you have learned. It should be structured as a research paper and include a title, list of authors, abstract, introduction, description of data, description of methods, summary of results, and discussion. Make sure to number figures and tables and include informative captions.
+
+If you wish, you can render the PDF using LaTeX, provided that the provenance of the figures is clearly labeled in the main narrative, and the figures can be reproduced by running the analysis notebooks.
 
 Specifically, you should address the following in the narrative:
 
@@ -222,11 +228,11 @@ Specifically, you should address the following in the narrative:
 
 \* Examples of **interesting findings**: interesting data distributions and trends, correlations between different features, the relationship between the data distribution for the general population and specific datasets (e.g., the gender distribution in the census dataset vs. in the mental health dataset), specific features that are notably effective/ineffective for prediction.
 
-The narrative notebook should include figures sparingly to support specific claims. It can include runnable components, but it should not have large amounts of code. The length of the report should be 8+/-2 pages when it is printed as a PDF, excluding figures and code.
+The narrative notebook should include figures sparingly to support specific claims. It can include runnable components, but it should not have large amounts of code. The length of the report should be 8 ± 2 pages when it is printed as a PDF, excluding figures and code.
 
 Tip: if you need to write a large amount of $\LaTeX$, you may want to use the `%%latex` cell magic.
 
-Please submit everything as a zip file to the final report submission link. Please make sure the folder in the zip file has the following structure:
+Please submit everything as a zip file to the final report submission portal on Gradescope. Please make sure the folder in the zip file has the following structure:
 
 ```
 studentIDs/
@@ -238,41 +244,37 @@ studentIDs/
 
 For groups with multiple members, please use student IDs joined by `_` as the name for the top-level directory. The analysis notebooks must be runnable within this directory structure. If the narrative notebook includes any figures that are created in the analysis notebooks, the figures should be saved to `figures/` by the analysis notebooks and imported from `figures/` by the narrative notebook.
 
-## Rubrics <a name="rubrics"></a>
-### Peer Grading Rubric <a name="peer-rubric"></a>
+## Rubrics
+### Peer Review
 
-Each group will peer grade the projects from another group. The review will be graded out of a total of 15 points.
+Each group will peer review the projects from another group. The review will be graded by staff out of a total of 15 points. Each review should include the following components:
 
-Each review should include the following components:
-
-1. A summary of the report (**5 points**). The summary should address at least the following:
+1. (5 points) A summary of the report. The summary should address at least the following:
   - What research question does the group propose? Why is it important?
   - How does the dataset relate to the research question?
   - What data modeling/inference techniques do the group primarily use to gain insights into their research question? Why are these techniques suitable for the task?
   - What are the next steps a researcher can take if they want to investigate the question further based off the work in the project?
-2. An evaluation of the report based on the Data Science Lifecycle (**10 points, 2 points per component**). The review should include at least **one strong point and one suggestion for improvement** for each of the following components in the project:
+
+2. (10 points, 2 per component) An evaluation of the report based on the Data Science Lifecycle. The review should include at least **one strong point and one suggestion for improvement** for each of the following components in the project:
   - Data collection and sampling
   - Data cleaning
-  - Exploratory data analysis (including data wrangling and visualization)
-  - Data modeling (including feature engineering, selection of the model, and evaluation of the model's performance)
+  - Exploratory data analysis (data wrangling, visualization, etc.)
+  - Data modeling (feature engineering, selection of the model, and evaluation of the model's performance, etc.)
   - Inference (do the results from the model sufficiently support the conclusion within the report?)
 
-### Final Report: Analysis Notebook Grading Rubric <a name="analysis-rubric"></a>
+### Final Report: Analysis Notebook
 
-The analysis notebook will be graded out of a total of 20 points based on the following set of criteria:
+| Criterion                                             | Points|
+|-------------------------------------------------------|-------|
+| Code readability and documentation                    | 5     |
+| Proper and sufficient utilization of Python libraries | 5     |
+| Overall code quality                                  | 3     |
+| Replicability of the results                          | 7     |
+| **Total**                                             | **20**|
 
-| Criterion                                                                         | Point |
-|-----------------------------------------------------------------------------------|-------|
-| Code readability and documentation                                                | 5     |
-| Proper and sufficient utilization of Python libraries                             | 5     |
-| Overall code quality                                                              | 3     |
-| Replicability of the results                                                      | 7     |
+### Final Report: Project Writeup
 
-### Final Report: Project Writeup Grading Rubric <a name="writeup-rubric"></a>
-
-The project writeup will be graded out of a total of 30 points based on the following set of criteria:
-
-| Criterion                                                              | Point |
+| Criterion                                                              | Points|
 |------------------------------------------------------------------------|-------|
 | Introduction, motivation, and presentation of the research question(s) | 3     |
 | Exploratory data analysis                                              | 5     |
@@ -281,8 +283,10 @@ The project writeup will be graded out of a total of 30 points based on the foll
 | Implementation of peer review feedback                                 | 3     |
 | Discussion of potential societal impacts and/or ethical concerns       | 2     |
 | Overall clarity and structure of the report                            | 3     |
+| **Total**                                                              | **30**|
 
-### <a name="causal_inference"></a>Causal Inference
+
+## Extra Resources: Causal Inference
 
 When studying the relationship between datasets, you might want to consult the following references on causality vs. correlation. Oftentimes, it is tempting to make claims about causal relationships when there is not enough evidence from the data to support such claims. Please review the following references, or other reputable references that you find on the topic to familiarize yourself with relevant concepts and methods.
 
