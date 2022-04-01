@@ -130,9 +130,9 @@ This dataset contains some general statistics and measurements of various aspect
 
 The following subsection contains more details on how to work with the first report on global daily temperature and precipitation:
 
-The first report on daily temperature and precipitation is measured by weather stations in the [Global Historical Climatology Network](https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn) for January to December 2021.
+The first report on daily temperature and precipitation is measured by weather stations in the [Global Historical Climatology Network](https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn) for January to December 2020.
 
-The data in `daily_global_weather_2021.csv` is derived from the source file at https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/2021.csv.gz.
+The data in `daily_global_weather_2020.csv` is derived from the source file at https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/2020.csv.gz.
 
 To help you get started with a dataset of manageable size, we have preprocessed the GHCN dataset to include only the average temperature and precipitation measurements from stations that have both measurements. Each row in the preprocessed dataset contains both the average temperature and precipitation measurements for a given station on a given date.
 
@@ -176,7 +176,7 @@ The project submission should include the following two components.
 
 ### [Component 1] Analysis Notebooks
 
-The Jupyter Notebook(s) containing all the analyses that you performed on the datasets to support your claims in the narrative notebook. Make sure that all references to datasets are done as `data/[path to data files]`. You can copy the datasets from `~/shared/grad_proj/multiple_datasets` into `data/` at the top-level directory for your project on DataHub to do this.
+The Jupyter Notebook(s) containing all the analyses that you performed on the datasets to support your claims in the narrative PDF. Make sure that all references to datasets are done as `data/[path to data files]`. You can copy the datasets from Google Drive into `data/` at the top-level directory for your project on DataHub to do this.
 
 Your analysis notebook(s) should address all of the following components in the data science lifecycle. Please note that a thorough explanation of your thought process and approach is **as important as** your work. We have provided a few preliminary questions/tips you can think about for each part:
 - **Data Sampling and Collection**
@@ -228,7 +228,7 @@ Specifically, you should address the following in the narrative:
 
 \* Examples of **interesting findings**: interesting data distributions and trends, correlations between different features, the relationship between the data distribution for the general population and specific datasets (e.g., the gender distribution in the census dataset vs. in the mental health dataset), specific features that are notably effective/ineffective for prediction.
 
-The narrative notebook should include figures sparingly to support specific claims. It can include runnable components, but it should not have large amounts of code. The length of the report should be 8 ± 2 pages when it is printed as a PDF, excluding figures and code.
+The narrative PDF should include figures sparingly to support specific claims. It can include runnable components, but it should not have large amounts of code. The length of the report should be 8 ± 2 pages when it is printed as a PDF, excluding figures and code.
 
 Tip: if you need to write a large amount of $\LaTeX$, you may want to use the `%%latex` cell magic.
 
@@ -238,11 +238,11 @@ Please submit everything as a zip file to the final report submission portal on 
 studentIDs/
     data/[all datasets used]
     analysis/[analysis notebooks]
-    narrative/[narrative notebook]
-    figures/[figures included in the narrative notebook]
+    narrative/[narrative PDF]
+    figures/[figures included in the narrative PDF]
 ```
 
-For groups with multiple members, please use student IDs joined by `_` as the name for the top-level directory. The analysis notebooks must be runnable within this directory structure. If the narrative notebook includes any figures that are created in the analysis notebooks, the figures should be saved to `figures/` by the analysis notebooks and imported from `figures/` by the narrative notebook.
+For groups with multiple members, please use student IDs joined by `_` as the name for the top-level directory. The analysis notebooks must be runnable within this directory structure. If the narrative PDF includes any figures that are created in the analysis notebooks, the figures should be saved to `figures/` by the analysis notebooks.
 
 ## Rubrics
 ### Peer Review
