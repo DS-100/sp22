@@ -14,6 +14,7 @@ Presented by Josh Hug
 - [code](https://github.com/DS-100/sp22/tree/main/lec/lec19){:target="_blank"}
   - SQL: [launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec19%2Flec19a-sql.ipynb&branch=main){:target="_blank"}
   - PCA: [launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec19%2Flec19b-pca.ipynb&branch=main){:target="_blank"}
+- [recording](https://youtu.be/n-huNjyriUc){:target="_blank"}
 
 <!--
 <table>
