@@ -16,7 +16,7 @@ days:
     : '[Ch. 7.3-7.4](https://www.textbook.ds100.org/ch/07/sql_joining.html)'
 - date: 2022-04-01
   events:
-    ? '**Discussion 10**{: .label .label-disc } Probability II + SQL I'
+    ? '**Discussion 10**{: .label .label-disc } [Probability II + SQL I](https://drive.google.com/file/d/1VJyqS0xZjznNQ1KWfyk5fwufQW0iu0zP/view?usp=sharing)'
     ? '**Lab 10**{: .label .label-lab } SQL (due Apr 5)'
     ? '**Homework 7**{: .label .label-hw } SQL and PCA (due Apr 14)'
     : ""
