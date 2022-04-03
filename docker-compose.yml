@@ -2,7 +2,7 @@ version: '3.0'
 
 services:
   notebook:
-    image: jupyter/pyspark-notebook
+    image: jupyter/pyspark-notebook:lab-3.3.2
     container_name: Data100-Notebook
     ports:
       - 8888:8888
