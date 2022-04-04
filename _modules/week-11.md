@@ -18,7 +18,7 @@ days:
   events:
     ? '**Discussion 10**{: .label .label-disc } [Probability II + SQL I](https://drive.google.com/file/d/1VJyqS0xZjznNQ1KWfyk5fwufQW0iu0zP/view?usp=sharing) ([solutions](https://drive.google.com/file/d/1eqowlixCJUwrITgdCsTx1opo4j2PhlfL/view?usp=sharing))'
     ? '**Lab 10**{: .label .label-lab } [SQL](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Flab%2Flab10%2Flab10.ipynb) (due <del>Apr 5</del>Apr 6)'
-    ? '**Homework 7**{: .label .label-hw } SQL and PCA (due Apr 14)
+    ? '**Homework 7**{: .label .label-hw } SQL and PCA (due Apr 14)'
     : ""
 - date: 2022-04-02
   events:
