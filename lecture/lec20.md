@@ -1,20 +1,18 @@
 ---
 layout: page
-title: Lecture 20 – Gradient Descent
+title: Lecture 20 – PCA II
 nav_exclude: true
 ---
 
-# Lecture 20 – Gradient Descent
+# Lecture 20 – Principal Component Analysis (PCA) II
 
-Presented by Anthony D. Joseph
+By Josh Hug
 
-Content by Josh Hug, Joseph Gonzalez
+- [slides](https://docs.google.com/presentation/d/1-aDu0ILCkPx3iCcJGB3YXci-L4g90Q6AarXU6wffLB8/edit?usp=sharing)
+<!-- - [code](https://github.com/DS-100/sp22/tree/main/lec/lec20){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec20%2Flec20.ipynb&branch=main){:target="_blank"})
+-->
 
-- [slides](https://docs.google.com/presentation/d/1g95PxhwKYhXEPtleWdEPDPD9KXYOc9ExBETpzr1zudA/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfpYjpvx8rGkW-fomubpt_Cc)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec20/)
-- [Loss Game](https://gradient-game.herokuapp.com/)
-
+<!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
@@ -52,3 +50,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><a href="https://forms.gle/LNxjyjkRCktkF4fR8" target="\_blank">20.4</a></td>
 </tr>
 </tbody></table>
+-->
