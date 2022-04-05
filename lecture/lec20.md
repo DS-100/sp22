@@ -9,8 +9,7 @@ nav_exclude: true
 By Josh Hug
 
 - [slides](https://docs.google.com/presentation/d/1-aDu0ILCkPx3iCcJGB3YXci-L4g90Q6AarXU6wffLB8/edit?usp=sharing)
-<!-- - [code](https://github.com/DS-100/sp22/tree/main/lec/lec20){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec20%2Flec20.ipynb&branch=main){:target="_blank"})
--->
+- [code](https://github.com/DS-100/sp22/tree/main/lec/lec20){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&urlpath=lab%2Ftree%2Fsp22%2Flec%2Flec20%2Flec20.ipynb&branch=main){:target="_blank"})
 
 <!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
