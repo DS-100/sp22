@@ -16,7 +16,7 @@ days:
     : ''
 - date: 2022-04-08
   events:
-    ? '**Discussion 11**{: .label .label-disc } SQL II + PCA'
+    ? '**Discussion 11**{: .label .label-disc } SQL II + PCA (Cancelled, No Live Discussion)'
     ? '**Lab 11**{: .label .label-lab } PCA (due Apr 12)'
     : ""
 ---

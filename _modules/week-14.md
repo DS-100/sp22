@@ -8,12 +8,12 @@ days:
     : ''
 - date: 2022-04-19
   events:
-    ? '**Lecture 23**{: .label .label-lecture } TBD'
-    : ''
+    ? '**Lecture 23**{: .label .label-lecture } Decision Trees'
+    : '[Ch. 27](https://www.textbook.ds100.org/ch/27/dtrees_intro.html)'
 - date: 2022-04-21
   events:
-    ? '**Lecture 24**{: .label .label-lecture } Decision Trees'
-    : '[Ch. 27](https://www.textbook.ds100.org/ch/27/dtrees_intro.html)'
+    ? '**Lecture 24**{: .label .label-lecture } Clustering'
+    : '[Ch. 28](https://www.textbook.ds100.org/ch/28/clustering_intro.html)'
 - date: 2022-04-22
   events:
     ? '**Discussion 13**{: .label .label-disc } Logistic Regression II'
