@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2022-04-12
   events:
-    ? '**Lecture 21**{: .label .label-lecture } Classification and Logistic Regression'
+    ? '**Lecture 21**{: .label .label-lecture } [Classification and Logistic Regression I](lecture/lec21)'
     : '[Ch. 24.1-24.3](https://www.textbook.ds100.org/ch/24/classification_prob.html)'
 - date: 2022-04-14
   events:
