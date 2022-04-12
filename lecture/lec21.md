@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Lecture 20 – Logistic Regression I
+title: Lecture 20 – Classification and Logistic Regression I
 nav_exclude: true
 ---
 
-# Lecture 21 – Logistic Regression I
+# Lecture 21 – Classification and Logistic Regression I
 
 Presented by Lisa Yan
 
