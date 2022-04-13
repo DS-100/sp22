@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lecture 20 – Classification and Logistic Regression I
+title: Lecture 21 – Classification and Logistic Regression I
 nav_exclude: true
 ---
 
@@ -10,8 +10,8 @@ Presented by Lisa Yan
 
 <!-- Content by Lisa Yan, Josh Hug, John DeNero, Sam Lau, and Suraj Rampure -->
 
-- [slides](https://docs.google.com/presentation/d/1p1XQ6q57uJ46QjkUGA8N6RgmynSJFzxWw2tUR5j_ceo/edit#slide=id.g10ed28599e7_0_0)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec21/)
+- [slides](https://docs.google.com/presentation/d/1p1XQ6q57uJ46QjkUGA8N6RgmynSJFzxWw2tUR5j_ceo/edit#slide=id.g10ed28599e7_0_0){:target="_blank"}
+- [code](https://github.com/DS-100/sp22/blob/main/lec/lec21/lec21.ipynb){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec21/){:target="_blank"})
 
 <!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
