@@ -23,7 +23,7 @@ Alongside each lecture are optional textbook readings to the Data 100 textbook, 
 
 | Semester | Midterm (1) | Midterm 2  | Final |
 | -- | -- | -- | -- |
-| Spring 2022 | [Exam](assets/exams/sp22/sp22_mt1.pdf) [(Solutions)](assets/exams/sp22/sp22_mt1_sol.pdf) |  |  |
+| Spring 2022 | [Exam](assets/exams/sp22/sp22_mt1.pdf) [(Solutions)](assets/exams/sp22/sp22_mt1_sol.pdf) |  [Exam](assets/exams/sp22/sp22_mt2.pdf) [(Solutions)](assets/exams/sp22/sp22_mt2_sol.pdf) |  |
 | Fall 2021 | [Exam](assets/exams/fa21/fa21mt.pdf) [(Solutions)](assets/exams/fa21/fa21mtsol.pdf) |  |  |
 | Summer 2021 | [Exam](assets/exams/su21/su21mt.pdf) [(Solutions)](assets/exams/su21/su21mt_sol.pdf) [[Video]](https://www.youtube.com/playlist?list=PLQCcNQgUcDfoYEIK8ZhIDCEE2Td6Ih_2V) |  | [Exam](assets/exams/su21/su21final.pdf) [(Solutions)](assets/exams/su21/su21final_sol.pdf) |
 | Spring 2021 | [Exam](assets/exams/sp21/sp21mt.pdf) [(Solutions)](assets/exams/sp21/sp21mtsol.pdf) |  | [Exam](assets/exams/sp21/sp21final.pdf) [(Solutions)](assets/exams/sp21/sp21finalsol.pdf) |
