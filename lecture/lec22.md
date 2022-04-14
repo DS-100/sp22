@@ -4,16 +4,16 @@ title: Lecture 22 – Logistic Regression, Part 1
 nav_exclude: true
 ---
 
-# Lecture 22 – Logistic Regression, Part 1
+# Lecture 22 – Logistic Regression II
 
-Presented by Presented by Fernando Perez, Suraj Rampure
+Presented by Lisa Yan
 
-Content by Suraj Rampure, Josh Hug, Joseph Gonzalez, Ani Adhikari
+<!-- Content by Suraj Rampure, Josh Hug, Joseph Gonzalez, Ani Adhikari -->
 
-- [slides](https://docs.google.com/presentation/d/1ZYUMsz4tdcL5z3ZcNkrfGf3MGOQNb6Im1mQwmca0o90/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfoZbVqW-W-XOqBAfs88--0X)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec22/)
+- [slides](https://docs.google.com/presentation/d/1YsxPERhul760_0TrLhawljbWWqDbtIp5tUm05irfkmw/edit#slide=id.g12444cd4007_0_2780)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec22/)
 
+<!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
@@ -76,3 +76,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><a href="https://forms.gle/g9cdfbRHEswLPCiW8" target="\_blank">22.8</a></td>
 </tr>
 </tbody></table>
+-->
