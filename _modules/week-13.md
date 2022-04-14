@@ -12,7 +12,7 @@ days:
     : '[Ch. 24.1-24.3](https://www.textbook.ds100.org/ch/24/classification_prob.html)'
 - date: 2022-04-14
   events:
-    ? '**Lecture 22**{: .label .label-lecture } Logistic Regression II'
+    ? '**Lecture 22**{: .label .label-lecture } [Logistic Regression II](lecture/lec22)'
     : '[Ch. 24.4-24.8](https://www.textbook.ds100.org/ch/24/classification_log_reg.html)'
 - date: 2022-04-15
   events:
