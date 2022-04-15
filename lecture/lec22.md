@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lecture 22 – Logistic Regression, Part 1
+title: Lecture 22 – Logistic Regression II
 nav_exclude: true
 ---
 
@@ -10,8 +10,10 @@ Presented by Lisa Yan
 
 <!-- Content by Suraj Rampure, Josh Hug, Joseph Gonzalez, Ani Adhikari -->
 
-- [slides](https://docs.google.com/presentation/d/1YsxPERhul760_0TrLhawljbWWqDbtIp5tUm05irfkmw/edit#slide=id.g12444cd4007_0_2780)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec22/)
+- [slides](https://docs.google.com/presentation/d/1YsxPERhul760_0TrLhawljbWWqDbtIp5tUm05irfkmw/edit#slide=id.g12444cd4007_0_2780){:target="_blank"}
+- [code](https://github.com/DS-100/sp22/blob/main/lec/lec22/lec22.ipynb){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec22/){:target="_blank"})
+- [code HTML](../../resources/assets/lectures/lec22/lec22.html){:target="_blank"}
+- [recording](https://youtu.be/pN8a-jcEIRE){:target="_blank"}
 
 <!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
