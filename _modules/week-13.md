@@ -18,6 +18,6 @@ days:
   events:
     ? '**Discussion 12**{: .label .label-disc } [Logistic Regression I](https://drive.google.com/file/d/14GfUZI6VRHIDgR5DmQgYB9om80enmLjC/view?usp=sharing)'
     ? '**Lab 12**{: .label .label-lab } Logistic Regression (due Apr 19)'
-    ? '**Proj 2A**{: .label .label-hw } Spam & Ham I (due Apr 21)'
+    ? '**Proj 2A**{: .label .label-hw } [Spam & Ham I](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Fproj%2Fproj2a%2Fproj2a.ipynb) (due Apr 21)'
     : ""
 ---
