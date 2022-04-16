@@ -123,6 +123,7 @@ Live discussion sections are on Fridays, lasting for one hour. The goal of these
 - Discussion sign-ups will be released the first week of class through Signup Genius: [Ed post](https://edstem.org/us/courses/15436/discussion/1021263). Attendance points will only be given for the section you are assigned to.
 - **You can switch sections via the sign-up form through the end of the 3rd week, Friday 2/24/2022.** From the 4th week onwards, your section will be locked in for the rest of the semester.  Due to room restrictions, you may not attend an in-person section that you were not assigned to; there is no such restriction on online sections. However, you must still attend the section you are assigned to.
 - In a typical week, we will release the discussion worksheet on Friday morning and solutions on Saturday. We are still receiving guidance as to whether we can provide physical handouts during in-person discussions. 
+- **Spring 2022**: All students will receive credit for Discussion 11.
 <!--- We will release discussion recordings or walkthroughs the week after the discussion.-->
 
 ### Homework and Projects
