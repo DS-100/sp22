@@ -12,7 +12,9 @@ Content by Josh Hug, Suraj Rampure, Fernando Perez, Joseph Gonzalez, Ani Adhikar
 
 - [slides](https://docs.google.com/presentation/d/1vAXrAwdypNu3ft0RIgfRylm6zsMBw7Z2HdNsGtj93JM/edit?usp=sharing)
 - [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec23/)
+
 <!--
+
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
