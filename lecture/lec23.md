@@ -1,19 +1,18 @@
 ---
 layout: page
-title: Lecture 23 – Logistic Regression Part II, Classification
+title: Lecture 23 – Decision Trees
 nav_exclude: true
 ---
 
-# Lecture 23 – Logistic Regression Part II, Classification
+# Lecture 23 – Decision Trees
 
-Presented by Fernando Perez
+Presented by Josh Hug
 
-Content by Suraj Rampure, Fernando Perez, Josh Hug, Joseph Gonzalez, Ani Adhikari
+Content by Josh Hug, Suraj Rampure, Fernando Perez, Joseph Gonzalez, Ani Adhikari
 
-- [slides](https://docs.google.com/presentation/d/1PBgBnb6CnU9hg6TnZSKcfII4OvYCyoL6dNv7Vu9JHJo/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfqQ0GepZKyETzD2b1ZHRTVQ)
+- [slides](https://docs.google.com/presentation/d/1vAXrAwdypNu3ft0RIgfRylm6zsMBw7Z2HdNsGtj93JM/edit?usp=sharing)
 - [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec23/)
-
+<!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
@@ -66,3 +65,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td></td>
 </tr>
 </tbody></table>
+-->
