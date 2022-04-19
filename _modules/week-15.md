@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2022-04-26
   events:
-    ? '**Lecture 25**{: .label .label-lecture } Guest Speaker: Amol Deshpande'
+    ? '**Lecture 25**{: .label .label-lecture } Guest Speaker: Amol Deshpande - Data Regulations'
     : ''
 - date: 2022-04-27
   events:
@@ -16,7 +16,7 @@ days:
     : ''
 - date: 2022-04-28
   events:
-    ? '**Lecture 26**{: .label .label-lecture } Guest Speaker: Matei Zaharia'
+    ? '**Lecture 26**{: .label .label-lecture } Guest Speaker: Matei Zaharia - Parallel Data Analytics'
     : ''
 - date: 2022-04-29
   events:
