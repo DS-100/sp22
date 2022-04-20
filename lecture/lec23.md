@@ -10,8 +10,10 @@ Presented by Josh Hug
 
 Content by Josh Hug, Suraj Rampure, Fernando Perez, Joseph Gonzalez, Ani Adhikari
 
-- [slides](https://docs.google.com/presentation/d/1vAXrAwdypNu3ft0RIgfRylm6zsMBw7Z2HdNsGtj93JM/edit?usp=sharing)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec23/)
+- [slides](https://docs.google.com/presentation/d/1vAXrAwdypNu3ft0RIgfRylm6zsMBw7Z2HdNsGtj93JM/edit?usp=sharing){:target="_blank"}
+- [code](https://github.com/DS-100/sp22/blob/main/lec/lec23/lec23.ipynb){:target="_blank"} ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec23/){:target="_blank"})
+- [code HTML](../../resources/assets/lectures/lec23/lec23.html){:target="_blank"}
+- [recording](https://youtu.be/ENC9P1Wa684){:target="_blank"}
 
 <!--
 
