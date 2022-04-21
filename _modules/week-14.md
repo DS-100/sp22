@@ -12,7 +12,7 @@ days:
     : '[Ch. 27](https://www.textbook.ds100.org/ch/27/dtrees_intro.html)'
 - date: 2022-04-21
   events:
-    ? '**Lecture 24**{: .label .label-lecture } Clustering'
+    ? '**Lecture 24**{: .label .label-lecture } [Clustering](lecture/lec24)'
     : '[Ch. 28](https://www.textbook.ds100.org/ch/28/clustering_intro.html)'
 - date: 2022-04-22
   events:
