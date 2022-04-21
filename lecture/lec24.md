@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Lecture 24 – Decision Trees
+title: Lecture 24 – Clustering
 nav_exclude: true
 ---
 
-# Lecture 24 – Decision Trees
+# Lecture 24 – Clustering
 
-Presented by Anthony D. Joseph
+Presented by Josh Hug
 
 Content by Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1sFrz5Bb3mrET_MAdlF1e1L-pEcg-nzhizmAKV2jXALw/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfq-LeVCOzZmEWhbLyxPl_re)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec24/)
+- [slides](https://docs.google.com/presentation/d/1qYThwhMXKjCH390AQ29Ob27bUDjV5DWBTmGEzby-Bto/edit?usp=sharing)
+- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec24/)
 
+<!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
@@ -56,3 +56,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><a href="https://forms.gle/q48Jmzd5o6dLsihG9" target="\_blank">24.5</a></td>
 </tr>
 </tbody></table>
+-->
