@@ -16,7 +16,7 @@ days:
     : '[Ch. 28](https://www.textbook.ds100.org/ch/28/clustering_intro.html)'
 - date: 2022-04-22
   events:
-    ? '**Discussion 13**{: .label .label-disc } Logistic Regression II'
+    ? '**Discussion 13**{: .label .label-disc } [Decision Trees and Random Forests](https://drive.google.com/file/d/1kL0MG_qlHNRShfj9oVe9cXODGPg08Ay7/view?usp=sharing)'
     ? '**Lab 13**{: .label .label-lab } Decision Trees & Random Forests (due Apr 26)'
     ? '**Proj 2B**{: .label .label-hw } Spam & Ham II (due Apr 28)'
     : ""
