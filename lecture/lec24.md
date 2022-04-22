@@ -10,9 +10,10 @@ Presented by Josh Hug
 
 Content by Josh Hug
 
-- [slides](https://docs.google.com/presentation/d/1qYThwhMXKjCH390AQ29Ob27bUDjV5DWBTmGEzby-Bto/edit?usp=sharing)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec24/)
+- [slides](https://docs.google.com/presentation/d/1qYThwhMXKjCH390AQ29Ob27bUDjV5DWBTmGEzby-Bto/edit?usp=sharing){:target="_blank"}
+- [code](https://github.com/DS-100/sp22/blob/main/lec/lec24/lec24.ipynb) ([launch](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/sp22&subPath=lec/lec24/){:target="_blank"})
 - [code HTML](../../resources/assets/lectures/lec24/lec24.html){:target="_blank"}
+- [recording](https://youtu.be/RLQ2Qzx9f1Q){:target="_blank"}
 
 <!--
 A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
