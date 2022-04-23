@@ -17,7 +17,7 @@ days:
 - date: 2022-04-22
   events:
     ? '**Discussion 13**{: .label .label-disc } [Decision Trees and Random Forests](https://drive.google.com/file/d/1kL0MG_qlHNRShfj9oVe9cXODGPg08Ay7/view?usp=sharing)'
-    ? '**Lab 13**{: .label .label-lab } Decision Trees & Random Forests (due Apr 26)'
+    ? '**Lab 13**{: .label .label-lab } [Decision Trees & Random Forests](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Flab%2Flab13%2Flab13.ipynb) (due Apr 26)'
     ? '**Proj 2B**{: .label .label-hw } [Spam & Ham II](https://data100.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FDS-100%2Fsp22&branch=main&urlpath=lab%2Ftree%2Fsp22%2Fproj%2Fproj2b%2Fproj2b.ipynb) (due Apr 28)'
     : ""
 ---
