@@ -20,6 +20,6 @@ days:
     : ''
 - date: 2022-04-29
   events:
-    ? '**Discussion 14**{: .label .label-disc } Clustering'
+    ? '**Discussion 14**{: .label .label-disc } Clustering and Final Review'
     : ""
 ---
