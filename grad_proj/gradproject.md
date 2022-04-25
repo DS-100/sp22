@@ -30,10 +30,10 @@ The purpose of the project is to give students experience in both open-ended dat
 |--------------------------	|---------------------------------------------	|---------------------------------------------	|
 | 4/8                       | Research proposal and project groups due    	| [Preliminary Form](https://docs.google.com/forms/d/e/1FAIpQLScmKUKxmCo670rOW5jDuC53xs0kzthDDh-amxKMcZLOtjpScg/viewform?usp=sf_link) |
 | 4/22                      | Project checkpoint                          	| |
-| 4/27                    	| First draft of final report due             	| |
-| 4/28                   	  | Peer review open                            	| |
-| 5/2                       | Peer review due                             	| |
-| 5/9                       | Revised final report due                    	| |
+| 4/29                    	| First draft of final report due             	| |
+| 4/30                   	  | Peer review open                            	| |
+| 5/4                       | Peer review due                             	| |
+| 5/11                       | Revised final report due                    	| |
 | 5/11                      | Presentation video due                      	| |
 | 5/13                      | Presentation video released (at discretion) 	| |
 
