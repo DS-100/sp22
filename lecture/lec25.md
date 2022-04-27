@@ -1,20 +1,16 @@
 ---
 layout: page
-title: Lecture 25 – Inference for Modeling
+title: Lecture 25 – Guest Speaker Amol Deshpande - Data Regulations
 nav_exclude: true
 ---
 
-# Lecture 25 – Inference for Modeling
+# Lecture 25 - Data Regulations
 
-Presented by Fernando Perez and Suraj Rampure
+Presented by Amol Deshpande
 
-Content by Suraj Rampure, Fernando Perez, John DeNero, Sam Lau, Ani Adhikari, Deb Nolan
+- [recording](https://youtu.be/zdeD-lCpmE8)
 
-- [slides](https://docs.google.com/presentation/d/18rZ6ollejp00e4WgjfD1o2VWIo1wxhWbI1jFtlnMAv4/edit?usp=sharing)
-- [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfpbA5eXHNMIidIKRKITynGD)
-- [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec25/)
-
-A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
+<!-- A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
 <table>
 <colgroup>
@@ -61,3 +57,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><a href="https://forms.gle/e4SYzXWF3h8M6tr18" target="\_blank">25.6</a></td>
 </tr>
 </tbody></table>
+-->

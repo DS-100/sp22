@@ -8,7 +8,7 @@ days:
     : ''
 - date: 2022-04-26
   events:
-    ? '**Lecture 25**{: .label .label-lecture } Guest Speaker: Amol Deshpande - Data Regulations'
+    ? '**Lecture 25**{: .label .label-lecture } [Guest Speaker: Amol Deshpande - Data Regulations](lecture/lec25)'
     : ''
 - date: 2022-04-27
   events:
