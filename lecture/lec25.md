@@ -8,7 +8,8 @@ nav_exclude: true
 
 Presented by Amol Deshpande
 
-- [recording](https://youtu.be/zdeD-lCpmE8)
+- [slides](https://drive.google.com/file/d/1-N3YdXwyjJxalioJPVSz5qVuyigqzAJo/view?usp=sharing){:target="_blank"}
+- [recording](https://youtu.be/zdeD-lCpmE8){:target="_blank"}
 
 <!-- A reminder – the right column of the table below contains _Quick Checks_. These are **not** required but suggested to help you check your understanding.
 
