@@ -1,15 +1,18 @@
 ---
 layout: page
-title: Lecture 26 – Clustering
+title: Lecture 26 – Guest Speaker Matei Zaharia, Conclusion
 nav_exclude: true
 ---
 
-# Lecture 26 - Clustering
+# Lecture 26 - Guest Speaker Matei Zaharia: Parallel Data Analytics; Conclusion
 
-Presented by Anthony D. Joseph
+Parallel Data Analytics, by Matei Zaharia
+- slides (TBD)
 
-Content by Josh Hug
+Conclusion, by Lisa Yan and Josh Hug
+- [slides](https://docs.google.com/presentation/d/1ScuD4Cdf75sbScMMZphLdknja7ugzSW6e-7hQhv8K04/edit?usp=sharing){:target="_blank"}
 
+<!--
 - [slides](https://docs.google.com/presentation/d/1WvZQxcuKNkyJDlG-eLWneZ2Pzxxg8A7x1CVSTF6ekjE/edit?usp=sharing)
 - [video playlist](https://youtube.com/playlist?list=PLQCcNQgUcDfqNEK_WO1rY2JhUHnSmku7O)
 - [code](https://data100.datahub.berkeley.edu/hub/user-redirect/git-sync?repo=https://github.com/DS-100/fa21&subPath=lec/lec26/)
@@ -56,3 +59,4 @@ A reminder – the right column of the table below contains _Quick Checks_. Thes
 <td><a href="https://forms.gle/VihmRVVwmCnVNZPP6" target="\_blank">26.5</a></td>
 </tr>
 </tbody></table>
+-->

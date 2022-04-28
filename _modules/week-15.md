@@ -16,7 +16,7 @@ days:
     : ''
 - date: 2022-04-28
   events:
-    ? '**Lecture 26**{: .label .label-lecture } Guest Speaker: Matei Zaharia - Parallel Data Analytics'
+    ? '**Lecture 26**{: .label .label-lecture } [Guest Speaker: Matei Zaharia - Parallel Data Analytics; Conclusion](lecture/lec26)'
     : ''
 - date: 2022-04-29
   events:
