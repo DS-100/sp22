@@ -2,10 +2,6 @@
 title: Week 14
 weekNumber: 14
 days:
-- date: 2022-04-25
-  events:
-    ? '**Weekly Check 14**{: .label .label-proj } Weekly Check 14 (due May 2)'
-    : ''
 - date: 2022-04-26
   events:
     ? '**Lecture 25**{: .label .label-lecture } [Guest Speaker: Amol Deshpande - Data Regulations](lecture/lec25)'
@@ -17,6 +13,7 @@ days:
 - date: 2022-04-28
   events:
     ? '**Lecture 26**{: .label .label-lecture } [Guest Speaker: Matei Zaharia - Parallel Data Analytics; Conclusion](lecture/lec26)'
+    ? '**Weekly Check 14**{: .label .label-proj } [Weekly Check 14](https://forms.gle/kRELgezKVWG65TDg6) (due <del>May 2</del> May 5)'
     : ''
 - date: 2022-04-29
   events:
