@@ -17,6 +17,6 @@ days:
     : ''
 - date: 2022-04-29
   events:
-    ? '**Discussion 14**{: .label .label-disc } Clustering and Final Review'
+    ? '**Discussion 14**{: .label .label-disc } [Clustering and Final Review](https://drive.google.com/file/d/19XU_URQxkPEqYtArHhg5sw4xM31WC8GY/view?usp=sharing)'
     : ""
 ---
