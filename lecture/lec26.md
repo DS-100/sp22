@@ -7,10 +7,12 @@ nav_exclude: true
 # Lecture 26 - Guest Speaker Matei Zaharia: Parallel Data Analytics; Conclusion
 
 Parallel Data Analytics, by Matei Zaharia
-- [slides](../../resources/assets/lectures/lec26/data100-spark.pdf)
+- [slides](../../resources/assets/lectures/lec26/data100-spark.pdf){:target="_blank"}
 
 Conclusion, by Lisa Yan and Josh Hug
 - [slides](https://docs.google.com/presentation/d/1ScuD4Cdf75sbScMMZphLdknja7ugzSW6e-7hQhv8K04/edit?usp=sharing){:target="_blank"}
+
+- [recording](https://youtu.be/iW5_xyRmEdg){:target="_blank"}
 
 <!--
 - [slides](https://docs.google.com/presentation/d/1WvZQxcuKNkyJDlG-eLWneZ2Pzxxg8A7x1CVSTF6ekjE/edit?usp=sharing)
