@@ -37,6 +37,8 @@ The purpose of the project is to give students experience in both open-ended dat
 | 5/11                      | Presentation video due                      	| |
 | 5/13                      | Presentation video released (at discretion) 	| |
 
+**Late Policy:** You may submit the **final report** and the **presentation video** late with a 10% penalty to that portion of your project for each day it is late. You may submit up to two days late. Submission times are rounded up to the next day. That is, 2 minutes late = 1 day late.
+
 ## Deliverables and Grade Breakdown
 
 | Deliverable                          	| Weight 	|
