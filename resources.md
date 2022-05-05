@@ -38,6 +38,10 @@ Alongside each lecture are optional textbook readings to the Data 100 textbook, 
 | Fall 2017  | [Exam](assets/exams/fa17/fa17midterm.pdf) [(Solutions)](assets/exams/fa17/fa17midtermsol.pdf) [[Video]](https://www.youtube.com/watch?v=uYS4ZBB0aZU&list=PLQCcNQgUcDfqAD1D9g9P9SUYo0tdXQpSY) |  | [Exam](assets/exams/fa17/fa17final.pdf) [(Solutions)](assets/exams/fa17/fa17finalsol.pdf)|
 | Spring 2017|  [Exam](assets/exams/sp17/sp17midterm.pdf) [(Solutions)](assets/exams/sp17/sp17midtermsol.pdf)    |  | [Exam](assets/exams/sp17/sp17final.pdf) [(Solutions)](assets/exams/sp17/sp17finalsol.pdf)|
 
+[Spring 2022 Final Reference Sheet](assets/exams/sp22/final_reference_sheet.pdf)
+
+[Spring 2022 Midterm 2 Reference Sheet](assets/exams/sp22/mt2_reference_sheet.pdf)
+
 [Spring 2022 Midterm 1 Reference Sheet](assets/exams/sp22/mt1_reference_sheet.pdf)
 
 [Spring 2020 Checkpoint Reference Sheet](assets/exams/sp20/sp20_checkpoint_reference_sheet.pdf)
