@@ -1,0 +1,17 @@
+{% if not overwrite_requirements %}datascience
+jupyter_client
+ipykernel
+matplotlib
+pandas
+ipywidgets
+scipy
+seaborn
+sklearn
+jinja2
+nbconvert
+nbformat
+dill
+numpy
+otter-grader==3.1.4
+{% endif %}{% if other_requirements %}
+{{ other_requirements }}{% endif %}
