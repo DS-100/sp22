@@ -6,7 +6,7 @@ description: A week-to-week description of the content covered in the course.
 course:
   edstem: https://edstem.org/us/courses/15436/
   edstem_join: https://edstem.org/us/join/TeKcwA
-  faq: https://ds100.org/sp22faq
+  faq: https://ds100.org/faqs/sp22
 currWeekNumber: 14
 ---
 
