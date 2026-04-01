@@ -65,3 +65,10 @@ defaults:
       type: staffers
     values:
       layout: staffer
+
+callouts:
+  highlight:
+    color: yellow
+  warning:
+    title: Warning
+    color: red

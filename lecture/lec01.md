@@ -4,6 +4,9 @@ title: Lecture 1 – Course Overview
 nav_exclude: true
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Lecture 1 – Course Overview
 
 Presented by Josh Hug and Lisa Yan

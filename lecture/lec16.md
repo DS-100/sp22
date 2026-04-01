@@ -4,6 +4,9 @@ title: Lecture 16 – Feature Engineering
 nav_exclude: true
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Lecture 16 – Probability I: Random Variables
 
 Presented by Lisa Yan

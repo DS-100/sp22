@@ -10,6 +10,9 @@ course:
 currWeekNumber: 14
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Principles and Techniques of Data Science
 
 {: .mb-2 }

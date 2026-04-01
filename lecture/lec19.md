@@ -4,6 +4,9 @@ title: Lecture 19 – SQL II, PCA
 nav_exclude: true
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Lecture 19 – SQL II and PCA I
 
 Content by Josh Hug, Alvin Wan, Fernando Pérez, Suraj Rampure, Ani Adhikari, Sam Lau, Yifan Wu

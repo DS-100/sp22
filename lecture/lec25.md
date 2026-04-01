@@ -4,6 +4,9 @@ title: Lecture 25 – Guest Speaker Amol Deshpande - Data Regulations
 nav_exclude: true
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Lecture 25 - Data Regulations
 
 Presented by Amol Deshpande

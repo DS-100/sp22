@@ -5,6 +5,9 @@ nav_exclude: true
 description: Instructions to set up your data science environment locally.
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Local Setup
 
 We will still be using datahub as our primary computing environment. This page

@@ -5,6 +5,9 @@ nav_order: 7
 description: A listing of all the course staff members.
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Staff
 
 Jump to [Instructors](#inst), [Teaching Assistants](#tas), or [Tutors](#tutors)

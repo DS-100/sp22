@@ -5,6 +5,9 @@ nav_order: 4
 description: Calendars with times for all course events.
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Calendar
 
 <p>

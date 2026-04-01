@@ -4,6 +4,9 @@ title: Lecture 4 – Pandas II
 nav_exclude: true
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Lecture 4 - Pandas, Part 2
 
 Presented by Josh Hug

@@ -10,3 +10,19 @@
 @import 'staffer';
 
 @import 'navigation';
+
+/* Warning Callout Styling */
+.warning {
+  padding: 1em;
+  margin: 1em 0;
+  border-left: 5px solid #ff4b4b;
+  background-color: #fff2f2;     
+  border-radius: 4px;
+  color: #333;
+}
+
+.warning a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #d00000;
+}

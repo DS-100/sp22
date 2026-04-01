@@ -4,6 +4,9 @@ title: Lecture 23 – Decision Trees
 nav_exclude: true
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Lecture 23 – Decision Trees
 
 Presented by Josh Hug

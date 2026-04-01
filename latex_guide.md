@@ -4,6 +4,9 @@ title: Quick Guide to LaTeX
 nav_exclude: true
 ---
 
+{: .warning }
+⚠️ This content is archived as of March 2026 and is retained exclusively for reference. [Find current offerings.](https://ds100.org/)
+
 # Quick Guide to Overleaf and LaTeX
 
 LaTeX is a typesetting system that creates beautiful scientific documents. You can still submit handwritten homeworks, but we recommend using LaTeX.
